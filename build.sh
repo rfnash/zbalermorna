@@ -21,7 +21,7 @@ FF_SCRIPT="'Open(\"$INFILE\"); MergeFeature(\"$FEATURE\"); Generate(\"$OUTFILE\"
 
 echo $FF_SCRIPT
 
-fontforge -lang=ff -c "$FF_SCRIPT"
+"/c/Program Files (x86)/FontForgeBuilds/bin/fontforge.exe" -lang=ff -c "$FF_SCRIPT"
 
 
 # Copy generated file to update test page
