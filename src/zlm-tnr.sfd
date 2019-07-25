@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1481267425
-ModificationTime: 1564016572
+ModificationTime: 1564022580
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -574,7 +574,7 @@ KernClass2: 22 22 "'kern' Horizontal Kerning lookup 1-1"
  79 ZLM_N ZLM_NA ZLM_NE ZLM_NI ZLM_NO ZLM_NU ZLM_NY ZLM_NAI ZLM_NEI ZLM_NOI ZLM_NAU
  89 ZLM_SEMIVOWEL_Q ZLM_QA ZLM_QE ZLM_QI ZLM_QO ZLM_QU ZLM_QY ZLM_QAI ZLM_QEI ZLM_QOI ZLM_QAU
  89 ZLM_SEMIVOWEL_W ZLM_WA ZLM_WE ZLM_WI ZLM_WO ZLM_WU ZLM_WY ZLM_WAI ZLM_WEI ZLM_WOI ZLM_WAU
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -16 {} -32 {} -37 {} -40 {} -37 {} -112 {} 15 {} 0 {} -37 {} -73 {} 0 {} -128 {} -82 {} -88 {} -157 {} -157 {} -57 {} -82 {} -35 {} -147 {} -175 {} 0 {} 97 {} 45 {} 50 {} 48 {} 16 {} 62 {} 70 {} 68 {} 43 {} 7 {} 60 {} 21 {} 0 {} 37 {} 92 {} 60 {} 39 {} 0 {} 26 {} 67 {} -30 {} 0 {} 76 {} 11 {} 21 {} -8 {} 6 {} 109 {} 5 {} 74 {} 62 {} -12 {} 63 {} -71 {} 42 {} 36 {} -69 {} 3 {} 62 {} 27 {} 19 {} -75 {} 34 {} 0 {} 54 {} -11 {} 20 {} -21 {} -30 {} -20 {} -2 {} -10 {} -5 {} -9 {} 2 {} -9 {} 0 {} 13 {} 0 {} -6 {} -24 {} 0 {} -19 {} -12 {} -67 {} 0 {} 57 {} -12 {} 0 {} 0 {} -26 {} 20 {} -7 {} 63 {} 18 {} -15 {} 54 {} -16 {} 0 {} 0 {} 46 {} 57 {} 34 {} 0 {} 71 {} 0 {} -40 {} 0 {} 2 {} 18 {} -19 {} -20 {} -19 {} 57 {} -18 {} -10 {} 10 {} -9 {} -25 {} -115 {} 30 {} 18 {} -142 {} 35 {} 0 {} 0 {} 23 {} -116 {} 24 {} 0 {} 74 {} 0 {} -21 {} -22 {} -24 {} 55 {} 5 {} 26 {} 11 {} 12 {} 19 {} -6 {} 19 {} 0 {} -47 {} 60 {} 15 {} -6 {} 30 {} -10 {} -21 {} 0 {} 39 {} 0 {} -24 {} -14 {} -31 {} 16 {} 1 {} -15 {} -14 {} -22 {} -9 {} -27 {} -27 {} -33 {} 0 {} -16 {} 0 {} -33 {} 22 {} -49 {} -77 {} 0 {} 32 {} 2 {} 24 {} 9 {} -4 {} 3 {} -7 {} 12 {} -1 {} 3 {} 10 {} 7 {} 6 {} 19 {} 15 {} 9 {} 13 {} -6 {} 9 {} -10 {} 0 {} 0 {} 40 {} -16 {} -8 {} -23 {} -40 {} 37 {} 10 {} 10 {} -2 {} 11 {} 15 {} -14 {} -12 {} -11 {} -34 {} 1 {} -7 {} -4 {} 20 {} 0 {} -8 {} 0 {} 80 {} 0 {} 0 {} 0 {} 0 {} 34 {} 45 {} 19 {} 0 {} 10 {} 49 {} -27 {} 0 {} 0 {} -67 {} 54 {} 24 {} 0 {} 13 {} -35 {} -51 {} 0 {} 66 {} 15 {} -6 {} -9 {} 42 {} 49 {} -6 {} -8 {} 4 {} 12 {} 10 {} -23 {} 32 {} 48 {} 31 {} 29 {} 36 {} 34 {} 12 {} 0 {} 26 {} 0 {} 52 {} 0 {} 0 {} 0 {} 0 {} 60 {} 0 {} -8 {} 0 {} 2 {} 18 {} -42 {} 0 {} -3 {} 0 {} 3 {} -2 {} -3 {} -9 {} 0 {} -33 {} 0 {} 59 {} 46 {} 0 {} 0 {} 0 {} 120 {} 71 {} -17 {} 24 {} 6 {} 61 {} -37 {} 64 {} 32 {} -11 {} 1 {} 91 {} 0 {} 4 {} 0 {} 76 {} 0 {} -8 {} -29 {} 1 {} -28 {} -15 {} -76 {} 0 {} -19 {} -28 {} -17 {} 0 {} -34 {} -18 {} -5 {} -25 {} -15 {} -66 {} -24 {} -30 {} 0 {} -112 {} 0 {} 71 {} -3 {} 12 {} 11 {} -15 {} 24 {} 22 {} 20 {} 5 {} -9 {} 53 {} 2 {} 0 {} 22 {} -46 {} 18 {} 8 {} 0 {} 18 {} -42 {} -33 {} 0 {} 76 {} 0 {} 0 {} 0 {} 0 {} 57 {} 54 {} 14 {} 0 {} 5 {} 5 {} -29 {} 0 {} 0 {} -75 {} 19 {} -6 {} 0 {} 22 {} -43 {} -25 {} 0 {} 49 {} -19 {} 0 {} 0 {} 0 {} 16 {} -2 {} -7 {} 0 {} -23 {} -25 {} -17 {} -40 {} -13 {} -14 {} -10 {} -43 {} -40 {} 0 {} 11 {} -38 {} 0 {} 76 {} 40 {} 14 {} 13 {} -40 {} 53 {} 40 {} -5 {} 23 {} 28 {} 30 {} 4 {} 40 {} 14 {} -29 {} 38 {} 13 {} 40 {} 28 {} -39 {} 48 {} 0 {} -66 {} -40 {} -21 {} -22 {} -87 {} -81 {} -41 {} -55 {} -40 {} -14 {} -54 {} -25 {} -97 {} -44 {} -27 {} -39 {} -34 {} -59 {} -29 {} -12 {} -178 {} 0 {} 17 {} -8 {} -30 {} -31 {} -29 {} 36 {} -40 {} -30 {} -6 {} -12 {} -28 {} -149 {} -4 {} -17 {} -144 {} 78 {} -3 {} -1 {} -15 {} -150 {} 17 {}
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -16 {} -32 {} -37 {} -40 {} -37 {} -112 {} 15 {} 0 {} -37 {} -73 {} 0 {} -128 {} -82 {} -88 {} -157 {} -157 {} -57 {} -82 {} -35 {} -147 {} -175 {} 0 {} 97 {} 45 {} 50 {} 48 {} 16 {} 62 {} 70 {} 68 {} 43 {} 7 {} 60 {} 21 {} 0 {} 37 {} 92 {} 60 {} 39 {} 0 {} 26 {} 67 {} -30 {} 0 {} 76 {} 11 {} 21 {} -8 {} -2 {} 109 {} 5 {} 74 {} 62 {} -12 {} 63 {} -71 {} 42 {} 36 {} -69 {} 3 {} 62 {} 27 {} 19 {} -75 {} 34 {} 0 {} 54 {} -11 {} 20 {} -21 {} -30 {} -20 {} -2 {} -10 {} -5 {} -9 {} 2 {} -9 {} 0 {} 13 {} 0 {} -6 {} -24 {} 0 {} -19 {} -12 {} -67 {} 0 {} 57 {} -12 {} 0 {} 0 {} -26 {} -2 {} -7 {} -16 {} 18 {} -15 {} 2 {} -16 {} 0 {} 0 {} 6 {} -13 {} -36 {} 0 {} -21 {} -16 {} -40 {} 0 {} 2 {} 18 {} -19 {} -20 {} -21 {} 57 {} -18 {} -10 {} 10 {} -9 {} -25 {} -115 {} 30 {} 18 {} -142 {} 35 {} 0 {} 0 {} 23 {} -116 {} 24 {} 0 {} 74 {} 0 {} -21 {} -22 {} -24 {} 55 {} 5 {} 26 {} 11 {} 12 {} 19 {} -6 {} 19 {} 0 {} -47 {} 60 {} 15 {} -6 {} 30 {} -10 {} -21 {} 0 {} 39 {} 0 {} -24 {} -14 {} -31 {} 16 {} 1 {} -15 {} -14 {} -22 {} -9 {} -27 {} -27 {} -33 {} 0 {} -16 {} 0 {} -33 {} 22 {} -49 {} -77 {} 0 {} 32 {} 2 {} 24 {} 9 {} -4 {} 3 {} -7 {} 12 {} -1 {} 3 {} 10 {} 7 {} 6 {} 19 {} 15 {} 9 {} 13 {} -6 {} 9 {} -10 {} 0 {} 0 {} 40 {} -16 {} -8 {} -23 {} -40 {} 37 {} 10 {} 10 {} -2 {} 11 {} 15 {} -14 {} -12 {} -11 {} -34 {} 1 {} -7 {} -4 {} 20 {} 0 {} -8 {} 0 {} 80 {} 0 {} 0 {} 0 {} 0 {} 34 {} 45 {} 19 {} 0 {} 10 {} 49 {} -27 {} 0 {} 0 {} -67 {} 54 {} 24 {} 0 {} 13 {} -35 {} -51 {} 0 {} 66 {} 15 {} -6 {} -9 {} 42 {} 49 {} -6 {} -8 {} 4 {} 12 {} 10 {} -23 {} 32 {} 48 {} 31 {} 29 {} 36 {} 34 {} 12 {} 0 {} 26 {} 0 {} 52 {} 0 {} 0 {} 0 {} 0 {} 60 {} 0 {} -8 {} 0 {} 2 {} 18 {} -42 {} 0 {} -3 {} 0 {} 3 {} -2 {} -3 {} -9 {} 0 {} -33 {} 0 {} 59 {} 46 {} 0 {} 0 {} 0 {} 120 {} 71 {} -17 {} 24 {} 6 {} 61 {} -37 {} 64 {} 32 {} -11 {} 1 {} 91 {} 0 {} 4 {} 0 {} 76 {} 0 {} -8 {} -29 {} 1 {} -28 {} -15 {} -76 {} 0 {} -19 {} -28 {} -17 {} 0 {} -34 {} -18 {} -5 {} -25 {} -15 {} -66 {} -24 {} -30 {} 0 {} -112 {} 0 {} 71 {} -3 {} 12 {} 11 {} -15 {} 24 {} 22 {} 20 {} 5 {} -9 {} 53 {} 2 {} 0 {} 22 {} -46 {} 18 {} 8 {} 0 {} 18 {} -42 {} -33 {} 0 {} 76 {} 0 {} 0 {} 0 {} -4 {} 57 {} 54 {} 14 {} 0 {} 5 {} 5 {} -29 {} 0 {} 0 {} -75 {} 19 {} -6 {} 0 {} 22 {} -43 {} -25 {} 0 {} 49 {} -19 {} 0 {} 0 {} 0 {} 16 {} -2 {} -7 {} 0 {} -23 {} -25 {} -17 {} -40 {} -13 {} -14 {} -10 {} -43 {} -40 {} 0 {} 11 {} -38 {} 0 {} 76 {} 40 {} 14 {} 13 {} -40 {} 53 {} 40 {} -5 {} 23 {} 28 {} 30 {} 4 {} 40 {} 14 {} -29 {} 38 {} 13 {} 40 {} 28 {} -39 {} 48 {} 0 {} -66 {} -40 {} -21 {} -22 {} -17 {} -81 {} -41 {} -55 {} -40 {} -14 {} -54 {} -25 {} -97 {} -44 {} -27 {} -39 {} -34 {} -59 {} -29 {} -12 {} -178 {} 0 {} 17 {} -8 {} -30 {} -31 {} -29 {} 36 {} -40 {} -30 {} -6 {} -12 {} -28 {} -149 {} -4 {} -17 {} -144 {} 78 {} -3 {} -1 {} -15 {} -150 {} 17 {}
 ChainSub2: glyph "'rlig' Required Ligatures lookup 475 contextual 10" 0 0 0 1
  String: 16 ZLM_DIACRITIC_AU
  BString: 0 
@@ -3905,7 +3905,7 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 50
-WinInfo: 80 16 7
+WinInfo: 240 16 7
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3959,6 +3959,7 @@ VStem: 50 107<194.04 277.517>
 LayerCount: 2
 Fore
 Refer: 266 926832 N 1.03999 0 0 0.99569 18.2204 1.7912 2
+Validated: 1
 EndChar
 
 StartChar: ZLM_DOT_A
@@ -3973,6 +3974,7 @@ LayerCount: 2
 Fore
 Refer: 0 926464 N 1 0 0 1 0 0 2
 Refer: 244 926800 N 1 0 0 1 36 418 2
+Validated: 1
 EndChar
 
 StartChar: ZLM_DOT_E
@@ -3987,6 +3989,7 @@ LayerCount: 2
 Fore
 Refer: 255 926816 S 0.645833 0 0 1 12.2083 374 2
 Refer: 0 926464 S 1 0 0 1 3 0 2
+Validated: 1
 EndChar
 
 StartChar: ZLM_DOT_I
@@ -4000,7 +4003,8 @@ VStem: 50 107<194.04 277.517> 51.5576 102.886<565.081 648.919>
 LayerCount: 2
 Fore
 Refer: 266 926832 N 1 0 0 1 21 372 2
-Refer: 0 926464 N 1 0 0 1 0 0 2
+Refer: 0 926464 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: ZLM_DOT_O
@@ -4009,12 +4013,13 @@ Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 184.557 102.443<60.9046 148.095> 550 50<121.646 192.65> 595 52<15.2546 94.0116>
-VStem: -3 9<549 568.398> 51 107<194.04 277.517> 204 8<627.054 648>
+HStem: 184.557 102.443<60.9046 148.095> 550 50<121.646 193.191> 595 52<15.2546 94.0116>
+VStem: -3 9<549 568.398> 51 107<194.04 277.517> 204 8<627.047 648>
 LayerCount: 2
 Fore
 Refer: 277 926848 S 1 0 0 1 -28 365 2
 Refer: 0 926464 S 1 0 0 1 1 0 2
+Validated: 1
 EndChar
 
 StartChar: ZLM_DOT_U
@@ -4027,8 +4032,9 @@ HStem: 184.557 102.443<60.9046 148.095> 564 50<37.3137 174.597>
 VStem: -3 220 51 107<194.04 277.517>
 LayerCount: 2
 Fore
-Refer: 288 926864 S 1 0 0 1 -41 390 2
-Refer: 0 926464 S 1 0 0 1 1 0 2
+Refer: 288 926864 N 1 0 0 1 -41 390 2
+Refer: 0 926464 N 1 0 0 1 1 0 2
+Validated: 9
 EndChar
 
 StartChar: ZLM_DOT_Y
@@ -4043,6 +4049,7 @@ LayerCount: 2
 Fore
 Refer: 0 926464 S 1 0 0 1 1.32031 0 2
 Refer: 299 926880 S 1 0 0 1 -14.6797 397 2
+Validated: 1
 EndChar
 
 StartChar: ZLM_DOT_AI
@@ -4057,6 +4064,7 @@ LayerCount: 2
 Fore
 Refer: 310 926896 N 1 0 0 1 27 393 2
 Refer: 0 926464 N 1 0 0 1 0 0 2
+Validated: 9
 EndChar
 
 StartChar: ZLM_DOT_EI
@@ -4071,6 +4079,7 @@ LayerCount: 2
 Fore
 Refer: 0 926464 S 1 0 0 1 1 0 2
 Refer: 321 926912 S 1 0 0 1 -36 343 2
+Validated: 1
 EndChar
 
 StartChar: ZLM_DOT_OI
@@ -4085,6 +4094,7 @@ LayerCount: 2
 Fore
 Refer: 0 926464 N 1 0 0 1 1 0 2
 Refer: 332 926928 N 1 0 0 1 -25 397 2
+Validated: 1
 EndChar
 
 StartChar: ZLM_DOT_AU
@@ -4099,6 +4109,7 @@ LayerCount: 2
 Fore
 Refer: 0 926464 N 1 0 0 1 0.929688 0 2
 Refer: 343 926944 N 1 0 0 1 12.9297 357 2
+Validated: 1
 EndChar
 
 StartChar: ZLM_SLAKABU
@@ -4132,10 +4143,11 @@ SplineSet
  48 0 l 1
  48 20 l 3
  80 20 98 40 98 66 c 3
- 98 194 98 260.932617188 98 379 c 19
+ 98 194 98 260.932617188 98 379 c 23
  98 408.14453125 103.561523438 439.5078125 32 422 c 0
  24 445 l 24
 EndSplineSet
+Validated: 524321
 EndChar
 
 StartChar: ZLM_HA
@@ -4150,6 +4162,7 @@ LayerCount: 2
 Fore
 Refer: 12 926480 N 1 0 0 1 -2 0 2
 Refer: 244 926800 S 1 0 0 1 83 427 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_H ZLM_DIACRITIC_A
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_H ZLM_DIACRITIC_A
@@ -4168,6 +4181,7 @@ LayerCount: 2
 Fore
 Refer: 12 926480 N 1 0 0 1 7 0 2
 Refer: 255 926816 N 0.6875 0 0 1 47.125 350 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_H ZLM_DIACRITIC_E
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_H ZLM_DIACRITIC_E
@@ -4186,6 +4200,7 @@ LayerCount: 2
 Fore
 Refer: 12 926480 N 1 0 0 1 -2 0 2
 Refer: 266 926832 S 1 0 0 1 65 376 2
+Validated: 1
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_H ZLM_DIACRITIC_I
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_H ZLM_DIACRITIC_I
@@ -4198,12 +4213,13 @@ Width: 250
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 20<46 78.7246 212.014 236> 422 23<30 51.2> 561 50<159.646 230.65> 606 52<53.2546 132.012>
-VStem: 35 9<560 579.398> 96 100<27.1117 426.008> 242 8<638.054 659>
+HStem: 0 20<46 78.7246 212.014 236> 422 23<30 51.2> 561 50<159.646 231.191> 606 52<53.2546 132.012>
+VStem: 35 9<560 579.398> 96 100<27.1117 426.008> 242 8<638.047 659>
 LayerCount: 2
 Fore
 Refer: 12 926480 N 1 0 0 1 -2 0 2
 Refer: 277 926848 S 1 0 0 1 10 376 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_H ZLM_DIACRITIC_O
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_H ZLM_DIACRITIC_O
@@ -4222,6 +4238,7 @@ LayerCount: 2
 Fore
 Refer: 12 926480 N 1 0 0 1 5 0 2
 Refer: 288 926864 S 1 0 0 1 7 382 2
+Validated: 9
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_H ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_H ZLM_DIACRITIC_U
@@ -4240,6 +4257,7 @@ LayerCount: 2
 Fore
 Refer: 12 926480 N 1 0 0 1 -2 0 2
 Refer: 299 926880 N 1 0 0 1 19 398 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_H ZLM_DIACRITIC_Y
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_H ZLM_DIACRITIC_Y
@@ -4258,6 +4276,7 @@ LayerCount: 2
 Fore
 Refer: 12 926480 N 1 0 0 1 -2 0 2
 Refer: 310 926896 S 1 0 0 1 69 398 2
+Validated: 9
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -4276,6 +4295,7 @@ LayerCount: 2
 Fore
 Refer: 12 926480 N 1 0 0 1 11 0 2
 Refer: 321 926912 S 1 0 0 1 7 330 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -4294,6 +4314,7 @@ LayerCount: 2
 Fore
 Refer: 12 926480 N 1 0 0 1 2 0 2
 Refer: 332 926928 S 1 0 0 1 -16 409 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -4312,6 +4333,7 @@ LayerCount: 2
 Fore
 Refer: 12 926480 N 1 0 0 1 -2 0 2
 Refer: 343 926944 N 1 0 0 1 46 372 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -4342,7 +4364,7 @@ SplineSet
 24 691 m 1
  144 725 l 0
  175 725 l 1
- 174 60 l 0
+ 174 60 l 4
  243 66.2259320584 274.706054688 139.044921875 300 220 c 0
  322.453125 291.86328125 326.3515625 382.260742188 324 418 c 1
  326.1328125 436.666992188 316 449 294 451 c 1
@@ -4357,6 +4379,7 @@ SplineSet
  77 669 67 673 24 668 c 0
  24 691 l 1
 EndSplineSet
+Validated: 524321
 Kerns2: 132 1 "left-stick" 132 -1 "left-stick" 132 -1 "left-stick" 132 -1 "left-stick" 132 -1 "left-stick" 132 -1 "left-stick" 132 -1 "left-stick"
 EndChar
 
@@ -4372,6 +4395,7 @@ LayerCount: 2
 Fore
 Refer: 24 926496 N 1 0 0 1 0 0 2
 Refer: 244 926800 S 1 0 0 1 302 432 2
+Validated: 1
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_P ZLM_DIACRITIC_A
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_P ZLM_DIACRITIC_A
 Ligature2: "'rlig' Required Ligatures lookup 149 subtable" ZLM_P ZLM_DIACRITIC_A
@@ -4390,6 +4414,7 @@ LayerCount: 2
 Fore
 Refer: 24 926496 N 1 0 0 1 0 0 2
 Refer: 255 926816 N 0.595833 0 0 0.978261 283.508 355.63 2
+Validated: 1
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_P ZLM_DIACRITIC_E
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_P ZLM_DIACRITIC_E
@@ -4408,6 +4433,7 @@ LayerCount: 2
 Fore
 Refer: 24 926496 N 1 0 0 1 0 0 2
 Refer: 266 926832 S 1 0 0 1 280 375 2
+Validated: 1
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_P ZLM_DIACRITIC_I
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_P ZLM_DIACRITIC_I
@@ -4420,12 +4446,13 @@ Width: 450
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 22<24 59.7452> 451 19<294 317.074> 562 50<376.646 447.65> 607 52<270.255 349.012> 668 23<24 48.7059>
-VStem: 74 100<60.3293 669.594> 252 9<561 580.398> 459 8<639.054 660>
+HStem: 0 22<24 59.7452> 451 19<294 317.074> 562 50<376.646 448.191> 607 52<270.255 349.012> 668 23<24 48.7059>
+VStem: 74 100<60.3293 669.594> 252 9<561 580.398> 459 8<639.047 660>
 LayerCount: 2
 Fore
 Refer: 24 926496 N 1 0 0 1 0 0 2
 Refer: 277 926848 S 1 0 0 1 227 377 2
+Validated: 1
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_P ZLM_DIACRITIC_O
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_P ZLM_DIACRITIC_O
@@ -4444,6 +4471,7 @@ LayerCount: 2
 Fore
 Refer: 24 926496 N 1 0 0 1 0 0 2
 Refer: 288 926864 N 1 0 0 1 219 383 2
+Validated: 9
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_P ZLM_DIACRITIC_U
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_P ZLM_DIACRITIC_U
@@ -4462,6 +4490,7 @@ LayerCount: 2
 Fore
 Refer: 24 926496 N 1 0 0 1 0.4 0 2
 Refer: 299 926880 S 1 0 0 1 246.4 398 2
+Validated: 1
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_P ZLM_DIACRITIC_Y
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_P ZLM_DIACRITIC_Y
@@ -4480,6 +4509,7 @@ LayerCount: 2
 Fore
 Refer: 24 926496 N 1 0 0 1 0 0 2
 Refer: 310 926896 N 1 0 0 1 291 409 2
+Validated: 9
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_P ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_P ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -4498,6 +4528,7 @@ LayerCount: 2
 Fore
 Refer: 24 926496 N 1 0 0 1 0 0 2
 Refer: 321 926912 S 1 0 0 1 223 384 2
+Validated: 1
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_P ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_P ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 122 subtable" ZLM_P ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -4516,6 +4547,7 @@ LayerCount: 2
 Fore
 Refer: 24 926496 N 1 0 0 1 0 0 2
 Refer: 332 926928 S 1 0 0 1 210 379 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_P ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_P ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -4534,6 +4566,7 @@ LayerCount: 2
 Fore
 Refer: 24 926496 N 1 0 0 1 -0.23563 0 2
 Refer: 343 926944 S 1 0 0 1 267.764 372 2
+Validated: 1
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_P ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_P ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -4603,6 +4636,7 @@ LayerCount: 2
 Fore
 Refer: 36 926512 N 1 0 0 1 0 0 2
 Refer: 244 926800 S 1 0 0 1 301 437 2
+Validated: 1
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_T ZLM_DIACRITIC_A
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_T ZLM_DIACRITIC_A
@@ -4621,6 +4655,7 @@ LayerCount: 2
 Fore
 Refer: 36 926512 N 1 0 0 1 0 0 2
 Refer: 255 926816 N 0.623958 0 0 1 290.777 351 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_T ZLM_DIACRITIC_E
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_T ZLM_DIACRITIC_E
@@ -4639,6 +4674,7 @@ LayerCount: 2
 Fore
 Refer: 36 926512 N 1 0 0 1 0 0 2
 Refer: 266 926832 S 1 0 0 1 285 381 2
+Validated: 1
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_T ZLM_DIACRITIC_I
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_T ZLM_DIACRITIC_I
@@ -4651,12 +4687,13 @@ Width: 550
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 20<25 58.8734 192.375 233 330 362.616 488.75 525> 400 80<290.597 397.5> 564 50<374.571 437.25> 609 52<280.652 350.176>
-VStem: 75 100<27.7041 326.97 338 671.357> 264.538 7.94483<563 582.398> 374 101<25.7508 371.147> 447.269 7.06207<641.054 662>
+HStem: 0 20<25 58.8734 192.375 233 330 362.616 488.75 525> 400 80<290.597 397.5> 564 50<374.571 437.728> 609 52<280.652 350.176>
+VStem: 75 100<27.7041 326.97 338 671.357> 264.538 7.94483<563 582.398> 374 101<25.7508 371.147> 447.269 7.06207<641.047 662>
 LayerCount: 2
 Fore
 Refer: 36 926512 N 1 0 0 1 0 0 2
 Refer: 277 926848 S 0.882759 0 0 1 242.469 379 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_T ZLM_DIACRITIC_O
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_T ZLM_DIACRITIC_O
@@ -4675,6 +4712,7 @@ LayerCount: 2
 Fore
 Refer: 288 926864 S 1 0 0 1 220 386 2
 Refer: 36 926512 N 1 0 0 1 0 0 2
+Validated: 9
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_T ZLM_DIACRITIC_U
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_T ZLM_DIACRITIC_U
@@ -4693,6 +4731,7 @@ LayerCount: 2
 Fore
 Refer: 36 926512 N 1 0 0 1 0 0 2
 Refer: 299 926880 S 1 0 0 1 230 398 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_T ZLM_DIACRITIC_Y
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_T ZLM_DIACRITIC_Y
@@ -4711,6 +4750,7 @@ LayerCount: 2
 Fore
 Refer: 36 926512 N 1 0 0 1 0 0 2
 Refer: 310 926896 S 1 0 0 1 278 400 2
+Validated: 9
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_T ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_T ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -4729,6 +4769,7 @@ LayerCount: 2
 Fore
 Refer: 36 926512 N 1 0 0 1 0 0 2
 Refer: 321 926912 S 0.785467 0 0 0.811024 247.073 407.961 2
+Validated: 1
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_T ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_T ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 122 subtable" ZLM_T ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -4747,6 +4788,7 @@ LayerCount: 2
 Fore
 Refer: 36 926512 N 1 0 0 1 0 0 2
 Refer: 332 926928 S 0.742268 0 0 0.752066 240.773 438.736 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_T ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_T ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -4765,6 +4807,7 @@ LayerCount: 2
 Fore
 Refer: 36 926512 N 1 0 0 1 0 0 2
 Refer: 343 926944 N 1 0 0 1 260 374 2
+Validated: 1
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_T ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_T ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -4784,37 +4827,41 @@ EndChar
 
 StartChar: ZLM_K
 Encoding: 64 926528 48
-Width: 550
+Width: 500
 VWidth: 0
 GlyphClass: 2
-Flags: W
-HStem: 0 21G<373 458.366> 41 22<504.122 523> 447 23<318.326 364.237> 671 18<24 48.5>
-VStem: 74 100<78.0033 673.929> 374 100<60.0387 147 154.199 443.876>
+Flags: WO
+HStem: 0 20<27 64.1641> 8 18<444.134 477> 452 18<275.002 307.944> 690 22<28 64.7826>
+VStem: 327.579 100.421<31.279 71 176.649 211.263 410 444.533>
 LayerCount: 2
 Fore
 SplineSet
-24 689 m 1
- 150 725 l 0
- 175 725 l 1
- 174 156 l 3
- 174 -41.8837890625 361.75390625 137.37109375 374 190 c 1
- 372 405 l 3
- 372 449.502929688 348 446 318.326171875 447 c 0
- 318 470 l 1
- 474 470 l 1
- 474 94 l 0
- 474 52 497 59 523 63 c 0
- 527 41 l 1
- 393 0 l 0
- 373 0 l 1
- 374 147 l 0
- 373.872070312 132 289 -7 188 -7 c 3
- 114.234375 -7 74 70 74 140 c 3
- 74 336 74 643 74 643 c 0
- 73.6669921875 670.853515625 66.55078125 679.205078125 24 671 c 0
- 24 689 l 1
+328 212 m 1049,0,-1
+327 -13 m 1,1,-1
+ 350 -13 l 0,2,-1
+ 477 8 l 1,3,-1
+ 477 26 l 1,4,-1
+ 443.758789062 26 428 43 428 71 c 2,7,-1
+ 428 411 l 2,8,-1
+ 428 470 l 2,9,-1
+ 275 470 l 1,10,-1
+ 275 463.633789062 275.001953125 452 275.001953125 452 c 3,13,-1
+ 300 452 327.989163365 438.027028681 327.989163365 410.000005032 c 0,16,-1
+ 327.989163365 410.000005032 327.862925938 300.881374026 327.579490649 211.263035336 c 1,19,-1
+ 320.99313791 199.779461563 238.408896811 57.9190280265 177 56 c 1,22,-1
+ 177 735 l 1,23,-1
+ 158 735 l 1,24,-1
+ 24 712 l 1,25,-1
+ 28 690 l 1,26,-1
+ 54 694 77 701 77 659 c 2,29,-1
+ 77 659 77 185 77 52 c 0,32,-1
+ 77 29 47.5791015625 20 27 20 c 1,35,-1
+ 27 0 l 1,36,-1
+ 177 0 l 1,37,-1
+ 196.697265625 9.73828125 296.985939718 82.1862665734 327.427774022 164.414690826 c 1,40,-1
+ 327.27037469 116.773006924 327.080078125 38.8935546875 327 -13 c 1,1,-1
 EndSplineSet
-Validated: 33
+Kerns2: 200 -8 "left-stick"
 EndChar
 
 StartChar: ZLM_KA
@@ -4823,12 +4870,12 @@ Width: 550
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<373 458.366> 41 22<504.122 523> 447 23<318.326 364.237> 534 159 671 18<24 48.5>
-VStem: 74 100<78.0033 673.929> 369 136 374 100<60.0387 147 154.199 443.876>
+HStem: 0 20<27 64.1641> 8 18<444.134 477> 452 18<275.002 307.944> 534 159 690 22<28 64.7826>
+VStem: 327.579 100.421<31.279 71 176.649 211.263 410 444.533> 352 136
 LayerCount: 2
 Fore
 Refer: 48 926528 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 354 428 2
+Refer: 244 926800 S 1 0 0 1 337 428 2
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_K ZLM_DIACRITIC_A
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_K ZLM_DIACRITIC_A
@@ -4841,11 +4888,11 @@ Width: 550
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<373 458.366> 41 22<504.122 523> 447 23<318.326 364.237> 565 46<333 495> 671 18<24 48.5>
-VStem: 74 100<78.0033 673.929> 333 162<565 611> 374 100<60.0387 147 154.199 443.876>
+HStem: 0 20<27 64.1641> 8 18<444.134 477> 452 18<275.002 307.944> 565 46<282 444> 690 22<28 64.7826>
+VStem: 282 162<565 611> 327.579 100.421<31.279 71 176.649 211.263 410 444.533>
 LayerCount: 2
 Fore
-Refer: 255 926816 N 0.675 0 0 1 315.45 352 2
+Refer: 255 926816 N 0.675 0 0 1 264.45 352 2
 Refer: 48 926528 N 1 0 0 1 0 0 2
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_K ZLM_DIACRITIC_E
 LCarets2: 1 0
@@ -4859,11 +4906,11 @@ Width: 550
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<373 458.366> 41 22<504.122 523> 447 23<318.326 364.237> 555.557 102.887<377.081 460.919> 671 18<24 48.5>
-VStem: 74 100<78.0033 673.929> 367.558 102.886<565.081 648.919> 374 100<60.0387 147 154.199 443.876>
+HStem: 0 20<27 64.1641> 8 18<444.134 477> 452 18<275.002 307.944> 555.557 102.887<327.081 410.919> 690 22<28 64.7826>
+VStem: 317.558 102.886<565.081 648.919> 327.579 100.421<31.279 71 176.649 211.263 410 444.533>
 LayerCount: 2
 Fore
-Refer: 266 926832 S 1 0 0 1 337 372 2
+Refer: 266 926832 N 1 0 0 1 287 372 2
 Refer: 48 926528 N 1 0 0 1 0 0 2
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_K ZLM_DIACRITIC_I
 LCarets2: 1 0
@@ -4877,11 +4924,11 @@ Width: 550
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<373 458.366> 41 22<504.122 523> 447 23<318.326 364.237> 554 50<430.646 501.65> 599 52<324.255 403.012> 671 18<24 48.5>
-VStem: 74 100<78.0033 673.929> 306 9<553 572.398> 374 100<60.0387 147 154.199 443.876> 513 8<631.054 652>
+HStem: 0 20<27 64.1641> 8 18<444.134 477> 452 18<275.002 307.944> 554 50<374.646 446.191> 599 52<268.255 347.012> 690 22<28 64.7826>
+VStem: 250 9<553 572.398> 327.579 100.421<31.279 71 176.649 211.263 410 444.533> 457 8<631.047 652>
 LayerCount: 2
 Fore
-Refer: 277 926848 S 1 0 0 1 281 369 2
+Refer: 277 926848 N 1 0 0 1 225 369 2
 Refer: 48 926528 N 1 0 0 1 0 0 2
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_K ZLM_DIACRITIC_O
 LCarets2: 1 0
@@ -4895,11 +4942,11 @@ Width: 550
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<373 458.366> 41 22<504.122 523> 447 23<318.326 364.237> 557 50<347.314 484.597> 671 18<24 48.5>
-VStem: 74 100<78.0033 673.929> 307 220 374 100<60.0387 147 154.199 443.876>
+HStem: 0 20<27 64.1641> 8 18<444.134 477> 452 18<275.002 307.944> 557 50<290.314 427.597> 690 22<28 64.7826>
+VStem: 250 220 327.579 100.421<31.279 71 176.649 211.263 410 444.533>
 LayerCount: 2
 Fore
-Refer: 288 926864 S 1 0 0 1 269 383 2
+Refer: 288 926864 N 1 0 0 1 212 383 2
 Refer: 48 926528 N 1 0 0 1 0 0 2
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_K ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_K ZLM_DIACRITIC_U
@@ -4913,12 +4960,12 @@ Width: 550
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<373 458.366> 41 22<504.122 523> 447 23<318.326 364.237> 544.895 32.3555<367.004 445.318> 671 18<24 48.5> 690.65 31.4551<368.377 444.064>
-VStem: 74 100<78.0033 673.929> 318.68 32.2197<593.83 672.316> 374 100<60.0387 147 154.199 443.876> 462.5 30.4199<596.696 671.059>
+HStem: 0 20<27 64.1641> 8 18<444.134 477> 452 18<275.002 307.944> 544.895 32.3555<323.004 401.318> 690 22<28 64.7826> 690.65 31.4551<324.377 400.064>
+VStem: 274.68 32.2197<593.83 672.316> 327.579 100.421<31.279 71 176.649 211.263 410 444.533> 418.5 30.4199<596.696 671.059>
 LayerCount: 2
 Fore
 Refer: 48 926528 N 1 0 0 1 0 0 2
-Refer: 299 926880 S 1 0 0 1 284 399 2
+Refer: 299 926880 N 1 0 0 1 240 399 2
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_K ZLM_DIACRITIC_Y
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_K ZLM_DIACRITIC_Y
@@ -4931,12 +4978,12 @@ Width: 550
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<373 458.366> 41 22<504.122 523> 447 23<318.326 364.237> 671 18<24 48.5>
-VStem: 74 100<78.0033 673.929> 374 100<60.0387 147 154.199 443.876>
+HStem: 0 20<27 64.1641> 8 18<444.134 477> 452 18<275.002 307.944> 690 22<28 64.7826>
+VStem: 327.579 100.421<31.279 71 176.649 211.263 410 444.533>
 LayerCount: 2
 Fore
 Refer: 48 926528 N 1 0 0 1 0 0 2
-Refer: 310 926896 N 1 0 0 1 331 401 2
+Refer: 310 926896 S 1 0 0 1 294 401 2
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_K ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_K ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -4949,12 +4996,12 @@ Width: 550
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<373 458.366> 41 22<504.122 523> 447 23<318.326 364.237> 532 125 671 18<24 48.5>
-VStem: 74 100<78.0033 673.929> 282 249 374 100<60.0387 147 154.199 443.876>
+HStem: 0 20<27 64.1641> 8 18<444.134 477> 452 18<275.002 307.944> 532 125 690 22<28 64.7826>
+VStem: 237 249 327.579 100.421<31.279 71 176.649 211.263 410 444.533>
 LayerCount: 2
 Fore
 Refer: 48 926528 N 1 0 0 1 0 0 2
-Refer: 321 926912 S 1 0 0 1 258 347 2
+Refer: 321 926912 S 1 0 0 1 213 347 2
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_K ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_K ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 122 subtable" ZLM_K ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -4967,12 +5014,12 @@ Width: 550
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<373 458.366> 41 22<504.122 523> 447 23<318.326 364.237> 512 61<426.032 501.007> 671 18<24 48.5>
-VStem: 74 100<78.0033 673.929> 374 100<60.0387 147 154.199 443.876> 514 20<586.869 610>
+HStem: 0 20<27 64.1641> 8 18<444.134 477> 452 18<275.002 307.944> 512 61<375.032 450.007> 690 22<28 64.7826>
+VStem: 327.579 100.421<31.279 71 176.649 211.263 410 444.533> 463 20<586.869 610>
 LayerCount: 2
 Fore
 Refer: 48 926528 N 1 0 0 1 0 0 2
-Refer: 332 926928 S 1 0 0 1 260 384 2
+Refer: 332 926928 N 1 0 0 1 209 384 2
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_K ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_K ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -4985,11 +5032,11 @@ Width: 550
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<373 458.366> 41 22<504.122 523> 447 23<318.326 364.237> 505 222 671 18<24 48.5>
-VStem: 74 100<78.0033 673.929> 374 100<60.0387 147 154.199 443.876> 417 40<582.624 641.197>
+HStem: 0 20<27 64.1641> 8 18<444.134 477> 452 18<275.002 307.944> 505 222 690 22<28 64.7826>
+VStem: 327.579 100.421<31.279 71 176.649 211.263 410 444.533> 381 40<582.624 641.197>
 LayerCount: 2
 Fore
-Refer: 343 926944 S 1 0 0 1 307 372 2
+Refer: 343 926944 N 1 0 0 1 271 372 2
 Refer: 48 926528 N 1 0 0 1 0 0 2
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_K ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -5036,6 +5083,7 @@ SplineSet
  154 64 154 55 154 113 c 3
  154 278 342 438 342 438 c 1
 EndSplineSet
+Validated: 524325
 EndChar
 
 StartChar: ZLM_FA
@@ -5050,6 +5098,7 @@ LayerCount: 2
 Fore
 Refer: 60 926544 N 1 0 0 1 0 0 2
 Refer: 244 926800 S 1 0 0 1 150 427 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_F ZLM_DIACRITIC_A
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_F ZLM_DIACRITIC_A
@@ -5068,6 +5117,7 @@ LayerCount: 2
 Fore
 Refer: 255 926816 S 1 0 0 1 100 351 2
 Refer: 60 926544 N 1 0 0 1 0 0 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_F ZLM_DIACRITIC_E
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_F ZLM_DIACRITIC_E
@@ -5086,6 +5136,7 @@ LayerCount: 2
 Fore
 Refer: 60 926544 N 1 0 0 1 0 0 2
 Refer: 266 926832 S 1 0 0 1 148 374 2
+Validated: 5
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_F ZLM_DIACRITIC_I
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_F ZLM_DIACRITIC_I
@@ -5098,12 +5149,13 @@ Width: 500
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 25<116 147.631 261.305 296> 438 32<83.7095 342> 553 50<249.646 320.65> 598 52<143.255 222.012>
-VStem: 24 29<343 401.454> 125 9<552 571.398> 154 100<27.2008 211.629> 332 8<630.054 651>
+HStem: 0 25<116 147.631 261.305 296> 438 32<83.7095 342> 553 50<249.646 321.191> 598 52<143.255 222.012>
+VStem: 24 29<343 401.454> 125 9<552 571.398> 154 100<27.2008 211.629> 332 8<630.047 651>
 LayerCount: 2
 Fore
 Refer: 60 926544 N 1 0 0 1 0 0 2
 Refer: 277 926848 S 1 0 0 1 100 368 2
+Validated: 5
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_F ZLM_DIACRITIC_O
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_F ZLM_DIACRITIC_O
@@ -5115,13 +5167,14 @@ Encoding: 85 926549 65
 Width: 500
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
-HStem: 0 25<116 147.631 261.305 296> 438 32<83.7095 342> 550 50<181.314 318.597>
-VStem: 24 29<343 401.454> 141 220 154 100<27.2008 211.629>
+Flags: W
+HStem: 0 25<116 147.631 261.305 296> 438 32<83.7095 342> 560 50<165.314 302.597>
+VStem: 24 29<343 401.454> 125 220 154 100<27.2008 211.629>
 LayerCount: 2
 Fore
 Refer: 60 926544 N 1 0 0 1 0 0 2
 Refer: 288 926864 N 1 0 0 1 87 386 2
+Validated: 5
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_F ZLM_DIACRITIC_U
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_F ZLM_DIACRITIC_U
@@ -5140,6 +5193,7 @@ LayerCount: 2
 Fore
 Refer: 60 926544 N 1 0 0 1 0 0 2
 Refer: 299 926880 N 0.873393 0 0 0.868206 120.369 442.93 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_F ZLM_DIACRITIC_Y
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_F ZLM_DIACRITIC_Y
@@ -5158,6 +5212,7 @@ LayerCount: 2
 Fore
 Refer: 60 926544 N 1 0 0 1 0 0 2
 Refer: 310 926896 S 1 0 0 1 156 404 2
+Validated: 5
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_F ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_F ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -5176,6 +5231,7 @@ LayerCount: 2
 Fore
 Refer: 60 926544 N 1 0 0 1 0 0 2
 Refer: 321 926912 S 1 0 0 1 90 352 2
+Validated: 5
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_F ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_F ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -5188,12 +5244,13 @@ Width: 500
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 25<116 147.631 261.305 296> 438 32<83.7095 342> 540 53.7882<262.81 327.71>
+HStem: 0 25<116 147.631 261.305 296> 438 32<83.7095 342> 540 53.7882<262.811 327.709>
 VStem: 24 29<343 401.454> 154 100<27.2008 211.629> 338.956 17.3122<606.017 626.414>
 LayerCount: 2
 Fore
 Refer: 60 926544 N 1 0 0 1 0 0 2
 Refer: 332 926928 S 0.865612 0 0 0.881773 119.091 427.133 2
+Validated: 5
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_F ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_F ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -5212,6 +5269,7 @@ LayerCount: 2
 Fore
 Refer: 60 926544 N 1 0 0 1 0 0 2
 Refer: 343 926944 S 1 0 0 1 148 366 2
+Validated: 5
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_F ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_F ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -5278,6 +5336,7 @@ LayerCount: 2
 Fore
 Refer: 72 926560 N 1 0 0 1 0.0992281 0 2
 Refer: 244 926800 S 1 0 0 1 199.099 435 2
+Validated: 1
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_L ZLM_DIACRITIC_A
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_L ZLM_DIACRITIC_A
@@ -5296,6 +5355,7 @@ LayerCount: 2
 Fore
 Refer: 72 926560 N 1 0 0 1 0.0992281 0 2
 Refer: 255 926816 S 1 0 0 1 110.099 350 2
+Validated: 1
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_L ZLM_DIACRITIC_E
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_L ZLM_DIACRITIC_E
@@ -5314,6 +5374,7 @@ LayerCount: 2
 Fore
 Refer: 72 926560 N 1 0 0 1 0.0992281 0 2
 Refer: 266 926832 S 1 0 0 1 182.099 375 2
+Validated: 1
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_L ZLM_DIACRITIC_I
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_L ZLM_DIACRITIC_I
@@ -5326,12 +5387,13 @@ Width: 476
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 443 36<202.921 327.485> 559 50<266.744 337.748> 604 52<160.353 239.11>
-VStem: 142.098 9<558 577.398> 349.098 8<636.054 657>
+HStem: 443 36<202.921 327.485> 559 50<266.744 338.289> 604 52<160.353 239.11>
+VStem: 142.098 9<558 577.398> 349.098 8<636.047 657>
 LayerCount: 2
 Fore
 Refer: 72 926560 N 1 0 0 1 0.0984469 0 2
 Refer: 277 926848 S 1 0 0 1 117.098 374 2
+Validated: 1
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_L ZLM_DIACRITIC_O
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_L ZLM_DIACRITIC_O
@@ -5350,6 +5412,7 @@ LayerCount: 2
 Fore
 Refer: 72 926560 N 1 0 0 1 0.0992281 0 2
 Refer: 288 926864 S 1 0 0 1 106.099 388 2
+Validated: 9
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_L ZLM_DIACRITIC_U
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_L ZLM_DIACRITIC_U
@@ -5368,6 +5431,7 @@ LayerCount: 2
 Fore
 Refer: 72 926560 N 1 0 0 1 0.0992281 0 2
 Refer: 299 926880 N 1 0 0 1 123.099 401 2
+Validated: 1
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_L ZLM_DIACRITIC_Y
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_L ZLM_DIACRITIC_Y
@@ -5385,6 +5449,7 @@ LayerCount: 2
 Fore
 Refer: 72 926560 N 1 0 0 1 0.0992281 0 2
 Refer: 310 926896 S 1 0 0 1 184.099 402 2
+Validated: 9
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_L ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_L ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -5403,6 +5468,7 @@ LayerCount: 2
 Fore
 Refer: 72 926560 N 1 0 0 1 0.0992281 0 2
 Refer: 321 926912 S 1 0 0 1 109.099 340 2
+Validated: 1
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_L ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_L ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -5421,6 +5487,7 @@ LayerCount: 2
 Fore
 Refer: 72 926560 N 1 0 0 1 0.0992281 0 2
 Refer: 332 926928 S 1 0 0 1 104.099 388 2
+Validated: 1
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_L ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_L ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -5439,6 +5506,7 @@ LayerCount: 2
 Fore
 Refer: 72 926560 N 1 0 0 1 0.0992281 0 2
 Refer: 343 926944 N 1 0 0 1 166.099 383 2
+Validated: 1
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_L ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_L ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -5505,6 +5573,7 @@ SplineSet
  369.875 653.404296875 353.068359375 671.51171875 313 657 c 0
  312.915039062 680 l 1
 EndSplineSet
+Validated: 524325
 EndChar
 
 StartChar: ZLM_SA
@@ -5519,6 +5588,7 @@ LayerCount: 2
 Fore
 Refer: 84 926576 N 1 0 0 1 1.00029 0 2
 Refer: 244 926800 N 1 0 0 1 175 415.025 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_S ZLM_DIACRITIC_A
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_S ZLM_DIACRITIC_A
@@ -5561,6 +5631,7 @@ SplineSet
  352.995117188 163 352.995117188 207.87109375 352.995117188 246 c 2
  352.995117188 270 l 2
 EndSplineSet
+Validated: 524321
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_S ZLM_DIACRITIC_E
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_S ZLM_DIACRITIC_E
@@ -5579,6 +5650,7 @@ LayerCount: 2
 Fore
 Refer: 84 926576 N 1 0 0 1 -18.0053 0 2
 Refer: 266 926832 S 1 0 0 1 132.995 373 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_S ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_S ZLM_DIACRITIC_I
@@ -5632,6 +5704,7 @@ SplineSet
  352.995117188 163 352.995117188 207.87109375 352.995117188 246 c 2
  352.995117188 270 l 2
 EndSplineSet
+Validated: 524321
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_S ZLM_DIACRITIC_O
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_S ZLM_DIACRITIC_O
@@ -5650,6 +5723,7 @@ LayerCount: 2
 Fore
 Refer: 84 926576 N 1 0 0 1 -18.0053 0 2
 Refer: 288 926864 N 0.875522 1.47451e-17 6.07153e-18 1 78.8577 381 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_S ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_S ZLM_DIACRITIC_U
@@ -5661,19 +5735,19 @@ Encoding: 118 926582 90
 Width: 527
 VWidth: 0
 GlyphClass: 2
-Flags: HW
-HStem: 539 14<161.591 221.737> 621 75<176.232 235.355>
-VStem: 13.9951 92<116.627 322.01> 104 45<558.48 666.912> 352.995 100<64.4321 100 100.075 119.369 126.922 353.979>
+Flags: W
+HStem: 621 75<176.39 235.355>
+VStem: 13.9951 92<116.627 322.01> 175 67<623.836 655.632> 352.995 100<64.4321 100 100.075 119.369 126.922 353.979>
 LayerCount: 2
 Fore
 SplineSet
-324 692 m 1xe8
+324 692 m 1
  306.019998692 606.84032683 221.144571091 512 161 590 c 0
  123.392890861 638.771725522 172 691 175 655 c 0
  175.446239159 649.645130087 173.930664062 621 203 621 c 3
  238.9765625 621 242 646.780455543 242 656 c 3
  242 668.041594579 231 696 182 696 c 3
- 141.987304688 696 104 668 104 619 c 3xd8
+ 141.987304688 696 104 668 104 619 c 3
  104 573.98889026 128 539 194 539 c 3
  272 539 341.153846154 610 353 654 c 1
  352.995117188 398 l 1
@@ -5689,15 +5763,16 @@ SplineSet
  452.995117188 100 452.994148061 203.074670881 452.995117188 291 c 2
  453 734 l 1
  435 734 l 1
- 324 692 l 1xe8
+ 324 692 l 1
 352.995117188 270 m 2
  352.995117188 246 l 2
  352.995117188 207.87109375 352.995117188 163 352.995117188 163 c 1
  336.995117188 133 297.995117188 67 241.995117188 50 c 0
- 199.501953125 37.1005859375 105.995117188 64 105.995117188 228 c 0xe8
+ 199.501953125 37.1005859375 105.995117188 64 105.995117188 228 c 0
  105.995117188 387.049804688 173.060546875 432.41015625 223.995117188 435 c 0
  282.995117188 438 352.995117188 356 352.995117188 270 c 2
 EndSplineSet
+Validated: 524329
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_S ZLM_DIACRITIC_Y
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_S ZLM_DIACRITIC_Y
@@ -5716,6 +5791,7 @@ LayerCount: 2
 Fore
 Refer: 84 926576 N 1 0 0 1 -18.0053 0 2
 Refer: 310 926896 S 1 0 0 1 140.995 399 2
+Validated: 5
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_S ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_S ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -5734,6 +5810,7 @@ LayerCount: 2
 Fore
 Refer: 84 926576 N 1 0 0 1 -18.0053 0 2
 Refer: 321 926912 S 1 0 0 1 58.9947 352 2
+Validated: 5
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_S ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_S ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -5746,12 +5823,13 @@ Width: 527
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -11 487<148.968 287.995> 532 61<233.027 308.002>
+HStem: -11 487<148.968 287.995> 532 61<233.027 308.001>
 VStem: 13.9947 92<116.627 322.01> 320.995 20<606.869 630> 352.995 100<64.4321 100 126.922 270 291 660.881>
 LayerCount: 2
 Fore
 Refer: 84 926576 N 1 0 0 1 -18.0053 0 2
 Refer: 332 926928 S 1 0 0 1 66.9947 404 2
+Validated: 5
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_S ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_S ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -5770,6 +5848,7 @@ LayerCount: 2
 Fore
 Refer: 84 926576 N 1 0 0 1 -18.0053 0 2
 Refer: 343 926944 S 1 0 0 1 123.995 365 2
+Validated: 5
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_S ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_S ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -5849,6 +5928,7 @@ SplineSet
  335.044677375 476.064733014 365.29243465 471.870933695 378 419 c 1
  378 235 l 1
 EndSplineSet
+Validated: 524325
 EndChar
 
 StartChar: ZLM_CA
@@ -5863,6 +5943,7 @@ LayerCount: 2
 Fore
 Refer: 96 926592 N 1 0 0 1 0 0 2
 Refer: 244 926800 S 1 0 0 1 58 427 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_C ZLM_DIACRITIC_A
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_C ZLM_DIACRITIC_A
@@ -5881,6 +5962,7 @@ LayerCount: 2
 Fore
 Refer: 96 926592 N 1 0 0 1 0 0 2
 Refer: 255 926816 N 0.513611 0 0 0.978261 48.6462 356.63 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_C ZLM_DIACRITIC_E
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_C ZLM_DIACRITIC_E
@@ -5899,6 +5981,7 @@ LayerCount: 2
 Fore
 Refer: 96 926592 N 1 0 0 1 0 0 2
 Refer: 266 926832 N 1 0 0 1 40 374 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_C ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_C ZLM_DIACRITIC_I
@@ -5911,12 +5994,13 @@ Width: 539
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 20<28 57.1443 195.913 234 328 355.074 489.463 515> 422 23<32 50.2> 563 50<213.646 284.65> 608 52<107.255 186.012> 674 21<332 353.033>
-VStem: 78 100<29.3374 354.208 370 426.148> 89 9<562 581.398> 296 8<640.054 661> 378 0<235 432> 378 100<30.3718 235 419 676.32>
+HStem: 0 20<28 57.1443 195.913 234 328 355.074 489.463 515> 422 23<32 50.2> 563 50<213.646 285.191> 608 52<107.255 186.012> 674 21<332 353.033>
+VStem: 78 100<29.3374 354.208 370 426.148> 89 9<562 581.398> 296 8<640.047 661> 378 0<235 432> 378 100<30.3718 235 419 676.32>
 LayerCount: 2
 Fore
 Refer: 96 926592 N 1 0 0 1 0 0 2
 Refer: 277 926848 S 1 0 0 1 64 378 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_C ZLM_DIACRITIC_O
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_C ZLM_DIACRITIC_O
@@ -5935,6 +6019,7 @@ LayerCount: 2
 Fore
 Refer: 96 926592 N 1 0 0 1 0 0 2
 Refer: 288 926864 S 1 0 0 1 -31 394 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_C ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_C ZLM_DIACRITIC_U
@@ -5953,6 +6038,7 @@ LayerCount: 2
 Fore
 Refer: 96 926592 N 1 0 0 1 0 0 2
 Refer: 299 926880 S 1 0 0 1 -3 401 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_C ZLM_DIACRITIC_Y
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_C ZLM_DIACRITIC_Y
@@ -5971,6 +6057,7 @@ LayerCount: 2
 Fore
 Refer: 96 926592 N 1 0 0 1 0 0 2
 Refer: 310 926896 S 1 0 0 1 174 393 2
+Validated: 5
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_C ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_C ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -5989,6 +6076,7 @@ LayerCount: 2
 Fore
 Refer: 96 926592 N 1 0 0 1 0 0 2
 Refer: 321 926912 N 1 0 0 1 66 348 2
+Validated: 5
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_C ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_C ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -6007,6 +6095,7 @@ LayerCount: 2
 Fore
 Refer: 96 926592 N 1 0 0 1 0 0 2
 Refer: 332 926928 S 1 0 0 1 33 395 2
+Validated: 5
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_C ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_C ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -6025,6 +6114,7 @@ LayerCount: 2
 Fore
 Refer: 96 926592 N 1 0 0 1 0 0 2
 Refer: 343 926944 N 1 0 0 1 137 364 2
+Validated: 5
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_C ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_C ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -6071,6 +6161,7 @@ SplineSet
  201.223480081 503.414287525 366.87068847 508.742997344 424 429 c 0
  472 362 426.191564668 291.438518406 359 240 c 2
 EndSplineSet
+Validated: 524321
 Kerns2: 212 20 "left-stick"
 EndChar
 
@@ -6086,6 +6177,7 @@ LayerCount: 2
 Fore
 Refer: 108 926608 N 1 0 0 1 0 0 2
 Refer: 244 926800 S 1 0 0 1 188 426 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_M ZLM_DIACRITIC_A
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_M ZLM_DIACRITIC_A
@@ -6104,6 +6196,7 @@ LayerCount: 2
 Fore
 Refer: 108 926608 N 1 0 0 1 0 0 2
 Refer: 255 926816 S 1 0 0 1 96 351 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_M ZLM_DIACRITIC_E
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_M ZLM_DIACRITIC_E
@@ -6122,6 +6215,7 @@ LayerCount: 2
 Fore
 Refer: 108 926608 N 1 0 0 1 0 0 2
 Refer: 266 926832 S 1 0 0 1 172 375 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_M ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_M ZLM_DIACRITIC_I
@@ -6134,12 +6228,13 @@ Width: 500
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<150 435> 556 50<262.646 333.65> 601 52<156.255 235.012>
-VStem: 138 9<555 574.398> 345 8<633.054 654>
+HStem: 0 80<150 435> 556 50<262.646 334.191> 601 52<156.255 235.012>
+VStem: 138 9<555 574.398> 345 8<633.047 654>
 LayerCount: 2
 Fore
 Refer: 108 926608 N 1 0 0 1 0 0 2
 Refer: 277 926848 S 1 0 0 1 113 371 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_M ZLM_DIACRITIC_O
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_M ZLM_DIACRITIC_O
@@ -6158,6 +6253,7 @@ LayerCount: 2
 Fore
 Refer: 108 926608 N 1 0 0 1 0 0 2
 Refer: 288 926864 S 1 0 0 1 103 397 2
+Validated: 9
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_M ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_M ZLM_DIACRITIC_U
@@ -6176,6 +6272,7 @@ LayerCount: 2
 Fore
 Refer: 108 926608 N 1 0 0 1 0 0 2
 Refer: 299 926880 S 1 0 0 1 133 399 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_M ZLM_DIACRITIC_Y
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_M ZLM_DIACRITIC_Y
@@ -6193,6 +6290,7 @@ LayerCount: 2
 Fore
 Refer: 108 926608 N 1 0 0 1 0 0 2
 Refer: 310 926896 S 1 0 0 1 173 396 2
+Validated: 9
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_M ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_M ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -6211,6 +6309,7 @@ LayerCount: 2
 Fore
 Refer: 108 926608 N 1 0 0 1 0 0 2
 Refer: 321 926912 S 1 0 0 1 110 348 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_M ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_M ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -6229,6 +6328,7 @@ LayerCount: 2
 Fore
 Refer: 108 926608 N 1 0 0 1 0 0 2
 Refer: 332 926928 S 1 0 0 1 118 404 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_M ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_M ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -6247,6 +6347,7 @@ LayerCount: 2
 Fore
 Refer: 108 926608 N 1 0 0 1 0 0 2
 Refer: 343 926944 S 1 0 0 1 175 376 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_M ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_M ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -6286,6 +6387,7 @@ SplineSet
  489.505859375 98 392.706054688 -10 260.225585938 -10 c 0
  127.745117188 -10 12.5380859375 83 13.505859375 235 c 4
 EndSplineSet
+Validated: 4718625
 EndChar
 
 StartChar: ZLM_XA
@@ -6300,6 +6402,7 @@ LayerCount: 2
 Fore
 Refer: 120 926624 N 1 0 0 1 1.27114e-05 0 2
 Refer: 244 926800 S 1 0 0 1 203 432 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_X ZLM_DIACRITIC_A
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_X ZLM_DIACRITIC_A
@@ -6312,12 +6415,13 @@ Width: 500
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 490<127.745 392.706> 564 46<154 394>
+HStem: -10 490<127.746 392.706> 564 46<154 394>
 VStem: 13.5063 476<98 371.997> 154 240<564 610>
 LayerCount: 2
 Fore
 Refer: 120 926624 N 1 0 0 1 0.000429192 0 2
 Refer: 255 926816 S 1 0 0 1 128 351 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_X ZLM_DIACRITIC_E
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_X ZLM_DIACRITIC_E
@@ -6330,12 +6434,13 @@ Width: 500
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 490<127.745 392.706> 558.557 102.887<224.081 307.919>
+HStem: -10 490<127.746 392.706> 558.557 102.887<224.081 307.919>
 VStem: 13.5063 476<98 371.997> 214.558 102.886<568.081 651.919>
 LayerCount: 2
 Fore
 Refer: 120 926624 N 1 0 0 1 0.000429192 0 2
 Refer: 266 926832 S 1 0 0 1 184 375 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_X ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_X ZLM_DIACRITIC_I
@@ -6348,12 +6453,13 @@ Width: 500
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 490<127.745 392.706> 560 50<271.646 342.65> 605 52<165.255 244.012>
-VStem: 13.5064 476<98 371.997> 147 9<559 578.398> 354 8<637.054 658>
+HStem: -10 490<127.746 392.707> 560 50<271.646 343.191> 605 52<165.255 244.012>
+VStem: 13.5063 476<98 371.997> 147 9<559 578.398> 354 8<637.047 658>
 LayerCount: 2
 Fore
 Refer: 120 926624 N 1 0 0 1 0.000469379 0 2
 Refer: 277 926848 S 1 0 0 1 122 375 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_X ZLM_DIACRITIC_O
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_X ZLM_DIACRITIC_O
@@ -6372,6 +6478,7 @@ LayerCount: 2
 Fore
 Refer: 120 926624 N 1 0 0 1 0.000349943 0 2
 Refer: 288 926864 S 1 0 0 1 119 392 2
+Validated: 9
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_X ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_X ZLM_DIACRITIC_U
@@ -6390,6 +6497,7 @@ LayerCount: 2
 Fore
 Refer: 120 926624 N 1 0 0 1 0.000349943 0 2
 Refer: 299 926880 S 1 0 0 1 126 400 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_X ZLM_DIACRITIC_Y
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_X ZLM_DIACRITIC_Y
@@ -6408,6 +6516,7 @@ LayerCount: 2
 Fore
 Refer: 120 926624 N 1 0 0 1 0.000349943 0 2
 Refer: 310 926896 S 1 0 0 1 183 397 2
+Validated: 9
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_X ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_X ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -6426,6 +6535,7 @@ LayerCount: 2
 Fore
 Refer: 120 926624 N 1 0 0 1 0.000349943 0 2
 Refer: 321 926912 S 1 0 0 1 122 337 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_X ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_X ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -6444,6 +6554,7 @@ LayerCount: 2
 Fore
 Refer: 120 926624 N 1 0 0 1 0.000544132 0 2
 Refer: 332 926928 S 1 0 0 1 120 396 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_X ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_X ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -6462,6 +6573,7 @@ LayerCount: 2
 Fore
 Refer: 120 926624 N 1 0 0 1 0.000349943 0 2
 Refer: 343 926944 N 1 0 0 1 166 390 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_X ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_X ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -6510,6 +6622,7 @@ SplineSet
  401 -204 405 -233 451 -233 c 0
  451 -255 l 1
 EndSplineSet
+Validated: 524321
 EndChar
 
 StartChar: ZLM_BA
@@ -6524,6 +6637,7 @@ LayerCount: 2
 Fore
 Refer: 132 926640 N 1 0 0 1 0 0 2
 Refer: 244 926800 S 1 0 0 1 288 450 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_B ZLM_DIACRITIC_A
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_B ZLM_DIACRITIC_A
@@ -6542,6 +6656,7 @@ LayerCount: 2
 Fore
 Refer: 132 926640 N 1 0 0 1 0 0 2
 Refer: 255 926816 S 0.670833 0 0 1 255.558 351 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_B ZLM_DIACRITIC_E
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_B ZLM_DIACRITIC_E
@@ -6560,6 +6675,7 @@ LayerCount: 2
 Fore
 Refer: 132 926640 N 1 0 0 1 0 0 2
 Refer: 266 926832 N 1 0 0 0.991228 269 376.561 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_B ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_B ZLM_DIACRITIC_I
@@ -6572,12 +6688,13 @@ Width: 475
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -255 21<249 295.656 416.908 451> 0 19<24 46.0446 157.926 181> 448 22<415.255 451> 562 50<354.646 425.65> 607 52<248.255 327.012>
-VStem: 230 9<561 580.398> 300.137 100.863<-227.117 402.202> 437 8<639.054 660>
+HStem: -255 21<249 295.656 416.908 451> 0 19<24 46.0446 157.926 181> 448 22<415.255 451> 562 50<354.646 426.191> 607 52<248.255 327.012>
+VStem: 230 9<561 580.398> 300.137 100.863<-227.117 402.202> 437 8<639.047 660>
 LayerCount: 2
 Fore
 Refer: 132 926640 N 1 0 0 1 0 0 2
 Refer: 277 926848 S 1 0 0 1 205 377 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_B ZLM_DIACRITIC_O
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_B ZLM_DIACRITIC_O
@@ -6596,6 +6713,7 @@ LayerCount: 2
 Fore
 Refer: 132 926640 N 1 0 0 1 0 0 2
 Refer: 288 926864 S 1 0 0 1 196 390 2
+Validated: 9
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_B ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_B ZLM_DIACRITIC_U
@@ -6614,6 +6732,7 @@ LayerCount: 2
 Fore
 Refer: 132 926640 N 1 0 0 1 0 0 2
 Refer: 299 926880 S 1 0 0 1 228 399 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_B ZLM_DIACRITIC_Y
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_B ZLM_DIACRITIC_Y
@@ -6632,6 +6751,7 @@ LayerCount: 2
 Fore
 Refer: 132 926640 N 1 0 0 1 0 0 2
 Refer: 310 926896 S 1 0 0 1 278 395 2
+Validated: 9
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_B ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_B ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -6650,6 +6770,7 @@ LayerCount: 2
 Fore
 Refer: 132 926640 N 1 0 0 1 0 0 2
 Refer: 321 926912 S 1 0 0 1 206 337 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_B ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_B ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -6668,6 +6789,7 @@ LayerCount: 2
 Fore
 Refer: 132 926640 N 1 0 0 1 0 0 2
 Refer: 332 926928 S 1 0 0 1 203 398 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_B ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_B ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -6686,6 +6808,7 @@ LayerCount: 2
 Fore
 Refer: 132 926640 N 1 0 0 1 0 0 2
 Refer: 343 926944 S 1 0 0 1 260 372 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_B ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_B ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -6752,6 +6875,7 @@ LayerCount: 2
 Fore
 Refer: 144 926656 N 1 0 0 1 0 0 2
 Refer: 244 926800 S 1 0 0 1 210 424 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_D ZLM_DIACRITIC_A
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_D ZLM_DIACRITIC_A
@@ -6770,6 +6894,7 @@ LayerCount: 2
 Fore
 Refer: 144 926656 N 1 0 0 1 0 0 2
 Refer: 255 926816 S 1 0 0 1 125 351 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_D ZLM_DIACRITIC_E
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_D ZLM_DIACRITIC_E
@@ -6788,6 +6913,7 @@ LayerCount: 2
 Fore
 Refer: 144 926656 N 1 0 0 1 0 0 2
 Refer: 266 926832 S 1 0 0 1 176 377 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_D ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_D ZLM_DIACRITIC_I
@@ -6800,12 +6926,13 @@ Width: 549
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -255 19<325 354.332 495.42 525> -10 80<151.5 258.403> 450 20<24 60.25 316 356.625> 560 50<279.646 350.65> 605 52<173.255 252.012>
-VStem: 75 99<98.8532 443.867> 155 9<559 578.398> 362 8<637.054 658> 374 100<-227.083 132 143.03 442.296>
+HStem: -255 19<325 354.332 495.42 525> -10 80<151.5 258.403> 450 20<24 60.25 316 356.625> 560 50<279.646 351.191> 605 52<173.255 252.012>
+VStem: 75 99<98.8532 443.867> 155 9<559 578.398> 362 8<637.047 658> 374 100<-227.083 132 143.03 442.296>
 LayerCount: 2
 Fore
 Refer: 144 926656 N 1 0 0 1 0 0 2
 Refer: 277 926848 S 1 0 0 1 130 375 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_D ZLM_DIACRITIC_O
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_D ZLM_DIACRITIC_O
@@ -6824,6 +6951,7 @@ LayerCount: 2
 Fore
 Refer: 144 926656 N 1 0 0 1 0 0 2
 Refer: 288 926864 S 1 0 0 1 114 386 2
+Validated: 9
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_D ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_D ZLM_DIACRITIC_U
@@ -6842,6 +6970,7 @@ LayerCount: 2
 Fore
 Refer: 144 926656 N 1 0 0 1 0 0 2
 Refer: 299 926880 S 1 0 0 1 149 399 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_D ZLM_DIACRITIC_Y
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_D ZLM_DIACRITIC_Y
@@ -6860,6 +6989,7 @@ LayerCount: 2
 Fore
 Refer: 144 926656 N 1 0 0 1 0 0 2
 Refer: 310 926896 S 1 0 0 1 190 395 2
+Validated: 9
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_D ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_D ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -6878,6 +7008,7 @@ LayerCount: 2
 Fore
 Refer: 144 926656 N 1 0 0 1 0 0 2
 Refer: 321 926912 S 1 0 0 1 113 346 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_D ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_D ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -6896,6 +7027,7 @@ LayerCount: 2
 Fore
 Refer: 144 926656 N 1 0 0 1 0 0 2
 Refer: 332 926928 S 1 0 0 1 111 405 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_D ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_D ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -6914,6 +7046,7 @@ LayerCount: 2
 Fore
 Refer: 144 926656 N 1 0 0 1 0 0 2
 Refer: 343 926944 S 1 0 0 1 165 375 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_D ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_D ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -6942,33 +7075,34 @@ VStem: 77 100<27.8639 300.255 304 437.961> 327.107 100.893<-226.931 413.405>
 LayerCount: 2
 Fore
 SplineSet
-477 -255 m 1xce
- 352 -255 l 0
- 272.970703125 -255 l 1
- 273 -236 l 3
- 310 -236 327.024414062 -209 327.107421875 -185 c 0
- 327.893554688 41.9990234375 328 414 328 414 c 0xe6
- 264 412 208.758705148 333.484220501 177 258 c 1
- 177 70 l 3
- 177 25.4970703125 203 24 232.673828125 23 c 0
- 233 0 l 1
- 27 0 l 1
- 27 20 l 3
- 47.5791015625 20 77 29 77 52 c 27
- 77 185 77 404 77 404 c 0
- 77 446 54 439 28 435 c 0
- 24 457 l 1xd6
- 158 480 l 0
- 177 480 l 1
- 177 304 l 1
- 207.74609375 391.427734375 284 470.157489468 370 470 c 0
- 370 470 444.454101562 470 478 470 c 1
- 478 452 l 0
- 456 452 428 437 428 411 c 0
- 428 -182 l 0
- 428 -210 443.758789062 -237 477 -237 c 0
- 477 -255 l 1xce
+477 -255 m 5xce
+ 352 -255 l 4
+ 272.970703125 -255 l 5
+ 273 -236 l 7
+ 310 -236 327.024414062 -209 327.107421875 -185 c 4
+ 327.893554688 41.9990234375 328 414 328 414 c 4xe6
+ 264 412 208.758705148 333.484220501 177 258 c 5
+ 177 70 l 7
+ 177 25.4970703125 203 24 232.673828125 23 c 4
+ 233 0 l 5
+ 27 0 l 5
+ 27 20 l 7
+ 47.5791015625 20 77 29 77 52 c 31
+ 77 185 77 404 77 404 c 4
+ 77 446 54 439 28 435 c 4
+ 24 457 l 5xd6
+ 158 480 l 4
+ 177 480 l 5
+ 177 304 l 5
+ 207.74609375 391.427734375 284 470.157489468 370 470 c 4
+ 370 470 444.454101562 470 478 470 c 5
+ 478 452 l 4
+ 456 452 428 437 428 411 c 4
+ 428 -182 l 4
+ 428 -210 443.758789062 -237 477 -237 c 4
+ 477 -255 l 5xce
 EndSplineSet
+Validated: 4718625
 EndChar
 
 StartChar: ZLM_GA
@@ -6983,6 +7117,7 @@ LayerCount: 2
 Fore
 Refer: 156 926672 N 1 0 0 1 0 0 2
 Refer: 244 926800 S 1 0 0 1 191 442 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_G ZLM_DIACRITIC_A
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_G ZLM_DIACRITIC_A
@@ -7001,6 +7136,7 @@ LayerCount: 2
 Fore
 Refer: 156 926672 N 1 0 0 1 0 0 2
 Refer: 255 926816 S 1 0 0 1 118 352 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_G ZLM_DIACRITIC_E
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_G ZLM_DIACRITIC_E
@@ -7019,6 +7155,7 @@ LayerCount: 2
 Fore
 Refer: 156 926672 N 1 0 0 1 0 0 2
 Refer: 266 926832 S 1 0 0 1 182 380 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_G ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_G ZLM_DIACRITIC_I
@@ -7031,12 +7168,13 @@ Width: 502
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -255 18<273 303.077 448.847 477> 0 23<27 69.5483 188.376 232.674> 414 56<293.322 328> 435 22<28 64.7826> 452 18<447.561 478> 559 50<279.646 350.65> 604 52<173.255 252.012>
-VStem: 77 100<27.8639 300.255 304 437.961> 155 9<558 577.398> 327.107 100.893<-226.931 413.405> 362 8<636.054 657>
+HStem: -255 18<273 303.077 448.847 477> 0 23<27 69.5483 188.376 232.674> 414 56<293.322 328> 435 22<28 64.7826> 452 18<447.561 478> 559 50<279.646 351.191> 604 52<173.255 252.012>
+VStem: 77 100<27.8639 300.255 304 437.961> 155 9<558 577.398> 327.107 100.893<-226.931 413.405> 362 8<636.047 657>
 LayerCount: 2
 Fore
 Refer: 156 926672 N 1 0 0 1 0 0 2
 Refer: 277 926848 S 1 0 0 1 130 374 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_G ZLM_DIACRITIC_O
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_G ZLM_DIACRITIC_O
@@ -7055,6 +7193,7 @@ LayerCount: 2
 Fore
 Refer: 156 926672 N 1 0 0 1 0 0 2
 Refer: 288 926864 S 1 0 0 1 113 381 2
+Validated: 9
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_G ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_G ZLM_DIACRITIC_U
@@ -7073,6 +7212,7 @@ LayerCount: 2
 Fore
 Refer: 156 926672 N 1 0 0 1 0 0 2
 Refer: 299 926880 S 1 0 0 1 148 400 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_G ZLM_DIACRITIC_Y
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_G ZLM_DIACRITIC_Y
@@ -7091,6 +7231,7 @@ LayerCount: 2
 Fore
 Refer: 156 926672 N 1 0 0 1 0 0 2
 Refer: 310 926896 S 1 0 0 1 201 393 2
+Validated: 9
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_G ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_G ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -7109,6 +7250,7 @@ LayerCount: 2
 Fore
 Refer: 156 926672 N 1 0 0 1 0 0 2
 Refer: 321 926912 S 1 0 0 1 120 365 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_G ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_G ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -7127,6 +7269,7 @@ LayerCount: 2
 Fore
 Refer: 156 926672 N 1 0 0 1 0 0 2
 Refer: 332 926928 S 1 0 0 1 124 403 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_G ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_G ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -7145,6 +7288,7 @@ LayerCount: 2
 Fore
 Refer: 156 926672 N 1 0 0 1 0 0 2
 Refer: 343 926944 S 1 0 0 1 173 382 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_G ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_G ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -7157,25 +7301,25 @@ Width: 517
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<153 465> 0 28<24 50.9763> 450 20<197 234.574>
+HStem: 0 80<153 465> 450 20<197 234.574>
 VStem: 244 100<229.874 447.479>
 LayerCount: 2
 Fore
 SplineSet
-153 80 m 1xb0
+153 80 m 1
  404 80 l 3
  442.708984375 80 459.770507812 79.0634765625 479 127 c 0
  493 127 l 1
- 465 0 l 1xb0
+ 465 0 l 1
  24 0 l 1
- 24 28 l 1x70
+ 24 28 l 1
  24 28 244 128 244 253 c 26
  244 407 l 3
  244 444 229 450 197 450 c 1
  197 470 l 1
  230.333007812 470 310.666992188 470 344 470 c 1
  344 425 344 412.61328125 344 318 c 3
- 344 153 153 80 153 80 c 1xb0
+ 344 153 153 80 153 80 c 1
 EndSplineSet
 Validated: 33
 EndChar
@@ -7186,12 +7330,13 @@ Width: 517
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 28<24 50.9763> 0 80<153 465> 450 20<197 234.574> 544 159
+HStem: 0 80<153 465> 450 20<197 234.574> 544 159
 VStem: 235 136 244 100<229.874 447.479>
 LayerCount: 2
 Fore
 Refer: 167 926688 N 1 0 0 1 0 0 2
 Refer: 244 926800 S 1 0 0 1 220 438 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_V ZLM_DIACRITIC_A
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_V ZLM_DIACRITIC_A
@@ -7204,12 +7349,13 @@ Width: 517
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 28<24 50.9763> 0 80<153 465> 450 20<197 234.574> 564 46<197 365>
+HStem: 0 80<153 465> 450 20<197 234.574> 564 46<197 365>
 VStem: 197 168<564 610> 244 100<229.874 447.479>
 LayerCount: 2
 Fore
 Refer: 167 926688 N 1 0 0 1 0 0 2
 Refer: 255 926816 S 0.7 0 0 1 178.8 351 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_V ZLM_DIACRITIC_E
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_V ZLM_DIACRITIC_E
@@ -7222,12 +7368,13 @@ Width: 517
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 28<24 50.9763> 0 80<153 465> 450 20<197 234.574> 556.557 102.887<242.081 325.919>
+HStem: 0 80<153 465> 450 20<197 234.574> 556.557 102.887<242.081 325.919>
 VStem: 232.558 102.886<566.081 649.919> 244 100<229.874 447.479>
 LayerCount: 2
 Fore
 Refer: 167 926688 N 1 0 0 1 0 0 2
 Refer: 266 926832 N 1 0 0 1 202 373 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_V ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_V ZLM_DIACRITIC_I
@@ -7240,12 +7387,13 @@ Width: 517
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 28<24 50.9763> 0 80<153 465> 450 20<197 234.574> 559 50<292.646 363.65> 604 52<186.255 265.012>
-VStem: 168 9<558 577.398> 244 100<229.874 447.479> 375 8<636.054 657>
+HStem: 0 80<153 465> 450 20<197 234.574> 559 50<292.646 364.191> 604 52<186.255 265.012>
+VStem: 168 9<558 577.398> 244 100<229.874 447.479> 375 8<636.047 657>
 LayerCount: 2
 Fore
 Refer: 167 926688 N 1 0 0 1 0 0 2
 Refer: 277 926848 S 1 0 0 1 143 374 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_V ZLM_DIACRITIC_O
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_V ZLM_DIACRITIC_O
@@ -7258,12 +7406,13 @@ Width: 517
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 28<24 50.9763> 0 80<153 465> 450 20<197 234.574> 556 50<212.314 349.597>
+HStem: 0 80<153 465> 450 20<197 234.574> 556 50<212.314 349.597>
 VStem: 172 220 244 100<229.874 447.479>
 LayerCount: 2
 Fore
 Refer: 167 926688 N 1 0 0 1 0 0 2
 Refer: 288 926864 S 1 0 0 1 134 382 2
+Validated: 9
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_V ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_V ZLM_DIACRITIC_U
@@ -7276,12 +7425,13 @@ Width: 517
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 28<24 50.9763> 0 80<153 465> 450 20<197 234.574> 544.895 32.3555<237.004 315.318> 690.65 31.4551<238.377 314.064>
+HStem: 0 80<153 465> 450 20<197 234.574> 544.895 32.3555<237.004 315.318> 690.65 31.4551<238.377 314.064>
 VStem: 188.68 32.2197<593.83 672.316> 244 100<229.874 447.479> 332.5 30.4199<596.696 671.059>
 LayerCount: 2
 Fore
 Refer: 167 926688 N 1 0 0 1 0 0 2
 Refer: 299 926880 S 1 0 0 1 154 399 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_V ZLM_DIACRITIC_Y
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_V ZLM_DIACRITIC_Y
@@ -7294,12 +7444,13 @@ Width: 517
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 28<24 50.9763> 0 80<153 465> 450 20<197 234.574>
+HStem: 0 80<153 465> 450 20<197 234.574>
 VStem: 244 100<229.874 447.479>
 LayerCount: 2
 Fore
 Refer: 167 926688 N 1 0 0 1 0 0 2
 Refer: 310 926896 S 1 0 0 1 206 399 2
+Validated: 9
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_V ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_V ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -7312,12 +7463,13 @@ Width: 517
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 28<24 50.9763> 0 80<153 465> 450 20<197 234.574> 529 125
+HStem: 0 80<153 465> 450 20<197 234.574> 529 125
 VStem: 152 249 244 100<229.874 447.479>
 LayerCount: 2
 Fore
 Refer: 167 926688 N 1 0 0 1 0 0 2
 Refer: 321 926912 S 1 0 0 1 128 344 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_V ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_V ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -7330,12 +7482,13 @@ Width: 517
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 28<24 50.9763> 0 80<153 465> 450 20<197 234.574> 525 61<296.032 371.007>
+HStem: 0 80<153 465> 450 20<197 234.574> 525 61<296.032 371.007>
 VStem: 244 100<229.874 447.479> 384 20<599.869 623>
 LayerCount: 2
 Fore
 Refer: 167 926688 N 1 0 0 1 0 0 2
 Refer: 332 926928 S 1 0 0 1 130 397 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_V ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_V ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -7348,12 +7501,13 @@ Width: 517
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 28<24 50.9763> 0 80<153 465> 450 20<197 234.574> 504 222
+HStem: 0 80<153 465> 450 20<197 234.574> 504 222
 VStem: 244 100<229.874 447.479> 292 40<581.624 640.197>
 LayerCount: 2
 Fore
 Refer: 167 926688 N 1 0 0 1 0 0 2
 Refer: 343 926944 S 1 0 0 1 182 371 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_V ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_V ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -7387,6 +7541,7 @@ SplineSet
  44.7001953125 470 l 1
  39.1005859375 319 l 1
 EndSplineSet
+Validated: 524329
 EndChar
 
 StartChar: ZLM_RA
@@ -7401,6 +7556,7 @@ LayerCount: 2
 Fore
 Refer: 178 926704 N 1 0 0 1 0.0992281 0 2
 Refer: 244 926800 N 1 0 0 1 174.099 437 2
+Validated: 9
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_R ZLM_DIACRITIC_A
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_R ZLM_DIACRITIC_A
@@ -7419,6 +7575,7 @@ LayerCount: 2
 Fore
 Refer: 178 926704 N 1 0 0 1 0.0992281 0 2
 Refer: 255 926816 N 1 0 0 1 89.0992 351 2
+Validated: 9
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_R ZLM_DIACRITIC_E
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_R ZLM_DIACRITIC_E
@@ -7437,6 +7594,7 @@ LayerCount: 2
 Fore
 Refer: 178 926704 N 1 0 0 1 0.0992281 0 2
 Refer: 266 926832 S 1 0 0 1 154.099 375 2
+Validated: 9
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_R ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_R ZLM_DIACRITIC_I
@@ -7449,12 +7607,13 @@ Width: 472
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 64<124.556 247.115> 570 50<246.745 317.749> 615 52<140.354 219.111>
-VStem: 39.1998 24.2998<319 359.977> 122.099 9<569 588.398> 329.099 8<647.054 668> 348.599 99.4004<155.767 347.272>
+HStem: -10 64<124.556 247.115> 570 50<246.745 318.291> 615 52<140.354 219.111>
+VStem: 39.1998 24.2998<319 359.977> 122.099 9<569 588.398> 329.099 8<647.047 668> 348.599 99.4004<155.767 347.272>
 LayerCount: 2
 Fore
 Refer: 178 926704 N 1 0 0 1 0.0992281 0 2
 Refer: 277 926848 S 1 0 0 1 97.0992 385 2
+Validated: 9
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_R ZLM_DIACRITIC_O
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_R ZLM_DIACRITIC_O
@@ -7473,6 +7632,7 @@ LayerCount: 2
 Fore
 Refer: 178 926704 N 1 0 0 1 0.0992281 0 2
 Refer: 288 926864 S 1 0 0 1 84.0992 395 2
+Validated: 9
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_R ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_R ZLM_DIACRITIC_U
@@ -7491,6 +7651,7 @@ LayerCount: 2
 Fore
 Refer: 178 926704 N 1 0 0 1 0.0992281 0 2
 Refer: 299 926880 S 1 0 0 1 117.099 400 2
+Validated: 9
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_R ZLM_DIACRITIC_Y
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_R ZLM_DIACRITIC_Y
@@ -7509,6 +7670,7 @@ LayerCount: 2
 Fore
 Refer: 178 926704 N 1 0 0 1 0.0992281 0 2
 Refer: 310 926896 S 1 0 0 1 151.099 398 2
+Validated: 9
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_R ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_R ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -7527,6 +7689,7 @@ LayerCount: 2
 Fore
 Refer: 178 926704 N 1 0 0 1 0.0992281 0 2
 Refer: 321 926912 S 1 0 0 1 91.0992 364 2
+Validated: 9
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_R ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_R ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -7539,12 +7702,13 @@ Width: 689
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 64<124.556 247.115> 525 61<255.131 330.106>
+HStem: -10 64<124.556 247.115> 525 61<255.132 330.106>
 VStem: 39.1998 24.2998<319 359.977> 343.099 20<599.869 623> 348.599 99.4004<155.767 347.272>
 LayerCount: 2
 Fore
 Refer: 178 926704 N 1 0 0 1 0.0992281 0 2
 Refer: 332 926928 S 1 0 0 1 89.0992 397 2
+Validated: 9
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_R ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_R ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -7563,6 +7727,7 @@ LayerCount: 2
 Fore
 Refer: 178 926704 N 1 0 0 1 0.0992281 0 2
 Refer: 343 926944 S 1 0 0 1 137.099 386 2
+Validated: 9
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_R ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_R ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -7606,6 +7771,7 @@ SplineSet
  180.915039062 -208.177734375 197.915039062 -230 243.915039062 -230 c 0
  243.915039062 -255 l 1
 EndSplineSet
+Validated: 524325
 EndChar
 
 StartChar: ZLM_ZA
@@ -7620,6 +7786,7 @@ LayerCount: 2
 Fore
 Refer: 189 926720 N 1 0 0 1 0.000454195 0 2
 Refer: 244 926800 N 1 0 0 1 226 446 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_Z ZLM_DIACRITIC_A
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_Z ZLM_DIACRITIC_A
@@ -7638,6 +7805,7 @@ LayerCount: 2
 Fore
 Refer: 189 926720 N 1 0 0 1 0.000454195 0 2
 Refer: 255 926816 S 1 0 0 1 151 351 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_Z ZLM_DIACRITIC_E
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_Z ZLM_DIACRITIC_E
@@ -7656,6 +7824,7 @@ LayerCount: 2
 Fore
 Refer: 189 926720 N 1 0 0 1 0.00090839 0 2
 Refer: 266 926832 N 1 0 0 1 243.001 376 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_Z ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_Z ZLM_DIACRITIC_I
@@ -7668,12 +7837,13 @@ Width: 551
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -255 25<23.9155 64.2642 200.28 243.915> -6 496<257.915 391.942> 559 50<318.646 389.65> 604 52<212.255 291.012>
-VStem: 80.9155 100<-219.817 72 179 365.112 377 407.901> 194 9<558 577.398> 401 8<636.054 657> 437.915 89<147.984 349.6>
+HStem: -255 25<23.9155 64.2642 200.28 243.915> -6 496<257.915 391.942> 559 50<318.646 390.191> 604 52<212.255 291.012>
+VStem: 80.9155 100<-219.817 72 179 365.112 377 407.901> 194 9<558 577.398> 401 8<636.047 657> 437.915 89<147.984 349.6>
 LayerCount: 2
 Fore
 Refer: 189 926720 N 1 0 0 1 0.000454195 0 2
 Refer: 277 926848 N 1 0 0 1 169 374 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_Z ZLM_DIACRITIC_O
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_Z ZLM_DIACRITIC_O
@@ -7692,6 +7862,7 @@ LayerCount: 2
 Fore
 Refer: 189 926720 N 1 0 0 1 0.000454195 0 2
 Refer: 288 926864 N 1 0 0 1 153 391 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_Z ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_Z ZLM_DIACRITIC_U
@@ -7710,6 +7881,7 @@ LayerCount: 2
 Fore
 Refer: 189 926720 N 1 0 0 1 0.000454195 0 2
 Refer: 299 926880 S 1 0 0 1 184 400 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_Z ZLM_DIACRITIC_Y
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_Z ZLM_DIACRITIC_Y
@@ -7728,6 +7900,7 @@ LayerCount: 2
 Fore
 Refer: 189 926720 N 1 0 0 1 0.000454195 0 2
 Refer: 310 926896 S 1 0 0 1 228 409 2
+Validated: 5
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_Z ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_Z ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -7746,6 +7919,7 @@ LayerCount: 2
 Fore
 Refer: 189 926720 N 1 0 0 1 0.000454195 0 2
 Refer: 321 926912 S 1 0 0 1 157 362 2
+Validated: 5
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_Z ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_Z ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -7764,6 +7938,7 @@ LayerCount: 2
 Fore
 Refer: 189 926720 N 1 0 0 1 0.000454195 0 2
 Refer: 332 926928 S 1 0 0 1 173 407 2
+Validated: 5
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_Z ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_Z ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -7782,6 +7957,7 @@ LayerCount: 2
 Fore
 Refer: 189 926720 N 1 0 0 1 0.000454195 0 2
 Refer: 343 926944 S 1 0 0 1 212 380 2
+Validated: 5
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_Z ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_Z ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -7832,6 +8008,7 @@ SplineSet
  220.868164062 -8 173.719726562 0 174 34 c 0
  174.299804688 218 l 2
 EndSplineSet
+Validated: 524325
 EndChar
 
 StartChar: ZLM_JA
@@ -7846,6 +8023,7 @@ LayerCount: 2
 Fore
 Refer: 200 926736 N 1 0 0 1 0 0 2
 Refer: 244 926800 S 1 0 0 1 204 424 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_J ZLM_DIACRITIC_A
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_J ZLM_DIACRITIC_A
@@ -7864,6 +8042,7 @@ LayerCount: 2
 Fore
 Refer: 200 926736 N 1 0 0 1 0 0 2
 Refer: 255 926816 N 1 0 0 1 121 352 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_J ZLM_DIACRITIC_E
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_J ZLM_DIACRITIC_E
@@ -7882,6 +8061,7 @@ LayerCount: 2
 Fore
 Refer: 200 926736 N 1 0 0 1 0 0 2
 Refer: 266 926832 S 1 0 0 1 178 374 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_J ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_J ZLM_DIACRITIC_I
@@ -7894,12 +8074,13 @@ Width: 552
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -255 19<24 49.4501 192.956 219> 25 23<501.8 520> 450 20<37 62.5367 318 356.087> 560 50<284.646 355.65> 605 52<178.255 257.012>
-VStem: 74 100.3<-224.358 447.257> 160 9<559 578.398> 367 8<637.054 658> 374 100<43.8516 100 118.994 441.906>
+HStem: -255 19<24 49.4501 192.956 219> 25 23<501.8 520> 450 20<37 62.5367 318 356.087> 560 50<284.646 356.191> 605 52<178.255 257.012>
+VStem: 74 100.3<-224.358 447.257> 160 9<559 578.398> 367 8<637.047 658> 374 100<43.8516 100 118.994 441.906>
 LayerCount: 2
 Fore
 Refer: 200 926736 N 1 0 0 1 0 0 2
 Refer: 277 926848 S 1 0 0 1 135 375 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_J ZLM_DIACRITIC_O
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_J ZLM_DIACRITIC_O
@@ -7918,6 +8099,7 @@ LayerCount: 2
 Fore
 Refer: 200 926736 N 1 0 0 1 0 0 2
 Refer: 288 926864 S 1 0 0 1 120 393 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_J ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_J ZLM_DIACRITIC_U
@@ -7936,6 +8118,7 @@ LayerCount: 2
 Fore
 Refer: 200 926736 N 1 0 0 1 0 0 2
 Refer: 299 926880 S 1 0 0 1 140 400 2
+Validated: 5
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_J ZLM_DIACRITIC_Y
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_J ZLM_DIACRITIC_Y
@@ -7954,6 +8137,7 @@ LayerCount: 2
 Fore
 Refer: 200 926736 N 1 0 0 1 0 0 2
 Refer: 310 926896 S 1 0 0 1 190 398 2
+Validated: 5
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_J ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_J ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -7972,6 +8156,7 @@ LayerCount: 2
 Fore
 Refer: 200 926736 N 1 0 0 1 0 0 2
 Refer: 321 926912 S 1 0 0 1 131 357 2
+Validated: 5
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_J ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_J ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -7990,6 +8175,7 @@ LayerCount: 2
 Fore
 Refer: 200 926736 N 1 0 0 1 0 0 2
 Refer: 332 926928 S 1 0 0 1 117 406 2
+Validated: 5
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_J ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_J ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -8008,6 +8194,7 @@ LayerCount: 2
 Fore
 Refer: 200 926736 N 1 0 0 1 0 0 2
 Refer: 343 926944 S 1 0 0 1 179 358 2
+Validated: 5
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_J ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_J ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -8040,6 +8227,7 @@ SplineSet
  184 -9 111.613054766 -0.234577822313 72 44 c 0
  12 111 42.724609375 208.752929688 106 258 c 0
 EndSplineSet
+Validated: 524321
 EndChar
 
 StartChar: ZLM_NA
@@ -8053,6 +8241,7 @@ LayerCount: 2
 Fore
 Refer: 211 926752 N 1 0 0 1 0 0 2
 Refer: 244 926800 S 1 0 0 1 182 427 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_N ZLM_DIACRITIC_A
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_N ZLM_DIACRITIC_A
@@ -8070,6 +8259,7 @@ LayerCount: 2
 Fore
 Refer: 211 926752 N 1 0 0 1 0 0 2
 Refer: 255 926816 S 1 0 0 1 119 351 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_N ZLM_DIACRITIC_E
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_N ZLM_DIACRITIC_E
@@ -8087,6 +8277,7 @@ LayerCount: 2
 Fore
 Refer: 211 926752 N 1 0 0 1 0 0 2
 Refer: 266 926832 S 1 0 0 1 171 376 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_N ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_N ZLM_DIACRITIC_I
@@ -8098,12 +8289,13 @@ Encoding: 292 926756 215
 Width: 500
 VWidth: 0
 Flags: W
-HStem: -9 27<199.078 315.152> 436 34<64.6247 327> 558 50<264.646 335.65> 603 52<158.255 237.012>
-VStem: 25 22<354 408.496> 140 9<557 576.398> 347 8<635.054 656>
+HStem: -9 27<199.078 315.152> 436 34<64.6247 327> 558 50<264.646 336.191> 603 52<158.255 237.012>
+VStem: 25 22<354 408.496> 140 9<557 576.398> 347 8<635.047 656>
 LayerCount: 2
 Fore
 Refer: 211 926752 N 1 0 0 1 0 0 2
 Refer: 277 926848 S 1 0 0 1 115 373 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_N ZLM_DIACRITIC_O
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_N ZLM_DIACRITIC_O
@@ -8121,6 +8313,7 @@ LayerCount: 2
 Fore
 Refer: 211 926752 N 1 0 0 1 0 0 2
 Refer: 288 926864 S 1 0 0 1 105 375 2
+Validated: 9
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_N ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_N ZLM_DIACRITIC_U
@@ -8138,6 +8331,7 @@ LayerCount: 2
 Fore
 Refer: 211 926752 N 1 0 0 1 0 0 2
 Refer: 299 926880 S 1 0 0 1 129 399 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'rlig' Required Ligatures lookup 473 subtable" ZLM_N ZLM_DIACRITIC_Y
 Ligature2: "'rlig' Required Ligatures lookup 311 subtable" ZLM_N ZLM_DIACRITIC_Y
@@ -8155,6 +8349,7 @@ LayerCount: 2
 Fore
 Refer: 211 926752 N 1 0 0 1 0 0 2
 Refer: 310 926896 S 1 0 0 1 176 401 2
+Validated: 9
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_N ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_N ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -8172,6 +8367,7 @@ LayerCount: 2
 Fore
 Refer: 211 926752 N 1 0 0 1 0 0 2
 Refer: 321 926912 S 1 0 0 1 97 354 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_N ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_N ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -8189,6 +8385,7 @@ LayerCount: 2
 Fore
 Refer: 211 926752 N 1 0 0 1 0 0 2
 Refer: 332 926928 S 1 0 0 1 94 403 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_N ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_N ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -8206,6 +8403,7 @@ LayerCount: 2
 Fore
 Refer: 211 926752 N 1 0 0 1 0 0 2
 Refer: 343 926944 N 1 0 0 1 155 378 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "'rlig' Required Ligatures lookup 446 subtable" ZLM_N ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "'rlig' Required Ligatures lookup 284 subtable" ZLM_N ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -8217,10 +8415,11 @@ Encoding: 304 926768 222
 Width: 598
 VWidth: 0
 Flags: W
-HStem: 0 28<24 80.005 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468>
+HStem: 0 28<24 80.0047 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468>
 LayerCount: 2
 Fore
 Refer: 233 926784 N -1 0 0 -1 598 470 2
+Validated: 1
 EndChar
 
 StartChar: ZLM_QA
@@ -8228,12 +8427,13 @@ Encoding: 305 926769 223
 Width: 598
 VWidth: 0
 Flags: W
-HStem: 0 28<24 80.005 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468> 544 159
+HStem: 0 28<24 80.0047 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468> 544 159
 VStem: 250 136
 LayerCount: 2
 Fore
 Refer: 244 926800 S 1 0 0 1 235 438 2
 Refer: 222 926768 N 1 0 0 1 0 0 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "Ligature Substitution lookup 461 subtable" ZLM_DIACRITIC_I ZLM_DIACRITIC_A
 Ligature2: "Ligature Substitution lookup 448 subtable" ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_A
@@ -8248,12 +8448,13 @@ Encoding: 306 926770 224
 Width: 598
 VWidth: 0
 Flags: W
-HStem: 0 28<24 80.005 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468> 565 46<216 387>
+HStem: 0 28<24 80.0047 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468> 565 46<216 387>
 VStem: 216 171<565 611>
 LayerCount: 2
 Fore
 Refer: 255 926816 S 0.7125 0 0 1 197.475 352 2
 Refer: 222 926768 N 1 0 0 1 0 0 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "Ligature Substitution lookup 462 subtable" ZLM_DIACRITIC_I ZLM_DIACRITIC_E
 Ligature2: "Ligature Substitution lookup 449 subtable" ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_E
@@ -8268,12 +8469,13 @@ Encoding: 307 926771 225
 Width: 598
 VWidth: 0
 Flags: W
-HStem: 0 28<24 80.005 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468> 561.557 102.887<255.081 338.919>
+HStem: 0 28<24 80.0047 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468> 561.557 102.887<255.081 338.919>
 VStem: 245.558 102.886<571.081 654.919>
 LayerCount: 2
 Fore
 Refer: 266 926832 N 1 0 0 1 215 378 2
 Refer: 222 926768 N 1 0 0 1 0 0 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "Ligature Substitution lookup 463 subtable" ZLM_DIACRITIC_I ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 450 subtable" ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_I
@@ -8288,12 +8490,13 @@ Encoding: 308 926772 226
 Width: 598
 VWidth: 0
 Flags: W
-HStem: 0 28<24 80.005 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468> 555 50<319.646 390.65> 600 52<213.255 292.012>
-VStem: 195 9<554 573.398> 402 8<632.054 653>
+HStem: 0 28<24 80.0047 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468> 555 50<319.646 391.191> 600 52<213.255 292.012>
+VStem: 195 9<554 573.398> 402 8<632.047 653>
 LayerCount: 2
 Fore
 Refer: 277 926848 S 1 0 0 1 170 370 2
 Refer: 222 926768 N 1 0 0 1 0 0 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "Ligature Substitution lookup 464 subtable" ZLM_DIACRITIC_I ZLM_DIACRITIC_O
 Ligature2: "Ligature Substitution lookup 451 subtable" ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_O
@@ -8308,12 +8511,13 @@ Encoding: 309 926773 227
 Width: 598
 VWidth: 0
 Flags: W
-HStem: 0 28<24 80.005 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468> 564 50<224.314 361.597>
+HStem: 0 28<24 80.0047 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468> 564 50<224.314 361.597>
 VStem: 184 220
 LayerCount: 2
 Fore
 Refer: 288 926864 S 1 0 0 1 146 390 2
 Refer: 222 926768 N 1 0 0 1 0 0 2
+Validated: 9
 LCarets2: 1 0
 Ligature2: "Ligature Substitution lookup 465 subtable" ZLM_DIACRITIC_I ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 452 subtable" ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_U
@@ -8328,12 +8532,13 @@ Encoding: 310 926774 228
 Width: 598
 VWidth: 0
 Flags: W
-HStem: 0 28<24 80.005 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468> 544.895 32.3555<253.004 331.318> 690.65 31.4551<254.377 330.064>
+HStem: 0 28<24 80.0047 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468> 544.895 32.3555<253.004 331.318> 690.65 31.4551<254.377 330.064>
 VStem: 204.68 32.2197<593.83 672.316> 348.5 30.4199<596.696 671.059>
 LayerCount: 2
 Fore
 Refer: 299 926880 S 1 0 0 1 170 399 2
 Refer: 222 926768 N 1 0 0 1 0 0 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "Ligature Substitution lookup 466 subtable" ZLM_DIACRITIC_I ZLM_DIACRITIC_Y
 Ligature2: "Ligature Substitution lookup 453 subtable" ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_Y
@@ -8348,11 +8553,12 @@ Encoding: 311 926775 229
 Width: 598
 VWidth: 0
 Flags: W
-HStem: 0 28<24 80.005 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468>
+HStem: 0 28<24 80.0047 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468>
 LayerCount: 2
 Fore
 Refer: 310 926896 S 1 0 0 1 221 402 2
 Refer: 222 926768 N 1 0 0 1 0 0 2
+Validated: 9
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 438 subtable" ZLM_DIACRITIC_I ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 429 subtable" ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -8367,12 +8573,13 @@ Encoding: 312 926776 230
 Width: 598
 VWidth: 0
 Flags: W
-HStem: 0 28<24 80.005 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468> 523 125
+HStem: 0 28<24 80.0047 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468> 523 125
 VStem: 178 249
 LayerCount: 2
 Fore
 Refer: 321 926912 S 1 0 0 1 154 338 2
 Refer: 222 926768 N 1 0 0 1 0 0 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 439 subtable" ZLM_DIACRITIC_I ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 430 subtable" ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -8387,12 +8594,13 @@ Encoding: 313 926777 231
 Width: 598
 VWidth: 0
 Flags: W
-HStem: 0 28<24 80.005 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468> 517 61<313.032 388.007>
+HStem: 0 28<24 80.0047 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468> 517 61<313.032 388.007>
 VStem: 401 20<591.869 615>
 LayerCount: 2
 Fore
 Refer: 332 926928 S 1 0 0 1 147 389 2
 Refer: 222 926768 N 1 0 0 1 0 0 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 440 subtable" ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 431 subtable" ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -8407,12 +8615,13 @@ Encoding: 314 926778 232
 Width: 598
 VWidth: 0
 Flags: W
-HStem: 0 28<24 80.005 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468> 516 222
+HStem: 0 28<24 80.0047 127.183 194 350 401.113 514.934 574> 449 21G<262.431 332.468> 516 222
 VStem: 311 40<593.624 652.197>
 LayerCount: 2
 Fore
 Refer: 343 926944 N 1 0 0 1 201 383 2
 Refer: 222 926768 N 1 0 0 1 0 0 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 441 subtable" ZLM_DIACRITIC_I ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 432 subtable" ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -8462,6 +8671,7 @@ LayerCount: 2
 Fore
 Refer: 244 926800 N 1 0 0 1 249 435 2
 Refer: 233 926784 N 1 0 0 1 0 0 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "Ligature Substitution lookup 467 subtable" ZLM_DIACRITIC_U ZLM_DIACRITIC_A
 Ligature2: "Ligature Substitution lookup 454 subtable" ZLM_SEMIVOWEL_W ZLM_DIACRITIC_A
@@ -8482,6 +8692,7 @@ LayerCount: 2
 Fore
 Refer: 255 926816 S 1 0 0 1 162 351 2
 Refer: 233 926784 N 1 0 0 1 0 0 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "Ligature Substitution lookup 468 subtable" ZLM_DIACRITIC_U ZLM_DIACRITIC_E
 Ligature2: "Ligature Substitution lookup 455 subtable" ZLM_SEMIVOWEL_W ZLM_DIACRITIC_E
@@ -8502,6 +8713,7 @@ LayerCount: 2
 Fore
 Refer: 266 926832 S 1 0 0 1 238 375 2
 Refer: 233 926784 N 1 0 0 1 0 0 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "Ligature Substitution lookup 469 subtable" ZLM_DIACRITIC_U ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 456 subtable" ZLM_SEMIVOWEL_W ZLM_DIACRITIC_I
@@ -8516,12 +8728,13 @@ Encoding: 324 926788 237
 Width: 598
 VWidth: 0
 Flags: W
-HStem: 0 21G<265.532 335.569> 442 28<24 83.0658 196.887 248 404 470.817 517.995 574> 559 50<327.646 398.65> 604 52<221.255 300.012>
-VStem: 203 9<558 577.398> 410 8<636.054 657>
+HStem: 0 21G<265.532 335.569> 442 28<24 83.0658 196.887 248 404 470.817 517.995 574> 559 50<327.646 399.191> 604 52<221.255 300.012>
+VStem: 203 9<558 577.398> 410 8<636.047 657>
 LayerCount: 2
 Fore
 Refer: 277 926848 S 1 0 0 1 178 374 2
 Refer: 233 926784 N 1 0 0 1 0 0 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "Ligature Substitution lookup 470 subtable" ZLM_DIACRITIC_U ZLM_DIACRITIC_O
 Ligature2: "Ligature Substitution lookup 457 subtable" ZLM_SEMIVOWEL_W ZLM_DIACRITIC_O
@@ -8542,6 +8755,7 @@ LayerCount: 2
 Fore
 Refer: 288 926864 S 1 0 0 1 179 382 2
 Refer: 233 926784 N 1 0 0 1 0 0 2
+Validated: 9
 LCarets2: 1 0
 Ligature2: "Ligature Substitution lookup 471 subtable" ZLM_DIACRITIC_U ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 458 subtable" ZLM_SEMIVOWEL_W ZLM_DIACRITIC_U
@@ -8562,6 +8776,7 @@ LayerCount: 2
 Fore
 Refer: 299 926880 N 1 0 0 1 191 398 2
 Refer: 233 926784 N 1 0 0 1 0 0 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "Ligature Substitution lookup 472 subtable" ZLM_DIACRITIC_U ZLM_DIACRITIC_Y
 Ligature2: "Ligature Substitution lookup 459 subtable" ZLM_SEMIVOWEL_W ZLM_DIACRITIC_Y
@@ -8581,6 +8796,7 @@ LayerCount: 2
 Fore
 Refer: 233 926784 N 1 0 0 1 0 0 2
 Refer: 310 926896 S 1 0 0 1 256 395 2
+Validated: 9
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 442 subtable" ZLM_DIACRITIC_U ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 433 subtable" ZLM_SEMIVOWEL_W ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -8601,6 +8817,7 @@ LayerCount: 2
 Fore
 Refer: 321 926912 S 1 0 0 1 177 367 2
 Refer: 233 926784 N 1 0 0 1 0 0 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 443 subtable" ZLM_DIACRITIC_U ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 434 subtable" ZLM_SEMIVOWEL_W ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -8621,6 +8838,7 @@ LayerCount: 2
 Fore
 Refer: 332 926928 S 1 0 0 1 167 406 2
 Refer: 233 926784 N 1 0 0 1 0 0 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 444 subtable" ZLM_DIACRITIC_U ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 435 subtable" ZLM_SEMIVOWEL_W ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -8641,6 +8859,7 @@ LayerCount: 2
 Fore
 Refer: 343 926944 N 1 0 0 1 231 373 2
 Refer: 233 926784 N 1 0 0 1 0 0 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 445 subtable" ZLM_DIACRITIC_U ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 436 subtable" ZLM_SEMIVOWEL_W ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -8667,6 +8886,7 @@ SplineSet
  30 106 l 1
  15 106 l 1
 EndSplineSet
+Validated: 1
 Substitution2: "Single Substitution lookup 476 subtable" ZLM_DOT_A
 Substitution2: "Single Substitution lookup 314 subtable" ZLM_DOT_A
 Substitution2: "Single Substitution lookup 152 subtable" ZLM_DOT_A
@@ -8685,6 +8905,7 @@ Fore
 Refer: 244 926800 N 1 0 0 1 199 424 2
 Refer: 354 926960 N 1 0 0 1 -36 0 2
 Refer: 244 926800 S 1 0 0 1 -6 421 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 392 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_A
 Ligature2: "Ligature Substitution lookup 230 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_A
@@ -8704,6 +8925,7 @@ Fore
 Refer: 244 926800 N 1 0 0 1 -12 417 2
 Refer: 354 926960 N 1 0 0 1 -36 0 2
 Refer: 255 926816 N 1 0 0 1 119 351 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 393 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_E
 Ligature2: "Ligature Substitution lookup 231 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_E
@@ -8723,6 +8945,7 @@ Fore
 Refer: 244 926800 S 1 0 0 1 -6 418 2
 Refer: 354 926960 N 1 0 0 1 -36 0 2
 Refer: 266 926832 N 1 0 0 1 186 377 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 394 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 232 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_I
@@ -8735,13 +8958,14 @@ Width: 472
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 22<179.952 210.383 314.469 342.952> 246 145<6.56791 70.705> 447 23<311.839 339.952> 519 159 556 50<283.646 354.65> 601 52<177.255 256.012>
-VStem: 3 136 159 9<555 574.398> 219.952 80<27.5957 414> 366 8<633.054 654>
+HStem: 0 22<179.952 210.383 314.469 342.952> 246 145<6.56791 70.705> 447 23<311.839 339.952> 519 159 556 50<283.646 355.191> 601 52<177.255 256.012>
+VStem: 3 136 159 9<555 574.398> 219.952 80<27.5957 414> 366 8<633.047 654>
 LayerCount: 2
 Fore
 Refer: 244 926800 S 1 0 0 1 -12 413 2
 Refer: 277 926848 N 1 0 0 1 134 371 2
 Refer: 354 926960 N 1 0 0 1 -36 0 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 395 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_O
 Ligature2: "Ligature Substitution lookup 233 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_O
@@ -8761,6 +8985,7 @@ Fore
 Refer: 244 926800 S 1 0 0 1 -18 419 2
 Refer: 288 926864 N 1 0 0 1 113 383 2
 Refer: 354 926960 N 1 0 0 1 -36 0 2
+Validated: 9
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 396 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 234 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_U
@@ -8780,6 +9005,7 @@ Fore
 Refer: 244 926800 N 1 0 0 1 -12 413 2
 Refer: 299 926880 N 1 0 0 1 145 400 2
 Refer: 354 926960 N 1 0 0 1 -36 0 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 397 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_Y
 Ligature2: "Ligature Substitution lookup 235 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_Y
@@ -8799,6 +9025,7 @@ Fore
 Refer: 244 926800 S 1 0 0 1 -8 421 2
 Refer: 310 926896 N 1 0 0 1 184 400 2
 Refer: 354 926960 N 1 0 0 1 -36 0 2
+Validated: 9
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 367 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 205 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -8818,6 +9045,7 @@ Fore
 Refer: 244 926800 S 1 0 0 1 -18 415 2
 Refer: 321 926912 N 1 0 0 1 121 371 2
 Refer: 354 926960 N 1 0 0 1 -36 0 2
+Validated: 1
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 368 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 206 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -8837,6 +9065,7 @@ Fore
 Refer: 244 926800 S 1 0 0 1 -16 418 2
 Refer: 332 926928 N 1 0 0 1 125 403 2
 Refer: 354 926960 N 1 0 0 1 -36 0 2
+Validated: 1
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 369 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 207 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -8856,6 +9085,7 @@ Fore
 Refer: 244 926800 N 1 0 0 1 -8 421 2
 Refer: 343 926944 N 1 0 0 1 176 372 2
 Refer: 354 926960 N 1 0 0 1 -36 0 2
+Validated: 1
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 370 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 208 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -8898,6 +9128,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 54 0 2
 Refer: 255 926816 N 0.541667 0 0 1 61.9167 376 2
 Refer: 244 926800 N 1 0 0 1 282 420 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 398 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_A
 Ligature2: "Ligature Substitution lookup 236 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_A
@@ -8917,6 +9148,7 @@ Fore
 Refer: 255 926816 N 0.541667 0 0 0.978261 63.9167 356.63 2
 Refer: 354 926960 N 1 0 0 1 54 0 2
 Refer: 255 926816 N 0.5875 0 0 1 272.725 351 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 399 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_E
 Ligature2: "Ligature Substitution lookup 237 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_E
@@ -8936,6 +9168,7 @@ Fore
 Refer: 255 926816 N 0.541667 0 0 1 62.9167 376 2
 Refer: 354 926960 N 1 0 0 1 54 0 2
 Refer: 266 926832 N 1 0 0 1 268 375 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 400 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 238 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_I
@@ -8948,13 +9181,14 @@ Width: 562
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 22<269.952 300.383 404.469 432.952> 246 145<96.5679 160.705> 447 23<401.839 429.952> 564 50<372.646 443.65> 588.001 47<75 205> 609 52<266.255 345.012>
-VStem: 75 130<588.001 635.001> 248 9<563 582.398> 309.952 80<27.5957 414> 455 8<641.054 662>
+HStem: 0 22<269.952 300.383 404.469 432.952> 246 145<96.5679 160.705> 447 23<401.839 429.952> 564 50<372.646 444.191> 588.001 47<75 205> 609 52<266.255 345.012>
+VStem: 75 130<588.001 635.001> 248 9<563 582.398> 309.952 80<27.5957 414> 455 8<641.047 662>
 LayerCount: 2
 Fore
 Refer: 255 926816 N 0.541667 0 0 1.02174 60.9167 370.37 2
 Refer: 354 926960 N 1 0 0 1 54 0 2
 Refer: 277 926848 S 1 0 0 1 223 379 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 401 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_O
 Ligature2: "Ligature Substitution lookup 239 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_O
@@ -8974,6 +9208,7 @@ Fore
 Refer: 255 926816 N 0.541667 0 0 1.04348 64.9167 364.739 2
 Refer: 354 926960 N 1 0 0 1 54 0 2
 Refer: 288 926864 N 1 0 0 1 205 388 2
+Validated: 9
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 402 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 240 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_U
@@ -8993,6 +9228,7 @@ Fore
 Refer: 255 926816 N 0.541667 0 0 1 70.9167 374 2
 Refer: 354 926960 N 1 0 0 1 54 0 2
 Refer: 299 926880 S 1 0 0 1 231 398 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 403 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_Y
 Ligature2: "Ligature Substitution lookup 241 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_Y
@@ -9012,6 +9248,7 @@ Fore
 Refer: 255 926816 N 0.545833 0 0 1 59.8083 374 2
 Refer: 354 926960 N 1 0 0 1 54 0 2
 Refer: 310 926896 N 1 0 0 1 278 394 2
+Validated: 9
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 371 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 209 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -9031,6 +9268,7 @@ Fore
 Refer: 255 926816 N 0.541667 0 0 1 60.9167 375 2
 Refer: 354 926960 N 1 0 0 1 54 0 2
 Refer: 321 926912 N 1 0 0 1 209 359 2
+Validated: 1
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 372 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 210 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -9050,6 +9288,7 @@ Fore
 Refer: 255 926816 N 0.541667 0 0 1 55.9167 374 2
 Refer: 354 926960 N 1 0 0 1 54 0 2
 Refer: 332 926928 N 1 0 0 1 206 391 2
+Validated: 1
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 373 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 211 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -9069,6 +9308,7 @@ Fore
 Refer: 255 926816 N 0.541667 0 0 1 61.9167 375 2
 Refer: 354 926960 N 1 0 0 1 54 0 2
 Refer: 343 926944 N 1 0 0 1 267 374 2
+Validated: 1
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 374 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 212 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -9086,12 +9326,13 @@ VStem: 30.5576 102.886<193.081 276.919>
 LayerCount: 2
 Fore
 SplineSet
-30.5576171875 235 m 4
- 30.5576171875 263.29296875 53.70703125 286.443359375 82 286.443359375 c 4
- 110.29296875 286.443359375 133.443359375 263.29296875 133.443359375 235 c 4
- 133.443359375 206.70703125 110.29296875 183.556640625 82 183.556640625 c 4
- 53.70703125 183.556640625 30.5576171875 206.70703125 30.5576171875 235 c 4
+30.5576171875 235 m 0
+ 30.5576171875 263.29296875 53.70703125 286.443359375 82 286.443359375 c 0
+ 110.29296875 286.443359375 133.443359375 263.29296875 133.443359375 235 c 0
+ 133.443359375 206.70703125 110.29296875 183.556640625 82 183.556640625 c 0
+ 53.70703125 183.556640625 30.5576171875 206.70703125 30.5576171875 235 c 0
 EndSplineSet
+Validated: 524289
 Substitution2: "Single Substitution lookup 478 subtable" ZLM_DOT_I
 Substitution2: "Single Substitution lookup 316 subtable" ZLM_DOT_I
 Substitution2: "Single Substitution lookup 154 subtable" ZLM_DOT_I
@@ -9110,6 +9351,7 @@ Fore
 Refer: 266 926832 S 1 0 0 1 2 376 2
 Refer: 354 926960 N 1 0 0 1 -12 0 2
 Refer: 244 926800 N 1 0 0 1 223 429 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 404 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
 Ligature2: "Ligature Substitution lookup 242 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
@@ -9129,6 +9371,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 -12 0 2
 Refer: 255 926816 S 0.595833 0 0 1 205.508 351 2
 Refer: 266 926832 N 1 0 0 1 -1 376 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 405 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
 Ligature2: "Ligature Substitution lookup 243 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
@@ -9148,6 +9391,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 -12 0 2
 Refer: 266 926832 N 1 0 0 1 211 373 2
 Refer: 266 926832 S 1 0 0 1 -6 371 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 406 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 244 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
@@ -9160,13 +9404,14 @@ Width: 496
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 22<203.952 234.383 338.469 366.952> 246 145<30.5679 94.705> 447 23<335.839 363.952> 556 50<306.646 377.65> 557.557 102.887<35.0813 118.919> 601 52<200.255 279.012>
-VStem: 25.5576 102.886<567.081 650.919> 182 9<555 574.398> 243.952 80<27.5957 414> 389 8<633.054 654>
+HStem: 0 22<203.952 234.383 338.469 366.952> 246 145<30.5679 94.705> 447 23<335.839 363.952> 556 50<306.646 378.191> 557.557 102.887<35.0813 118.919> 601 52<200.255 279.012>
+VStem: 25.5576 102.886<567.081 650.919> 182 9<555 574.398> 243.952 80<27.5957 414> 389 8<633.047 654>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 -12 0 2
 Refer: 266 926832 S 1 0 0 1 -5 374 2
 Refer: 277 926848 N 1 0 0 1 157 371 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 407 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
 Ligature2: "Ligature Substitution lookup 245 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
@@ -9186,6 +9431,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 -12 0 2
 Refer: 266 926832 N 1 0 0 1 -7 375 2
 Refer: 288 926864 S 1 0 0 1 142 394 2
+Validated: 9
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 408 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 246 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
@@ -9205,6 +9451,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 -12 0 2
 Refer: 266 926832 N 1 0 0 1 -6 375 2
 Refer: 299 926880 S 1 0 0 1 163 401 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 409 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
 Ligature2: "Ligature Substitution lookup 247 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
@@ -9224,6 +9471,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 -12 0 2
 Refer: 266 926832 S 1 0 0 1 -8 374 2
 Refer: 310 926896 N 1 0 0 1 212 391 2
+Validated: 9
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 375 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 213 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -9243,6 +9491,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 -12 0 2
 Refer: 266 926832 N 1 0 0 1 -10 373 2
 Refer: 321 926912 S 1 0 0 1 149 361 2
+Validated: 1
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 376 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 214 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -9262,6 +9511,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 -12 0 2
 Refer: 266 926832 S 1 0 0 1 -6 373 2
 Refer: 332 926928 N 1 0 0 1 143 401 2
+Validated: 1
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 377 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 215 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -9281,6 +9531,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 -12 0 2
 Refer: 266 926832 N 1 0 0 1 -11 375 2
 Refer: 343 926944 N 1 0 0 1 199 358 2
+Validated: 1
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 378 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 216 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -9293,8 +9544,8 @@ Width: 265
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 185 50<149.646 220.65> 230 52<43.2546 122.012>
-VStem: 25 9<184 203.398> 232 8<262.054 283>
+HStem: 185 50<149.646 221.191> 230 52<43.2546 122.012>
+VStem: 25 9<184 203.398> 232 8<262.047 283>
 LayerCount: 2
 Fore
 SplineSet
@@ -9308,6 +9559,7 @@ SplineSet
  45 230 39 216 34 184 c 1
  25 184 l 1x70
 EndSplineSet
+Validated: 524289
 Substitution2: "Single Substitution lookup 479 subtable" ZLM_DOT_O
 Substitution2: "Single Substitution lookup 317 subtable" ZLM_DOT_O
 Substitution2: "Single Substitution lookup 155 subtable" ZLM_DOT_O
@@ -9319,13 +9571,14 @@ Width: 501
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 22<239.952 270.383 374.469 402.952> 246 145<66.5679 130.705> 447 23<371.839 399.952> 556 159 628 50<132.646 203.65> 673 52<26.2546 105.012>
-VStem: 8 9<627 646.398> 215 8<705.054 726> 256 136 279.952 80<27.5957 414>
+HStem: 0 22<239.952 270.383 374.469 402.952> 246 145<66.5679 130.705> 447 23<371.839 399.952> 556 159 628 50<132.646 204.191> 673 52<26.2546 105.012>
+VStem: 8 9<627 646.398> 215 8<705.047 726> 256 136 279.952 80<27.5957 414>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 24 0 2
 Refer: 277 926848 S 1 0 0 1 -17 443 2
 Refer: 244 926800 N 1 0 0 1 241 450 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 410 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_A
 Ligature2: "Ligature Substitution lookup 248 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_A
 Ligature2: "Ligature Substitution lookup 86 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_A
@@ -9337,13 +9590,14 @@ Width: 547
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 22<239.952 270.383 374.469 402.952> 246 145<66.5679 130.705> 447 23<371.839 399.952> 559 50<122.95 189> 564 46<268 403> 604 52<23.981 97.2433>
-VStem: 7 8.37209<558 577.398> 199.558 7.44186<636.054 657> 268 135<564 610> 279.952 80<27.5957 414>
+HStem: 0 22<239.952 270.383 374.469 402.952> 246 145<66.5679 130.705> 447 23<371.839 399.952> 559 50<122.95 189.504> 564 46<268 403> 604 52<23.981 97.2433>
+VStem: 7 8.37209<558 577.398> 199.558 7.44186<636.047 657> 268 135<564 610> 279.952 80<27.5957 414>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 24 0 2
 Refer: 277 926848 N 0.930233 0 0 1 -16.2558 374 2
 Refer: 255 926816 N 0.5625 0 0 1 253.375 351 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 411 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_E
 Ligature2: "Ligature Substitution lookup 249 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_E
@@ -9356,13 +9610,14 @@ Width: 501
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 22<239.952 270.383 374.469 402.952> 246 145<66.5679 130.705> 447 23<371.839 399.952> 627.557 102.887<284.081 367.919> 628 50<132.646 203.65> 673 52<26.2546 105.012>
-VStem: 8 9<627 646.398> 215 8<705.054 726> 274.558 102.886<637.081 720.919> 279.952 80<27.5957 414>
+HStem: 0 22<239.952 270.383 374.469 402.952> 246 145<66.5679 130.705> 447 23<371.839 399.952> 627.557 102.887<284.081 367.919> 628 50<132.646 204.191> 673 52<26.2546 105.012>
+VStem: 8 9<627 646.398> 215 8<705.047 726> 274.558 102.886<637.081 720.919> 279.952 80<27.5957 414>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 24 0 2
 Refer: 266 926832 S 1 0 0 1 244 444 2
 Refer: 277 926848 S 1 0 0 1 -17 443 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 412 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 250 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 88 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_I
@@ -9374,13 +9629,14 @@ Width: 532
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 22<239.952 270.383 374.469 402.952> 246 145<66.5679 130.705> 447 23<371.839 399.952> 558 50<132.646 203.65> 603 52<26.2546 105.012> 676 50<401.646 472.65> 721 52<295.255 374.012>
-VStem: 8 9<557 576.398> 215 8<635.054 656> 277 9<675 694.398> 279.952 80<27.5957 414> 484 8<753.054 774>
+HStem: 0 22<239.952 270.383 374.469 402.952> 246 145<66.5679 130.705> 447 23<371.839 399.952> 558 50<132.646 204.191> 603 52<26.2546 105.012> 676 50<401.646 473.191> 721 52<295.255 374.012>
+VStem: 8 9<557 576.398> 215 8<635.047 656> 277 9<675 694.398> 279.952 80<27.5957 414> 484 8<753.047 774>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 24 0 2
 Refer: 277 926848 N 1 0 0 1 252 491 2
 Refer: 277 926848 N 1 0 0 1 -17 373 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 413 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_O
 Ligature2: "Ligature Substitution lookup 251 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_O
 Ligature2: "Ligature Substitution lookup 89 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_O
@@ -9392,13 +9648,14 @@ Width: 553
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 22<239.952 270.383 374.469 402.952> 246 145<66.5679 130.705> 447 23<371.839 399.952> 538 50<132.646 203.65> 583 52<26.2546 105.012> 638 50<327.314 464.597>
-VStem: 8 9<537 556.398> 215 8<615.054 636> 279.952 80<27.5957 414> 287 220
+HStem: 0 22<239.952 270.383 374.469 402.952> 246 145<66.5679 130.705> 447 23<371.839 399.952> 538 50<132.646 204.191> 583 52<26.2546 105.012> 638 50<327.314 464.597>
+VStem: 8 9<537 556.398> 215 8<615.047 636> 279.952 80<27.5957 414> 287 220
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 24 0 2
 Refer: 288 926864 N 1 0 0 1 249 464 2
 Refer: 277 926848 N 1 0 0 1 -17 353 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 414 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 252 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 90 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_U
@@ -9410,13 +9667,14 @@ Width: 527
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 22<239.952 270.383 374.469 402.952> 246 145<66.5679 130.705> 447 23<371.839 399.952> 543.895 32.3555<285.004 363.318> 562 50<124.818 179.97> 607 52<42.1792 103.353> 689.65 31.4551<286.377 362.064>
-VStem: 28 6.9907<561 580.398> 188.786 6.21395<639.054 660> 236.68 32.2197<592.83 671.316> 279.952 80<27.5957 414> 380.5 30.4199<595.696 670.059>
+HStem: 0 22<239.952 270.383 374.469 402.952> 246 145<66.5679 130.705> 447 23<371.839 399.952> 543.895 32.3555<285.004 363.318> 562 50<124.818 180.391> 607 52<42.1792 103.353> 689.65 31.4551<286.377 362.064>
+VStem: 28 6.9907<561 580.398> 188.786 6.21395<639.047 660> 236.68 32.2197<592.83 671.316> 279.952 80<27.5957 414> 380.5 30.4199<595.696 670.059>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 24 0 2
 Refer: 299 926880 N 1 0 0 1 202 398 2
 Refer: 277 926848 N 0.776744 0 0 1 8.5814 377 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 415 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_Y
 Ligature2: "Ligature Substitution lookup 253 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_Y
@@ -9429,13 +9687,14 @@ Width: 501
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 22<239.952 270.383 374.469 402.952> 246 145<66.5679 130.705> 447 23<371.839 399.952> 628 50<132.646 203.65> 673 52<26.2546 105.012>
-VStem: 8 9<627 646.398> 215 8<705.054 726> 279.952 80<27.5957 414>
+HStem: 0 22<239.952 270.383 374.469 402.952> 246 145<66.5679 130.705> 447 23<371.839 399.952> 628 50<132.646 204.191> 673 52<26.2546 105.012>
+VStem: 8 9<627 646.398> 215 8<705.047 726> 279.952 80<27.5957 414>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 24 0 2
 Refer: 310 926896 N 1 0 0 1 242 442 2
 Refer: 277 926848 N 1 0 0 1 -17 443 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 379 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 217 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 55 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -9447,13 +9706,14 @@ Width: 541
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 22<239.952 270.383 374.469 402.952> 246 145<66.5679 130.705> 447 23<371.839 399.952> 578 50<132.646 203.65> 623 52<26.2546 105.012> 693 125
-VStem: 8 9<577 596.398> 215 8<655.054 676> 267 249 279.952 80<27.5957 414>
+HStem: 0 22<239.952 270.383 374.469 402.952> 246 145<66.5679 130.705> 447 23<371.839 399.952> 578 50<132.646 204.191> 623 52<26.2546 105.012> 693 125
+VStem: 8 9<577 596.398> 215 8<655.047 676> 267 249 279.952 80<27.5957 414>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 24 0 2
 Refer: 321 926912 S 1 0 0 1 243 508 2
 Refer: 277 926848 N 1 0 0 1 -17 393 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 380 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 218 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 56 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -9465,13 +9725,14 @@ Width: 534
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 22<239.952 270.383 374.469 402.952> 246 145<66.5679 130.705> 447 23<371.839 399.952> 559 61<403.032 478.007> 628 50<132.646 203.65> 673 52<26.2546 105.012>
-VStem: 8 9<627 646.398> 215 8<705.054 726> 279.952 80<27.5957 414> 491 20<633.869 657>
+HStem: 0 22<239.952 270.383 374.469 402.952> 246 145<66.5679 130.705> 447 23<371.839 399.952> 559 61<403.032 478.007> 628 50<132.646 204.191> 673 52<26.2546 105.012>
+VStem: 8 9<627 646.398> 215 8<705.047 726> 279.952 80<27.5957 414> 491 20<633.869 657>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 24 0 2
 Refer: 332 926928 N 1 0 0 1 237 431 2
 Refer: 277 926848 N 1 0 0 1 -17 443 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 381 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 219 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 57 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -9483,13 +9744,14 @@ Width: 501
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 22<239.952 270.383 374.469 402.952> 246 145<66.5679 130.705> 447 23<371.839 399.952> 580 222 628 50<132.646 203.65> 673 52<26.2546 105.012>
-VStem: 8 9<627 646.398> 215 8<705.054 726> 279.952 80<27.5957 414> 380 40<657.624 716.197>
+HStem: 0 22<239.952 270.383 374.469 402.952> 246 145<66.5679 130.705> 447 23<371.839 399.952> 580 222 628 50<132.646 204.191> 673 52<26.2546 105.012>
+VStem: 8 9<627 646.398> 215 8<705.047 726> 279.952 80<27.5957 414> 380 40<657.624 716.197>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 24 0 2
 Refer: 343 926944 N 1 0 0 1 270 447 2
 Refer: 277 926848 N 1 0 0 1 -17 443 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 382 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 220 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 58 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -9514,6 +9776,7 @@ SplineSet
  38 219 84 174 146 174 c 3
  209 174 258 218 258 280 c 0
 EndSplineSet
+Validated: 524297
 Substitution2: "Single Substitution lookup 480 subtable" ZLM_DOT_U
 Substitution2: "Single Substitution lookup 318 subtable" ZLM_DOT_U
 Substitution2: "Single Substitution lookup 156 subtable" ZLM_DOT_U
@@ -9532,6 +9795,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 47 0 2
 Refer: 288 926864 S 1 0 0 1 -7 444 2
 Refer: 244 926800 N 1 0 0 1 264 450 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 416 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A
 Ligature2: "Ligature Substitution lookup 254 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A
 Ligature2: "Ligature Substitution lookup 92 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A
@@ -9550,6 +9814,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 47 0 2
 Refer: 255 926816 N 1 0 0 1 276 447 2
 Refer: 288 926864 N 1 0 0 1 -7 444 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 417 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E
 Ligature2: "Ligature Substitution lookup 255 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E
 Ligature2: "Ligature Substitution lookup 93 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E
@@ -9568,6 +9833,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 47 0 2
 Refer: 266 926832 S 1 0 0 1 267 444 2
 Refer: 288 926864 S 1 0 0 1 -7 444 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 418 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 256 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 94 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_I
@@ -9579,13 +9845,14 @@ Width: 555
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 22<262.952 293.383 397.469 425.952> 246 145<89.5679 153.705> 447 23<394.839 422.952> 618 50<71.3137 208.597> 636 50<424.646 495.65> 681 52<318.255 397.012>
-VStem: 31 220 300 9<635 654.398> 302.952 80<27.5957 414> 507 8<713.054 734>
+HStem: 0 22<262.952 293.383 397.469 425.952> 246 145<89.5679 153.705> 447 23<394.839 422.952> 618 50<71.3137 208.597> 636 50<424.646 496.191> 681 52<318.255 397.012>
+VStem: 31 220 300 9<635 654.398> 302.952 80<27.5957 414> 507 8<713.047 734>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 47 0 2
 Refer: 277 926848 N 1 0 0 1 275 451 2
 Refer: 288 926864 N 1 0 0 1 -7 444 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 419 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O
 Ligature2: "Ligature Substitution lookup 257 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O
 Ligature2: "Ligature Substitution lookup 95 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O
@@ -9604,6 +9871,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 29 0 2
 Refer: 288 926864 N 1 0 0 1 226 444 2
 Refer: 288 926864 N 1 0 0 1 -7 444 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 420 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 258 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 96 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_U
@@ -9622,6 +9890,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 47 0 2
 Refer: 299 926880 N 1 0 0 1 225 399 2
 Refer: 288 926864 S 0.859438 0 0 1 2.23293 382 2
+Validated: 9
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 421 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_Y
 Ligature2: "Ligature Substitution lookup 259 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_Y
@@ -9641,6 +9910,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 47 0 2
 Refer: 310 926896 N 1 0 0 1 265 442 2
 Refer: 288 926864 N 1 0 0 1 -7 444 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 383 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 221 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 59 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -9659,6 +9929,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 47 0 2
 Refer: 321 926912 N 1 0 0 1 274 436 2
 Refer: 288 926864 N 1 0 0 1 -7 444 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 384 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 222 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 60 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -9677,6 +9948,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 47 0 2
 Refer: 332 926928 N 1 0 0 1 260 431 2
 Refer: 288 926864 N 1 0 0 1 -7 444 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 385 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 223 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 61 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -9695,6 +9967,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 47 0 2
 Refer: 343 926944 N 1 0 0 1 293 447 2
 Refer: 288 926864 N 1 0 0 1 -7 444 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 386 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 224 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 62 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -9722,6 +9995,7 @@ SplineSet
  154.200195312 178.25 177.6484375 203.450195312 178.5 234.950195312 c 256
  179.302734375 264.650390625 154.200195312 291.650390625 122.700195312 291.650390625 c 0
 EndSplineSet
+Validated: 524321
 Substitution2: "Single Substitution lookup 481 subtable" ZLM_DOT_Y
 Substitution2: "Single Substitution lookup 319 subtable" ZLM_DOT_Y
 Substitution2: "Single Substitution lookup 157 subtable" ZLM_DOT_Y
@@ -9740,6 +10014,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 29.7998 0 2
 Refer: 299 926880 N 1 0 0 1 -5.2002 401 2
 Refer: 244 926800 N 1 0 0 1 260.8 444 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 422 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_A
 Ligature2: "Ligature Substitution lookup 260 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_A
@@ -9759,6 +10034,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 29.7998 0 2
 Refer: 255 926816 N 0.541666 0 0 1 255.916 351 2
 Refer: 299 926880 N 1 0 0 1 2.7998 400 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 423 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_E
 Ligature2: "Ligature Substitution lookup 261 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_E
@@ -9778,6 +10054,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 29.7998 0 2
 Refer: 266 926832 N 1 0 0 1 247.8 372 2
 Refer: 299 926880 N 1 0 0 1 -0.2002 398 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 424 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 262 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_I
@@ -9790,13 +10067,14 @@ Width: 538
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 22<245.752 276.183 380.269 408.752> 246 145<72.3677 136.505> 447 23<377.639 405.752> 548.895 32.3555<81.8036 160.117> 563 50<352.5 410.888> 608 52<265.011 329.775> 694.65 31.4551<83.1771 158.864>
-VStem: 33.4795 32.2197<597.83 676.316> 177.3 30.4199<600.696 675.059> 250 7.40092<562 581.398> 285.752 80<27.5957 414> 420.221 6.5786<640.054 661>
+HStem: 0 22<245.752 276.183 380.269 408.752> 246 145<72.3677 136.505> 447 23<377.639 405.752> 548.895 32.3555<81.8036 160.117> 563 50<352.5 411.333> 608 52<265.011 329.775> 694.65 31.4551<83.1771 158.864>
+VStem: 33.4795 32.2197<597.83 676.316> 177.3 30.4199<600.696 675.059> 250 7.40092<562 581.398> 285.752 80<27.5957 414> 420.221 6.5786<640.047 661>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 29.7998 0 2
 Refer: 277 926848 N 0.822325 0 0 1 229.442 378 2
 Refer: 299 926880 N 1 0 0 1 -1.2002 403 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 425 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_O
 Ligature2: "Ligature Substitution lookup 263 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_O
@@ -9816,6 +10094,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 29.7998 0 2
 Refer: 288 926864 N 1 0 0 1 184.8 397 2
 Refer: 299 926880 N 1 0 0 1 -7.2002 376 2
+Validated: 9
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 426 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 264 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_U
@@ -9835,6 +10114,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 29.7998 0 2
 Refer: 299 926880 N 1 0 0 1 209.8 399 2
 Refer: 299 926880 N 1 0 0 1 -2.2002 400 2
+Validated: 1
 LCarets2: 2 0 0
 Ligature2: "Ligature Substitution lookup 427 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_Y
 Ligature2: "Ligature Substitution lookup 265 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_Y
@@ -9854,6 +10134,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 29.7998 0 2
 Refer: 310 926896 N 1 0 0 1 253.8 396 2
 Refer: 299 926880 S 1 0 0 1 -3.2002 375 2
+Validated: 9
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 387 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 225 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -9873,6 +10154,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 29.7998 0 2
 Refer: 321 926912 N 1 0 0 1 191.8 361 2
 Refer: 299 926880 N 1 0 0 1 1.7998 371 2
+Validated: 1
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 388 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 226 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -9892,6 +10174,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 29.7998 0 2
 Refer: 332 926928 N 1 0 0 1 187.8 380 2
 Refer: 299 926880 N 1 0 0 1 -3.2002 372 2
+Validated: 1
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 389 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 227 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -9911,6 +10194,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 29.7998 0 2
 Refer: 343 926944 N 1 0 0 1 241.8 361 2
 Refer: 299 926880 N 1 0 0 1 -2.2002 373 2
+Validated: 1
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 390 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 228 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -9926,6 +10210,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 277 926848 N 0 1 1 0 -160 85 2
+Validated: 25
 Substitution2: "Single Substitution lookup 482 subtable" ZLM_DOT_AI
 Ligature2: "'rlig' Required Ligatures lookup 474 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Substitution2: "Single Substitution lookup 320 subtable" ZLM_DOT_AI
@@ -9947,6 +10232,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 -11 0 2
 Refer: 310 926896 S 1 0 0 1 -75 446 2
 Refer: 244 926800 N 1 0 0 1 206 450 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 342 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
 Ligature2: "Ligature Substitution lookup 180 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
 Ligature2: "Ligature Substitution lookup 18 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
@@ -9965,6 +10251,7 @@ Fore
 Refer: 310 926896 N 1 0 0 1 2 388 2
 Refer: 354 926960 N 1 0 0 1 -11 0 2
 Refer: 255 926816 N 0.5875 0 0 1 211.725 352 2
+Validated: 9
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 343 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
 Ligature2: "Ligature Substitution lookup 181 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
@@ -9984,6 +10271,7 @@ Fore
 Refer: 310 926896 S 1 0 0 1 -75 446 2
 Refer: 354 926960 N 1 0 0 1 -11 0 2
 Refer: 266 926832 N 1 0 0 1 209 444 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 344 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 182 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 20 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
@@ -9995,13 +10283,14 @@ Width: 497
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 22<204.952 235.383 339.469 367.952> 246 145<31.5679 95.705> 447 23<336.839 364.952> 636 50<366.646 437.65> 681 52<260.255 339.012>
-VStem: 242 9<635 654.398> 244.952 80<27.5957 414> 449 8<713.054 734>
+HStem: 0 22<204.952 235.383 339.469 367.952> 246 145<31.5679 95.705> 447 23<336.839 364.952> 636 50<366.646 438.191> 681 52<260.255 339.012>
+VStem: 242 9<635 654.398> 244.952 80<27.5957 414> 449 8<713.047 734>
 LayerCount: 2
 Fore
 Refer: 310 926896 N 1 0 0 1 -75 446 2
 Refer: 354 926960 N 1 0 0 1 -11 0 2
 Refer: 277 926848 N 1 0 0 1 217 451 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 345 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
 Ligature2: "Ligature Substitution lookup 183 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
 Ligature2: "Ligature Substitution lookup 21 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
@@ -10020,6 +10309,7 @@ Fore
 Refer: 310 926896 N 1 0 0 1 -75 446 2
 Refer: 354 926960 N 1 0 0 1 -11 0 2
 Refer: 288 926864 N 1 0 0 1 216 444 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 346 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 184 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 22 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
@@ -10038,6 +10328,7 @@ Fore
 Refer: 310 926896 N 1 0 0 1 -75 446 2
 Refer: 354 926960 N 1 0 0 1 -11 0 2
 Refer: 299 926880 S 1 0 0 1 165 402 2
+Validated: 9
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 347 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
 Ligature2: "Ligature Substitution lookup 185 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
@@ -10057,6 +10348,7 @@ Fore
 Refer: 310 926896 N 1 0 0 1 -75 446 2
 Refer: 354 926960 N 1 0 0 1 -11 0 2
 Refer: 310 926896 N 1 0 0 1 207 442 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 325 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 163 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 1 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -10075,6 +10367,7 @@ Fore
 Refer: 310 926896 N 1 0 0 1 -75 446 2
 Refer: 354 926960 N 1 0 0 1 -11 0 2
 Refer: 321 926912 N 1 0 0 1 216 436 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 326 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 164 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 2 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -10093,6 +10386,7 @@ Fore
 Refer: 310 926896 N 1 0 0 1 -75 446 2
 Refer: 354 926960 N 1 0 0 1 -11 0 2
 Refer: 332 926928 N 1 0 0 1 202 431 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 327 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 165 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 3 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -10111,6 +10405,7 @@ Fore
 Refer: 310 926896 N 1 0 0 1 -75 446 2
 Refer: 354 926960 N 1 0 0 1 -11 0 2
 Refer: 343 926944 N 1 0 0 1 235 447 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 328 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 166 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 4 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -10159,6 +10454,7 @@ Fore
 Refer: 354 926960 N 1 0 0 1 49 0 2
 Refer: 321 926912 S 1 0 0 1 -1 440 2
 Refer: 244 926800 N 1 0 0 1 266 450 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 348 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
 Ligature2: "Ligature Substitution lookup 186 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
 Ligature2: "Ligature Substitution lookup 24 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
@@ -10177,6 +10473,7 @@ Fore
 Refer: 321 926912 N 1 0 0 1 -1 440 2
 Refer: 354 926960 N 1 0 0 1 49 0 2
 Refer: 255 926816 N 1 0 0 1 278 447 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 349 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
 Ligature2: "Ligature Substitution lookup 187 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
 Ligature2: "Ligature Substitution lookup 25 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
@@ -10195,6 +10492,7 @@ Fore
 Refer: 321 926912 S 1 0 0 1 -1 440 2
 Refer: 354 926960 N 1 0 0 1 49 0 2
 Refer: 266 926832 N 1 0 0 1 269 444 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 350 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 188 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 26 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
@@ -10206,13 +10504,14 @@ Width: 557
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 22<264.952 295.383 399.469 427.952> 246 145<91.5679 155.705> 447 23<396.839 424.952> 585 125 686 50<426.646 497.65> 731 52<320.255 399.012>
-VStem: 23 249 302 9<685 704.398> 304.952 80<27.5957 414> 509 8<763.054 784>
+HStem: 0 22<264.952 295.383 399.469 427.952> 246 145<91.5679 155.705> 447 23<396.839 424.952> 585 125 686 50<426.646 498.191> 731 52<320.255 399.012>
+VStem: 23 249 302 9<685 704.398> 304.952 80<27.5957 414> 509 8<763.047 784>
 LayerCount: 2
 Fore
 Refer: 321 926912 N 1 0 0 1 -1 400 2
 Refer: 354 926960 N 1 0 0 1 49 0 2
 Refer: 277 926848 S 1 0 0 1 277 501 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 351 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
 Ligature2: "Ligature Substitution lookup 189 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
 Ligature2: "Ligature Substitution lookup 27 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
@@ -10231,6 +10530,7 @@ Fore
 Refer: 321 926912 N 1 0 0 1 -1 440 2
 Refer: 354 926960 N 1 0 0 1 49 0 2
 Refer: 288 926864 N 1 0 0 1 276 444 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 352 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 190 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 28 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
@@ -10249,6 +10549,7 @@ Fore
 Refer: 321 926912 N 1 0 0 1 -1 440 2
 Refer: 354 926960 N 1 0 0 1 49 0 2
 Refer: 299 926880 N 1 0 0 1 276 445 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 353 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
 Ligature2: "Ligature Substitution lookup 191 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
 Ligature2: "Ligature Substitution lookup 29 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
@@ -10267,6 +10568,7 @@ Fore
 Refer: 321 926912 N 1 0 0 1 -1 440 2
 Refer: 354 926960 N 1 0 0 1 49 0 2
 Refer: 310 926896 N 1 0 0 1 267 442 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 329 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 167 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 5 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -10285,6 +10587,7 @@ Fore
 Refer: 321 926912 S 1 0 0 1 -1 436 2
 Refer: 354 926960 N 1 0 0 1 34 0 2
 Refer: 321 926912 S 1 0 0 1 227 436 2
+Validated: 5
 Ligature2: "Ligature Substitution lookup 330 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 168 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 6 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -10303,6 +10606,7 @@ Fore
 Refer: 321 926912 N 1 0 0 1 -1 474 2
 Refer: 354 926960 N 1 0 0 1 49 0 2
 Refer: 332 926928 S 1 0 0 1 262 401 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 331 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 169 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 7 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -10321,6 +10625,7 @@ Fore
 Refer: 321 926912 N 1 0 0 1 -1 440 2
 Refer: 354 926960 N 1 0 0 1 49 0 2
 Refer: 343 926944 N 1 0 0 1 295 447 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 332 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 170 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 8 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -10376,6 +10681,7 @@ Fore
 Refer: 332 926928 S 1 0 0 1 1 431 2
 Refer: 354 926960 N 1 0 0 1 60 0 2
 Refer: 244 926800 N 1 0 0 1 277 450 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 354 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
 Ligature2: "Ligature Substitution lookup 192 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
 Ligature2: "Ligature Substitution lookup 30 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
@@ -10394,6 +10700,7 @@ Fore
 Refer: 332 926928 N 1 0 0 1 1 431 2
 Refer: 354 926960 N 1 0 0 1 60 0 2
 Refer: 255 926816 N 1 0 0 1 289 447 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 355 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
 Ligature2: "Ligature Substitution lookup 193 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
 Ligature2: "Ligature Substitution lookup 31 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
@@ -10412,6 +10719,7 @@ Fore
 Refer: 332 926928 S 1 0 0 1 1 431 2
 Refer: 354 926960 N 1 0 0 1 60 0 2
 Refer: 266 926832 N 1 0 0 1 280 444 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 356 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 194 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 32 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
@@ -10423,13 +10731,14 @@ Width: 568
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 22<275.952 306.383 410.469 438.952> 246 145<102.568 166.705> 447 23<407.839 435.952> 519 61<167.032 242.007> 676 50<437.646 508.65> 721 52<331.255 410.012>
-VStem: 255 20<593.869 617> 313 9<675 694.398> 315.952 80<27.5957 414> 520 8<753.054 774>
+HStem: 0 22<275.952 306.383 410.469 438.952> 246 145<102.568 166.705> 447 23<407.839 435.952> 519 61<167.032 242.007> 676 50<437.646 509.191> 721 52<331.255 410.012>
+VStem: 255 20<593.869 617> 313 9<675 694.398> 315.952 80<27.5957 414> 520 8<753.047 774>
 LayerCount: 2
 Fore
 Refer: 332 926928 N 1 0 0 1 1 391 2
 Refer: 354 926960 N 1 0 0 1 60 0 2
 Refer: 277 926848 N 1 0 0 1 288 491 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 357 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
 Ligature2: "Ligature Substitution lookup 195 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
 Ligature2: "Ligature Substitution lookup 33 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
@@ -10448,6 +10757,7 @@ Fore
 Refer: 332 926928 N 1 0 0 1 1 431 2
 Refer: 354 926960 N 1 0 0 1 60 0 2
 Refer: 288 926864 N 1 0 0 1 287 444 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 358 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 196 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 34 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
@@ -10466,6 +10776,7 @@ Fore
 Refer: 332 926928 N 1 0 0 1 1 431 2
 Refer: 354 926960 N 1 0 0 1 60 0 2
 Refer: 299 926880 N 1 0 0 1 287 445 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 359 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
 Ligature2: "Ligature Substitution lookup 197 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
 Ligature2: "Ligature Substitution lookup 35 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
@@ -10484,6 +10795,7 @@ Fore
 Refer: 332 926928 N 1 0 0 1 1 431 2
 Refer: 354 926960 N 1 0 0 1 60 0 2
 Refer: 310 926896 N 1 0 0 1 278 442 2
+Validated: 9
 Ligature2: "Ligature Substitution lookup 333 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 171 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 9 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -10502,6 +10814,7 @@ Fore
 Refer: 332 926928 N 1 0 0 1 1 431 2
 Refer: 354 926960 N 1 0 0 1 60 0 2
 Refer: 321 926912 N 1 0 0 1 287 436 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 334 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 172 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 10 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -10520,6 +10833,7 @@ Fore
 Refer: 332 926928 N 1 0 0 1 1 431 2
 Refer: 354 926960 N 1 0 0 1 60 0 2
 Refer: 332 926928 N 1 0 0 1 273 431 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 335 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 173 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 11 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -10538,6 +10852,7 @@ Fore
 Refer: 332 926928 N 1 0 0 1 1 431 2
 Refer: 354 926960 N 1 0 0 1 60 0 2
 Refer: 343 926944 N 1 0 0 1 306 447 2
+Validated: 1
 Ligature2: "Ligature Substitution lookup 336 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 174 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 12 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -10563,6 +10878,7 @@ SplineSet
  112.423828125 250.572265625 112.999948521 285.23347439 92 271 c 0
  72 257.444276875 24.0703125 258.999948971 24.0703125 307.44140625 c 3
 EndSplineSet
+Validated: 524321
 LCarets2: 1 0
 Substitution2: "Single Substitution lookup 485 subtable" ZLM_DOT_AU
 Ligature2: "'rlig' Required Ligatures lookup 474 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -10585,6 +10901,7 @@ Fore
 Refer: 343 926944 S 1 0 0 1 16.67 333 2
 Refer: 354 926960 N 1 0 0 1 -7.33 0 2
 Refer: 244 926800 N 1 0 0 1 221.67 428 2
+Validated: 1
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 360 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A
 Ligature2: "Ligature Substitution lookup 198 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A
@@ -10603,6 +10920,7 @@ LayerCount: 2
 Fore
 Refer: 343 926944 N 1 0 0 1 22.67 324 2
 Refer: 354 926960 N 1 0 0 1 -7.33 0 2
+Validated: 1
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 361 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E
 Ligature2: "Ligature Substitution lookup 199 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E
@@ -10622,6 +10940,7 @@ Fore
 Refer: 343 926944 N 1 0 0 1 6.67 336 2
 Refer: 354 926960 N 1 0 0 1 -7.33 0 2
 Refer: 266 926832 S 1 0 0 1 206.67 377 2
+Validated: 1
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 362 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 200 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_I
@@ -10634,13 +10953,14 @@ Width: 501
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 22<208.622 239.053 343.139 371.622> 246 145<35.2379 99.375> 447 23<340.509 368.622> 457 222 558 50<303.376 363.59> 603 52<213.151 279.94>
-VStem: 127.67 40<534.624 593.197> 197.67 7.63242<557 576.398> 248.622 80<27.5957 414> 373.216 6.78437<635.054 656>
+HStem: 0 22<208.622 239.053 343.139 371.622> 246 145<35.2379 99.375> 447 23<340.509 368.622> 457 222 558 50<303.376 364.05> 603 52<213.151 279.94>
+VStem: 127.67 40<534.624 593.197> 197.67 7.63242<557 576.398> 248.622 80<27.5957 414> 373.216 6.78437<635.047 656>
 LayerCount: 2
 Fore
 Refer: 343 926944 N 1 0 0 1 17.67 324 2
 Refer: 354 926960 N 1 0 0 1 -7.33 0 2
 Refer: 277 926848 S 0.848047 0 0 1 176.469 373 2
+Validated: 1
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 363 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O
 Ligature2: "Ligature Substitution lookup 201 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O
@@ -10660,6 +10980,7 @@ Fore
 Refer: 343 926944 N 1 0 0 1 13.67 326 2
 Refer: 354 926960 N 1 0 0 1 -7.33 0 2
 Refer: 288 926864 S 1 0 0 1 149.67 375 2
+Validated: 9
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 364 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 202 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_U
@@ -10679,6 +11000,7 @@ Fore
 Refer: 343 926944 N 1 0 0 1 7.67 321 2
 Refer: 354 926960 N 1 0 0 1 -7.33 0 2
 Refer: 299 926880 N 1 0 0 1 172.67 401 2
+Validated: 1
 LCarets2: 3 0 0 0
 Ligature2: "Ligature Substitution lookup 365 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_Y
 Ligature2: "Ligature Substitution lookup 203 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_Y
@@ -10698,6 +11020,7 @@ Fore
 Refer: 343 926944 S 1 0 0 1 19.67 345 2
 Refer: 354 926960 N 1 0 0 1 -7.33 0 2
 Refer: 310 926896 N 1 0 0 1 226.67 392 2
+Validated: 9
 LCarets2: 4 0 0 0 0
 Ligature2: "Ligature Substitution lookup 337 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 175 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
@@ -10717,6 +11040,7 @@ Fore
 Refer: 343 926944 N 1 0 0 1 8.67 337 2
 Refer: 354 926960 N 1 0 0 1 -7.33 0 2
 Refer: 321 926912 N 1 0 0 1 145.67 354 2
+Validated: 1
 LCarets2: 4 0 0 0 0
 Ligature2: "Ligature Substitution lookup 338 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 176 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
@@ -10736,6 +11060,7 @@ Fore
 Refer: 343 926944 S 1 0 0 1 4.67 343 2
 Refer: 354 926960 N 1 0 0 1 -7.33 0 2
 Refer: 332 926928 N 1 0 0 1 143.67 401 2
+Validated: 1
 LCarets2: 4 0 0 0 0
 Ligature2: "Ligature Substitution lookup 339 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 Ligature2: "Ligature Substitution lookup 177 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
@@ -10755,6 +11080,7 @@ Fore
 Refer: 343 926944 N 1 0 0 1 7.67 364 2
 Refer: 354 926960 N 1 0 0 1 -7.33 0 2
 Refer: 343 926944 N 1 0 0 1 205.67 366 2
+Validated: 1
 LCarets2: 4 0 0 0 0
 Ligature2: "Ligature Substitution lookup 340 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 Ligature2: "Ligature Substitution lookup 178 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
@@ -10789,6 +11115,7 @@ SplineSet
  55.9521484375 246 24 273 24 312.744140625 c 3
  24 370 57 391 82 391 c 3
 EndSplineSet
+Validated: 524321
 EndChar
 
 StartChar: ZLM_FULL_A
