@@ -67,12 +67,25 @@ description "ZLM OpenType Feature Table Definitions", ->
   def-class \vowel,     ALL_VOWELS
   def-class \anything, "@consonant @vowel"
 
+  section "6-part ligatures", ->
+    feature \NVV'VV, ->
+      for [ a, b ] in DIPHTH
+        for [ c, d ] in DIPHTH
+          sub \NULL, a, b, \H, c, d, cas [ a, b ], [ c, d ]
   section "5-part ligatures", ->
     feature \VV'VV, ->
       ignore \@consonant \@vowel \@vowel \ZLM_H \@vowel \@vowel
       for [ a, b ] in DIPHTH
         for [ c, d ] in DIPHTH
           sub-tick a, b, \H, c, d, cas [ a, b ], [ c, d ]
+    feature \NVV'V, ->
+      for [ a, b ] in DIPHTH
+        for c in VOWELS
+          sub \NULL, a, b, \H, c, cas [ a, b ], [ c ]
+    feature \NV'VV, ->
+      for a in VOWELS
+        for [ c, d ] in DIPHTH
+          sub \NULL, a, \H, c, d, cas [ a ], [ c, d ]
 
   section "4-part ligatures", ->
     feature \VV'V, ->
@@ -80,6 +93,10 @@ description "ZLM OpenType Feature Table Definitions", ->
       for [ a, b ] in DIPHTH
         for v in VOWELS
           sub-tick a, b, \H, v, cas [ a, b ], [ v ]
+    feature \NV'V, ->
+      for a in VOWELS
+        for b in VOWELS
+          sub-tick \NULL, a, \H, b, cas [ a ], [ b ]
     feature \V'VV, ->
       ignore \@consonant \@vowel \ZLM_H \@vowel \@vowel
       for v in VOWELS
@@ -97,7 +114,7 @@ description "ZLM OpenType Feature Table Definitions", ->
         for [ a, b ] in DIPHTH
           sub-tick q, a, b, glyph q + a + b
     feature \WVV, ->
-      ignore \@consonant \@vowel \@vowel \@vowel"
+      ignore \@consonant \@vowel \@vowel \@vowel
       for q in SEMIV
         for [ a, b ] in DIPHTH
           sub-tick (to-v q), a, b, glyph q + a + b
@@ -123,6 +140,10 @@ description "ZLM OpenType Feature Table Definitions", ->
     feature \VV, ->
       for [ a, b ] in DIPHTH
         sub a, b, glyph a + b
+    feature "\NV", ->
+      ignore \@anything \@vowel
+      for v in ALL_VOWELS
+        sub-tick \NULL, v, dot v
 
   section "Single Substitutions", ->
     feature ".V", ->
