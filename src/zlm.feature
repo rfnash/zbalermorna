@@ -279,7 +279,7 @@ feature rlig {
 # QVV
 
 feature rlig {
-  ignore sub @consonant @vowel' @vowel' @vowel;
+  ignore sub @consonant @vowel' @vowel' @vowel';
   sub ZLM_SEMIVOWEL_Q' ZLM_DIACRITIC_A' ZLM_DIACRITIC_I' by ZLM_QAI;
   sub ZLM_SEMIVOWEL_Q' ZLM_DIACRITIC_E' ZLM_DIACRITIC_I' by ZLM_QEI;
   sub ZLM_SEMIVOWEL_Q' ZLM_DIACRITIC_O' ZLM_DIACRITIC_I' by ZLM_QOI;
@@ -293,7 +293,7 @@ feature rlig {
 # WVV
 
 feature rlig {
-  ignore sub @consonant @vowel' @vowel' @vowel;
+  ignore sub @consonant @vowel' @vowel' @vowel';
   sub ZLM_DIACRITIC_I' ZLM_DIACRITIC_A' ZLM_DIACRITIC_I' by ZLM_QAI;
   sub ZLM_DIACRITIC_I' ZLM_DIACRITIC_E' ZLM_DIACRITIC_I' by ZLM_QEI;
   sub ZLM_DIACRITIC_I' ZLM_DIACRITIC_O' ZLM_DIACRITIC_I' by ZLM_QOI;
