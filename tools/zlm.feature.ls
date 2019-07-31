@@ -110,29 +110,29 @@ description "ZLM OpenType Feature Table Definitions", ->
         for b in VOWELS
           sub-tick a, \H, b, cas [ a ], [ b ]
     feature \QVV, ->
+      ignore \@consonant \@vowel \@vowel \@vowel
       for q in SEMIV
         for [ a, b ] in DIPHTH
           sub-tick q, a, b, glyph q + a + b
     feature \WVV, ->
-      ignore \@consonant \@vowel \@vowel \@vowel
       for q in SEMIV
         for [ a, b ] in DIPHTH
           sub-tick (to-v q), a, b, glyph q + a + b
     feature \CVV, ->
+      ignore \@consonant \@vowel \@vowel \@vowel
       for c in CONSN
         for [ a, b ] in DIPHTH
-          sub c, a, b, glyph c + a + b
+          sub-tick c, a, b, glyph c + a + b
 
   section "2-part ligatures", ->
     feature \QV, ->
       for q in SEMIV
         for v in VOWELS
-          sub-tick q, v, glyph q + v
+          sub q, v, glyph q + v
     feature \WV, ->
-      ignore \@consonant \@vowel \@vowel
       for q in SEMIV
         for v in VOWELS
-          sub-tick (to-v q), v, glyph q + v
+          sub (to-v q), v, glyph q + v
     feature \CV, ->
       for c in CONSN
         for v in VOWELS
