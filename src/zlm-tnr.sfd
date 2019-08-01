@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1481267425
-ModificationTime: 1564492168
+ModificationTime: 1564633882
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -90,14 +90,14 @@ KernClass2: 22 22 "'kern' Horizontal Kerning lookup 1-1"
  89 ZLM_SEMIVOWEL_W ZLM_WA ZLM_WE ZLM_WI ZLM_WO ZLM_WU ZLM_WY ZLM_WAI ZLM_WEI ZLM_WOI ZLM_WAU
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -69 {} -32 {} -37 {} -40 {} -37 {} -112 {} 15 {} 0 {} -37 {} -73 {} 0 {} -128 {} -82 {} -88 {} -157 {} -157 {} -57 {} -82 {} -35 {} -147 {} -175 {} 0 {} 97 {} 45 {} 50 {} 48 {} 16 {} 62 {} 70 {} 68 {} 43 {} 7 {} 60 {} 21 {} 0 {} 37 {} 92 {} 60 {} 39 {} 0 {} 26 {} 67 {} -30 {} 0 {} 76 {} 11 {} 21 {} -8 {} -2 {} 109 {} 5 {} 74 {} 62 {} -12 {} 63 {} -71 {} 42 {} 36 {} -69 {} 3 {} 62 {} 27 {} 19 {} -75 {} 34 {} 0 {} 54 {} -11 {} 20 {} -21 {} -30 {} -20 {} -2 {} -10 {} -5 {} -9 {} 2 {} -9 {} 0 {} 13 {} 0 {} -6 {} -24 {} 0 {} -19 {} -12 {} -67 {} 0 {} 57 {} -12 {} 0 {} 0 {} -26 {} -2 {} -7 {} -16 {} 18 {} -15 {} 2 {} -16 {} 0 {} 0 {} 6 {} -13 {} -36 {} 0 {} -21 {} -16 {} -40 {} 0 {} 2 {} 18 {} -19 {} -20 {} -21 {} 57 {} -18 {} -10 {} 10 {} -9 {} -25 {} -115 {} 30 {} 18 {} -142 {} 35 {} 0 {} 0 {} 23 {} -116 {} 24 {} 0 {} 74 {} 0 {} -21 {} -22 {} -24 {} 55 {} 5 {} 26 {} 11 {} 12 {} 19 {} -6 {} 19 {} 0 {} -47 {} 60 {} 15 {} -6 {} 30 {} -10 {} -21 {} 0 {} 39 {} 0 {} -24 {} -14 {} -31 {} 16 {} 1 {} -15 {} -14 {} -22 {} -9 {} -27 {} -27 {} -33 {} 0 {} -16 {} 0 {} -33 {} 22 {} -49 {} -77 {} 0 {} 32 {} 2 {} 24 {} 9 {} -4 {} 3 {} -7 {} 12 {} -1 {} 3 {} 10 {} 7 {} 6 {} 19 {} 15 {} 9 {} 13 {} -6 {} 9 {} -10 {} 0 {} 0 {} 40 {} -16 {} -8 {} -23 {} -40 {} 37 {} 10 {} 10 {} -2 {} 11 {} 15 {} -14 {} -12 {} -11 {} -34 {} 1 {} -7 {} -4 {} 20 {} 0 {} -8 {} 0 {} 80 {} 0 {} 0 {} 0 {} 0 {} 34 {} 45 {} 19 {} 0 {} 10 {} 49 {} -27 {} 0 {} 0 {} -67 {} 54 {} 24 {} 0 {} 13 {} -35 {} -51 {} 0 {} 66 {} 15 {} -6 {} -9 {} 42 {} 49 {} -6 {} -8 {} 4 {} 12 {} 10 {} -23 {} 32 {} 48 {} 31 {} 29 {} 36 {} 34 {} 12 {} 0 {} 26 {} 0 {} 52 {} 0 {} 0 {} 0 {} 0 {} 60 {} 0 {} -8 {} 0 {} 2 {} 18 {} -42 {} 0 {} -3 {} 0 {} 3 {} -2 {} -3 {} -9 {} 0 {} -33 {} 0 {} 59 {} 46 {} 0 {} 0 {} 0 {} 120 {} 71 {} -17 {} 24 {} 6 {} 61 {} -37 {} 64 {} 32 {} -11 {} 1 {} 91 {} 0 {} 4 {} 0 {} 76 {} 0 {} -8 {} -29 {} 1 {} -28 {} -15 {} -76 {} 0 {} -19 {} -28 {} -17 {} 0 {} -34 {} -18 {} -5 {} -25 {} -15 {} -66 {} -24 {} -30 {} 0 {} -112 {} 0 {} 71 {} -3 {} 12 {} 11 {} -15 {} 24 {} 22 {} 20 {} 5 {} -9 {} 53 {} 2 {} 0 {} 22 {} -46 {} 18 {} 8 {} 0 {} 18 {} -42 {} -33 {} 0 {} 76 {} 0 {} 0 {} 0 {} -4 {} 57 {} 54 {} 14 {} 0 {} 5 {} 5 {} -29 {} 0 {} 0 {} -75 {} 19 {} -6 {} 0 {} 22 {} -43 {} -25 {} 0 {} 49 {} -19 {} 0 {} 0 {} 0 {} 16 {} -2 {} -7 {} 0 {} -23 {} -25 {} -17 {} -40 {} -13 {} -14 {} -10 {} -43 {} -40 {} 0 {} 11 {} -38 {} 0 {} 76 {} 40 {} 14 {} 13 {} -40 {} 53 {} 40 {} -5 {} 23 {} 28 {} 30 {} 4 {} 40 {} 14 {} -29 {} 38 {} 13 {} 40 {} 28 {} -39 {} 48 {} 0 {} -66 {} -40 {} -21 {} -22 {} -17 {} -81 {} -41 {} -55 {} -40 {} -14 {} -54 {} -25 {} -97 {} -44 {} -27 {} -39 {} -34 {} -59 {} -29 {} -12 {} -178 {} 0 {} 17 {} -8 {} -30 {} -31 {} -29 {} 36 {} -40 {} -30 {} -6 {} -12 {} -28 {} -149 {} -4 {} -17 {} -144 {} 78 {} -3 {} -1 {} -15 {} -150 {} 17 {}
 LangName: 1033
-Encoding: Custom
+Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 50
-WinInfo: 0 16 7
+WinInfo: 0 21 5
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -139,10 +139,10 @@ Grid
   Named: "baseline"
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 553 369
+BeginChars: 1114116 434
 
 StartChar: ZLM_NULL
-Encoding: 0 926464 0
+Encoding: 926464 926464 0
 Width: 300
 VWidth: 0
 GlyphClass: 2
@@ -156,7 +156,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_DOT_A
-Encoding: 1 926465 1
+Encoding: 926465 926465 1
 Width: 300
 VWidth: 0
 GlyphClass: 2
@@ -171,7 +171,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_DOT_E
-Encoding: 2 926466 2
+Encoding: 926466 926466 2
 Width: 300
 VWidth: 0
 GlyphClass: 2
@@ -186,7 +186,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_DOT_I
-Encoding: 3 926467 3
+Encoding: 926467 926467 3
 Width: 300
 VWidth: 0
 GlyphClass: 2
@@ -201,7 +201,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_DOT_O
-Encoding: 4 926468 4
+Encoding: 926468 926468 4
 Width: 300
 VWidth: 0
 GlyphClass: 2
@@ -216,7 +216,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_DOT_U
-Encoding: 5 926469 5
+Encoding: 926469 926469 5
 Width: 300
 VWidth: 0
 GlyphClass: 2
@@ -231,7 +231,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_DOT_Y
-Encoding: 6 926470 6
+Encoding: 926470 926470 6
 Width: 300
 VWidth: 0
 GlyphClass: 2
@@ -246,11 +246,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_DOT_AI
-Encoding: 7 926471 7
+Encoding: 926471 926471 7
 Width: 300
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: 184.557 102.443<59.9046 147.095>
 VStem: 50 107<194.04 277.517>
 LayerCount: 2
@@ -261,11 +261,11 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_DOT_EI
-Encoding: 8 926472 8
+Encoding: 926472 926472 8
 Width: 300
 VWidth: 0
 GlyphClass: 2
-Flags: WO
+Flags: W
 HStem: 184.557 102.443<60.9046 148.095> 605 50<38.403 175.686>
 VStem: -4 220 51 107<194.04 277.517>
 LayerCount: 2
@@ -276,7 +276,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_DOT_OI
-Encoding: 9 926473 9
+Encoding: 926473 926473 9
 Width: 300
 VWidth: 0
 GlyphClass: 2
@@ -291,7 +291,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_DOT_AU
-Encoding: 10 926474 10
+Encoding: 926474 926474 10
 Width: 300
 VWidth: 0
 GlyphClass: 2
@@ -306,7 +306,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_SLAKABU
-Encoding: 15 926479 11
+Encoding: 926479 926479 11
 Width: 300
 VWidth: 0
 GlyphClass: 2
@@ -317,7 +317,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_H
-Encoding: 16 926480 12
+Encoding: 926480 926480 12
 Width: 250
 VWidth: 0
 GlyphClass: 2
@@ -344,7 +344,7 @@ Validated: 33
 EndChar
 
 StartChar: ZLM_HA
-Encoding: 17 926481 13
+Encoding: 926481 926481 13
 Width: 250
 VWidth: 0
 GlyphClass: 2
@@ -360,7 +360,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_HE
-Encoding: 18 926482 14
+Encoding: 926482 926482 14
 Width: 250
 VWidth: 0
 GlyphClass: 2
@@ -376,7 +376,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_HI
-Encoding: 19 926483 15
+Encoding: 926483 926483 15
 Width: 250
 VWidth: 0
 GlyphClass: 2
@@ -392,7 +392,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_HO
-Encoding: 20 926484 16
+Encoding: 926484 926484 16
 Width: 250
 VWidth: 0
 GlyphClass: 2
@@ -408,7 +408,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_HU
-Encoding: 21 926485 17
+Encoding: 926485 926485 17
 Width: 250
 VWidth: 0
 GlyphClass: 2
@@ -424,7 +424,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_HY
-Encoding: 22 926486 18
+Encoding: 926486 926486 18
 Width: 250
 VWidth: 0
 GlyphClass: 2
@@ -440,7 +440,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_HAI
-Encoding: 23 926487 19
+Encoding: 926487 926487 19
 Width: 250
 VWidth: 0
 GlyphClass: 2
@@ -456,7 +456,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_HEI
-Encoding: 24 926488 20
+Encoding: 926488 926488 20
 Width: 250
 VWidth: 0
 GlyphClass: 2
@@ -472,7 +472,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_HOI
-Encoding: 25 926489 21
+Encoding: 926489 926489 21
 Width: 250
 VWidth: 0
 GlyphClass: 2
@@ -488,7 +488,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_HAU
-Encoding: 26 926490 22
+Encoding: 926490 926490 22
 Width: 250
 VWidth: 0
 GlyphClass: 2
@@ -504,7 +504,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_TONE_UP
-Encoding: 31 926495 23
+Encoding: 926495 926495 23
 Width: 454
 VWidth: 0
 GlyphClass: 2
@@ -515,7 +515,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_P
-Encoding: 32 926496 24
+Encoding: 926496 926496 24
 Width: 450
 VWidth: 0
 Flags: W
@@ -547,7 +547,7 @@ Kerns2: 132 1 "left-stick" 132 -1 "left-stick" 132 -1 "left-stick" 132 -1 "left-
 EndChar
 
 StartChar: ZLM_PA
-Encoding: 33 926497 25
+Encoding: 926497 926497 25
 Width: 450
 VWidth: 0
 GlyphClass: 2
@@ -563,7 +563,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_PE
-Encoding: 34 926498 26
+Encoding: 926498 926498 26
 Width: 450
 VWidth: 0
 GlyphClass: 2
@@ -579,7 +579,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_PI
-Encoding: 35 926499 27
+Encoding: 926499 926499 27
 Width: 450
 VWidth: 0
 GlyphClass: 2
@@ -595,7 +595,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_PO
-Encoding: 36 926500 28
+Encoding: 926500 926500 28
 Width: 450
 VWidth: 0
 GlyphClass: 2
@@ -611,7 +611,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_PU
-Encoding: 37 926501 29
+Encoding: 926501 926501 29
 Width: 450
 VWidth: 0
 GlyphClass: 2
@@ -627,7 +627,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_PY
-Encoding: 38 926502 30
+Encoding: 926502 926502 30
 Width: 450
 VWidth: 0
 GlyphClass: 2
@@ -643,7 +643,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_PAI
-Encoding: 39 926503 31
+Encoding: 926503 926503 31
 Width: 450
 VWidth: 0
 GlyphClass: 2
@@ -659,7 +659,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_PEI
-Encoding: 40 926504 32
+Encoding: 926504 926504 32
 Width: 450
 VWidth: 0
 GlyphClass: 2
@@ -675,7 +675,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_POI
-Encoding: 41 926505 33
+Encoding: 926505 926505 33
 Width: 450
 VWidth: 0
 GlyphClass: 2
@@ -691,7 +691,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_PAU
-Encoding: 42 926506 34
+Encoding: 926506 926506 34
 Width: 450
 VWidth: 0
 GlyphClass: 2
@@ -707,7 +707,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_TONE_DOWN
-Encoding: 47 926511 35
+Encoding: 926511 926511 35
 Width: 454
 VWidth: 0
 GlyphClass: 2
@@ -718,7 +718,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_T
-Encoding: 48 926512 36
+Encoding: 926512 926512 36
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -758,7 +758,7 @@ Validated: 33
 EndChar
 
 StartChar: ZLM_TA
-Encoding: 49 926513 37
+Encoding: 926513 926513 37
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -774,7 +774,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_TE
-Encoding: 50 926514 38
+Encoding: 926514 926514 38
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -790,7 +790,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_TI
-Encoding: 51 926515 39
+Encoding: 926515 926515 39
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -806,7 +806,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_TO
-Encoding: 52 926516 40
+Encoding: 926516 926516 40
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -822,7 +822,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_TU
-Encoding: 53 926517 41
+Encoding: 926517 926517 41
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -838,7 +838,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_TY
-Encoding: 54 926518 42
+Encoding: 926518 926518 42
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -854,7 +854,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_TAI
-Encoding: 55 926519 43
+Encoding: 926519 926519 43
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -870,7 +870,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_TEI
-Encoding: 56 926520 44
+Encoding: 926520 926520 44
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -886,7 +886,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_TOI
-Encoding: 57 926521 45
+Encoding: 926521 926521 45
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -902,7 +902,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_TAU
-Encoding: 58 926522 46
+Encoding: 926522 926522 46
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -918,7 +918,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_TONE_UPDOWN
-Encoding: 63 926527 47
+Encoding: 926527 926527 47
 Width: 454
 VWidth: 0
 GlyphClass: 2
@@ -929,7 +929,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_K
-Encoding: 64 926528 48
+Encoding: 926528 926528 48
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -964,12 +964,12 @@ SplineSet
  196.697265625 9.73828125 296.985939718 82.1862665734 327.427774022 164.414690826 c 1,40,-1
  327.27037469 116.773006924 327.080078125 38.8935546875 327 -13 c 1,1,-1
 EndSplineSet
-Validated: 524329
+Validated: 41
 Kerns2: 200 -8 "left-stick"
 EndChar
 
 StartChar: ZLM_KA
-Encoding: 65 926529 49
+Encoding: 926529 926529 49
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -985,7 +985,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_KE
-Encoding: 66 926530 50
+Encoding: 926530 926530 50
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -1001,7 +1001,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_KI
-Encoding: 67 926531 51
+Encoding: 926531 926531 51
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -1017,7 +1017,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_KO
-Encoding: 68 926532 52
+Encoding: 926532 926532 52
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -1033,7 +1033,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_KU
-Encoding: 69 926533 53
+Encoding: 926533 926533 53
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -1049,7 +1049,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_KY
-Encoding: 70 926534 54
+Encoding: 926534 926534 54
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -1065,7 +1065,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_KAI
-Encoding: 71 926535 55
+Encoding: 926535 926535 55
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -1081,7 +1081,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_KEI
-Encoding: 72 926536 56
+Encoding: 926536 926536 56
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -1097,7 +1097,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_KOI
-Encoding: 73 926537 57
+Encoding: 926537 926537 57
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -1113,7 +1113,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_KAU
-Encoding: 74 926538 58
+Encoding: 926538 926538 58
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -1129,7 +1129,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_TONE_DOWNUP
-Encoding: 79 926543 59
+Encoding: 926543 926543 59
 Width: 454
 VWidth: 0
 GlyphClass: 2
@@ -1140,7 +1140,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_F
-Encoding: 80 926544 60
+Encoding: 926544 926544 60
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -1171,7 +1171,7 @@ Validated: 37
 EndChar
 
 StartChar: ZLM_FA
-Encoding: 81 926545 61
+Encoding: 926545 926545 61
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -1187,7 +1187,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_FE
-Encoding: 82 926546 62
+Encoding: 926546 926546 62
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -1203,7 +1203,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_FI
-Encoding: 83 926547 63
+Encoding: 926547 926547 63
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -1219,7 +1219,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_FO
-Encoding: 84 926548 64
+Encoding: 926548 926548 64
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -1235,7 +1235,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_FU
-Encoding: 85 926549 65
+Encoding: 926549 926549 65
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -1251,7 +1251,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_FY
-Encoding: 86 926550 66
+Encoding: 926550 926550 66
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -1267,7 +1267,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_FAI
-Encoding: 87 926551 67
+Encoding: 926551 926551 67
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -1283,7 +1283,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_FEI
-Encoding: 88 926552 68
+Encoding: 926552 926552 68
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -1299,7 +1299,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_FOI
-Encoding: 89 926553 69
+Encoding: 926553 926553 69
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -1315,7 +1315,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_FAU
-Encoding: 90 926554 70
+Encoding: 926554 926554 70
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -1331,7 +1331,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_BAHEBU_1
-Encoding: 95 926559 71
+Encoding: 926559 926559 71
 Width: 188
 VWidth: 0
 GlyphClass: 2
@@ -1351,7 +1351,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_L
-Encoding: 96 926560 72
+Encoding: 926560 926560 72
 Width: 476
 VWidth: 0
 GlyphClass: 2
@@ -1379,7 +1379,7 @@ Validated: 33
 EndChar
 
 StartChar: ZLM_LA
-Encoding: 97 926561 73
+Encoding: 926561 926561 73
 Width: 476
 VWidth: 0
 GlyphClass: 2
@@ -1395,7 +1395,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_LE
-Encoding: 98 926562 74
+Encoding: 926562 926562 74
 Width: 476
 VWidth: 0
 GlyphClass: 2
@@ -1411,7 +1411,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_LI
-Encoding: 99 926563 75
+Encoding: 926563 926563 75
 Width: 476
 VWidth: 0
 GlyphClass: 2
@@ -1427,7 +1427,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_LO
-Encoding: 100 926564 76
+Encoding: 926564 926564 76
 Width: 476
 VWidth: 0
 GlyphClass: 2
@@ -1443,7 +1443,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_LU
-Encoding: 101 926565 77
+Encoding: 926565 926565 77
 Width: 476
 VWidth: 0
 GlyphClass: 2
@@ -1459,7 +1459,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_LY
-Encoding: 102 926566 78
+Encoding: 926566 926566 78
 Width: 476
 VWidth: 0
 GlyphClass: 2
@@ -1475,7 +1475,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_LAI
-Encoding: 103 926567 79
+Encoding: 926567 926567 79
 Width: 476
 VWidth: 0
 GlyphClass: 2
@@ -1490,7 +1490,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_LEI
-Encoding: 104 926568 80
+Encoding: 926568 926568 80
 Width: 476
 VWidth: 0
 GlyphClass: 2
@@ -1506,7 +1506,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_LOI
-Encoding: 105 926569 81
+Encoding: 926569 926569 81
 Width: 476
 VWidth: 0
 GlyphClass: 2
@@ -1522,7 +1522,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_LAU
-Encoding: 106 926570 82
+Encoding: 926570 926570 82
 Width: 476
 VWidth: 0
 GlyphClass: 2
@@ -1538,7 +1538,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_BAHEBU_2
-Encoding: 111 926575 83
+Encoding: 926575 926575 83
 Width: 358
 VWidth: 0
 GlyphClass: 2
@@ -1563,7 +1563,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_S
-Encoding: 112 926576 84
+Encoding: 926576 926576 84
 Width: 545
 VWidth: 0
 GlyphClass: 2
@@ -1601,7 +1601,7 @@ Validated: 37
 EndChar
 
 StartChar: ZLM_SA
-Encoding: 113 926577 85
+Encoding: 926577 926577 85
 Width: 546
 VWidth: 0
 GlyphClass: 2
@@ -1617,7 +1617,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_SE
-Encoding: 114 926578 86
+Encoding: 926578 926578 86
 Width: 527
 VWidth: 0
 GlyphClass: 2
@@ -1657,7 +1657,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_SI
-Encoding: 115 926579 87
+Encoding: 926579 926579 87
 Width: 527
 VWidth: 0
 GlyphClass: 2
@@ -1673,7 +1673,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_SO
-Encoding: 116 926580 88
+Encoding: 926580 926580 88
 Width: 527
 VWidth: 0
 GlyphClass: 2
@@ -1724,7 +1724,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_SU
-Encoding: 117 926581 89
+Encoding: 926581 926581 89
 Width: 527
 VWidth: 0
 GlyphClass: 2
@@ -1740,7 +1740,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_SY
-Encoding: 118 926582 90
+Encoding: 926582 926582 90
 Width: 527
 VWidth: 0
 GlyphClass: 2
@@ -1786,7 +1786,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_SAI
-Encoding: 119 926583 91
+Encoding: 926583 926583 91
 Width: 527
 VWidth: 0
 GlyphClass: 2
@@ -1802,7 +1802,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_SEI
-Encoding: 120 926584 92
+Encoding: 926584 926584 92
 Width: 527
 VWidth: 0
 GlyphClass: 2
@@ -1818,7 +1818,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_SOI
-Encoding: 121 926585 93
+Encoding: 926585 926585 93
 Width: 527
 VWidth: 0
 GlyphClass: 2
@@ -1834,7 +1834,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_SAU
-Encoding: 122 926586 94
+Encoding: 926586 926586 94
 Width: 527
 VWidth: 0
 GlyphClass: 2
@@ -1850,7 +1850,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_BAHEBU_3
-Encoding: 127 926591 95
+Encoding: 926591 926591 95
 Width: 368
 VWidth: 0
 GlyphClass: 2
@@ -1880,7 +1880,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_C
-Encoding: 128 926592 96
+Encoding: 926592 926592 96
 Width: 539
 VWidth: 0
 GlyphClass: 2
@@ -1926,7 +1926,7 @@ Validated: 37
 EndChar
 
 StartChar: ZLM_CA
-Encoding: 129 926593 97
+Encoding: 926593 926593 97
 Width: 539
 VWidth: 0
 GlyphClass: 2
@@ -1942,7 +1942,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_CE
-Encoding: 130 926594 98
+Encoding: 926594 926594 98
 Width: 539
 VWidth: 0
 GlyphClass: 2
@@ -1958,7 +1958,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_CI
-Encoding: 131 926595 99
+Encoding: 926595 926595 99
 Width: 539
 VWidth: 0
 GlyphClass: 2
@@ -1974,7 +1974,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_CO
-Encoding: 132 926596 100
+Encoding: 926596 926596 100
 Width: 539
 VWidth: 0
 GlyphClass: 2
@@ -1990,7 +1990,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_CU
-Encoding: 133 926597 101
+Encoding: 926597 926597 101
 Width: 539
 VWidth: 0
 GlyphClass: 2
@@ -2006,7 +2006,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_CY
-Encoding: 134 926598 102
+Encoding: 926598 926598 102
 Width: 539
 VWidth: 0
 GlyphClass: 2
@@ -2022,7 +2022,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_CAI
-Encoding: 135 926599 103
+Encoding: 926599 926599 103
 Width: 539
 VWidth: 0
 GlyphClass: 2
@@ -2038,7 +2038,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CEI
-Encoding: 136 926600 104
+Encoding: 926600 926600 104
 Width: 539
 VWidth: 0
 GlyphClass: 2
@@ -2054,7 +2054,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_COI
-Encoding: 137 926601 105
+Encoding: 926601 926601 105
 Width: 539
 VWidth: 0
 GlyphClass: 2
@@ -2070,7 +2070,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAU
-Encoding: 138 926602 106
+Encoding: 926602 926602 106
 Width: 539
 VWidth: 0
 GlyphClass: 2
@@ -2086,7 +2086,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_STRETCH
-Encoding: 143 926607 107
+Encoding: 926607 926607 107
 Width: 600
 VWidth: 0
 GlyphClass: 2
@@ -2097,7 +2097,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_M
-Encoding: 144 926608 108
+Encoding: 926608 926608 108
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2130,7 +2130,7 @@ Kerns2: 212 20 "left-stick"
 EndChar
 
 StartChar: ZLM_MA
-Encoding: 145 926609 109
+Encoding: 926609 926609 109
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2146,7 +2146,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_ME
-Encoding: 146 926610 110
+Encoding: 926610 926610 110
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2162,7 +2162,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_MI
-Encoding: 147 926611 111
+Encoding: 926611 926611 111
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2178,7 +2178,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_MO
-Encoding: 148 926612 112
+Encoding: 926612 926612 112
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2194,7 +2194,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_MU
-Encoding: 149 926613 113
+Encoding: 926613 926613 113
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2210,7 +2210,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_MY
-Encoding: 150 926614 114
+Encoding: 926614 926614 114
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2226,7 +2226,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_MAI
-Encoding: 151 926615 115
+Encoding: 926615 926615 115
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2241,7 +2241,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_MEI
-Encoding: 152 926616 116
+Encoding: 926616 926616 116
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2257,7 +2257,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_MOI
-Encoding: 153 926617 117
+Encoding: 926617 926617 117
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2273,7 +2273,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_MAU
-Encoding: 154 926618 118
+Encoding: 926618 926618 118
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2289,7 +2289,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_DASH_INIT
-Encoding: 159 926624 119
+Encoding: 926624 926624 119
 Width: 454
 VWidth: 0
 GlyphClass: 2
@@ -2300,7 +2300,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_X
-Encoding: 160 926624 120
+Encoding: 926624 926624 120
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2325,7 +2325,7 @@ Validated: 33
 EndChar
 
 StartChar: ZLM_XA
-Encoding: 161 926625 121
+Encoding: 926625 926625 121
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2341,7 +2341,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_XE
-Encoding: 162 926626 122
+Encoding: 926626 926626 122
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2357,7 +2357,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_XI
-Encoding: 163 926627 123
+Encoding: 926627 926627 123
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2373,7 +2373,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_XO
-Encoding: 164 926628 124
+Encoding: 926628 926628 124
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2389,7 +2389,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_XU
-Encoding: 165 926629 125
+Encoding: 926629 926629 125
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2405,7 +2405,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_XY
-Encoding: 166 926630 126
+Encoding: 926630 926630 126
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2421,7 +2421,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_XAI
-Encoding: 167 926631 127
+Encoding: 926631 926631 127
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2437,7 +2437,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_XEI
-Encoding: 168 926632 128
+Encoding: 926632 926632 128
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2453,7 +2453,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_XOI
-Encoding: 169 926633 129
+Encoding: 926633 926633 129
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2469,7 +2469,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_XAU
-Encoding: 170 926634 130
+Encoding: 926634 926634 130
 Width: 500
 VWidth: 0
 GlyphClass: 2
@@ -2485,7 +2485,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_DASH_MEDI
-Encoding: 175 926639 131
+Encoding: 926639 926639 131
 Width: 454
 VWidth: 0
 GlyphClass: 2
@@ -2496,7 +2496,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_B
-Encoding: 176 926640 132
+Encoding: 926640 926640 132
 Width: 475
 VWidth: 0
 GlyphClass: 2
@@ -2530,7 +2530,7 @@ Validated: 33
 EndChar
 
 StartChar: ZLM_BA
-Encoding: 177 926641 133
+Encoding: 926641 926641 133
 Width: 475
 VWidth: 0
 GlyphClass: 2
@@ -2546,7 +2546,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_BE
-Encoding: 178 926642 134
+Encoding: 926642 926642 134
 Width: 475
 VWidth: 0
 GlyphClass: 2
@@ -2562,7 +2562,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_BI
-Encoding: 179 926643 135
+Encoding: 926643 926643 135
 Width: 475
 VWidth: 0
 GlyphClass: 2
@@ -2578,7 +2578,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_BO
-Encoding: 180 926644 136
+Encoding: 926644 926644 136
 Width: 475
 VWidth: 0
 GlyphClass: 2
@@ -2594,7 +2594,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_BU
-Encoding: 181 926645 137
+Encoding: 926645 926645 137
 Width: 475
 VWidth: 0
 GlyphClass: 2
@@ -2610,7 +2610,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_BY
-Encoding: 182 926646 138
+Encoding: 926646 926646 138
 Width: 475
 VWidth: 0
 GlyphClass: 2
@@ -2626,7 +2626,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_BAI
-Encoding: 183 926647 139
+Encoding: 926647 926647 139
 Width: 475
 VWidth: 0
 GlyphClass: 2
@@ -2642,7 +2642,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_BEI
-Encoding: 184 926648 140
+Encoding: 926648 926648 140
 Width: 475
 VWidth: 0
 GlyphClass: 2
@@ -2658,7 +2658,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_BOI
-Encoding: 185 926649 141
+Encoding: 926649 926649 141
 Width: 475
 VWidth: 0
 GlyphClass: 2
@@ -2674,7 +2674,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_BAU
-Encoding: 186 926650 142
+Encoding: 926650 926650 142
 Width: 475
 VWidth: 0
 GlyphClass: 2
@@ -2690,7 +2690,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_DASH_FINAL
-Encoding: 191 926656 143
+Encoding: 926656 926656 143
 Width: 454
 VWidth: 0
 GlyphClass: 2
@@ -2701,7 +2701,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_D
-Encoding: 192 926656 144
+Encoding: 926656 926656 144
 Width: 549
 VWidth: 0
 GlyphClass: 2
@@ -2738,7 +2738,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_DA
-Encoding: 193 926657 145
+Encoding: 926657 926657 145
 Width: 549
 VWidth: 0
 GlyphClass: 2
@@ -2754,7 +2754,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_DE
-Encoding: 194 926658 146
+Encoding: 926658 926658 146
 Width: 549
 VWidth: 0
 GlyphClass: 2
@@ -2770,7 +2770,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_DI
-Encoding: 195 926659 147
+Encoding: 926659 926659 147
 Width: 549
 VWidth: 0
 GlyphClass: 2
@@ -2786,7 +2786,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_DO
-Encoding: 196 926660 148
+Encoding: 926660 926660 148
 Width: 549
 VWidth: 0
 GlyphClass: 2
@@ -2802,7 +2802,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_DU
-Encoding: 197 926661 149
+Encoding: 926661 926661 149
 Width: 549
 VWidth: 0
 GlyphClass: 2
@@ -2818,7 +2818,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_DY
-Encoding: 198 926662 150
+Encoding: 926662 926662 150
 Width: 549
 VWidth: 0
 GlyphClass: 2
@@ -2834,7 +2834,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_DAI
-Encoding: 199 926663 151
+Encoding: 926663 926663 151
 Width: 549
 VWidth: 0
 GlyphClass: 2
@@ -2850,7 +2850,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_DEI
-Encoding: 200 926664 152
+Encoding: 926664 926664 152
 Width: 549
 VWidth: 0
 GlyphClass: 2
@@ -2866,7 +2866,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_DOI
-Encoding: 201 926665 153
+Encoding: 926665 926665 153
 Width: 549
 VWidth: 0
 GlyphClass: 2
@@ -2882,7 +2882,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_DAU
-Encoding: 202 926666 154
+Encoding: 926666 926666 154
 Width: 549
 VWidth: 0
 GlyphClass: 2
@@ -2898,7 +2898,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_DASH_ISO
-Encoding: 207 926672 155
+Encoding: 926672 926672 155
 Width: 600
 VWidth: 0
 GlyphClass: 2
@@ -2909,7 +2909,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_G
-Encoding: 208 926672 156
+Encoding: 926672 926672 156
 Width: 502
 VWidth: 0
 GlyphClass: 2
@@ -2950,7 +2950,7 @@ Validated: 33
 EndChar
 
 StartChar: ZLM_GA
-Encoding: 209 926673 157
+Encoding: 926673 926673 157
 Width: 502
 VWidth: 0
 GlyphClass: 2
@@ -2966,7 +2966,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_GE
-Encoding: 210 926674 158
+Encoding: 926674 926674 158
 Width: 502
 VWidth: 0
 GlyphClass: 2
@@ -2982,7 +2982,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_GI
-Encoding: 211 926675 159
+Encoding: 926675 926675 159
 Width: 502
 VWidth: 0
 GlyphClass: 2
@@ -2998,7 +2998,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_GO
-Encoding: 212 926676 160
+Encoding: 926676 926676 160
 Width: 502
 VWidth: 0
 GlyphClass: 2
@@ -3014,7 +3014,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_GU
-Encoding: 213 926677 161
+Encoding: 926677 926677 161
 Width: 502
 VWidth: 0
 GlyphClass: 2
@@ -3030,7 +3030,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_GY
-Encoding: 214 926678 162
+Encoding: 926678 926678 162
 Width: 502
 VWidth: 0
 GlyphClass: 2
@@ -3046,7 +3046,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_GAI
-Encoding: 215 926679 163
+Encoding: 926679 926679 163
 Width: 502
 VWidth: 0
 GlyphClass: 2
@@ -3062,7 +3062,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_GEI
-Encoding: 216 926680 164
+Encoding: 926680 926680 164
 Width: 502
 VWidth: 0
 GlyphClass: 2
@@ -3078,7 +3078,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_GOI
-Encoding: 217 926681 165
+Encoding: 926681 926681 165
 Width: 502
 VWidth: 0
 GlyphClass: 2
@@ -3094,7 +3094,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_GAU
-Encoding: 218 926682 166
+Encoding: 926682 926682 166
 Width: 502
 VWidth: 0
 GlyphClass: 2
@@ -3110,7 +3110,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_V
-Encoding: 224 926688 167
+Encoding: 926688 926688 167
 Width: 517
 VWidth: 0
 GlyphClass: 2
@@ -3139,7 +3139,7 @@ Validated: 33
 EndChar
 
 StartChar: ZLM_VA
-Encoding: 225 926689 168
+Encoding: 926689 926689 168
 Width: 517
 VWidth: 0
 GlyphClass: 2
@@ -3155,7 +3155,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_VE
-Encoding: 226 926690 169
+Encoding: 926690 926690 169
 Width: 517
 VWidth: 0
 GlyphClass: 2
@@ -3171,7 +3171,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_VI
-Encoding: 227 926691 170
+Encoding: 926691 926691 170
 Width: 517
 VWidth: 0
 GlyphClass: 2
@@ -3187,7 +3187,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_VO
-Encoding: 228 926692 171
+Encoding: 926692 926692 171
 Width: 517
 VWidth: 0
 GlyphClass: 2
@@ -3203,7 +3203,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_VU
-Encoding: 229 926693 172
+Encoding: 926693 926693 172
 Width: 517
 VWidth: 0
 GlyphClass: 2
@@ -3219,7 +3219,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_VY
-Encoding: 230 926694 173
+Encoding: 926694 926694 173
 Width: 517
 VWidth: 0
 GlyphClass: 2
@@ -3235,7 +3235,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_VAI
-Encoding: 231 926695 174
+Encoding: 926695 926695 174
 Width: 517
 VWidth: 0
 GlyphClass: 2
@@ -3251,7 +3251,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_VEI
-Encoding: 232 926696 175
+Encoding: 926696 926696 175
 Width: 517
 VWidth: 0
 GlyphClass: 2
@@ -3267,7 +3267,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_VOI
-Encoding: 233 926697 176
+Encoding: 926697 926697 176
 Width: 517
 VWidth: 0
 GlyphClass: 2
@@ -3283,7 +3283,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_VAU
-Encoding: 234 926698 177
+Encoding: 926698 926698 177
 Width: 517
 VWidth: 0
 GlyphClass: 2
@@ -3299,7 +3299,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_R
-Encoding: 240 926704 178
+Encoding: 926704 926704 178
 Width: 472
 VWidth: 0
 GlyphClass: 2
@@ -3329,7 +3329,7 @@ Validated: 41
 EndChar
 
 StartChar: ZLM_RA
-Encoding: 241 926705 179
+Encoding: 926705 926705 179
 Width: 472
 VWidth: 0
 GlyphClass: 2
@@ -3345,7 +3345,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_RE
-Encoding: 242 926706 180
+Encoding: 926706 926706 180
 Width: 472
 VWidth: 0
 GlyphClass: 2
@@ -3361,7 +3361,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_RI
-Encoding: 243 926707 181
+Encoding: 926707 926707 181
 Width: 472
 VWidth: 0
 GlyphClass: 2
@@ -3377,7 +3377,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_RO
-Encoding: 244 926708 182
+Encoding: 926708 926708 182
 Width: 472
 VWidth: 0
 GlyphClass: 2
@@ -3393,7 +3393,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_RU
-Encoding: 245 926709 183
+Encoding: 926709 926709 183
 Width: 472
 VWidth: 0
 GlyphClass: 2
@@ -3409,7 +3409,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_RY
-Encoding: 246 926710 184
+Encoding: 926710 926710 184
 Width: 472
 VWidth: 0
 GlyphClass: 2
@@ -3425,7 +3425,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_RAI
-Encoding: 247 926711 185
+Encoding: 926711 926711 185
 Width: 472
 VWidth: 0
 GlyphClass: 2
@@ -3441,7 +3441,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_REI
-Encoding: 248 926712 186
+Encoding: 926712 926712 186
 Width: 472
 VWidth: 0
 GlyphClass: 2
@@ -3457,7 +3457,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_ROI
-Encoding: 249 926713 187
+Encoding: 926713 926713 187
 Width: 689
 VWidth: 0
 GlyphClass: 2
@@ -3473,7 +3473,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_RAU
-Encoding: 250 926714 188
+Encoding: 926714 926714 188
 Width: 472
 VWidth: 0
 GlyphClass: 2
@@ -3489,7 +3489,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_Z
-Encoding: 256 926720 189
+Encoding: 926720 926720 189
 Width: 551
 VWidth: 0
 GlyphClass: 2
@@ -3529,7 +3529,7 @@ Validated: 37
 EndChar
 
 StartChar: ZLM_ZA
-Encoding: 257 926721 190
+Encoding: 926721 926721 190
 Width: 551
 VWidth: 0
 GlyphClass: 2
@@ -3545,7 +3545,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_ZE
-Encoding: 258 926722 191
+Encoding: 926722 926722 191
 Width: 551
 VWidth: 0
 GlyphClass: 2
@@ -3561,7 +3561,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_ZI
-Encoding: 259 926723 192
+Encoding: 926723 926723 192
 Width: 551
 VWidth: 0
 GlyphClass: 2
@@ -3577,7 +3577,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_ZO
-Encoding: 260 926724 193
+Encoding: 926724 926724 193
 Width: 551
 VWidth: 0
 GlyphClass: 2
@@ -3593,7 +3593,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_ZU
-Encoding: 261 926725 194
+Encoding: 926725 926725 194
 Width: 551
 VWidth: 0
 GlyphClass: 2
@@ -3609,7 +3609,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_ZY
-Encoding: 262 926726 195
+Encoding: 926726 926726 195
 Width: 551
 VWidth: 0
 GlyphClass: 2
@@ -3625,7 +3625,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_ZAI
-Encoding: 263 926727 196
+Encoding: 926727 926727 196
 Width: 551
 VWidth: 0
 GlyphClass: 2
@@ -3641,7 +3641,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_ZEI
-Encoding: 264 926728 197
+Encoding: 926728 926728 197
 Width: 551
 VWidth: 0
 GlyphClass: 2
@@ -3657,7 +3657,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_ZOI
-Encoding: 265 926729 198
+Encoding: 926729 926729 198
 Width: 551
 VWidth: 0
 GlyphClass: 2
@@ -3673,7 +3673,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_ZAU
-Encoding: 266 926730 199
+Encoding: 926730 926730 199
 Width: 551
 VWidth: 0
 GlyphClass: 2
@@ -3689,7 +3689,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_J
-Encoding: 272 926736 200
+Encoding: 926736 926736 200
 Width: 552
 VWidth: 0
 GlyphClass: 2
@@ -3736,7 +3736,7 @@ Validated: 37
 EndChar
 
 StartChar: ZLM_JA
-Encoding: 273 926737 201
+Encoding: 926737 926737 201
 Width: 552
 VWidth: 0
 GlyphClass: 2
@@ -3752,7 +3752,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_JE
-Encoding: 274 926738 202
+Encoding: 926738 926738 202
 Width: 552
 VWidth: 0
 GlyphClass: 2
@@ -3768,7 +3768,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_JI
-Encoding: 275 926739 203
+Encoding: 926739 926739 203
 Width: 552
 VWidth: 0
 GlyphClass: 2
@@ -3784,7 +3784,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_JO
-Encoding: 276 926740 204
+Encoding: 926740 926740 204
 Width: 552
 VWidth: 0
 GlyphClass: 2
@@ -3800,7 +3800,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_JU
-Encoding: 277 926741 205
+Encoding: 926741 926741 205
 Width: 552
 VWidth: 0
 GlyphClass: 2
@@ -3816,7 +3816,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_JY
-Encoding: 278 926742 206
+Encoding: 926742 926742 206
 Width: 552
 VWidth: 0
 GlyphClass: 2
@@ -3832,7 +3832,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_JAI
-Encoding: 279 926743 207
+Encoding: 926743 926743 207
 Width: 552
 VWidth: 0
 GlyphClass: 2
@@ -3848,7 +3848,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_JEI
-Encoding: 280 926744 208
+Encoding: 926744 926744 208
 Width: 552
 VWidth: 0
 GlyphClass: 2
@@ -3864,7 +3864,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_JOI
-Encoding: 281 926745 209
+Encoding: 926745 926745 209
 Width: 552
 VWidth: 0
 GlyphClass: 2
@@ -3880,7 +3880,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_JAU
-Encoding: 282 926746 210
+Encoding: 926746 926746 210
 Width: 552
 VWidth: 0
 GlyphClass: 2
@@ -3896,7 +3896,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_N
-Encoding: 288 926752 211
+Encoding: 926752 926752 211
 Width: 500
 VWidth: 0
 Flags: W
@@ -3925,7 +3925,7 @@ Validated: 33
 EndChar
 
 StartChar: ZLM_NA
-Encoding: 289 926753 212
+Encoding: 926753 926753 212
 Width: 500
 VWidth: 0
 Flags: W
@@ -3940,7 +3940,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_NE
-Encoding: 290 926754 213
+Encoding: 926754 926754 213
 Width: 500
 VWidth: 0
 Flags: W
@@ -3955,7 +3955,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_NI
-Encoding: 291 926755 214
+Encoding: 926755 926755 214
 Width: 500
 VWidth: 0
 Flags: W
@@ -3970,7 +3970,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_NO
-Encoding: 292 926756 215
+Encoding: 926756 926756 215
 Width: 500
 VWidth: 0
 Flags: W
@@ -3985,7 +3985,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_NU
-Encoding: 293 926757 216
+Encoding: 926757 926757 216
 Width: 500
 VWidth: 0
 Flags: W
@@ -4000,7 +4000,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_NY
-Encoding: 294 926758 217
+Encoding: 926758 926758 217
 Width: 500
 VWidth: 0
 Flags: W
@@ -4015,7 +4015,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_NAI
-Encoding: 295 926759 218
+Encoding: 926759 926759 218
 Width: 500
 VWidth: 0
 Flags: HW
@@ -4030,7 +4030,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_NEI
-Encoding: 296 926760 219
+Encoding: 926760 926760 219
 Width: 500
 VWidth: 0
 Flags: W
@@ -4045,7 +4045,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_NOI
-Encoding: 297 926761 220
+Encoding: 926761 926761 220
 Width: 500
 VWidth: 0
 Flags: W
@@ -4060,7 +4060,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_NAU
-Encoding: 298 926762 221
+Encoding: 926762 926762 221
 Width: 500
 VWidth: 0
 Flags: W
@@ -4075,7 +4075,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_SEMIVOWEL_Q
-Encoding: 304 926768 222
+Encoding: 926768 926768 222
 Width: 598
 VWidth: 0
 Flags: W
@@ -4087,7 +4087,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_QA
-Encoding: 305 926769 223
+Encoding: 926769 926769 223
 Width: 598
 VWidth: 0
 Flags: W
@@ -4102,7 +4102,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_QE
-Encoding: 306 926770 224
+Encoding: 926770 926770 224
 Width: 598
 VWidth: 0
 Flags: W
@@ -4117,7 +4117,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_QI
-Encoding: 307 926771 225
+Encoding: 926771 926771 225
 Width: 598
 VWidth: 0
 Flags: W
@@ -4132,7 +4132,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_QO
-Encoding: 308 926772 226
+Encoding: 926772 926772 226
 Width: 598
 VWidth: 0
 Flags: W
@@ -4147,7 +4147,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_QU
-Encoding: 309 926773 227
+Encoding: 926773 926773 227
 Width: 598
 VWidth: 0
 Flags: W
@@ -4162,7 +4162,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_QY
-Encoding: 310 926774 228
+Encoding: 926774 926774 228
 Width: 598
 VWidth: 0
 Flags: W
@@ -4177,7 +4177,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_QAI
-Encoding: 311 926775 229
+Encoding: 926775 926775 229
 Width: 598
 VWidth: 0
 Flags: HW
@@ -4191,7 +4191,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_QEI
-Encoding: 312 926776 230
+Encoding: 926776 926776 230
 Width: 598
 VWidth: 0
 Flags: W
@@ -4206,7 +4206,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_QOI
-Encoding: 313 926777 231
+Encoding: 926777 926777 231
 Width: 598
 VWidth: 0
 Flags: W
@@ -4221,7 +4221,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_QAU
-Encoding: 314 926778 232
+Encoding: 926778 926778 232
 Width: 598
 VWidth: 0
 Flags: W
@@ -4236,7 +4236,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_SEMIVOWEL_W
-Encoding: 320 926784 233
+Encoding: 926784 926784 233
 Width: 598
 VWidth: 0
 Flags: W
@@ -4265,7 +4265,7 @@ Validated: 33
 EndChar
 
 StartChar: ZLM_WA
-Encoding: 321 926785 234
+Encoding: 926785 926785 234
 Width: 598
 VWidth: 0
 Flags: W
@@ -4280,7 +4280,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_WE
-Encoding: 322 926786 235
+Encoding: 926786 926786 235
 Width: 598
 VWidth: 0
 Flags: W
@@ -4295,7 +4295,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_WI
-Encoding: 323 926787 236
+Encoding: 926787 926787 236
 Width: 598
 VWidth: 0
 Flags: W
@@ -4310,7 +4310,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_WO
-Encoding: 324 926788 237
+Encoding: 926788 926788 237
 Width: 598
 VWidth: 0
 Flags: W
@@ -4325,7 +4325,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_WU
-Encoding: 325 926789 238
+Encoding: 926789 926789 238
 Width: 598
 VWidth: 0
 Flags: W
@@ -4340,7 +4340,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_WY
-Encoding: 326 926790 239
+Encoding: 926790 926790 239
 Width: 598
 VWidth: 0
 Flags: W
@@ -4355,7 +4355,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_WAI
-Encoding: 327 926791 240
+Encoding: 926791 926791 240
 Width: 598
 VWidth: 0
 Flags: HW
@@ -4369,7 +4369,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_WEI
-Encoding: 328 926792 241
+Encoding: 926792 926792 241
 Width: 598
 VWidth: 0
 Flags: W
@@ -4384,7 +4384,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_WOI
-Encoding: 329 926793 242
+Encoding: 926793 926793 242
 Width: 598
 VWidth: 0
 Flags: W
@@ -4399,7 +4399,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_WAU
-Encoding: 330 926794 243
+Encoding: 926794 926794 243
 Width: 598
 VWidth: 0
 Flags: W
@@ -4414,7 +4414,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_DIACRITIC_A
-Encoding: 336 926800 244
+Encoding: 926800 926800 244
 Width: 130
 VWidth: 0
 GlyphClass: 2
@@ -4434,7 +4434,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_AHA
-Encoding: 337 926801 245
+Encoding: 926801 926801 245
 Width: 441
 VWidth: 0
 GlyphClass: 2
@@ -4451,7 +4451,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_AHE
-Encoding: 338 926802 246
+Encoding: 926802 926802 246
 Width: 477
 VWidth: 0
 GlyphClass: 2
@@ -4468,7 +4468,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_AHI
-Encoding: 339 926803 247
+Encoding: 926803 926803 247
 Width: 441
 VWidth: 0
 GlyphClass: 2
@@ -4485,7 +4485,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_AHO
-Encoding: 340 926804 248
+Encoding: 926804 926804 248
 Width: 472
 VWidth: 0
 GlyphClass: 2
@@ -4502,7 +4502,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_AHU
-Encoding: 341 926805 249
+Encoding: 926805 926805 249
 Width: 495
 VWidth: 0
 GlyphClass: 2
@@ -4519,7 +4519,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_AHY
-Encoding: 342 926806 250
+Encoding: 926806 926806 250
 Width: 467
 VWidth: 0
 GlyphClass: 2
@@ -4536,7 +4536,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_AHAI
-Encoding: 343 926807 251
+Encoding: 926807 926807 251
 Width: 441
 VWidth: 0
 GlyphClass: 2
@@ -4553,7 +4553,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_AHEI
-Encoding: 344 926808 252
+Encoding: 926808 926808 252
 Width: 489
 VWidth: 0
 GlyphClass: 2
@@ -4570,7 +4570,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_AHOI
-Encoding: 345 926809 253
+Encoding: 926809 926809 253
 Width: 474
 VWidth: 0
 GlyphClass: 2
@@ -4587,7 +4587,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_AHAU
-Encoding: 346 926810 254
+Encoding: 926810 926810 254
 Width: 441
 VWidth: 0
 GlyphClass: 2
@@ -4604,7 +4604,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_DIACRITIC_E
-Encoding: 352 926816 255
+Encoding: 926816 926816 255
 Width: 292
 VWidth: 0
 GlyphClass: 2
@@ -4624,7 +4624,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_EHA
-Encoding: 353 926817 256
+Encoding: 926817 926817 256
 Width: 531
 VWidth: 0
 GlyphClass: 2
@@ -4641,7 +4641,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_EHE
-Encoding: 354 926818 257
+Encoding: 926818 926818 257
 Width: 577
 VWidth: 0
 GlyphClass: 2
@@ -4658,7 +4658,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_EHI
-Encoding: 355 926819 258
+Encoding: 926819 926819 258
 Width: 531
 VWidth: 0
 GlyphClass: 2
@@ -4675,7 +4675,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_EHO
-Encoding: 356 926820 259
+Encoding: 926820 926820 259
 Width: 562
 VWidth: 0
 GlyphClass: 2
@@ -4692,7 +4692,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_EHU
-Encoding: 357 926821 260
+Encoding: 926821 926821 260
 Width: 585
 VWidth: 0
 GlyphClass: 2
@@ -4709,7 +4709,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_EHY
-Encoding: 358 926822 261
+Encoding: 926822 926822 261
 Width: 557
 VWidth: 0
 GlyphClass: 2
@@ -4726,7 +4726,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_EHAI
-Encoding: 359 926823 262
+Encoding: 926823 926823 262
 Width: 531
 VWidth: 0
 GlyphClass: 2
@@ -4743,7 +4743,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_EHEI
-Encoding: 360 926824 263
+Encoding: 926824 926824 263
 Width: 579
 VWidth: 0
 GlyphClass: 2
@@ -4760,7 +4760,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_EHOI
-Encoding: 361 926825 264
+Encoding: 926825 926825 264
 Width: 564
 VWidth: 0
 GlyphClass: 2
@@ -4777,7 +4777,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_EHAU
-Encoding: 362 926826 265
+Encoding: 926826 926826 265
 Width: 531
 VWidth: 0
 GlyphClass: 2
@@ -4794,7 +4794,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_DIACRITIC_I
-Encoding: 368 926832 266
+Encoding: 926832 926832 266
 Width: 164
 VWidth: 0
 GlyphClass: 2
@@ -4814,7 +4814,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_IHA
-Encoding: 369 926833 267
+Encoding: 926833 926833 267
 Width: 465
 VWidth: 0
 GlyphClass: 2
@@ -4831,7 +4831,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_IHE
-Encoding: 370 926834 268
+Encoding: 926834 926834 268
 Width: 511
 VWidth: 0
 GlyphClass: 2
@@ -4848,7 +4848,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_IHI
-Encoding: 371 926835 269
+Encoding: 926835 926835 269
 Width: 465
 VWidth: 0
 GlyphClass: 2
@@ -4865,7 +4865,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_IHO
-Encoding: 372 926836 270
+Encoding: 926836 926836 270
 Width: 496
 VWidth: 0
 GlyphClass: 2
@@ -4882,7 +4882,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_IHU
-Encoding: 373 926837 271
+Encoding: 926837 926837 271
 Width: 519
 VWidth: 0
 GlyphClass: 2
@@ -4899,7 +4899,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_IHY
-Encoding: 374 926838 272
+Encoding: 926838 926838 272
 Width: 491
 VWidth: 0
 GlyphClass: 2
@@ -4916,7 +4916,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_IHAI
-Encoding: 375 926839 273
+Encoding: 926839 926839 273
 Width: 465
 VWidth: 0
 GlyphClass: 2
@@ -4933,7 +4933,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_IHEI
-Encoding: 376 926840 274
+Encoding: 926840 926840 274
 Width: 513
 VWidth: 0
 GlyphClass: 2
@@ -4950,7 +4950,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_IHOI
-Encoding: 377 926841 275
+Encoding: 926841 926841 275
 Width: 498
 VWidth: 0
 GlyphClass: 2
@@ -4967,7 +4967,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_IHAU
-Encoding: 378 926842 276
+Encoding: 926842 926842 276
 Width: 465
 VWidth: 0
 GlyphClass: 2
@@ -4984,7 +4984,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_DIACRITIC_O
-Encoding: 384 926848 277
+Encoding: 926848 926848 277
 Width: 265
 VWidth: 0
 GlyphClass: 2
@@ -5008,7 +5008,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_OHA
-Encoding: 385 926849 278
+Encoding: 926849 926849 278
 Width: 501
 VWidth: 0
 GlyphClass: 2
@@ -5024,7 +5024,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_OHE
-Encoding: 386 926850 279
+Encoding: 926850 926850 279
 Width: 547
 VWidth: 0
 GlyphClass: 2
@@ -5041,7 +5041,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_OHI
-Encoding: 387 926851 280
+Encoding: 926851 926851 280
 Width: 501
 VWidth: 0
 GlyphClass: 2
@@ -5057,7 +5057,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_OHO
-Encoding: 388 926852 281
+Encoding: 926852 926852 281
 Width: 532
 VWidth: 0
 GlyphClass: 2
@@ -5073,7 +5073,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_OHU
-Encoding: 389 926853 282
+Encoding: 926853 926853 282
 Width: 553
 VWidth: 0
 GlyphClass: 2
@@ -5089,7 +5089,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_OHY
-Encoding: 390 926854 283
+Encoding: 926854 926854 283
 Width: 527
 VWidth: 0
 GlyphClass: 2
@@ -5106,7 +5106,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_OHAI
-Encoding: 391 926855 284
+Encoding: 926855 926855 284
 Width: 501
 VWidth: 0
 GlyphClass: 2
@@ -5122,7 +5122,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_OHEI
-Encoding: 392 926856 285
+Encoding: 926856 926856 285
 Width: 541
 VWidth: 0
 GlyphClass: 2
@@ -5138,7 +5138,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_OHOI
-Encoding: 393 926857 286
+Encoding: 926857 926857 286
 Width: 534
 VWidth: 0
 GlyphClass: 2
@@ -5154,7 +5154,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_OHAU
-Encoding: 394 926858 287
+Encoding: 926858 926858 287
 Width: 501
 VWidth: 0
 GlyphClass: 2
@@ -5170,7 +5170,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_DIACRITIC_U
-Encoding: 400 926864 288
+Encoding: 926864 926864 288
 Width: 297
 VWidth: 0
 GlyphClass: 2
@@ -5192,7 +5192,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_UHA
-Encoding: 401 926865 289
+Encoding: 926865 926865 289
 Width: 524
 VWidth: 0
 GlyphClass: 2
@@ -5208,7 +5208,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_UHE
-Encoding: 402 926866 290
+Encoding: 926866 926866 290
 Width: 570
 VWidth: 0
 GlyphClass: 2
@@ -5224,7 +5224,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_UHI
-Encoding: 403 926867 291
+Encoding: 926867 926867 291
 Width: 524
 VWidth: 0
 GlyphClass: 2
@@ -5240,7 +5240,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_UHO
-Encoding: 404 926868 292
+Encoding: 926868 926868 292
 Width: 555
 VWidth: 0
 GlyphClass: 2
@@ -5256,7 +5256,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_UHU
-Encoding: 405 926869 293
+Encoding: 926869 926869 293
 Width: 530
 VWidth: 0
 GlyphClass: 2
@@ -5272,7 +5272,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_UHY
-Encoding: 406 926870 294
+Encoding: 926870 926870 294
 Width: 550
 VWidth: 0
 GlyphClass: 2
@@ -5289,7 +5289,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_UHAI
-Encoding: 407 926871 295
+Encoding: 926871 926871 295
 Width: 524
 VWidth: 0
 GlyphClass: 2
@@ -5305,7 +5305,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_UHEI
-Encoding: 408 926872 296
+Encoding: 926872 926872 296
 Width: 572
 VWidth: 0
 GlyphClass: 2
@@ -5321,7 +5321,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_UHOI
-Encoding: 409 926873 297
+Encoding: 926873 926873 297
 Width: 557
 VWidth: 0
 GlyphClass: 2
@@ -5337,7 +5337,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_UHAU
-Encoding: 410 926874 298
+Encoding: 926874 926874 298
 Width: 524
 VWidth: 0
 GlyphClass: 2
@@ -5353,7 +5353,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_DIACRITIC_Y
-Encoding: 416 926880 299
+Encoding: 926880 926880 299
 Width: 244
 VWidth: 0
 GlyphClass: 2
@@ -5378,7 +5378,7 @@ Validated: 33
 EndChar
 
 StartChar: ZLM_CAS_YHA
-Encoding: 417 926881 300
+Encoding: 926881 926881 300
 Width: 507
 VWidth: 0
 GlyphClass: 2
@@ -5395,7 +5395,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_YHE
-Encoding: 418 926882 301
+Encoding: 926882 926882 301
 Width: 553
 VWidth: 0
 GlyphClass: 2
@@ -5412,7 +5412,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_YHI
-Encoding: 419 926883 302
+Encoding: 926883 926883 302
 Width: 507
 VWidth: 0
 GlyphClass: 2
@@ -5429,7 +5429,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_YHO
-Encoding: 420 926884 303
+Encoding: 926884 926884 303
 Width: 538
 VWidth: 0
 GlyphClass: 2
@@ -5446,7 +5446,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_YHU
-Encoding: 421 926885 304
+Encoding: 926885 926885 304
 Width: 561
 VWidth: 0
 GlyphClass: 2
@@ -5463,7 +5463,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_YHY
-Encoding: 422 926886 305
+Encoding: 926886 926886 305
 Width: 533
 VWidth: 0
 GlyphClass: 2
@@ -5480,7 +5480,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_CAS_YHAI
-Encoding: 423 926887 306
+Encoding: 926887 926887 306
 Width: 507
 VWidth: 0
 GlyphClass: 2
@@ -5497,7 +5497,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_YHEI
-Encoding: 424 926888 307
+Encoding: 926888 926888 307
 Width: 555
 VWidth: 0
 GlyphClass: 2
@@ -5514,7 +5514,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_YHOI
-Encoding: 425 926889 308
+Encoding: 926889 926889 308
 Width: 540
 VWidth: 0
 GlyphClass: 2
@@ -5531,7 +5531,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_YHAU
-Encoding: 426 926890 309
+Encoding: 926890 926890 309
 Width: 507
 VWidth: 0
 GlyphClass: 2
@@ -5548,7 +5548,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_DIACRITIC_AI
-Encoding: 432 926896 310
+Encoding: 926896 926896 310
 Width: 147
 VWidth: 0
 GlyphClass: 2
@@ -5560,7 +5560,7 @@ Validated: 25
 EndChar
 
 StartChar: ZLM_CAS_AIHA
-Encoding: 433 926897 311
+Encoding: 926897 926897 311
 Width: 466
 VWidth: 0
 GlyphClass: 2
@@ -5576,7 +5576,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_AIHE
-Encoding: 434 926898 312
+Encoding: 926898 926898 312
 Width: 512
 VWidth: 0
 GlyphClass: 2
@@ -5593,7 +5593,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_AIHI
-Encoding: 435 926899 313
+Encoding: 926899 926899 313
 Width: 466
 VWidth: 0
 GlyphClass: 2
@@ -5609,7 +5609,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_AIHO
-Encoding: 436 926900 314
+Encoding: 926900 926900 314
 Width: 497
 VWidth: 0
 GlyphClass: 2
@@ -5625,7 +5625,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_AIHU
-Encoding: 437 926901 315
+Encoding: 926901 926901 315
 Width: 520
 VWidth: 0
 GlyphClass: 2
@@ -5641,7 +5641,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_AIHY
-Encoding: 438 926902 316
+Encoding: 926902 926902 316
 Width: 492
 VWidth: 0
 GlyphClass: 2
@@ -5658,7 +5658,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_AIHAI
-Encoding: 439 926903 317
+Encoding: 926903 926903 317
 Width: 466
 VWidth: 0
 GlyphClass: 2
@@ -5674,7 +5674,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_AIHEI
-Encoding: 440 926904 318
+Encoding: 926904 926904 318
 Width: 514
 VWidth: 0
 GlyphClass: 2
@@ -5690,7 +5690,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_AIHOI
-Encoding: 441 926905 319
+Encoding: 926905 926905 319
 Width: 499
 VWidth: 0
 GlyphClass: 2
@@ -5706,7 +5706,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_AIHAU
-Encoding: 442 926906 320
+Encoding: 926906 926906 320
 Width: 466
 VWidth: 0
 GlyphClass: 2
@@ -5722,7 +5722,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_DIACRITIC_EI
-Encoding: 448 926912 321
+Encoding: 926912 926912 321
 Width: 297
 VWidth: 0
 GlyphClass: 2
@@ -5737,7 +5737,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_CAS_EIHA
-Encoding: 449 926913 322
+Encoding: 926913 926913 322
 Width: 526
 VWidth: 0
 GlyphClass: 2
@@ -5753,7 +5753,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_EIHE
-Encoding: 450 926914 323
+Encoding: 926914 926914 323
 Width: 572
 VWidth: 0
 GlyphClass: 2
@@ -5769,7 +5769,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_EIHI
-Encoding: 451 926915 324
+Encoding: 926915 926915 324
 Width: 526
 VWidth: 0
 GlyphClass: 2
@@ -5785,7 +5785,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_EIHO
-Encoding: 452 926916 325
+Encoding: 926916 926916 325
 Width: 557
 VWidth: 0
 GlyphClass: 2
@@ -5801,7 +5801,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_EIHU
-Encoding: 453 926917 326
+Encoding: 926917 926917 326
 Width: 580
 VWidth: 0
 GlyphClass: 2
@@ -5817,7 +5817,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_EIHY
-Encoding: 454 926918 327
+Encoding: 926918 926918 327
 Width: 552
 VWidth: 0
 GlyphClass: 2
@@ -5833,7 +5833,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_EIHAI
-Encoding: 455 926919 328
+Encoding: 926919 926919 328
 Width: 526
 VWidth: 0
 GlyphClass: 2
@@ -5849,7 +5849,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_EIHEI
-Encoding: 456 926920 329
+Encoding: 926920 926920 329
 Width: 525
 VWidth: 0
 GlyphClass: 2
@@ -5865,7 +5865,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_EIHOI
-Encoding: 457 926921 330
+Encoding: 926921 926921 330
 Width: 559
 VWidth: 0
 GlyphClass: 2
@@ -5881,7 +5881,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_EIHAU
-Encoding: 458 926922 331
+Encoding: 926922 926922 331
 Width: 526
 VWidth: 0
 GlyphClass: 2
@@ -5897,7 +5897,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_DIACRITIC_OI
-Encoding: 464 926928 332
+Encoding: 926928 926928 332
 Width: 298
 VWidth: 0
 GlyphClass: 2
@@ -5928,7 +5928,7 @@ Validated: 33
 EndChar
 
 StartChar: ZLM_CAS_OIHA
-Encoding: 465 926929 333
+Encoding: 926929 926929 333
 Width: 537
 VWidth: 0
 GlyphClass: 2
@@ -5944,7 +5944,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_OIHE
-Encoding: 466 926930 334
+Encoding: 926930 926930 334
 Width: 583
 VWidth: 0
 GlyphClass: 2
@@ -5960,7 +5960,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_OIHI
-Encoding: 467 926931 335
+Encoding: 926931 926931 335
 Width: 537
 VWidth: 0
 GlyphClass: 2
@@ -5976,7 +5976,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_OIHO
-Encoding: 468 926932 336
+Encoding: 926932 926932 336
 Width: 568
 VWidth: 0
 GlyphClass: 2
@@ -5992,7 +5992,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_OIHU
-Encoding: 469 926933 337
+Encoding: 926933 926933 337
 Width: 591
 VWidth: 0
 GlyphClass: 2
@@ -6008,7 +6008,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_OIHY
-Encoding: 470 926934 338
+Encoding: 926934 926934 338
 Width: 563
 VWidth: 0
 GlyphClass: 2
@@ -6024,7 +6024,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_OIHAI
-Encoding: 471 926935 339
+Encoding: 926935 926935 339
 Width: 537
 VWidth: 0
 GlyphClass: 2
@@ -6040,7 +6040,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_OIHEI
-Encoding: 472 926936 340
+Encoding: 926936 926936 340
 Width: 585
 VWidth: 0
 GlyphClass: 2
@@ -6056,7 +6056,7 @@ Validated: 9
 EndChar
 
 StartChar: ZLM_CAS_OIHOI
-Encoding: 473 926937 341
+Encoding: 926937 926937 341
 Width: 570
 VWidth: 0
 GlyphClass: 2
@@ -6072,7 +6072,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_OIHAU
-Encoding: 474 926938 342
+Encoding: 926938 926938 342
 Width: 537
 VWidth: 0
 GlyphClass: 2
@@ -6088,7 +6088,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_DIACRITIC_AU
-Encoding: 480 926944 343
+Encoding: 926944 926944 343
 Width: 187
 VWidth: 0
 GlyphClass: 2
@@ -6112,7 +6112,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_CAS_AUHA
-Encoding: 481 926945 344
+Encoding: 926945 926945 344
 Width: 470
 VWidth: 0
 GlyphClass: 2
@@ -6129,7 +6129,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_AUHE
-Encoding: 482 926946 345
+Encoding: 926946 926946 345
 Width: 516
 VWidth: 0
 GlyphClass: 2
@@ -6145,7 +6145,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_AUHI
-Encoding: 483 926947 346
+Encoding: 926947 926947 346
 Width: 470
 VWidth: 0
 GlyphClass: 2
@@ -6162,7 +6162,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_AUHO
-Encoding: 484 926948 347
+Encoding: 926948 926948 347
 Width: 501
 VWidth: 0
 GlyphClass: 2
@@ -6179,7 +6179,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_AUHU
-Encoding: 485 926949 348
+Encoding: 926949 926949 348
 Width: 524
 VWidth: 0
 GlyphClass: 2
@@ -6196,7 +6196,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_AUHY
-Encoding: 486 926950 349
+Encoding: 926950 926950 349
 Width: 495
 VWidth: 0
 GlyphClass: 2
@@ -6213,7 +6213,7 @@ LCarets2: 3 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_AUHAI
-Encoding: 487 926951 350
+Encoding: 926951 926951 350
 Width: 470
 VWidth: 0
 GlyphClass: 2
@@ -6230,7 +6230,7 @@ LCarets2: 4 0 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_AUHEI
-Encoding: 488 926952 351
+Encoding: 926952 926952 351
 Width: 518
 VWidth: 0
 GlyphClass: 2
@@ -6247,7 +6247,7 @@ LCarets2: 4 0 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_AUHOI
-Encoding: 489 926953 352
+Encoding: 926953 926953 352
 Width: 503
 VWidth: 0
 GlyphClass: 2
@@ -6264,7 +6264,7 @@ LCarets2: 4 0 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_AUHAU
-Encoding: 490 926954 353
+Encoding: 926954 926954 353
 Width: 470
 VWidth: 0
 GlyphClass: 2
@@ -6281,7 +6281,7 @@ LCarets2: 4 0 0 0 0
 EndChar
 
 StartChar: ZLM_CAS_ISO
-Encoding: 496 926960 354
+Encoding: 926960 926960 354
 Width: 403
 VWidth: 0
 GlyphClass: 2
@@ -6312,7 +6312,7 @@ Validated: 33
 EndChar
 
 StartChar: ZLM_FULL_A
-Encoding: 497 926961 355
+Encoding: 926961 926961 355
 Width: 549
 VWidth: 1024
 GlyphClass: 2
@@ -6334,7 +6334,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_FULL_E
-Encoding: 498 926962 356
+Encoding: 926962 926962 356
 Width: 551
 VWidth: 1024
 GlyphClass: 2
@@ -6358,7 +6358,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_FULL_I
-Encoding: 499 926963 357
+Encoding: 926963 926963 357
 Width: 551
 VWidth: 1024
 GlyphClass: 2
@@ -6384,7 +6384,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_FULL_O
-Encoding: 500 926964 358
+Encoding: 926964 926964 358
 Width: 549
 VWidth: 1024
 GlyphClass: 2
@@ -6406,7 +6406,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_FULL_U
-Encoding: 501 926965 359
+Encoding: 926965 926965 359
 Width: 550
 VWidth: 1024
 GlyphClass: 2
@@ -6430,7 +6430,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_FULL_Y
-Encoding: 502 926966 360
+Encoding: 926966 926966 360
 Width: 550
 VWidth: 1024
 GlyphClass: 2
@@ -6458,7 +6458,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_FULL_AI
-Encoding: 503 926967 361
+Encoding: 926967 926967 361
 Width: 550
 VWidth: 1024
 GlyphClass: 2
@@ -6482,7 +6482,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_FULL_EI
-Encoding: 504 926968 362
+Encoding: 926968 926968 362
 Width: 566
 VWidth: 1024
 GlyphClass: 2
@@ -6520,7 +6520,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_FULL_OI
-Encoding: 505 926969 363
+Encoding: 926969 926969 363
 Width: 550
 VWidth: 1024
 GlyphClass: 2
@@ -6544,7 +6544,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_FULL_AU
-Encoding: 506 926970 364
+Encoding: 926970 926970 364
 Width: 547
 VWidth: 1024
 GlyphClass: 2
@@ -6571,7 +6571,7 @@ Validated: 1
 EndChar
 
 StartChar: NameMe.239
-Encoding: 239 -1 365
+Encoding: 1114112 -1 365
 Width: 70
 VWidth: 0
 Flags: W
@@ -6581,7 +6581,7 @@ Validated: 1
 EndChar
 
 StartChar: NameMe.223
-Encoding: 223 -1 366
+Encoding: 1114113 -1 366
 Width: 70
 VWidth: 0
 Flags: W
@@ -6591,7 +6591,7 @@ Validated: 1
 EndChar
 
 StartChar: NameMe.219
-Encoding: 219 -1 367
+Encoding: 1114114 -1 367
 Width: 70
 VWidth: 0
 Flags: W
@@ -6601,13 +6601,533 @@ Validated: 1
 EndChar
 
 StartChar: NameMe.206
-Encoding: 206 -1 368
+Encoding: 1114115 -1 368
 Width: 454
 VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
 Validated: 1
+EndChar
+
+StartChar: period
+Encoding: 46 46 369
+Width: 0
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: comma
+Encoding: 44 44 370
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: A
+Encoding: 65 65 371
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: B
+Encoding: 66 66 372
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: C
+Encoding: 67 67 373
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: D
+Encoding: 68 68 374
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: E
+Encoding: 69 69 375
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: F
+Encoding: 70 70 376
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: G
+Encoding: 71 71 377
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: H
+Encoding: 72 72 378
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: I
+Encoding: 73 73 379
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: J
+Encoding: 74 74 380
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: K
+Encoding: 75 75 381
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: L
+Encoding: 76 76 382
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: M
+Encoding: 77 77 383
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: N
+Encoding: 78 78 384
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: O
+Encoding: 79 79 385
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: P
+Encoding: 80 80 386
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: Q
+Encoding: 81 81 387
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: R
+Encoding: 82 82 388
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: S
+Encoding: 83 83 389
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: T
+Encoding: 84 84 390
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: U
+Encoding: 85 85 391
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: V
+Encoding: 86 86 392
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: W
+Encoding: 87 87 393
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: X
+Encoding: 88 88 394
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: Y
+Encoding: 89 89 395
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: Z
+Encoding: 90 90 396
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: zero
+Encoding: 48 48 397
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: one
+Encoding: 49 49 398
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: two
+Encoding: 50 50 399
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: three
+Encoding: 51 51 400
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: four
+Encoding: 52 52 401
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: five
+Encoding: 53 53 402
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: six
+Encoding: 54 54 403
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: seven
+Encoding: 55 55 404
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: eight
+Encoding: 56 56 405
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: nine
+Encoding: 57 57 406
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: a
+Encoding: 97 97 407
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: b
+Encoding: 98 98 408
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: c
+Encoding: 99 99 409
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: d
+Encoding: 100 100 410
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: e
+Encoding: 101 101 411
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: f
+Encoding: 102 102 412
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: g
+Encoding: 103 103 413
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: h
+Encoding: 104 104 414
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: i
+Encoding: 105 105 415
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: j
+Encoding: 106 106 416
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: k
+Encoding: 107 107 417
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: l
+Encoding: 108 108 418
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: m
+Encoding: 109 109 419
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: n
+Encoding: 110 110 420
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: o
+Encoding: 111 111 421
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: p
+Encoding: 112 112 422
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: q
+Encoding: 113 113 423
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: r
+Encoding: 114 114 424
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: s
+Encoding: 115 115 425
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: t
+Encoding: 116 116 426
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: u
+Encoding: 117 117 427
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: v
+Encoding: 118 118 428
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: w
+Encoding: 119 119 429
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: x
+Encoding: 120 120 430
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: y
+Encoding: 121 121 431
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: z
+Encoding: 122 122 432
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: quotesingle
+Encoding: 39 39 433
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont
