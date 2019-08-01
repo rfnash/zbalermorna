@@ -8,9 +8,24 @@
 
     * { box-sizing: border-box; }
 
-    table, p, pre, select, label {
+    table, p, pre, select {
       font-size: 40px;
       margin: 1em 0;
+    }
+
+    label {
+      font-size: 30px;
+      display: block;
+    }
+
+    input[type=checkbox] {
+      /* Double-sized Checkboxes */
+      -ms-transform: scale(2); /* IE */
+      -moz-transform: scale(2); /* FF */
+      -webkit-transform: scale(2); /* Safari and Chrome */
+      -o-transform: scale(2); /* Opera */
+      transform: scale(2);
+      padding: 10px;
     }
 
     table th {
@@ -195,9 +210,10 @@
     </div>
     <h2>IME Emulation</h2>
     Features Enabled:<br/>
-    <label>ss10: <input type="checkbox" id="ss10" name="ss10" /></label>
-    <label>ss11: <input type="checkbox" id="ss11" name="ss11" /></label>
-    <label>liga: <input type="checkbox" id="liga" name="liga" /></label>
+    <label><input type="checkbox" id="liga" name="liga" /> <code>liga</code>: regular ligatures in latin (breaks some things)</label>
+    <label><input type="checkbox" id="ss10" name="ss10" /> <code>ss10</code>: latin to zlm conversion </label>
+    <label><input type="checkbox" id="ss11" name="ss11" /> <code>ss11</code>: numbers to zlm conversion</label>
+    <label><input type="checkbox" id="zlm2" name="zlm2" /> <code>zlm2</code>: stylistic zlm alternatives</label>
 
     <div class="test-blocks">
       <textarea data-ime-emulation class="reference test-block" id="ime-input">
@@ -205,6 +221,8 @@ plukauaii 2019
 cizra
 je ci'izra
 sei mi ciska
+plukau
+.au
 
 kAtrInAs djEIn mAdjqYrIs
 

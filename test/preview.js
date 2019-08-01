@@ -122,12 +122,17 @@ Q('[data-ime-emulation]').forEach(function (textarea) {
 });
 
 const font_selector = document.getElementById('font-selector');
+const liga = document.getElementById('liga');
 const ss10 = document.getElementById('ss10');
 const ss11 = document.getElementById('ss11');
-const liga = document.getElementById('liga');
+const zlm2 = document.getElementById('zlm2');
 
 function updateFontFeatures() { 
-  document.getElementById('ime-input').style["font-feature-settings"] = "'ss10' " + ( ss10.checked ? 1 : 0 )  + ", 'ss11' " + ( ss11.checked ? 1 : 0 ) + ", 'liga' " + ( liga.checked ? 1 : 0 );
+  document.getElementById('ime-input').style["font-feature-settings"] = 
+  "'liga' " + ( liga.checked ? 1 : 0 ) + 
+  ", 'ss10' " + ( ss10.checked ? 1 : 0 )  + 
+  ", 'ss11' " + ( ss11.checked ? 1 : 0 ) + 
+  ", 'zlm2' " + ( zlm2.checked ? 1 : 0 );
 }
 
 
@@ -138,6 +143,10 @@ font_selector.addEventListener('change', (event) => {
   }
 })
 
+liga.addEventListener('change', (event) => {
+  updateFontFeatures();
+})
+
 ss10.addEventListener('change', (event) => {
   updateFontFeatures();
 })
@@ -146,7 +155,8 @@ ss11.addEventListener('change', (event) => {
   updateFontFeatures();
 })
 
-liga.addEventListener('change', (event) => {
+
+zlm2.addEventListener('change', (event) => {
   updateFontFeatures();
 })
 

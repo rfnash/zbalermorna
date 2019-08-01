@@ -1,4 +1,8 @@
 #!/usr/local/bin/fontforge
-Open($1)
-MergeFeature($2)
-Generate($3)
+
+Open("src/" + $1 + ".sfd")
+MergeFeature("src/zlm.feature")
+if ( FileAccess("src/" + $1 + ".fea") == 0 )
+	MergeFeature("src/" + $1 + ".fea")
+endif
+Generate("output/" + $1 + ".otf")

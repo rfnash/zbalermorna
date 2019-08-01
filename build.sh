@@ -8,7 +8,6 @@ fi
 
 # Options
 INFILE="src/$1.sfd"
-FEATURE="src/zlm.feature"
 OUTFILE="output/$1.otf"
 TESTDIR="test/font"
 
@@ -24,7 +23,7 @@ echo "Building font: $INFILE -> $OUTFILE"
 echo ""
 
 
-"/c/Program Files (x86)/FontForgeBuilds/bin/fontforge.exe" -lang=ff -script build.pe "$INFILE" $FEATURE $OUTFILE
+"/c/Program Files (x86)/FontForgeBuilds/bin/fontforge.exe" -lang=ff -script build.pe $1
 
 
 # Copy generated file to update test page
