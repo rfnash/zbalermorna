@@ -1,3 +1,7 @@
+#
+# For help with the feature file format/syntax, check out this page:
+# https://adobe-type-tools.github.io/afdko/OpenTypeFeatureFileSpecification.html
+#
 
 #
 # Setup
@@ -45,9 +49,11 @@ big-comment = (text) -> log "\n\n#\n# #text\n#\n"
 description = (title, λ) -> big-comment title; λ!
 section     = (name, λ) -> big-comment name; λ!
 feature     = (name, λ) -> comment name; log "feature rlig {"; λ!; log "} rlig;"
+feature-custom     = (name, f, λ) -> comment name; log "feature #f {"; λ!; log "} #f;"
 sub         = (...parts, lig) -> log "  sub #{ map glyph, parts |> spaces } by #lig;"
 sub-tick    = (...parts, lig) -> log "  sub #{ map glyph, parts |> map (+ \') |> spaces } by #lig;"
 ignore      = (ctx, ...gs) -> log "  ignore sub #ctx #{ map (+ \'), gs |> spaces  };"
+name        = (name) -> log "  featureNames {\n    name \"#name\";\n  };"
 
 
 # Data
@@ -60,12 +66,61 @@ DIPHTH = <[ AI EI OI AU ]>
 ALL_CONSN  = CONSN ++ SEMIV
 ALL_VOWELS = VOWELS ++ DIPHTH
 
+log "# This file is generated automatically by tools/zlm.feature.ls"
+log "# Run 'lsc tools/zlm.feature.ls > src/zlm.feature' to update it"
 
 description "ZLM OpenType Feature Table Definitions", ->
 
   def-class \consonant, ALL_CONSN
   def-class \vowel,     ALL_VOWELS
   def-class \anything, "@consonant @vowel"
+
+  log "languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn DEU;
+languagesystem cyrl dflt;
+languagesystem cyrl SRB;
+languagesystem grek dflt;"
+
+  section "Latin Mapping", ->
+    feature-custom "C", "ss10", ->
+      for c in CONSN
+        log "  sub #c by ZLM_#c;"
+        log "  sub #{ c.toLowerCase() } by ZLM_#c;"
+      log "  sub period by ZLM_NULL;"
+      log "  sub quotesingle by ZLM_H;"
+      for v in VOWELS
+        log "  sub #v by ZLM_FULL_#v;"
+        log "  sub #{ v.toLowerCase() } by ZLM_DIACRITIC_#v;"
+      log "  sub w by ZLM_SEMIVOWEL_W;"
+      log "  sub W by ZLM_SEMIVOWEL_W;"
+      log "  sub q by ZLM_SEMIVOWEL_Q;"
+      log "  sub Q by ZLM_SEMIVOWEL_Q;"
+    feature-custom "VV", "ss10", ->
+      log "  sub ZLM_FULL_A ZLM_FULL_I by ZLM_FULL_AI;"
+      log "  sub ZLM_FULL_O ZLM_FULL_I by ZLM_FULL_OI;"
+      log "  sub ZLM_FULL_E ZLM_FULL_I by ZLM_FULL_EI;"
+      log "  sub ZLM_FULL_A ZLM_FULL_U by ZLM_FULL_AU;"
+    feature-custom ",VV", "ss10", ->
+      log "  sub comma ZLM_FULL_AI by ZLM_FULL_AI;"
+      log "  sub comma ZLM_FULL_OI by ZLM_FULL_OI;"
+      log "  sub comma ZLM_FULL_EI by ZLM_FULL_EI;"
+      log "  sub comma ZLM_FULL_AU by ZLM_FULL_AU;"
+    feature-custom ",V", "ss10", ->
+      for v in VOWELS
+        log "  sub comma ZLM_FULL_#v by ZLM_FULL_#v;"
+    feature-custom "Numbers", "ss11", ->
+      log "  sub zero by ZLM_NO;"
+      log "  sub one by ZLM_PA;"
+      log "  sub two by ZLM_RE;"
+      log "  sub three by ZLM_CI;"
+      log "  sub four by ZLM_VO;"
+      log "  sub five by ZLM_MU;"
+      log "  sub six by ZLM_XA;"
+      log "  sub seven by ZLM_ZE;"
+      log "  sub eight by ZLM_BI;"
+      log "  sub nine by ZLM_SO;"
+    feature-custom "Split diphthongs", "ss10" ->
 
   section "6-part ligatures", ->
     feature \NVV'VV, ->
@@ -115,11 +170,12 @@ description "ZLM OpenType Feature Table Definitions", ->
         for [ a, b ] in DIPHTH
           sub-tick q, a, b, glyph q + a + b
     feature \WVV, ->
+      ignore \@consonant \@vowel \@vowel \@vowel
       for q in SEMIV
         for [ a, b ] in DIPHTH
           sub-tick (to-v q), a, b, glyph q + a + b
     feature \CVV, ->
-      ignore \@consonant \@vowel \@vowel \@vowel
+      log "  ignore sub @consonant' @vowel' @vowel' @vowel;"
       for c in CONSN
         for [ a, b ] in DIPHTH
           sub-tick c, a, b, glyph c + a + b
@@ -150,5 +206,3 @@ description "ZLM OpenType Feature Table Definitions", ->
       ignore \@anything \@vowel
       for v in ALL_VOWELS
         sub-tick v, dot v
-
-

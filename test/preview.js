@@ -121,4 +121,37 @@ Q('[data-ime-emulation]').forEach(function (textarea) {
   update();
 });
 
+const font_selector = document.getElementById('font-selector');
+const ss10 = document.getElementById('ss10');
+const ss11 = document.getElementById('ss11');
+const liga = document.getElementById('liga');
 
+function updateFontFeatures() { 
+  document.getElementById('ime-input').style["font-feature-settings"] = "'ss10' " + ( ss10.checked ? 1 : 0 )  + ", 'ss11' " + ( ss11.checked ? 1 : 0 ) + ", 'liga' " + ( liga.checked ? 1 : 0 );
+}
+
+
+
+font_selector.addEventListener('change', (event) => {
+  for (var i = 0; i < document.getElementsByClassName('reference').length; i++) {
+    document.getElementsByClassName('reference')[i].style["font-family"] = event.target.value;
+  }
+})
+
+ss10.addEventListener('change', (event) => {
+  updateFontFeatures();
+})
+
+ss11.addEventListener('change', (event) => {
+  updateFontFeatures();
+})
+
+liga.addEventListener('change', (event) => {
+  updateFontFeatures();
+})
+
+
+for (var i = 0; i < document.getElementsByClassName('reference').length; i++) {
+  document.getElementsByClassName('reference')[i].style["font-family"] = "lato-zlm";
+}
+updateFontFeatures();

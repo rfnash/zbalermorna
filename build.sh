@@ -14,14 +14,17 @@ TESTDIR="test/font"
 
 # Generate incorporating common feature file
 echo ""
+echo "Building feature: src/zlm.feature"
+
+lsc tools/zlm.feature.ls > src/zlm.feature
+
+# Generate incorporating common feature file
+echo ""
 echo "Building font: $INFILE -> $OUTFILE"
 echo ""
 
-FF_SCRIPT="'Open(\"$INFILE\"); MergeFeature(\"$FEATURE\"); Generate(\"$OUTFILE\");'"
 
-echo $FF_SCRIPT
-
-"/c/Program Files (x86)/FontForgeBuilds/bin/fontforge.exe" -lang=ff -c "$FF_SCRIPT"
+"/c/Program Files (x86)/FontForgeBuilds/bin/fontforge.exe" -lang=ff -script build.pe "$INFILE" $FEATURE $OUTFILE
 
 
 # Copy generated file to update test page

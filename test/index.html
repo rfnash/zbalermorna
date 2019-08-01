@@ -6,15 +6,9 @@
     <meta name="viewport" content="width=device-width">
     <style>
 
-    @font-face {
-      font-family: "ZLM Manri";
-      font-weight: normal;
-      src: url('font/zlm-manri.otf') format('opentype');
-    }
-
     * { box-sizing: border-box; }
 
-    table, p, pre {
+    table, p, pre, select, label {
       font-size: 40px;
       margin: 1em 0;
     }
@@ -37,7 +31,6 @@
     }
 
     textarea {
-      display:   block;
       font-size: 40px;
     }
 
@@ -46,25 +39,23 @@
       font-family: monospace;
     }
 
-    .two-up {
+    .test-blocks {
       display: flex;
-      width: 100%;
-      align-content: flex-start;
     }
 
-    .two-up > * {
+    .test-block {
       flex: 1;
-      margin: 0;
     }
 
-    .two-up > * + * {
-      margin-left: 20px;
+    #ime-output {
+      margin-left: 10px;
+      font-size: 40px;
+      white-space: pre-wrap;
     }
 
-
-    /* Available fonts */
-
-    .reference { font-family: 'ZLM Manri'; }
+    @font-face { font-family: "lato-zlm"; font-weight: normal; src: url('font/lato-zlm.otf'); }
+    @font-face { font-family: "zlm-manri"; font-weight: normal; src: url('font/zlm-manri.otf'); }
+    @font-face { font-family: "zlm-tnr"; font-weight: normal; src: url('font/zlm-tnr.otf'); }
 
     </style>
   </head>
@@ -72,123 +63,159 @@
   <body>
     <h1>ZLM FDK Test Page</h1>
 
-    <div class="test-block">
+    <select id="font-selector">
+      <option value="lato-zlm">lato-zlm</option>
+      <option value="zlm-manri">zlm-manri</option>
+      <option value="zlm-tnr">zlm-tnr</option>
+    </select>
+
+    <div class="test-blocks">
+      <div class="test-block">
       <h3>CV ligatures</h3>
-      <p class="reference rows" >
-        <span data-zlm-translate> pa pe pi po pu py pai pei poi pau </span>
-        <span data-zlm-translate> ta te ti to tu ty tai tei toi tau </span>
-        <span data-zlm-translate> ka ke ki ko ku ky kai kei koi kau </span>
-        <span data-zlm-translate> fa fe fi fo fu fy fai fei foi fau </span>
-        <span data-zlm-translate> la le li lo lu ly lai lei loi lau </span>
-        <span data-zlm-translate> sa se si so su sy sai sei soi sau </span>
-        <span data-zlm-translate> ca ce ci co cu cy cai cei coi cau </span>
-        <span data-zlm-translate> ma me mi mo mu my mai mei moi mau </span>
-        <span data-zlm-translate> xa xe xi xo xu xy xai xei xoi xau </span>
-        <span data-zlm-translate> ba be bi bo bu by bai bei boi bau </span>
-        <span data-zlm-translate> da de di do du dy dai dei doi dau </span>
-        <span data-zlm-translate> ga ge gi go gu gy gai gei goi gau </span>
-        <span data-zlm-translate> va ve vi vo vu vy vai vei voi vau </span>
-        <span data-zlm-translate> ra re ri ro ru ry rai rei roi rau </span>
-        <span data-zlm-translate> za ze zi zo zu zy zai zei zoi zau </span>
-        <span data-zlm-translate> ja je ji jo ju jy jai jei joi jau </span>
-        <span data-zlm-translate> na ne ni no nu ny nai nei noi nau </span>
-      </p>
+        <table class="reference">
+          <tr>
+            <td data-zlm-translate>pa</td><td data-zlm-translate>pe</td><td data-zlm-translate>pi</td><td data-zlm-translate>po</td><td data-zlm-translate>pu</td><td data-zlm-translate>py</td><td data-zlm-translate>pai</td><td data-zlm-translate>pei</td><td data-zlm-translate>poi</td><td data-zlm-translate>pau</td>
+          </tr>
+          <tr>
+            <td data-zlm-translate>ta</td><td data-zlm-translate>te</td><td data-zlm-translate>ti</td><td data-zlm-translate>to</td><td data-zlm-translate>tu</td><td data-zlm-translate>ty</td><td data-zlm-translate>tai</td><td data-zlm-translate>tei</td><td data-zlm-translate>toi</td><td data-zlm-translate>tau</td>
+          </tr>
+          <tr>
+            <td data-zlm-translate>ka</td><td data-zlm-translate>ke</td><td data-zlm-translate>ki</td><td data-zlm-translate>ko</td><td data-zlm-translate>ku</td><td data-zlm-translate>ky</td><td data-zlm-translate>kai</td><td data-zlm-translate>kei</td><td data-zlm-translate>koi</td><td data-zlm-translate>kau</td>
+          </tr>
+          <tr>
+            <td data-zlm-translate>fa</td><td data-zlm-translate>fe</td><td data-zlm-translate>fi</td><td data-zlm-translate>fo</td><td data-zlm-translate>fu</td><td data-zlm-translate>fy</td><td data-zlm-translate>fai</td><td data-zlm-translate>fei</td><td data-zlm-translate>foi</td><td data-zlm-translate>fau</td>
+          </tr>
+          <tr>
+            <td data-zlm-translate>la</td><td data-zlm-translate>le</td><td data-zlm-translate>li</td><td data-zlm-translate>lo</td><td data-zlm-translate>lu</td><td data-zlm-translate>ly</td><td data-zlm-translate>lai</td><td data-zlm-translate>lei</td><td data-zlm-translate>loi</td><td data-zlm-translate>lau</td>
+          </tr>
+          <tr>
+            <td data-zlm-translate>sa</td><td data-zlm-translate>se</td><td data-zlm-translate>si</td><td data-zlm-translate>so</td><td data-zlm-translate>su</td><td data-zlm-translate>sy</td><td data-zlm-translate>sai</td><td data-zlm-translate>sei</td><td data-zlm-translate>soi</td><td data-zlm-translate>sau</td>
+          </tr>
+          <tr>
+            <td data-zlm-translate>ca</td><td data-zlm-translate>ce</td><td data-zlm-translate>ci</td><td data-zlm-translate>co</td><td data-zlm-translate>cu</td><td data-zlm-translate>cy</td><td data-zlm-translate>cai</td><td data-zlm-translate>cei</td><td data-zlm-translate>coi</td><td data-zlm-translate>cau</td>
+          </tr>
+          <tr>
+            <td data-zlm-translate>ma</td><td data-zlm-translate>me</td><td data-zlm-translate>mi</td><td data-zlm-translate>mo</td><td data-zlm-translate>mu</td><td data-zlm-translate>my</td><td data-zlm-translate>mai</td><td data-zlm-translate>mei</td><td data-zlm-translate>moi</td><td data-zlm-translate>mau</td>
+          </tr>
+          <tr>
+            <td data-zlm-translate>xa</td><td data-zlm-translate>xe</td><td data-zlm-translate>xi</td><td data-zlm-translate>xo</td><td data-zlm-translate>xu</td><td data-zlm-translate>xy</td><td data-zlm-translate>xai</td><td data-zlm-translate>xei</td><td data-zlm-translate>xoi</td><td data-zlm-translate>xau</td>
+          </tr>
+          <tr>
+            <td data-zlm-translate>ba</td><td data-zlm-translate>be</td><td data-zlm-translate>bi</td><td data-zlm-translate>bo</td><td data-zlm-translate>bu</td><td data-zlm-translate>by</td><td data-zlm-translate>bai</td><td data-zlm-translate>bei</td><td data-zlm-translate>boi</td><td data-zlm-translate>bau</td>
+          </tr>
+          <tr>
+            <td data-zlm-translate>da</td><td data-zlm-translate>de</td><td data-zlm-translate>di</td><td data-zlm-translate>do</td><td data-zlm-translate>du</td><td data-zlm-translate>dy</td><td data-zlm-translate>dai</td><td data-zlm-translate>dei</td><td data-zlm-translate>doi</td><td data-zlm-translate>dau</td>
+          </tr>
+          <tr>
+            <td data-zlm-translate>ga</td><td data-zlm-translate>ge</td><td data-zlm-translate>gi</td><td data-zlm-translate>go</td><td data-zlm-translate>gu</td><td data-zlm-translate>gy</td><td data-zlm-translate>gai</td><td data-zlm-translate>gei</td><td data-zlm-translate>goi</td><td data-zlm-translate>gau</td>
+          </tr>
+          <tr>
+            <td data-zlm-translate>va</td><td data-zlm-translate>ve</td><td data-zlm-translate>vi</td><td data-zlm-translate>vo</td><td data-zlm-translate>vu</td><td data-zlm-translate>vy</td><td data-zlm-translate>vai</td><td data-zlm-translate>vei</td><td data-zlm-translate>voi</td><td data-zlm-translate>vau</td>
+          </tr>
+          <tr>
+            <td data-zlm-translate>ra</td><td data-zlm-translate>re</td><td data-zlm-translate>ri</td><td data-zlm-translate>ro</td><td data-zlm-translate>ru</td><td data-zlm-translate>ry</td><td data-zlm-translate>rai</td><td data-zlm-translate>rei</td><td data-zlm-translate>roi</td><td data-zlm-translate>rau</td>
+          </tr>
+          <tr>
+            <td data-zlm-translate>za</td><td data-zlm-translate>ze</td><td data-zlm-translate>zi</td><td data-zlm-translate>zo</td><td data-zlm-translate>zu</td><td data-zlm-translate>zy</td><td data-zlm-translate>zai</td><td data-zlm-translate>zei</td><td data-zlm-translate>zoi</td><td data-zlm-translate>zau</td>
+          </tr>
+          <tr>
+            <td data-zlm-translate>ja</td><td data-zlm-translate>je</td><td data-zlm-translate>ji</td><td data-zlm-translate>jo</td><td data-zlm-translate>ju</td><td data-zlm-translate>jy</td><td data-zlm-translate>jai</td><td data-zlm-translate>jei</td><td data-zlm-translate>joi</td><td data-zlm-translate>jau</td>
+          </tr>
+          <tr>
+            <td data-zlm-translate>na</td><td data-zlm-translate>ne</td><td data-zlm-translate>ni</td><td data-zlm-translate>no</td><td data-zlm-translate>nu</td><td data-zlm-translate>ny</td><td data-zlm-translate>nai</td><td data-zlm-translate>nei</td><td data-zlm-translate>noi</td><td data-zlm-translate>nau</td>
+          </tr>
+        </table>
+        </div>
+        <div class="test-block">
+          <h3>Auto semivowels</h3>
+          <p class="reference rows">
+            <span data-zlm-translate>   ia   ie   ii   io   iu   iy   iai   iei   ioi   iau </span>
+            <span data-zlm-translate>   ua   ue   ui   uo   uu   uy   uai   uei   uoi   uau </span>
+          </p>
+          <h3>Self-dotting vowels</h3>
+          <p class="reference rows">
+            <span data-zlm-translate>    a    e    i    o    u    y    ai    ei    oi    au </span>
+          </p>
+          <h3>Attitudinal ligatures</h3>
+          <p class="reference rows">
+            <span data-zlm-translate>  a'a  a'e  a'i  a'o  a'u  a'y  a'ai  a'ei  a'oi  a'au </span>
+            <span data-zlm-translate>  e'a  e'e  e'i  e'o  e'u  e'y  e'ai  e'ei  e'oi  e'au </span>
+            <span data-zlm-translate>  i'a  i'e  i'i  i'o  i'u  i'y  i'ai  i'ei  i'oi  i'au </span>
+            <span data-zlm-translate>  o'a  o'e  o'i  o'o  o'u  o'y  o'ai  o'ei  o'oi  o'au </span>
+            <span data-zlm-translate>  u'a  u'e  u'i  u'o  u'u  u'y  u'ai  u'ei  u'oi  u'au </span>
+            <span data-zlm-translate>  i'a  i'e  i'i  i'o  i'u  i'y  i'ai  i'ei  i'oi  i'au </span>
+            <span data-zlm-translate>  y'a  y'e  y'i  y'o  y'u  y'y  y'ai  y'ei  y'oi  y'au </span>
+            <span data-zlm-translate> ai'a ai'e ai'i ai'o ai'u ai'y ai'ai ai'ei ai'oi ai'au </span>
+            <span data-zlm-translate> ei'a ei'e ei'i ei'o ei'u ei'y ei'ai ei'ei ei'oi ei'au </span>
+            <span data-zlm-translate> oi'a oi'e oi'i oi'o oi'u oi'y oi'ai oi'ei oi'oi oi'au </span>
+            <span data-zlm-translate> au'a au'e au'i au'o au'u au'y au'ai au'ei au'oi au'au </span>
+          </p>
+        </div>
+      </div>
 
 
-      <h3>Self-dotting vowels</h3>
-      <p class="reference rows">
-        <span data-zlm-translate>    a    e    i    o    u    y    ai    ei    oi    au </span>
-      </p>
+    <div class="test-blocks">
+      <div class="test-block">
+        <h3>Ligature precedence</h3>
 
-      <h3>Attitudinal ligatures</h3>
-      <p class="reference rows">
-        <span data-zlm-translate>  a'a  a'e  a'i  a'o  a'u  a'y  a'ai  a'ei  a'oi  a'au </span>
-        <span data-zlm-translate>  e'a  e'e  e'i  e'o  e'u  e'y  e'ai  e'ei  e'oi  e'au </span>
-        <span data-zlm-translate>  i'a  i'e  i'i  i'o  i'u  i'y  i'ai  i'ei  i'oi  i'au </span>
-        <span data-zlm-translate>  o'a  o'e  o'i  o'o  o'u  o'y  o'ai  o'ei  o'oi  o'au </span>
-        <span data-zlm-translate>  u'a  u'e  u'i  u'o  u'u  u'y  u'ai  u'ei  u'oi  u'au </span>
-        <span data-zlm-translate>  i'a  i'e  i'i  i'o  i'u  i'y  i'ai  i'ei  i'oi  i'au </span>
-        <span data-zlm-translate>  y'a  y'e  y'i  y'o  y'u  y'y  y'ai  y'ei  y'oi  y'au </span>
-        <span data-zlm-translate> ai'a ai'e ai'i ai'o ai'u ai'y ai'ai ai'ei ai'oi ai'au </span>
-        <span data-zlm-translate> ei'a ei'e ei'i ei'o ei'u ei'y ei'ai ei'ei ei'oi ei'au </span>
-        <span data-zlm-translate> oi'a oi'e oi'i oi'o oi'u oi'y oi'ai oi'ei oi'oi oi'au </span>
-        <span data-zlm-translate> au'a au'e au'i au'o au'u au'y au'ai au'ei au'oi au'au </span>
-      </p>
+        <table>
+          <tr>
+            <th>input</th> <th>output</th> <th>should be</th>
+          </tr>
 
-      <h3>Auto semivowels</h3>
-      <p class="reference rows">
-        <span data-zlm-translate>   ia   ie   ii   io   iu   iy   iai   iei   ioi   iau </span>
-        <span data-zlm-translate>   ua   ue   ui   uo   uu   uy   uai   uei   uoi   uau </span>
-      </p>
+          <tr class="reference">
+            <td> co'o ci'izra </td> <td data-zlm-translate> co'o ci'izra </td> <td>&#xe2384;&#xe2314; &#Xe2383;&#Xe2313;&#Xe2400;&#Xe23f1;</td>
+          </tr>
 
-      <h3>Diacritic vertical alignment</h3>
-      <p data-zlm-translate class="reference"> a e i o u y ai ei oi au </p>
+          <tr class="reference">
+           <td> uau je'u do'oi </td>  <td data-zlm-translate> uau je'u do'oi </td> <td> &#xe244a; &#xe2412;&#xe2315; &#xe23c4;&#xe2319;</td>
+          </tr>
 
+          <tr class="reference">
+            <td> plukauaii </td><td data-zlm-translate> plukauaii </td> <td> &#xe2320;&#xe2365;&#xe2341;&#xe2441;&#xe2433;</td>
+          </tr>
+        </table>
+      </div>
 
-      <h3>Ligature precedence</h3>
+      <div class="test-block">
+        <h2>Size WRT latin text</h2>
+        <p class="reference">
+          <span style="font-family:Lato">k</span><span data-zlm-translate>pa</span>
+          <span style="font-family:Lato">h</span><span data-zlm-translate>ta</span>
+          <span style="font-family:Lato">g</span><span data-zlm-translate>ka</span>
+          <span style="font-family:Lato">o</span><span data-zlm-translate>xau</span>
+          <span style="font-family:Lato">i</span><span data-zlm-translate>.i'i</span>
+        </p>
 
-      <table class="reference">
-        <tr>
-          <th> output</th> <th>should be</th>
-        </tr>
-
-        <tr>
-          <td data-zlm-translate> co'o ci'izra </td> <td>&#xe2384;&#xe2314; &#Xe2383;&#Xe2313;&#Xe2400;&#Xe23f1;</td>
-        </tr>
-
-        <tr>
-          <td data-zlm-translate> uau je'u do'oi </td> <td> &#xe244a; &#xe2412;&#xe2315; &#xe23c4;&#xe2319;</td>
-        </tr>
-
-        <tr>
-          <td data-zlm-translate> plukauaii </td> <td> &#xe2320;&#xe2365;&#xe2341;&#xe2441;&#xe2433;</td>
-        </tr>
-      </table>
+        <h2>Full vowels</h2>
+        <p class="reference">
+          <span>&#xe24F1; &#xe24F2; &#xe24F3; &#xe24F4; &#xe24F5; &#xe24F6; &#xe24F7; &#xe24F8; &#xe24F9; &#xe24FA;</span>
+        </p>
+      </div>
     </div>
-
-    <!--
-    <div class="test-block">
-      <h2>Size WRT latin text</h2>
-      <p class="reference">
-        k<span data-zlm-translate>pa</span>
-        h<span data-zlm-translate>ta</span>
-        g<span data-zlm-translate>ka</span>
-        o<span data-zlm-translate>xau</span>
-        i<span data-zlm-translate>.i'i</span>
-      </p>
-    </div>
-    -->
-
     <h2>IME Emulation</h2>
-    <div class="two-up">
-      <textarea data-ime-emulation class="reference" rows="10">
+    Features Enabled:<br/>
+    <label>ss10: <input type="checkbox" id="ss10" name="ss10" /></label>
+    <label>ss11: <input type="checkbox" id="ss11" name="ss11" /></label>
+    <label>liga: <input type="checkbox" id="liga" name="liga" /></label>
+
+    <div class="test-blocks">
+      <textarea data-ime-emulation class="reference test-block" id="ime-input">
+plukauaii 2019
 cizra
 je ci'izra
 sei mi ciska
 
-.i la .lojban. cu rutni bangu gi'e se finti fi lo nu vimcu so'e cfipu se sorsmu lo pu'u 
-remna tavla .i ly. co'a slabu so'ida ki'u tu'a le papri pe la .sa,ientifikamerikan. ge'u 
-.e so'o nu sitna fa lo saske cfika .e lo kibro karni .i la .lojban. pu mo'u se finti ze'u 
-lo se nanca be li ji'imuno lo so'ino gunka jo'u lo so'inono sidju
+kAtrInAs djEIn mAdjqYrIs
 
-.i za'u bu'a zo'u: ge la .lojban. go'o bu'a ginai lo drata bangu cu bu'a .i mu'a tu'e
+wEIn WE,In
 
-.i la .lojban. cu bangu loi remna pe tezu'e loi nu tavla vo'e .e da'i loi skami
-.i la .lojban. na kulnu selkai steci
-.i la .lojban. cu logji
-.i la .lojban. cu satci lo ka gerna ce'u
-.i lo voksnaske be la .lojban. cu jai se javni gi'e satci
-.i la .lojban. cu zmadu loi rarna bangu loka sampu .i frili fa lo'e nu cilre
-.i la .lojban. cu te valsi le parenono gismu noi ke'a frili te zbasu le so'oki'oki'o lujvo
-.i la .lojban. cu jai se javni .i pino lei javni cu sezynatfe
-.i la .lojban. cu jai troci lenu zifre pensi sidju
-.i la .lojban. cu tutci so'o da no'u mu'a lei zifre finti ku ce lei saske .e lei se pensi ku ce lei ca'a se gasnu
-ni'o .i .e'u zgana fe mu'a lo skina be lo nu tavla fo la .lojban. vau
-
-ni'o xu se cinri .i .e'o sidju fi lo nu favgau le lojbo .uitki
-      
+.i ma jufra gi'e se vanbi le vi cukta
+.i .e'o ko denpa .i mi troci co tolcri fi le vi cukta
+.i le trene cu klama fi ma poi tsina
+.i .e'o ko livycru mi bu'u le bavla'i ke nunde'a tcana
       </textarea>
-      <pre class="reference" data-ime-output>&#xe2389;</pre>
+      <div class="reference test-block" id="ime-output" data-ime-output>&#xe2389;</div>
     </div>
     <script src="preview.js"></script>
   </body>

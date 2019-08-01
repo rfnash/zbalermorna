@@ -1,3 +1,5 @@
+# This file is generated automatically by tools/zlm.feature.ls
+# Run 'lsc tools/zlm.feature.ls > src/zlm.feature' to update it
 
 
 #
@@ -7,6 +9,121 @@
 @consonant = [ ZLM_P ZLM_T ZLM_K ZLM_F ZLM_L ZLM_S ZLM_C ZLM_M ZLM_X ZLM_B ZLM_D ZLM_G ZLM_V ZLM_R ZLM_Z ZLM_J ZLM_N ZLM_H ZLM_SEMIVOWEL_Q ZLM_SEMIVOWEL_W ];
 @vowel = [ ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU ];
 @anything = [ @consonant @vowel ];
+languagesystem DFLT dflt;languagesystem latn dflt;languagesystem latn DEU;languagesystem cyrl dflt;languagesystem cyrl SRB;languagesystem grek dflt;
+
+
+#
+# Latin Mapping
+#
+
+
+# C
+
+feature ss10 {
+  sub P by ZLM_P;
+  sub p by ZLM_P;
+  sub T by ZLM_T;
+  sub t by ZLM_T;
+  sub K by ZLM_K;
+  sub k by ZLM_K;
+  sub F by ZLM_F;
+  sub f by ZLM_F;
+  sub L by ZLM_L;
+  sub l by ZLM_L;
+  sub S by ZLM_S;
+  sub s by ZLM_S;
+  sub C by ZLM_C;
+  sub c by ZLM_C;
+  sub M by ZLM_M;
+  sub m by ZLM_M;
+  sub X by ZLM_X;
+  sub x by ZLM_X;
+  sub B by ZLM_B;
+  sub b by ZLM_B;
+  sub D by ZLM_D;
+  sub d by ZLM_D;
+  sub G by ZLM_G;
+  sub g by ZLM_G;
+  sub V by ZLM_V;
+  sub v by ZLM_V;
+  sub R by ZLM_R;
+  sub r by ZLM_R;
+  sub Z by ZLM_Z;
+  sub z by ZLM_Z;
+  sub J by ZLM_J;
+  sub j by ZLM_J;
+  sub N by ZLM_N;
+  sub n by ZLM_N;
+  sub H by ZLM_H;
+  sub h by ZLM_H;
+  sub period by ZLM_NULL;
+  sub quotesingle by ZLM_H;
+  sub A by ZLM_FULL_A;
+  sub a by ZLM_DIACRITIC_A;
+  sub E by ZLM_FULL_E;
+  sub e by ZLM_DIACRITIC_E;
+  sub I by ZLM_FULL_I;
+  sub i by ZLM_DIACRITIC_I;
+  sub O by ZLM_FULL_O;
+  sub o by ZLM_DIACRITIC_O;
+  sub U by ZLM_FULL_U;
+  sub u by ZLM_DIACRITIC_U;
+  sub Y by ZLM_FULL_Y;
+  sub y by ZLM_DIACRITIC_Y;
+  sub w by ZLM_SEMIVOWEL_W;
+  sub W by ZLM_SEMIVOWEL_W;
+  sub q by ZLM_SEMIVOWEL_Q;
+  sub Q by ZLM_SEMIVOWEL_Q;
+} ss10;
+
+# VV
+
+feature ss10 {
+  sub ZLM_FULL_A ZLM_FULL_I by ZLM_FULL_AI;
+  sub ZLM_FULL_O ZLM_FULL_I by ZLM_FULL_OI;
+  sub ZLM_FULL_E ZLM_FULL_I by ZLM_FULL_EI;
+  sub ZLM_FULL_A ZLM_FULL_U by ZLM_FULL_AU;
+} ss10;
+
+# ,VV
+
+feature ss10 {
+  sub comma ZLM_FULL_AI by ZLM_FULL_AI;
+  sub comma ZLM_FULL_OI by ZLM_FULL_OI;
+  sub comma ZLM_FULL_EI by ZLM_FULL_EI;
+  sub comma ZLM_FULL_AU by ZLM_FULL_AU;
+} ss10;
+
+# ,V
+
+feature ss10 {
+  sub comma ZLM_FULL_A by ZLM_FULL_A;
+  sub comma ZLM_FULL_E by ZLM_FULL_E;
+  sub comma ZLM_FULL_I by ZLM_FULL_I;
+  sub comma ZLM_FULL_O by ZLM_FULL_O;
+  sub comma ZLM_FULL_U by ZLM_FULL_U;
+  sub comma ZLM_FULL_Y by ZLM_FULL_Y;
+} ss10;
+
+# Numbers
+
+feature ss11 {
+  sub zero by ZLM_NO;
+  sub one by ZLM_PA;
+  sub two by ZLM_RE;
+  sub three by ZLM_CI;
+  sub four by ZLM_VO;
+  sub five by ZLM_MU;
+  sub six by ZLM_XA;
+  sub seven by ZLM_ZE;
+  sub eight by ZLM_BI;
+  sub nine by ZLM_SO;
+} ss11;
+
+# Split diphthongs
+
+feature ss10 {
+} ss10;
 
 
 #
@@ -391,35 +508,35 @@ feature rlig {
 # QV
 
 feature rlig {
-  sub ZLM_SEMIVOWEL_Q' ZLM_DIACRITIC_A' by ZLM_QA;
-  sub ZLM_SEMIVOWEL_Q' ZLM_DIACRITIC_E' by ZLM_QE;
-  sub ZLM_SEMIVOWEL_Q' ZLM_DIACRITIC_I' by ZLM_QI;
-  sub ZLM_SEMIVOWEL_Q' ZLM_DIACRITIC_O' by ZLM_QO;
-  sub ZLM_SEMIVOWEL_Q' ZLM_DIACRITIC_U' by ZLM_QU;
-  sub ZLM_SEMIVOWEL_Q' ZLM_DIACRITIC_Y' by ZLM_QY;
-  sub ZLM_SEMIVOWEL_W' ZLM_DIACRITIC_A' by ZLM_WA;
-  sub ZLM_SEMIVOWEL_W' ZLM_DIACRITIC_E' by ZLM_WE;
-  sub ZLM_SEMIVOWEL_W' ZLM_DIACRITIC_I' by ZLM_WI;
-  sub ZLM_SEMIVOWEL_W' ZLM_DIACRITIC_O' by ZLM_WO;
-  sub ZLM_SEMIVOWEL_W' ZLM_DIACRITIC_U' by ZLM_WU;
-  sub ZLM_SEMIVOWEL_W' ZLM_DIACRITIC_Y' by ZLM_WY;
+  sub ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_A by ZLM_QA;
+  sub ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_E by ZLM_QE;
+  sub ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_I by ZLM_QI;
+  sub ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_O by ZLM_QO;
+  sub ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_U by ZLM_QU;
+  sub ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_Y by ZLM_QY;
+  sub ZLM_SEMIVOWEL_W ZLM_DIACRITIC_A by ZLM_WA;
+  sub ZLM_SEMIVOWEL_W ZLM_DIACRITIC_E by ZLM_WE;
+  sub ZLM_SEMIVOWEL_W ZLM_DIACRITIC_I by ZLM_WI;
+  sub ZLM_SEMIVOWEL_W ZLM_DIACRITIC_O by ZLM_WO;
+  sub ZLM_SEMIVOWEL_W ZLM_DIACRITIC_U by ZLM_WU;
+  sub ZLM_SEMIVOWEL_W ZLM_DIACRITIC_Y by ZLM_WY;
 } rlig;
 
 # WV
 
 feature rlig {
-  sub ZLM_DIACRITIC_I' ZLM_DIACRITIC_A' by ZLM_QA;
-  sub ZLM_DIACRITIC_I' ZLM_DIACRITIC_E' by ZLM_QE;
-  sub ZLM_DIACRITIC_I' ZLM_DIACRITIC_I' by ZLM_QI;
-  sub ZLM_DIACRITIC_I' ZLM_DIACRITIC_O' by ZLM_QO;
-  sub ZLM_DIACRITIC_I' ZLM_DIACRITIC_U' by ZLM_QU;
-  sub ZLM_DIACRITIC_I' ZLM_DIACRITIC_Y' by ZLM_QY;
-  sub ZLM_DIACRITIC_U' ZLM_DIACRITIC_A' by ZLM_WA;
-  sub ZLM_DIACRITIC_U' ZLM_DIACRITIC_E' by ZLM_WE;
-  sub ZLM_DIACRITIC_U' ZLM_DIACRITIC_I' by ZLM_WI;
-  sub ZLM_DIACRITIC_U' ZLM_DIACRITIC_O' by ZLM_WO;
-  sub ZLM_DIACRITIC_U' ZLM_DIACRITIC_U' by ZLM_WU;
-  sub ZLM_DIACRITIC_U' ZLM_DIACRITIC_Y' by ZLM_WY;
+  sub ZLM_DIACRITIC_I ZLM_DIACRITIC_A by ZLM_QA;
+  sub ZLM_DIACRITIC_I ZLM_DIACRITIC_E by ZLM_QE;
+  sub ZLM_DIACRITIC_I ZLM_DIACRITIC_I by ZLM_QI;
+  sub ZLM_DIACRITIC_I ZLM_DIACRITIC_O by ZLM_QO;
+  sub ZLM_DIACRITIC_I ZLM_DIACRITIC_U by ZLM_QU;
+  sub ZLM_DIACRITIC_I ZLM_DIACRITIC_Y by ZLM_QY;
+  sub ZLM_DIACRITIC_U ZLM_DIACRITIC_A by ZLM_WA;
+  sub ZLM_DIACRITIC_U ZLM_DIACRITIC_E by ZLM_WE;
+  sub ZLM_DIACRITIC_U ZLM_DIACRITIC_I by ZLM_WI;
+  sub ZLM_DIACRITIC_U ZLM_DIACRITIC_O by ZLM_WO;
+  sub ZLM_DIACRITIC_U ZLM_DIACRITIC_U by ZLM_WU;
+  sub ZLM_DIACRITIC_U ZLM_DIACRITIC_Y by ZLM_WY;
 } rlig;
 
 # CV

@@ -1,0 +1,4 @@
+#!/usr/local/bin/fontforge
+Open($1)
+MergeFeature($2)
+Generate($3)
