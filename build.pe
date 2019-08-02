@@ -1,7 +1,7 @@
 #!/usr/local/bin/fontforge
 
 Open("src/" + $1 + ".sfd")
-MergeFeature("src/zlm.feature")
+MergeFeature("src/zlm.fea")
 if ( FileAccess("src/" + $1 + ".fea") == 0 )
 	MergeFeature("src/" + $1 + ".fea")
 endif

@@ -13,9 +13,9 @@ TESTDIR="test/font"
 
 # Generate incorporating common feature file
 echo ""
-echo "Building feature: src/zlm.feature"
+echo "Building feature: src/zlm.fea"
 
-lsc tools/zlm.feature.ls > src/zlm.feature
+lsc tools/zlm.feature.ls > src/zlm.fea
 
 # Generate incorporating common feature file
 echo ""

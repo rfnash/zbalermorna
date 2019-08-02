@@ -67,7 +67,7 @@ ALL_CONSN  = CONSN ++ SEMIV
 ALL_VOWELS = VOWELS ++ DIPHTH
 
 log "# This file is generated automatically by tools/zlm.feature.ls"
-log "# Run 'lsc tools/zlm.feature.ls > src/zlm.feature' to update it"
+log "# Run 'lsc tools/zlm.feature.ls > src/zlm.fea' to update it"
 
 description "ZLM OpenType Feature Table Definitions", ->
 
@@ -96,19 +96,6 @@ languagesystem grek dflt;"
       log "  sub W by ZLM_SEMIVOWEL_W;"
       log "  sub q by ZLM_SEMIVOWEL_Q;"
       log "  sub Q by ZLM_SEMIVOWEL_Q;"
-    feature-custom "VV", "ss10", ->
-      log "  sub ZLM_FULL_A ZLM_FULL_I by ZLM_FULL_AI;"
-      log "  sub ZLM_FULL_O ZLM_FULL_I by ZLM_FULL_OI;"
-      log "  sub ZLM_FULL_E ZLM_FULL_I by ZLM_FULL_EI;"
-      log "  sub ZLM_FULL_A ZLM_FULL_U by ZLM_FULL_AU;"
-    feature-custom ",VV", "ss10", ->
-      log "  sub comma ZLM_FULL_AI by ZLM_FULL_AI;"
-      log "  sub comma ZLM_FULL_OI by ZLM_FULL_OI;"
-      log "  sub comma ZLM_FULL_EI by ZLM_FULL_EI;"
-      log "  sub comma ZLM_FULL_AU by ZLM_FULL_AU;"
-    feature-custom ",V", "ss10", ->
-      for v in VOWELS
-        log "  sub comma ZLM_FULL_#v by ZLM_FULL_#v;"
     feature-custom "Numbers", "ss11", ->
       log "  sub zero by ZLM_NO;"
       log "  sub one by ZLM_PA;"
@@ -121,6 +108,21 @@ languagesystem grek dflt;"
       log "  sub eight by ZLM_BI;"
       log "  sub nine by ZLM_SO;"
     feature-custom "Split diphthongs", "ss10" ->
+
+  section "Full Vowel Support", ->
+    feature "VV" ->
+      log "  sub ZLM_FULL_A ZLM_FULL_I by ZLM_FULL_AI;"
+      log "  sub ZLM_FULL_O ZLM_FULL_I by ZLM_FULL_OI;"
+      log "  sub ZLM_FULL_E ZLM_FULL_I by ZLM_FULL_EI;"
+      log "  sub ZLM_FULL_A ZLM_FULL_U by ZLM_FULL_AU;"
+    feature ",VV" ->
+      log "  sub comma ZLM_FULL_AI by ZLM_FULL_AI;"
+      log "  sub comma ZLM_FULL_OI by ZLM_FULL_OI;"
+      log "  sub comma ZLM_FULL_EI by ZLM_FULL_EI;"
+      log "  sub comma ZLM_FULL_AU by ZLM_FULL_AU;"
+    feature ",V" ->
+      for v in VOWELS
+        log "  sub comma ZLM_FULL_#v by ZLM_FULL_#v;"
 
   section "6-part ligatures", ->
     feature \NVV'VV, ->

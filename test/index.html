@@ -6,25 +6,25 @@
     <meta name="viewport" content="width=device-width">
     <style>
 
+      body {
+        margin: 100px auto 0px;
+        font-family: sans-serif;
+      }
+
     * { box-sizing: border-box; }
 
-    table, p, pre, select {
+    table, p, pre {
       font-size: 40px;
       margin: 1em 0;
     }
 
-    label {
-      font-size: 30px;
-      display: block;
-    }
-
     input[type=checkbox] {
       /* Double-sized Checkboxes */
-      -ms-transform: scale(2); /* IE */
-      -moz-transform: scale(2); /* FF */
-      -webkit-transform: scale(2); /* Safari and Chrome */
-      -o-transform: scale(2); /* Opera */
-      transform: scale(2);
+      -ms-transform: scale(1.5); /* IE */
+      -moz-transform: scale(1.5); /* FF */
+      -webkit-transform: scale(1.5); /* Safari and Chrome */
+      -o-transform: scale(1.5); /* Opera */
+      transform: scale(1.5);
       padding: 10px;
     }
 
@@ -56,6 +56,7 @@
 
     .test-blocks {
       display: flex;
+      padding: 0px 20px;
     }
 
     .test-block {
@@ -67,22 +68,69 @@
       font-size: 40px;
       white-space: pre-wrap;
     }
+    header {
+        width: 100%;
+        position: fixed;   
+        top: 0px;
+        background: #eee;
+        border-bottom: solid 1px #ccc;
+        height: 100px;
+        padding: 0px 20px;
+        display: flex;
+    }
+    header h1 {
+      width: 30%;
+      margin: auto 0px;
+    }
+    header label {
+      font-size: 20px;
+      width: 50%;
+    }
+    header label select {
+      font-size: 20px;
+    }
+
+    .flex-right {
+      display: flex;
+      margin: auto;
+      width: 100%;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 80px;
+    }
 
     @font-face { font-family: "lato-zlm"; font-weight: normal; src: url('font/lato-zlm.otf'); }
     @font-face { font-family: "zlm-manri"; font-weight: normal; src: url('font/zlm-manri.otf'); }
     @font-face { font-family: "zlm-tnr"; font-weight: normal; src: url('font/zlm-tnr.otf'); }
+    @font-face { font-family: "lavi-zlm"; font-weight: normal; src: url('font/lavi-zlm.otf'); }
+    @font-face { font-family: "pepper-carrot-zlm"; font-weight: normal; src: url('font/pepper-carrot-zlm.otf'); }
+    @font-face { font-family: "lobster-zlm"; font-weight: normal; src: url('font/lobster-zlm.otf'); }
 
     </style>
   </head>
 
   <body>
-    <h1>ZLM FDK Test Page</h1>
-
-    <select id="font-selector">
-      <option value="lato-zlm">lato-zlm</option>
-      <option value="zlm-manri">zlm-manri</option>
-      <option value="zlm-tnr">zlm-tnr</option>
-    </select>
+    <header>
+      <h1>ZLM FDK Test Page</h1>
+      <div class="flex-right">
+      <label>
+        preview font: 
+        <select id="font-selector">
+          <option value="lato-zlm">lato-zlm</option>
+          <option value="zlm-manri">zlm-manri</option>
+          <option value="zlm-tnr">zlm-tnr</option>
+          <option value="lavi-zlm">lavi-zlm</option>
+          <option value="pepper-carrot-zlm">pepper-carrot-zlm</option>
+          <option value="lobster-zlm">lobster-zlm</option>
+        </select>
+      </label>
+      <label><input type="checkbox" id="liga" name="liga" /> <code>liga</code>: regular ligatures in latin (breaks some things)</label>
+      <label><input type="checkbox" id="calt" name="calt" /> <code>calt</code>: contextual alts (breaks some things)</label>
+      <label><input type="checkbox" id="ss10" name="ss10" /> <code>ss10</code>: latin to zlm conversion </label>
+      <label><input type="checkbox" id="ss11" name="ss11" /> <code>ss11</code>: numbers to zlm conversion</label>
+      <label><input type="checkbox" id="zlm2" name="zlm2" /> <code>zlm2</code>: stylistic zlm alternatives</label>
+      </div>
+    </header>
 
     <div class="test-blocks">
       <div class="test-block">
@@ -208,26 +256,18 @@
         </p>
       </div>
     </div>
-    <h2>IME Emulation</h2>
-    Features Enabled:<br/>
-    <label><input type="checkbox" id="liga" name="liga" /> <code>liga</code>: regular ligatures in latin (breaks some things)</label>
-    <label><input type="checkbox" id="ss10" name="ss10" /> <code>ss10</code>: latin to zlm conversion </label>
-    <label><input type="checkbox" id="ss11" name="ss11" /> <code>ss11</code>: numbers to zlm conversion</label>
-    <label><input type="checkbox" id="zlm2" name="zlm2" /> <code>zlm2</code>: stylistic zlm alternatives</label>
 
     <div class="test-blocks">
+    <div class="test-block">
+      <h2>IME Emulation</h2>
+    </div>
+  </div>
+    <div class="test-blocks">
       <textarea data-ime-emulation class="reference test-block" id="ime-input">
-plukauaii 2019
-cizra
-je ci'izra
-sei mi ciska
-plukau
-.au
-
+plukauaii 2019 cizra .i je ci'izra .i sei mi ciska .i plukau .au
+la piper joi la karot
 kAtrInAs djEIn mAdjqYrIs
-
-wEIn WE,In
-
+wEIn wE,In
 .i ma jufra gi'e se vanbi le vi cukta
 .i .e'o ko denpa .i mi troci co tolcri fi le vi cukta
 .i le trene cu klama fi ma poi tsina

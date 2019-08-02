@@ -1,5 +1,5 @@
 # This file is generated automatically by tools/zlm.feature.ls
-# Run 'lsc tools/zlm.feature.ls > src/zlm.feature' to update it
+# Run 'lsc tools/zlm.feature.ls > src/zlm.fea' to update it
 
 
 #
@@ -76,35 +76,6 @@ feature ss10 {
   sub Q by ZLM_SEMIVOWEL_Q;
 } ss10;
 
-# VV
-
-feature ss10 {
-  sub ZLM_FULL_A ZLM_FULL_I by ZLM_FULL_AI;
-  sub ZLM_FULL_O ZLM_FULL_I by ZLM_FULL_OI;
-  sub ZLM_FULL_E ZLM_FULL_I by ZLM_FULL_EI;
-  sub ZLM_FULL_A ZLM_FULL_U by ZLM_FULL_AU;
-} ss10;
-
-# ,VV
-
-feature ss10 {
-  sub comma ZLM_FULL_AI by ZLM_FULL_AI;
-  sub comma ZLM_FULL_OI by ZLM_FULL_OI;
-  sub comma ZLM_FULL_EI by ZLM_FULL_EI;
-  sub comma ZLM_FULL_AU by ZLM_FULL_AU;
-} ss10;
-
-# ,V
-
-feature ss10 {
-  sub comma ZLM_FULL_A by ZLM_FULL_A;
-  sub comma ZLM_FULL_E by ZLM_FULL_E;
-  sub comma ZLM_FULL_I by ZLM_FULL_I;
-  sub comma ZLM_FULL_O by ZLM_FULL_O;
-  sub comma ZLM_FULL_U by ZLM_FULL_U;
-  sub comma ZLM_FULL_Y by ZLM_FULL_Y;
-} ss10;
-
 # Numbers
 
 feature ss11 {
@@ -124,6 +95,41 @@ feature ss11 {
 
 feature ss10 {
 } ss10;
+
+
+#
+# Full Vowel Support
+#
+
+
+# VV
+
+feature rlig {
+  sub ZLM_FULL_A ZLM_FULL_I by ZLM_FULL_AI;
+  sub ZLM_FULL_O ZLM_FULL_I by ZLM_FULL_OI;
+  sub ZLM_FULL_E ZLM_FULL_I by ZLM_FULL_EI;
+  sub ZLM_FULL_A ZLM_FULL_U by ZLM_FULL_AU;
+} rlig;
+
+# ,VV
+
+feature rlig {
+  sub comma ZLM_FULL_AI by ZLM_FULL_AI;
+  sub comma ZLM_FULL_OI by ZLM_FULL_OI;
+  sub comma ZLM_FULL_EI by ZLM_FULL_EI;
+  sub comma ZLM_FULL_AU by ZLM_FULL_AU;
+} rlig;
+
+# ,V
+
+feature rlig {
+  sub comma ZLM_FULL_A by ZLM_FULL_A;
+  sub comma ZLM_FULL_E by ZLM_FULL_E;
+  sub comma ZLM_FULL_I by ZLM_FULL_I;
+  sub comma ZLM_FULL_O by ZLM_FULL_O;
+  sub comma ZLM_FULL_U by ZLM_FULL_U;
+  sub comma ZLM_FULL_Y by ZLM_FULL_Y;
+} rlig;
 
 
 #

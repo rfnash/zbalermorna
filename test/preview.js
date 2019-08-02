@@ -20,11 +20,12 @@ HTMLTextAreaElement.prototype.insertAtCaret = function (text) {
 
 const KEY_CODE_APOSTROPHE = 222;
 const UNICODE_RANGE_START = 0xE2300;
+const UNICODE_FULL_VOWEL_START = 0xE24F1;
 const PARSE_MODE_TEXT = 0;
 const PARSE_MODE_TAG  = 1;
 
 const lerfu = ".'ptkflscmxbdgvrzjnqwaeiouy";
-
+const fullVowels = "AEIOUY";
 
 // Global Helpers
 
@@ -74,6 +75,8 @@ function latinToZLM (chr) {
     return UNICODE_RANGE_START + 16;
   if (-1 < lerfu.indexOf(chr))
     return UNICODE_RANGE_START + lerfu.indexOf(chr) * 16;
+  if (-1 < fullVowels.indexOf(chr))
+    return UNICODE_FULL_VOWEL_START + fullVowels.indexOf(chr);
   return chr.codePointAt(0);
 }
 
@@ -123,27 +126,36 @@ Q('[data-ime-emulation]').forEach(function (textarea) {
 
 const font_selector = document.getElementById('font-selector');
 const liga = document.getElementById('liga');
+const calt = document.getElementById('calt');
 const ss10 = document.getElementById('ss10');
 const ss11 = document.getElementById('ss11');
 const zlm2 = document.getElementById('zlm2');
 
 function updateFontFeatures() { 
-  document.getElementById('ime-input').style["font-feature-settings"] = 
-  "'liga' " + ( liga.checked ? 1 : 0 ) + 
-  ", 'ss10' " + ( ss10.checked ? 1 : 0 )  + 
-  ", 'ss11' " + ( ss11.checked ? 1 : 0 ) + 
-  ", 'zlm2' " + ( zlm2.checked ? 1 : 0 );
+  for (var i = 0; i < document.getElementsByClassName('reference').length; i++) {
+    document.getElementsByClassName('reference')[i].style["font-feature-settings"] = 
+    "'liga' " + ( liga.checked ? 1 : 0 ) + 
+    ", 'ss10' " + ( ss10.checked ? 1 : 0 )  + 
+    ", 'ss11' " + ( ss11.checked ? 1 : 0 ) + 
+    ", 'zlm2' " + ( zlm2.checked ? 1 : 0 ) + 
+    ", 'calt' " + ( calt.checked ? 1 : 0 );
+  }
 }
 
 
 
 font_selector.addEventListener('change', (event) => {
+  window.location.hash = event.target.value;
   for (var i = 0; i < document.getElementsByClassName('reference').length; i++) {
     document.getElementsByClassName('reference')[i].style["font-family"] = event.target.value;
   }
 })
 
 liga.addEventListener('change', (event) => {
+  updateFontFeatures();
+})
+
+calt.addEventListener('change', (event) => {
   updateFontFeatures();
 })
 
@@ -160,8 +172,14 @@ zlm2.addEventListener('change', (event) => {
   updateFontFeatures();
 })
 
+if (window.location.hash) {
+  font_selector.value = window.location.hash.substring(1);
+} else {
+  font_selector.value = "lato-zlm";
+  window.location.hash = font_selector.value;
+}
 
 for (var i = 0; i < document.getElementsByClassName('reference').length; i++) {
-  document.getElementsByClassName('reference')[i].style["font-family"] = "lato-zlm";
+  document.getElementsByClassName('reference')[i].style["font-family"] = font_selector.value;
 }
 updateFontFeatures();
