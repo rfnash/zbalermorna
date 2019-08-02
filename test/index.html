@@ -13,9 +13,8 @@
 
     * { box-sizing: border-box; }
 
-    table, p, pre {
+    .reference {
       font-size: 40px;
-      margin: 1em 0;
     }
 
     input[type=checkbox] {
@@ -45,7 +44,7 @@
       display: block;
     }
 
-    textarea {
+    textarea.reference {
       font-size: 40px;
     }
 
@@ -99,6 +98,31 @@
       height: 80px;
     }
 
+
+    .preview-block {
+      overflow-x: scroll;
+    }
+    .size-preview {
+      white-space: nowrap;
+      line-height: 120%;
+      color: #eee;
+    }
+
+    .size-preview:hover, .size-preview:active {
+      color: #000;
+    }
+
+    .size-preview span {
+      line-height: 100%;
+    }
+
+    .size-preview dict {
+      width: 350px;
+      display: inline-block;
+      text-align: right;
+      margin-right: 50px;
+    }
+
     @font-face { font-family: "lato-zlm"; font-weight: normal; src: url('font/lato-zlm.otf'); }
     @font-face { font-family: "zlm-manri"; font-weight: normal; src: url('font/zlm-manri.otf'); }
     @font-face { font-family: "tnr-zlm"; font-weight: normal; src: url('font/tnr-zlm.otf'); }
@@ -131,6 +155,35 @@
       <label><input type="checkbox" id="zlm2" name="zlm2" /> <code>zlm2</code>: stylistic zlm alternatives</label>
       </div>
     </header>
+
+    <div class="test-blocks">
+      <div class="test-block reference preview-block">
+        <div class="size-preview" style="font-size:128px"><dict>128px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+        <div class="size-preview" style="font-size:96px"><dict>96px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+        <div class="size-preview" style="font-size:72px"><dict>72px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+        <div class="size-preview" style="font-size:60px"><dict>60px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+        <div class="size-preview" style="font-size:48px"><dict>48px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+        <div class="size-preview" style="font-size:32px"><dict>32px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+        <div class="size-preview" style="font-size:24px"><dict>24px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+        <div class="size-preview" style="font-size:18px"><dict>18px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+        <div class="size-preview" style="font-size:16px"><dict>16px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+        <div class="size-preview" style="font-size:14px"><dict>14px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+        <div class="size-preview" style="font-size:12px"><dict>12px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+        <div class="size-preview" style="font-size:10px"><dict>10px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+      </div>
+    </div>
+
+    <div class="test-blocks">
+      <div class="test-block">
+        <h3>A translation of The North Wind and the Sun <a href="https://en.wikipedia.org/wiki/Lojban#The_North_Wind_and_the_Sun">(la berti brife jo'u la solri)</a></h3>
+        <div class="reference" data-zlm-translate>
+ni'o la berti brife jo'u la solri pu troci lo ka cuxna lo poi me vo'a vau traji be lo ka vlipa i ca'o bo lo pa litru noi dasni lo glare kosta cu klama
+.i le re mei pu simxu lo ka tugni fi lo nu lo traji be lo ka clira fa lo nu ce'u snada lo ka gasnu lo nu le litru co'u dasni le kosta cu traji lo ka vlipa
+.i ba bo la berti brife co'a traji cupra lo brife i ku'i lo nu by by zenba lo ka cupra lo xo kau brife cu rinka lo nu le litru zu'e ri zenba lo ka se tagji le kosta i ba bo la berti brife co'u troci i ba bo la solri co'a glare dirce i ba zi bo le litru co'u dasni le kosta
+.i se ki'u bo la berti brife cu bilga lo ka tugni fi lo nu la solri cu traji lo ka vlipa
+</div>
+      </div>
+    </div>
 
     <div class="test-blocks">
       <div class="test-block">
@@ -191,28 +244,29 @@
         </div>
         <div class="test-block">
           <h3>Auto semivowels</h3>
-          <p class="reference rows">
-            <span data-zlm-translate>   ia   ie   ii   io   iu   iy   iai   iei   ioi   iau </span>
-            <span data-zlm-translate>   ua   ue   ui   uo   uu   uy   uai   uei   uoi   uau </span>
-          </p>
+          <div class="reference rows">
+            <div data-zlm-translate>   ia   ie   ii   io   iu   iy   iai   iei   ioi   iau </div>
+            <div data-zlm-translate>   ua   ue   ui   uo   uu   uy   uai   uei   uoi   uau </div>
+          </div>
           <h3>Self-dotting vowels</h3>
-          <p class="reference rows">
-            <span data-zlm-translate>    a    e    i    o    u    y    ai    ei    oi    au </span>
-          </p>
+          <div class="reference rows">
+            <div data-zlm-translate>    a    e    i    o    u    y    ai    ei    oi    au </div>
+            <div data-zlm-translate>   'a   'e   'i   'o   'u   'y   'ai   'ei   'oi   'au </div>
+          </div>
           <h3>Attitudinal ligatures</h3>
-          <p class="reference rows">
-            <span data-zlm-translate>  a'a  a'e  a'i  a'o  a'u  a'y  a'ai  a'ei  a'oi  a'au </span>
-            <span data-zlm-translate>  e'a  e'e  e'i  e'o  e'u  e'y  e'ai  e'ei  e'oi  e'au </span>
-            <span data-zlm-translate>  i'a  i'e  i'i  i'o  i'u  i'y  i'ai  i'ei  i'oi  i'au </span>
-            <span data-zlm-translate>  o'a  o'e  o'i  o'o  o'u  o'y  o'ai  o'ei  o'oi  o'au </span>
-            <span data-zlm-translate>  u'a  u'e  u'i  u'o  u'u  u'y  u'ai  u'ei  u'oi  u'au </span>
-            <span data-zlm-translate>  i'a  i'e  i'i  i'o  i'u  i'y  i'ai  i'ei  i'oi  i'au </span>
-            <span data-zlm-translate>  y'a  y'e  y'i  y'o  y'u  y'y  y'ai  y'ei  y'oi  y'au </span>
-            <span data-zlm-translate> ai'a ai'e ai'i ai'o ai'u ai'y ai'ai ai'ei ai'oi ai'au </span>
-            <span data-zlm-translate> ei'a ei'e ei'i ei'o ei'u ei'y ei'ai ei'ei ei'oi ei'au </span>
-            <span data-zlm-translate> oi'a oi'e oi'i oi'o oi'u oi'y oi'ai oi'ei oi'oi oi'au </span>
-            <span data-zlm-translate> au'a au'e au'i au'o au'u au'y au'ai au'ei au'oi au'au </span>
-          </p>
+          <div class="reference rows">
+            <div data-zlm-translate>  a'a  a'e  a'i  a'o  a'u  a'y  a'ai  a'ei  a'oi  a'au </div>
+            <div data-zlm-translate>  e'a  e'e  e'i  e'o  e'u  e'y  e'ai  e'ei  e'oi  e'au </div>
+            <div data-zlm-translate>  i'a  i'e  i'i  i'o  i'u  i'y  i'ai  i'ei  i'oi  i'au </div>
+            <div data-zlm-translate>  o'a  o'e  o'i  o'o  o'u  o'y  o'ai  o'ei  o'oi  o'au </div>
+            <div data-zlm-translate>  u'a  u'e  u'i  u'o  u'u  u'y  u'ai  u'ei  u'oi  u'au </div>
+            <div data-zlm-translate>  i'a  i'e  i'i  i'o  i'u  i'y  i'ai  i'ei  i'oi  i'au </div>
+            <div data-zlm-translate>  y'a  y'e  y'i  y'o  y'u  y'y  y'ai  y'ei  y'oi  y'au </div>
+            <div data-zlm-translate> ai'a ai'e ai'i ai'o ai'u ai'y ai'ai ai'ei ai'oi ai'au </div>
+            <div data-zlm-translate> ei'a ei'e ei'i ei'o ei'u ei'y ei'ai ei'ei ei'oi ei'au </div>
+            <div data-zlm-translate> oi'a oi'e oi'i oi'o oi'u oi'y oi'ai oi'ei oi'oi oi'au </div>
+            <div data-zlm-translate> au'a au'e au'i au'o au'u au'y au'ai au'ei au'oi au'au </div>
+          </div>
         </div>
       </div>
 
@@ -241,29 +295,31 @@
       </div>
 
       <div class="test-block">
-        <h2>Size WRT latin text</h2>
-        <p class="reference">
+        <h3>Size WRT latin text</h3>
+        <div class="reference">
           <span style="font-family:Lato">k</span><span data-zlm-translate>pa</span>
           <span style="font-family:Lato">h</span><span data-zlm-translate>ta</span>
-          <span style="font-family:Lato">g</span><span data-zlm-translate>ka</span>
+          <span style="font-family:Lato">p</span><span data-zlm-translate>za</span>
           <span style="font-family:Lato">o</span><span data-zlm-translate>xau</span>
           <span style="font-family:Lato">i</span><span data-zlm-translate>.i'i</span>
-        </p>
+        </div>
 
-        <h2>Full vowels</h2>
-        <p class="reference">
+        <h3>Full vowels</h3>
+        <div class="reference">
           <span>&#xe24F1; &#xe24F2; &#xe24F3; &#xe24F4; &#xe24F5; &#xe24F6; &#xe24F7; &#xe24F8; &#xe24F9; &#xe24FA;</span>
-        </p>
+        </div>
       </div>
     </div>
 
     <div class="test-blocks">
     <div class="test-block">
-      <h2>IME Emulation</h2>
+      <h3>IME Emulation</h3>
     </div>
   </div>
     <div class="test-blocks">
       <textarea data-ime-emulation class="reference test-block" id="ime-input">
+la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987 .i lo na'e ralju te finti cu nu cipra lo ka lo nu pilno ce'u cu galfi lo tadji be lo nu pensi .i la .lojban. se lidne la .loglan. noi no'e mulno se finti fo lo sidbo be fi la .djeims.kuk.braun. fi lo nu cipra fi lo se skesmadi be la .sapir. jo'u la .uorf. .i ni'o de'i li 1987 so'o goi gy gunka be tu'a la .loglan. cu fendi lo girzu fo la .loglan. ki'u lo za'i dy ky by finca'i lo bangu gi'e djica lo nu dukse be fi ku jitro lo selci'a be bau .i gy. ganzu fi la .lojbangirz. mu'i lo nu finti lo cnino lojbau .i ba za bo la .lojban. co'a vajmau la .loglan .i la .lojban. ca ti noi nanca 2016 moi cu bangu ji'i 200 prenu
+
 plukauaii 2019 cizra .i je ci'izra .i sei mi ciska .i plukau .au
 la piper joi la karot
 kAtrInAs djEIn mAdjqYrIs
