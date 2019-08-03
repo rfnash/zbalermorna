@@ -88,27 +88,30 @@ figcaption:before {
 
 figure .zlm {
 	position: relative;
-	line-height: 40px;
+	line-height: 30px;
+	height: 40px;
+	border-top: 1px #0083ff5e solid;
+	border-bottom: 1px #0083ff5e solid;
 }
 
-figure .zlm::before {
+figure .zlm:before {
 	content: "";
 	display: block;
 	position: absolute;
 	width: 100%;
 	border-top: 1px #ff000036 solid;
-	top: 24px;
+	top: 19px;
 	left: 0px;
 	z-index: -1;
 }
-figure .zlm::after {
+figure .zlm:after {
 	content: "";
 	display: block;
 	position: absolute;
 	width: 100%;
 	border-top: 1px #3ece3e99 solid;
 	border-bottom: 1px #3ece3e99 solid;
-	top: 14px;
+	top: 9px;
 	left: 0px;
 	height: 20px;
 	z-index: -1;
