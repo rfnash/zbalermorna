@@ -1,0 +1,20 @@
+#!/usr/local/bin/fontforge
+# Copies anchor points from base glyphs to ligatures
+# usage: fontforge.exe -lang=ff -script tools/fix-cas.pe <font-name>
+
+Open("src/" + $1 + ".sfd")
+
+i=0;
+while ( i<21 )
+	Select(UCodePoint(0xE2300 + (i * 16)))
+	CopyAnchors()
+	j=0;
+	while ( j<10 )
+		Select(UCodePoint(0xE2301 + (i * 16) + j))
+		Paste()
+		++j
+	endloop
+	++i
+endloop
+
+Save("src/" + $1 + "-anchors-fixed.sfd")

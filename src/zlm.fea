@@ -682,25 +682,3 @@ feature rlig {
   sub ZLM_NULL' ZLM_DIACRITIC_OI' by ZLM_DOT_OI;
   sub ZLM_NULL' ZLM_DIACRITIC_AU' by ZLM_DOT_AU;
 } rlig;
-
-
-#
-# Single Substitutions
-#
-
-
-# .V
-
-feature rlig {
-  ignore sub @anything @vowel';
-  sub ZLM_DIACRITIC_A' by ZLM_DOT_A;
-  sub ZLM_DIACRITIC_E' by ZLM_DOT_E;
-  sub ZLM_DIACRITIC_I' by ZLM_DOT_I;
-  sub ZLM_DIACRITIC_O' by ZLM_DOT_O;
-  sub ZLM_DIACRITIC_U' by ZLM_DOT_U;
-  sub ZLM_DIACRITIC_Y' by ZLM_DOT_Y;
-  sub ZLM_DIACRITIC_AI' by ZLM_DOT_AI;
-  sub ZLM_DIACRITIC_EI' by ZLM_DOT_EI;
-  sub ZLM_DIACRITIC_OI' by ZLM_DOT_OI;
-  sub ZLM_DIACRITIC_AU' by ZLM_DOT_AU;
-} rlig;

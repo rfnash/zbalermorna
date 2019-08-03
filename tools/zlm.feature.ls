@@ -203,8 +203,10 @@ languagesystem grek dflt;"
       for v in ALL_VOWELS
         sub-tick \NULL, v, dot v
 
-  section "Single Substitutions", ->
-    feature ".V", ->
-      ignore \@anything \@vowel
-      for v in ALL_VOWELS
-        sub-tick v, dot v
+# I'm not sure this is needed in any jbo text
+#
+#  section "Single Substitutions", ->
+#    feature ".V", ->
+#      ignore \@anything \@vowel
+#      for v in ALL_VOWELS
+#        sub-tick v, dot v
