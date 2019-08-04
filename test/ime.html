@@ -77,7 +77,7 @@
 
 const font_selector = document.getElementById('font-selector');
 
-font_selector.addEventListener('change', (event) => {
+font_selector.addEventListener('change', function (event) {
   window.location.hash = event.target.value;
   for (var i = 0; i < document.getElementsByClassName('reference').length; i++) {
     document.getElementsByClassName('reference')[i].style["font-family"] = event.target.value;
