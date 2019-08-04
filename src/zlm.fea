@@ -695,3 +695,24 @@ feature rlig {
   sub ZLM_BAHEBU_1 ZLM_BAHEBU_1 ZLM_BAHEBU_1 by ZLM_BAHEBU_3;
   sub ZLM_BAHEBU_1 ZLM_BAHEBU_1 by ZLM_BAHEBU_2;
 } rlig;
+
+# smajibu initial
+
+feature rlig {
+  ignore sub ZLM_DASH_MEDI ZLM_DASH_MEDI';
+  sub ZLM_DASH_MEDI' ZLM_DASH_MEDI by ZLM_DASH_INIT;
+} rlig;
+
+# smajibu final
+
+feature rlig {
+  ignore sub ZLM_DASH_MEDI' ZLM_DASH_MEDI;
+  sub ZLM_DASH_MEDI ZLM_DASH_MEDI' by ZLM_DASH_FINAL;
+} rlig;
+
+# smajibu iso
+
+feature rlig {
+  ignore sub ZLM_DASH_MEDI ZLM_DASH_MEDI' ZLM_DASH_MEDI;
+  sub ZLM_DASH_MEDI' by ZLM_DASH_ISO;
+} rlig;
