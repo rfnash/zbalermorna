@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
   <!-- Basic Page Needs
@@ -28,21 +29,61 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
 
   <style>
-    @font-face { font-family: "lato-zlm"; font-weight: normal; src: url('font/lato-zlm.otf'); }
-    @font-face { font-family: "lato-zlm-extended"; font-weight: normal; src: url('font/lato-zlm-extended.otf'); }
-    @font-face { font-family: "zlm-manri"; font-weight: normal; src: url('font/zlm-manri.otf'); }
-    @font-face { font-family: "tnr-zlm"; font-weight: normal; src: url('font/tnr-zlm.otf'); }
-    @font-face { font-family: "lavi-zlm"; font-weight: normal; src: url('font/lavi-zlm.otf'); }
-    @font-face { font-family: "pepper-carrot-zlm"; font-weight: normal; src: url('font/pepper-carrot-zlm.otf'); }
-    @font-face { font-family: "lobster-zlm"; font-weight: normal; src: url('font/lobster-zlm.otf'); }
-    @font-face { font-family: "fira-code-zlm"; font-weight: normal; src: url('font/fira-code-zlm.otf'); }
+    @font-face {
+      font-family: "lato-zlm";
+      font-weight: normal;
+      src: url('font/lato-zlm.otf');
+    }
+
+    @font-face {
+      font-family: "lato-zlm-extended";
+      font-weight: normal;
+      src: url('font/lato-zlm-extended.otf');
+    }
+
+    @font-face {
+      font-family: "zlm-manri";
+      font-weight: normal;
+      src: url('font/zlm-manri.otf');
+    }
+
+    @font-face {
+      font-family: "tnr-zlm";
+      font-weight: normal;
+      src: url('font/tnr-zlm.otf');
+    }
+
+    @font-face {
+      font-family: "lavi-zlm";
+      font-weight: normal;
+      src: url('font/lavi-zlm.otf');
+    }
+
+    @font-face {
+      font-family: "pepper-carrot-zlm";
+      font-weight: normal;
+      src: url('font/pepper-carrot-zlm.otf');
+    }
+
+    @font-face {
+      font-family: "lobster-zlm";
+      font-weight: normal;
+      src: url('font/lobster-zlm.otf');
+    }
+
+    @font-face {
+      font-family: "fira-code-zlm";
+      font-weight: normal;
+      src: url('font/fira-code-zlm.otf');
+    }
   </style>
 
 </head>
+
 <body>
 
-    <header>
-      <div class="container">
+  <header>
+    <div class="container">
       <h1>Zbalermorna Font Examiner</h1>
       <div class="flex-right">
         <select id="font-selector">
@@ -55,462 +96,518 @@
           <option value="lobster-zlm">lobster-zlm</option>
           <option value="fira-code-zlm">fira-code-zlm</option>
         </select>
-      <!--label><input type="checkbox" id="liga" name="liga" /> <code>liga</code>: regular ligatures in latin (breaks some things)</label>
+        <!--label><input type="checkbox" id="liga" name="liga" /> <code>liga</code>: regular ligatures in latin (breaks some things)</label>
       <label><input type="checkbox" id="calt" name="calt" /> <code>calt</code>: contextual alts (breaks some things)</label>
       <label><input type="checkbox" id="ss10" name="ss10" /> <code>ss10</code>: latin to zlm conversion </label>
       <label><input type="checkbox" id="ss11" name="ss11" /> <code>ss11</code>: numbers to zlm conversion</label>
       <label><input type="checkbox" id="zlm2" name="zlm2" /> <code>zlm2</code>: stylistic zlm alternatives</label-->
       </div>
     </div>
-    </header>
+  </header>
 
-    <div class="reference preview-block">
-      <div class="size-preview" style="font-size:128px"><dict>128px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-      <div class="size-preview" style="font-size:96px"><dict>96px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-      <div class="size-preview" style="font-size:72px"><dict>72px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-      <div class="size-preview" style="font-size:60px"><dict>60px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-      <div class="size-preview" style="font-size:48px"><dict>48px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-      <div class="size-preview" style="font-size:32px"><dict>32px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-      <div class="size-preview" style="font-size:24px"><dict>24px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-      <div class="size-preview" style="font-size:18px"><dict>18px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-      <div class="size-preview" style="font-size:16px"><dict>16px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-      <div class="size-preview" style="font-size:14px"><dict>14px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-      <div class="size-preview" style="font-size:12px"><dict>12px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-      <div class="size-preview" style="font-size:10px"><dict>10px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-    </div><p></p>
+  <div class="reference preview-block">
+    <div class="size-preview" style="font-size:128px">
+      <dict>128px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo
+        za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span>
+    </div>
+    <div class="size-preview" style="font-size:96px">
+      <dict>96px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo
+        za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span>
+    </div>
+    <div class="size-preview" style="font-size:72px">
+      <dict>72px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo
+        za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span>
+    </div>
+    <div class="size-preview" style="font-size:60px">
+      <dict>60px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo
+        za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span>
+    </div>
+    <div class="size-preview" style="font-size:48px">
+      <dict>48px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo
+        za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span>
+    </div>
+    <div class="size-preview" style="font-size:32px">
+      <dict>32px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo
+        za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span>
+    </div>
+    <div class="size-preview" style="font-size:24px">
+      <dict>24px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo
+        za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span>
+    </div>
+    <div class="size-preview" style="font-size:18px">
+      <dict>18px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo
+        za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span>
+    </div>
+    <div class="size-preview" style="font-size:16px">
+      <dict>16px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo
+        za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span>
+    </div>
+    <div class="size-preview" style="font-size:14px">
+      <dict>14px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo
+        za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span>
+    </div>
+    <div class="size-preview" style="font-size:12px">
+      <dict>12px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo
+        za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span>
+    </div>
+    <div class="size-preview" style="font-size:10px">
+      <dict>10px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo
+        za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span>
+    </div>
+  </div>
+  <p></p>
 
   <div class="container">
     <div class="row">
       <div class="column">
-        <h3>la berti brife jo'u la solri<br /><small><a href="https://en.wikipedia.org/wiki/Lojban#The_North_Wind_and_the_Sun">A translation of The North Wind and the Sun</a></small></h3>
+        <h3>la berti brife jo'u la solri<br /><small><a
+              href="https://en.wikipedia.org/wiki/Lojban#The_North_Wind_and_the_Sun">A translation of The North Wind and
+              the Sun</a></small></h3>
         <div class="reference">
-          <p>󢐠󢑰󢌐󢒀 󢍠󢑐 󢎰󢑠󢏰󢌰󢑰 󢎰󢏰󢑰󢍐󢑠 󢐐󢒀󢌐󢒐 󢍠󢑐 󢍰󢒀󢍠󢏰󢑰 󢌠󢒐 󢌰󢏰󢒀󢎀󢑰 󢍠󢒀 󢍀󢑐 󢎀󢒐󢎠󢐠󢑐 󢍠󢒀 󢌠󢒀󢑰 󢎐󢑠 󢏠󢒀󢌐󢑐 󢏠󢑐󢒐 󢌰󢏰󢑐󢐐󢑰 󢎰󢑠 󢍠󢒀 󢍀󢑐 󢏠󢍠󢑰󢌠󢑐 󢑰 󢎀󢑐󢌐󢒀 󢎰󢒀 󢍠󢒀 󢌠󢑐 󢍠󢑰󢌰󢏰󢒐 󢐠󢒀󢑰 󢏀󢑐󢍰󢐠󢑰 󢍠󢒀 󢏐󢍠󢑐󢏰󢑠 󢍀󢒀󢍰󢌰󢑐 󢎀󢒐 󢍀󢍠󢑐󢎐󢑐</p>
-          <p>󢌀󢑰 󢍠󢑠 󢏰󢑠 󢎐󢑠󢑰 󢌠󢒐 󢍰󢑰󢎐󢎠󢒐 󢍠󢒀 󢍀󢑐 󢌰󢒐󢏐󢐠󢑰 󢍐󢑰 󢍠󢒀 󢐠󢒐 󢍠󢒀 󢌰󢏰󢑐󢐐󢑰 󢎰󢑠 󢍠󢒀 󢍀󢑐 󢎀󢍠󢑰󢏰󢑐 󢍐󢑐 󢍠󢒀 󢐠󢒐 󢎀󢑠󢌐󢒐 󢍰󢐠󢑐󢏀󢑐 󢍠󢒀 󢍀󢑐 󢏐󢑐󢍰󢐠󢒐 󢍠󢒀 󢐠󢒐 󢍠󢑠 󢍠󢑰󢌰󢏰󢒐 󢎀󢒀󢌐󢒐 󢏀󢑐󢍰󢐠󢑰 󢍠󢑠 󢍀󢒀󢍰󢌰󢑐 󢎀󢒐 󢌰󢏰󢑐󢐐󢑰 󢍠󢒀 󢍀󢑐 󢏠󢍠󢑰󢌠󢑐</p>
-          <p>󢌀󢑰 󢎰󢑐 󢎰󢒀 󢍠󢑐 󢎰󢑠󢏰󢌰󢑰 󢎰󢏰󢑰󢍐󢑠 󢎀󢒀󢌐󢑐 󢌰󢏰󢑐󢐐󢑰 󢎀󢒐󢌠󢏰󢑐 󢍠󢒀 󢎰󢏰󢑰󢍐󢑠 󢑰 󢍀󢒐󢌐󢑰 󢍠󢒀 󢐠󢒐 󢎰󢒠 󢎰󢒠 󢐀󢑠󢐠󢎰󢑐 󢍠󢒀 󢍀󢑐 󢎀󢒐󢌠󢏰󢑐 󢍠󢒀 󢎠󢒀 󢍀󢑐󢒐 󢎰󢏰󢑰󢍐󢑠 󢎀󢒐 󢏰󢑰󢐠󢍀󢑐 󢍠󢒀 󢐠󢒐 󢍠󢑠 󢍠󢑰󢌰󢏰󢒐 󢐀󢒐󢌐󢑠 󢏰󢑰 󢐀󢑠󢐠󢎰󢑐 󢍠󢒀 󢍀󢑐 󢍰󢑠 󢌰󢑐󢏐󢐐󢑰 󢍠󢑠 󢍀󢒀󢍰󢌰󢑐 󢑰 󢎰󢑐 󢎰󢒀 󢍠󢑐 󢎰󢑠󢏰󢌰󢑰 󢎰󢏰󢑰󢍐󢑠 󢎀󢒀󢌐󢒐 󢌰󢏰󢒀󢎀󢑰 󢑰 󢎰󢑐 󢎰󢒀 󢍠󢑐 󢍰󢒀󢍠󢏰󢑰 󢎀󢒀󢌐󢑐 󢏐󢍠󢑐󢏰󢑠 󢏀󢑰󢏰󢎀󢑠 󢑰 󢎰󢑐 󢐀󢑰 󢎰󢒀 󢍠󢑠 󢍠󢑰󢌰󢏰󢒐 󢎀󢒀󢌐󢒐 󢏀󢑐󢍰󢐠󢑰 󢍠󢑠 󢍀󢒀󢍰󢌰󢑐</p>
-          <p>󢌀󢑰 󢍰󢑠 󢍀󢑰󢌐󢒐 󢎰󢒀 󢍠󢑐 󢎰󢑠󢏰󢌰󢑰 󢎰󢏰󢑰󢍐󢑠 󢎀󢒐 󢎰󢑰󢍠󢏐󢑐 󢍠󢒀 󢍀󢑐 󢌰󢒐󢏐󢐠󢑰 󢍐󢑰 󢍠󢒀 󢐠󢒐 󢍠󢑐 󢍰󢒀󢍠󢏰󢑰 󢎀󢒐 󢌰󢏰󢑐󢐐󢑰 󢍠󢒀 󢍀󢑐 󢏠󢍠󢑰󢌠󢑐</p>
+          <p>󢐠󢑰󢌐󢒀 󢍠󢑐 󢎰󢑠󢏰󢌰󢑰 󢎰󢏰󢑰󢍐󢑠 󢐐󢒀󢌐󢒐 󢍠󢑐 󢍰󢒀󢍠󢏰󢑰 󢌠󢒐 󢌰󢏰󢒀󢎀󢑰 󢍠󢒀 󢍀󢑐 󢎀󢒐󢎠󢐠󢑐 󢍠󢒀
+            󢌠󢒀󢑰 󢎐󢑠 󢏠󢒀󢌐󢑐 󢏠󢑐󢒐 󢌰󢏰󢑐󢐐󢑰 󢎰󢑠 󢍠󢒀 󢍀󢑐 󢏠󢍠󢑰󢌠󢑐 󢑰 󢎀󢑐󢌐󢒀 󢎰󢒀 󢍠󢒀 󢌠󢑐 󢍠󢑰󢌰󢏰󢒐
+            󢐠󢒀󢑰 󢏀󢑐󢍰󢐠󢑰 󢍠󢒀 󢏐󢍠󢑐󢏰󢑠 󢍀󢒀󢍰󢌰󢑐 󢎀󢒐 󢍀󢍠󢑐󢎐󢑐</p>
+          <p>󢌀󢑰 󢍠󢑠 󢏰󢑠 󢎐󢑠󢑰 󢌠󢒐 󢍰󢑰󢎐󢎠󢒐 󢍠󢒀 󢍀󢑐 󢌰󢒐󢏐󢐠󢑰 󢍐󢑰 󢍠󢒀 󢐠󢒐 󢍠󢒀 󢌰󢏰󢑐󢐐󢑰 󢎰󢑠 󢍠󢒀 󢍀󢑐
+            󢎀󢍠󢑰󢏰󢑐 󢍐󢑐 󢍠󢒀 󢐠󢒐 󢎀󢑠󢌐󢒐 󢍰󢐠󢑐󢏀󢑐 󢍠󢒀 󢍀󢑐 󢏐󢑐󢍰󢐠󢒐 󢍠󢒀 󢐠󢒐 󢍠󢑠 󢍠󢑰󢌰󢏰󢒐 󢎀󢒀󢌐󢒐
+            󢏀󢑐󢍰󢐠󢑰 󢍠󢑠 󢍀󢒀󢍰󢌰󢑐 󢎀󢒐 󢌰󢏰󢑐󢐐󢑰 󢍠󢒀 󢍀󢑐 󢏠󢍠󢑰󢌠󢑐</p>
+          <p>󢌀󢑰 󢎰󢑐 󢎰󢒀 󢍠󢑐 󢎰󢑠󢏰󢌰󢑰 󢎰󢏰󢑰󢍐󢑠 󢎀󢒀󢌐󢑐 󢌰󢏰󢑐󢐐󢑰 󢎀󢒐󢌠󢏰󢑐 󢍠󢒀 󢎰󢏰󢑰󢍐󢑠 󢑰 󢍀󢒐󢌐󢑰 󢍠󢒀
+            󢐠󢒐 󢎰󢒠 󢎰󢒠 󢐀󢑠󢐠󢎰󢑐 󢍠󢒀 󢍀󢑐 󢎀󢒐󢌠󢏰󢑐 󢍠󢒀 󢎠󢒀 󢍀󢑐󢒐 󢎰󢏰󢑰󢍐󢑠 󢎀󢒐 󢏰󢑰󢐠󢍀󢑐 󢍠󢒀 󢐠󢒐 󢍠󢑠
+            󢍠󢑰󢌰󢏰󢒐 󢐀󢒐󢌐󢑠 󢏰󢑰 󢐀󢑠󢐠󢎰󢑐 󢍠󢒀 󢍀󢑐 󢍰󢑠 󢌰󢑐󢏐󢐐󢑰 󢍠󢑠 󢍀󢒀󢍰󢌰󢑐 󢑰 󢎰󢑐 󢎰󢒀 󢍠󢑐 󢎰󢑠󢏰󢌰󢑰
+            󢎰󢏰󢑰󢍐󢑠 󢎀󢒀󢌐󢒐 󢌰󢏰󢒀󢎀󢑰 󢑰 󢎰󢑐 󢎰󢒀 󢍠󢑐 󢍰󢒀󢍠󢏰󢑰 󢎀󢒀󢌐󢑐 󢏐󢍠󢑐󢏰󢑠 󢏀󢑰󢏰󢎀󢑠 󢑰 󢎰󢑐 󢐀󢑰 󢎰󢒀
+            󢍠󢑠 󢍠󢑰󢌰󢏰󢒐 󢎀󢒀󢌐󢒐 󢏀󢑐󢍰󢐠󢑰 󢍠󢑠 󢍀󢒀󢍰󢌰󢑐</p>
+          <p>󢌀󢑰 󢍰󢑠 󢍀󢑰󢌐󢒐 󢎰󢒀 󢍠󢑐 󢎰󢑠󢏰󢌰󢑰 󢎰󢏰󢑰󢍐󢑠 󢎀󢒐 󢎰󢑰󢍠󢏐󢑐 󢍠󢒀 󢍀󢑐 󢌰󢒐󢏐󢐠󢑰 󢍐󢑰 󢍠󢒀 󢐠󢒐 󢍠󢑐
+            󢍰󢒀󢍠󢏰󢑰 󢎀󢒐 󢌰󢏰󢑐󢐐󢑰 󢍠󢒀 󢍀󢑐 󢏠󢍠󢑰󢌠󢑐</p>
         </div>
       </div>
     </div>
 
     <div class="row">
       <div class="column one-half">
-      <h3>CV ligatures</h3>
-      <div class="table-row reference">
-        <div>󢌠󢑐</div>
-        <div>󢌠󢑠</div>
-        <div>󢌠󢑰</div>
-        <div>󢌠󢒀</div>
-        <div>󢌠󢒐</div>
-        <div>󢌠󢒠</div>
-        <div>󢌠󢑐󢑰</div>
-        <div>󢌠󢑠󢑰</div>
-        <div>󢌠󢒀󢑰</div>
-        <div>󢌠󢑐󢒐</div>
-      </div>
-      <div class="table-row reference">
-        <div>󢌰󢑐</div>
-        <div>󢌰󢑠</div>
-        <div>󢌰󢑰</div>
-        <div>󢌰󢒀</div>
-        <div>󢌰󢒐</div>
-        <div>󢌰󢒠</div>
-        <div>󢌰󢑐󢑰</div>
-        <div>󢌰󢑠󢑰</div>
-        <div>󢌰󢒀󢑰</div>
-        <div>󢌰󢑐󢒐</div>
-      </div>
-      <div class="table-row reference">
-        <div>󢍀󢑐</div>
-        <div>󢍀󢑠</div>
-        <div>󢍀󢑰</div>
-        <div>󢍀󢒀</div>
-        <div>󢍀󢒐</div>
-        <div>󢍀󢒠</div>
-        <div>󢍀󢑐󢑰</div>
-        <div>󢍀󢑠󢑰</div>
-        <div>󢍀󢒀󢑰</div>
-        <div>󢍀󢑐󢒐</div>
-      </div>
-      <div class="table-row reference">
-        <div>󢍐󢑐</div>
-        <div>󢍐󢑠</div>
-        <div>󢍐󢑰</div>
-        <div>󢍐󢒀</div>
-        <div>󢍐󢒐</div>
-        <div>󢍐󢒠</div>
-        <div>󢍐󢑐󢑰</div>
-        <div>󢍐󢑠󢑰</div>
-        <div>󢍐󢒀󢑰</div>
-        <div>󢍐󢑐󢒐</div>
-      </div>
-      <div class="table-row reference">
-        <div>󢍠󢑐</div>
-        <div>󢍠󢑠</div>
-        <div>󢍠󢑰</div>
-        <div>󢍠󢒀</div>
-        <div>󢍠󢒐</div>
-        <div>󢍠󢒠</div>
-        <div>󢍠󢑐󢑰</div>
-        <div>󢍠󢑠󢑰</div>
-        <div>󢍠󢒀󢑰</div>
-        <div>󢍠󢑐󢒐</div>
-      </div>
-      <div class="table-row reference">
-        <div>󢍰󢑐</div>
-        <div>󢍰󢑠</div>
-        <div>󢍰󢑰</div>
-        <div>󢍰󢒀</div>
-        <div>󢍰󢒐</div>
-        <div>󢍰󢒠</div>
-        <div>󢍰󢑐󢑰</div>
-        <div>󢍰󢑠󢑰</div>
-        <div>󢍰󢒀󢑰</div>
-        <div>󢍰󢑐󢒐</div>
-      </div>
-      <div class="table-row reference">
-        <div>󢎀󢑐</div>
-        <div>󢎀󢑠</div>
-        <div>󢎀󢑰</div>
-        <div>󢎀󢒀</div>
-        <div>󢎀󢒐</div>
-        <div>󢎀󢒠</div>
-        <div>󢎀󢑐󢑰</div>
-        <div>󢎀󢑠󢑰</div>
-        <div>󢎀󢒀󢑰</div>
-        <div>󢎀󢑐󢒐</div>
-      </div>
-      <div class="table-row reference">
-        <div>󢎐󢑐</div>
-        <div>󢎐󢑠</div>
-        <div>󢎐󢑰</div>
-        <div>󢎐󢒀</div>
-        <div>󢎐󢒐</div>
-        <div>󢎐󢒠</div>
-        <div>󢎐󢑐󢑰</div>
-        <div>󢎐󢑠󢑰</div>
-        <div>󢎐󢒀󢑰</div>
-        <div>󢎐󢑐󢒐</div>
-      </div>
-      <div class="table-row reference">
-        <div>󢎠󢑐</div>
-        <div>󢎠󢑠</div>
-        <div>󢎠󢑰</div>
-        <div>󢎠󢒀</div>
-        <div>󢎠󢒐</div>
-        <div>󢎠󢒠</div>
-        <div>󢎠󢑐󢑰</div>
-        <div>󢎠󢑠󢑰</div>
-        <div>󢎠󢒀󢑰</div>
-        <div>󢎠󢑐󢒐</div>
-      </div>
-      <div class="table-row reference">
-        <div>󢎰󢑐</div>
-        <div>󢎰󢑠</div>
-        <div>󢎰󢑰</div>
-        <div>󢎰󢒀</div>
-        <div>󢎰󢒐</div>
-        <div>󢎰󢒠</div>
-        <div>󢎰󢑐󢑰</div>
-        <div>󢎰󢑠󢑰</div>
-        <div>󢎰󢒀󢑰</div>
-        <div>󢎰󢑐󢒐</div>
-      </div>
-      <div class="table-row reference">
-        <div>󢏀󢑐</div>
-        <div>󢏀󢑠</div>
-        <div>󢏀󢑰</div>
-        <div>󢏀󢒀</div>
-        <div>󢏀󢒐</div>
-        <div>󢏀󢒠</div>
-        <div>󢏀󢑐󢑰</div>
-        <div>󢏀󢑠󢑰</div>
-        <div>󢏀󢒀󢑰</div>
-        <div>󢏀󢑐󢒐</div>
-      </div>
-      <div class="table-row reference">
-        <div>󢏐󢑐</div>
-        <div>󢏐󢑠</div>
-        <div>󢏐󢑰</div>
-        <div>󢏐󢒀</div>
-        <div>󢏐󢒐</div>
-        <div>󢏐󢒠</div>
-        <div>󢏐󢑐󢑰</div>
-        <div>󢏐󢑠󢑰</div>
-        <div>󢏐󢒀󢑰</div>
-        <div>󢏐󢑐󢒐</div>
-      </div>
-      <div class="table-row reference">
-        <div>󢏠󢑐</div>
-        <div>󢏠󢑠</div>
-        <div>󢏠󢑰</div>
-        <div>󢏠󢒀</div>
-        <div>󢏠󢒐</div>
-        <div>󢏠󢒠</div>
-        <div>󢏠󢑐󢑰</div>
-        <div>󢏠󢑠󢑰</div>
-        <div>󢏠󢒀󢑰</div>
-        <div>󢏠󢑐󢒐</div>
-      </div>
-      <div class="table-row reference">
-        <div>󢏰󢑐</div>
-        <div>󢏰󢑠</div>
-        <div>󢏰󢑰</div>
-        <div>󢏰󢒀</div>
-        <div>󢏰󢒐</div>
-        <div>󢏰󢒠</div>
-        <div>󢏰󢑐󢑰</div>
-        <div>󢏰󢑠󢑰</div>
-        <div>󢏰󢒀󢑰</div>
-        <div>󢏰󢑐󢒐</div>
-      </div>
-      <div class="table-row reference">
-        <div>󢐀󢑐</div>
-        <div>󢐀󢑠</div>
-        <div>󢐀󢑰</div>
-        <div>󢐀󢒀</div>
-        <div>󢐀󢒐</div>
-        <div>󢐀󢒠</div>
-        <div>󢐀󢑐󢑰</div>
-        <div>󢐀󢑠󢑰</div>
-        <div>󢐀󢒀󢑰</div>
-        <div>󢐀󢑐󢒐</div>
-      </div>
-      <div class="table-row reference">
-        <div>󢐐󢑐</div>
-        <div>󢐐󢑠</div>
-        <div>󢐐󢑰</div>
-        <div>󢐐󢒀</div>
-        <div>󢐐󢒐</div>
-        <div>󢐐󢒠</div>
-        <div>󢐐󢑐󢑰</div>
-        <div>󢐐󢑠󢑰</div>
-        <div>󢐐󢒀󢑰</div>
-        <div>󢐐󢑐󢒐</div>
-      </div>
-      <div class="table-row reference">
-        <div>󢐠󢑐</div>
-        <div>󢐠󢑠</div>
-        <div>󢐠󢑰</div>
-        <div>󢐠󢒀</div>
-        <div>󢐠󢒐</div>
-        <div>󢐠󢒠</div>
-        <div>󢐠󢑐󢑰</div>
-        <div>󢐠󢑠󢑰</div>
-        <div>󢐠󢒀󢑰</div>
-        <div>󢐠󢑐󢒐</div>
-      </div>
+        <h3>CV ligatures</h3>
+        <div class="table-row reference">
+          <div>󢌠󢑐</div>
+          <div>󢌠󢑠</div>
+          <div>󢌠󢑰</div>
+          <div>󢌠󢒀</div>
+          <div>󢌠󢒐</div>
+          <div>󢌠󢒠</div>
+          <div>󢌠󢑐󢑰</div>
+          <div>󢌠󢑠󢑰</div>
+          <div>󢌠󢒀󢑰</div>
+          <div>󢌠󢑐󢒐</div>
         </div>
-        <div class="column one-half">
-          <h3>Vowels</h3>
-          <div class="reference rows">
-            <div class="table-row">
-              <div>󢌀󢑐</div>
-              <div>󢌀󢑠</div>
-              <div>󢌀󢑰</div>
-              <div>󢌀󢒀</div>
-              <div>󢌀󢒐</div>
-              <div>󢌀󢒠</div>
-              <div>󢌀󢑐󢑰</div>
-              <div>󢌀󢑠󢑰</div>
-              <div>󢌀󢒀󢑰</div>
-              <div>󢌀󢑐󢒐</div>
-            </div>
-            <div class="table-row">
-              <div>󢌐󢑐</div>
-              <div>󢌐󢑠</div>
-              <div>󢌐󢑰</div>
-              <div>󢌐󢒀</div>
-              <div>󢌐󢒐</div>
-              <div>󢌐󢒠</div>
-              <div>󢌐󢑐󢑰</div>
-              <div>󢌐󢑠󢑰</div>
-              <div>󢌐󢒀󢑰</div>
-              <div>󢌐󢑐󢒐</div>
-            </div>
-          </div>
-          <h3>Semivowels</h3>
-          <div class="reference rows">
-            <div class="table-row">
-              <div>󢑰󢑐</div>
-              <div>󢑰󢑠</div>
-              <div>󢑰󢑰</div>
-              <div>󢑰󢒀</div>
-              <div>󢑰󢒐</div>
-              <div>󢑰󢒠</div>
-              <div>󢑰󢑐󢑰</div>
-              <div>󢑰󢑠󢑰</div>
-              <div>󢑰󢒀󢑰</div>
-              <div>󢑰󢑐󢒐</div>
-            </div>
-            <div class="table-row">
-              <div>󢒐󢑐</div>
-              <div>󢒐󢑠</div>
-              <div>󢒐󢑰</div>
-              <div>󢒐󢒀</div>
-              <div>󢒐󢒐</div>
-              <div>󢒐󢒠</div>
-              <div>󢒐󢑐󢑰</div>
-              <div>󢒐󢑠󢑰</div>
-              <div>󢒐󢒀󢑰</div>
-              <div>󢒐󢑐󢒐</div>
-            </div>
-          </div>
-          <h3>Attitudinal ligatures</h3>
-          <div class="reference rows">
-            <div class="table-row">
-              <div>󢑐󢌐󢑐</div>
-              <div>󢑐󢌐󢑠</div>
-              <div>󢑐󢌐󢑰</div>
-              <div>󢑐󢌐󢒀</div>
-              <div>󢑐󢌐󢒐</div>
-              <div>󢑐󢌐󢒠</div>
-              <div>󢑐󢌐󢑐󢑰</div>
-              <div>󢑐󢌐󢑠󢑰</div>
-              <div>󢑐󢌐󢒀󢑰</div>
-              <div>󢑐󢌐󢑐󢒐</div>
-            </div>
-            <div class="table-row">
-              <div>󢑠󢌐󢑐</div>
-              <div>󢑠󢌐󢑠</div>
-              <div>󢑠󢌐󢑰</div>
-              <div>󢑠󢌐󢒀</div>
-              <div>󢑠󢌐󢒐</div>
-              <div>󢑠󢌐󢒠</div>
-              <div>󢑠󢌐󢑐󢑰</div>
-              <div>󢑠󢌐󢑠󢑰</div>
-              <div>󢑠󢌐󢒀󢑰</div>
-              <div>󢑠󢌐󢑐󢒐</div>
-            </div>
-            <div class="table-row">
-              <div>󢑰󢌐󢑐</div>
-              <div>󢑰󢌐󢑠</div>
-              <div>󢑰󢌐󢑰</div>
-              <div>󢑰󢌐󢒀</div>
-              <div>󢑰󢌐󢒐</div>
-              <div>󢑰󢌐󢒠</div>
-              <div>󢑰󢌐󢑐󢑰</div>
-              <div>󢑰󢌐󢑠󢑰</div>
-              <div>󢑰󢌐󢒀󢑰</div>
-              <div>󢑰󢌐󢑐󢒐</div>
-            </div>
-            <div class="table-row">
-              <div>󢒀󢌐󢑐</div>
-              <div>󢒀󢌐󢑠</div>
-              <div>󢒀󢌐󢑰</div>
-              <div>󢒀󢌐󢒀</div>
-              <div>󢒀󢌐󢒐</div>
-              <div>󢒀󢌐󢒠</div>
-              <div>󢒀󢌐󢑐󢑰</div>
-              <div>󢒀󢌐󢑠󢑰</div>
-              <div>󢒀󢌐󢒀󢑰</div>
-              <div>󢒀󢌐󢑐󢒐</div>
-            </div>
-            <div class="table-row">
-              <div>󢒐󢌐󢑐</div>
-              <div>󢒐󢌐󢑠</div>
-              <div>󢒐󢌐󢑰</div>
-              <div>󢒐󢌐󢒀</div>
-              <div>󢒐󢌐󢒐</div>
-              <div>󢒐󢌐󢒠</div>
-              <div>󢒐󢌐󢑐󢑰</div>
-              <div>󢒐󢌐󢑠󢑰</div>
-              <div>󢒐󢌐󢒀󢑰</div>
-              <div>󢒐󢌐󢑐󢒐</div>
-            </div>
-            <div class="table-row">
-              <div>󢑰󢌐󢑐</div>
-              <div>󢑰󢌐󢑠</div>
-              <div>󢑰󢌐󢑰</div>
-              <div>󢑰󢌐󢒀</div>
-              <div>󢑰󢌐󢒐</div>
-              <div>󢑰󢌐󢒠</div>
-              <div>󢑰󢌐󢑐󢑰</div>
-              <div>󢑰󢌐󢑠󢑰</div>
-              <div>󢑰󢌐󢒀󢑰</div>
-              <div>󢑰󢌐󢑐󢒐</div>
-            </div>
-            <div class="table-row">
-              <div>󢒠󢌐󢑐</div>
-              <div>󢒠󢌐󢑠</div>
-              <div>󢒠󢌐󢑰</div>
-              <div>󢒠󢌐󢒀</div>
-              <div>󢒠󢌐󢒐</div>
-              <div>󢒠󢌐󢒠</div>
-              <div>󢒠󢌐󢑐󢑰</div>
-              <div>󢒠󢌐󢑠󢑰</div>
-              <div>󢒠󢌐󢒀󢑰</div>
-              <div>󢒠󢌐󢑐󢒐</div>
-            </div>
-            <div class="table-row">
-              <div>󢑐󢑰󢌐󢑐</div>
-              <div>󢑐󢑰󢌐󢑠</div>
-              <div>󢑐󢑰󢌐󢑰</div>
-              <div>󢑐󢑰󢌐󢒀</div>
-              <div>󢑐󢑰󢌐󢒐</div>
-              <div>󢑐󢑰󢌐󢒠</div>
-              <div>󢑐󢑰󢌐󢑐󢑰</div>
-              <div>󢑐󢑰󢌐󢑠󢑰</div>
-              <div>󢑐󢑰󢌐󢒀󢑰</div>
-              <div>󢑐󢑰󢌐󢑐󢒐</div>
-            </div>
-            <div class="table-row">
-              <div>󢑠󢑰󢌐󢑐</div>
-              <div>󢑠󢑰󢌐󢑠</div>
-              <div>󢑠󢑰󢌐󢑰</div>
-              <div>󢑠󢑰󢌐󢒀</div>
-              <div>󢑠󢑰󢌐󢒐</div>
-              <div>󢑠󢑰󢌐󢒠</div>
-              <div>󢑠󢑰󢌐󢑐󢑰</div>
-              <div>󢑠󢑰󢌐󢑠󢑰</div>
-              <div>󢑠󢑰󢌐󢒀󢑰</div>
-              <div>󢑠󢑰󢌐󢑐󢒐</div>
-            </div>
-            <div class="table-row">
-              <div>󢒀󢑰󢌐󢑐</div>
-              <div>󢒀󢑰󢌐󢑠</div>
-              <div>󢒀󢑰󢌐󢑰</div>
-              <div>󢒀󢑰󢌐󢒀</div>
-              <div>󢒀󢑰󢌐󢒐</div>
-              <div>󢒀󢑰󢌐󢒠</div>
-              <div>󢒀󢑰󢌐󢑐󢑰</div>
-              <div>󢒀󢑰󢌐󢑠󢑰</div>
-              <div>󢒀󢑰󢌐󢒀󢑰</div>
-              <div>󢒀󢑰󢌐󢑐󢒐</div>
-            </div>
-            <div class="table-row">
-              <div>󢑐󢒐󢌐󢑐</div>
-              <div>󢑐󢒐󢌐󢑠</div>
-              <div>󢑐󢒐󢌐󢑰</div>
-              <div>󢑐󢒐󢌐󢒀</div>
-              <div>󢑐󢒐󢌐󢒐</div>
-              <div>󢑐󢒐󢌐󢒠</div>
-              <div>󢑐󢒐󢌐󢑐󢑰</div>
-              <div>󢑐󢒐󢌐󢑠󢑰</div>
-              <div>󢑐󢒐󢌐󢒀󢑰</div>
-              <div>󢑐󢒐󢌐󢑐󢒐</div>
-            </div>
-          </div>
+        <div class="table-row reference">
+          <div>󢌰󢑐</div>
+          <div>󢌰󢑠</div>
+          <div>󢌰󢑰</div>
+          <div>󢌰󢒀</div>
+          <div>󢌰󢒐</div>
+          <div>󢌰󢒠</div>
+          <div>󢌰󢑐󢑰</div>
+          <div>󢌰󢑠󢑰</div>
+          <div>󢌰󢒀󢑰</div>
+          <div>󢌰󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢍀󢑐</div>
+          <div>󢍀󢑠</div>
+          <div>󢍀󢑰</div>
+          <div>󢍀󢒀</div>
+          <div>󢍀󢒐</div>
+          <div>󢍀󢒠</div>
+          <div>󢍀󢑐󢑰</div>
+          <div>󢍀󢑠󢑰</div>
+          <div>󢍀󢒀󢑰</div>
+          <div>󢍀󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢍐󢑐</div>
+          <div>󢍐󢑠</div>
+          <div>󢍐󢑰</div>
+          <div>󢍐󢒀</div>
+          <div>󢍐󢒐</div>
+          <div>󢍐󢒠</div>
+          <div>󢍐󢑐󢑰</div>
+          <div>󢍐󢑠󢑰</div>
+          <div>󢍐󢒀󢑰</div>
+          <div>󢍐󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢍠󢑐</div>
+          <div>󢍠󢑠</div>
+          <div>󢍠󢑰</div>
+          <div>󢍠󢒀</div>
+          <div>󢍠󢒐</div>
+          <div>󢍠󢒠</div>
+          <div>󢍠󢑐󢑰</div>
+          <div>󢍠󢑠󢑰</div>
+          <div>󢍠󢒀󢑰</div>
+          <div>󢍠󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢍰󢑐</div>
+          <div>󢍰󢑠</div>
+          <div>󢍰󢑰</div>
+          <div>󢍰󢒀</div>
+          <div>󢍰󢒐</div>
+          <div>󢍰󢒠</div>
+          <div>󢍰󢑐󢑰</div>
+          <div>󢍰󢑠󢑰</div>
+          <div>󢍰󢒀󢑰</div>
+          <div>󢍰󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢎀󢑐</div>
+          <div>󢎀󢑠</div>
+          <div>󢎀󢑰</div>
+          <div>󢎀󢒀</div>
+          <div>󢎀󢒐</div>
+          <div>󢎀󢒠</div>
+          <div>󢎀󢑐󢑰</div>
+          <div>󢎀󢑠󢑰</div>
+          <div>󢎀󢒀󢑰</div>
+          <div>󢎀󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢎐󢑐</div>
+          <div>󢎐󢑠</div>
+          <div>󢎐󢑰</div>
+          <div>󢎐󢒀</div>
+          <div>󢎐󢒐</div>
+          <div>󢎐󢒠</div>
+          <div>󢎐󢑐󢑰</div>
+          <div>󢎐󢑠󢑰</div>
+          <div>󢎐󢒀󢑰</div>
+          <div>󢎐󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢎠󢑐</div>
+          <div>󢎠󢑠</div>
+          <div>󢎠󢑰</div>
+          <div>󢎠󢒀</div>
+          <div>󢎠󢒐</div>
+          <div>󢎠󢒠</div>
+          <div>󢎠󢑐󢑰</div>
+          <div>󢎠󢑠󢑰</div>
+          <div>󢎠󢒀󢑰</div>
+          <div>󢎠󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢎰󢑐</div>
+          <div>󢎰󢑠</div>
+          <div>󢎰󢑰</div>
+          <div>󢎰󢒀</div>
+          <div>󢎰󢒐</div>
+          <div>󢎰󢒠</div>
+          <div>󢎰󢑐󢑰</div>
+          <div>󢎰󢑠󢑰</div>
+          <div>󢎰󢒀󢑰</div>
+          <div>󢎰󢑐󢒐</div>
+        </div> >>
+        <div class="table-row reference">
+          <div>󢏀󢑐</div>
+          <div>󢏀󢑠</div>
+          <div>󢏀󢑰</div>
+          <div>󢏀󢒀</div>
+          <div>󢏀󢒐</div>
+          <div>󢏀󢒠</div>
+          <div>󢏀󢑐󢑰</div>
+          <div>󢏀󢑠󢑰</div>
+          <div>󢏀󢒀󢑰</div>
+          <div>󢏀󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢏐󢑐</div>
+          <div>󢏐󢑠</div>
+          <div>󢏐󢑰</div>
+          <div>󢏐󢒀</div>
+          <div>󢏐󢒐</div>
+          <div>󢏐󢒠</div>
+          <div>󢏐󢑐󢑰</div>
+          <div>󢏐󢑠󢑰</div>
+          <div>󢏐󢒀󢑰</div>
+          <div>󢏐󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢏠󢑐</div>
+          <div>󢏠󢑠</div>
+          <div>󢏠󢑰</div>
+          <div>󢏠󢒀</div>
+          <div>󢏠󢒐</div>
+          <div>󢏠󢒠</div>
+          <div>󢏠󢑐󢑰</div>
+          <div>󢏠󢑠󢑰</div>
+          <div>󢏠󢒀󢑰</div>
+          <div>󢏠󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢏰󢑐</div>
+          <div>󢏰󢑠</div>
+          <div>󢏰󢑰</div>
+          <div>󢏰󢒀</div>
+          <div>󢏰󢒐</div>
+          <div>󢏰󢒠</div>
+          <div>󢏰󢑐󢑰</div>
+          <div>󢏰󢑠󢑰</div>
+          <div>󢏰󢒀󢑰</div>
+          <div>󢏰󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢐀󢑐</div>
+          <div>󢐀󢑠</div>
+          <div>󢐀󢑰</div>
+          <div>󢐀󢒀</div>
+          <div>󢐀󢒐</div>
+          <div>󢐀󢒠</div>
+          <div>󢐀󢑐󢑰</div>
+          <div>󢐀󢑠󢑰</div>
+          <div>󢐀󢒀󢑰</div>
+          <div>󢐀󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢐐󢑐</div>
+          <div>󢐐󢑠</div>
+          <div>󢐐󢑰</div>
+          <div>󢐐󢒀</div>
+          <div>󢐐󢒐</div>
+          <div>󢐐󢒠</div>
+          <div>󢐐󢑐󢑰</div>
+          <div>󢐐󢑠󢑰</div>
+          <div>󢐐󢒀󢑰</div>
+          <div>󢐐󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢐠󢑐</div>
+          <div>󢐠󢑠</div>
+          <div>󢐠󢑰</div>
+          <div>󢐠󢒀</div>
+          <div>󢐠󢒐</div>
+          <div>󢐠󢒠</div>
+          <div>󢐠󢑐󢑰</div>
+          <div>󢐠󢑠󢑰</div>
+          <div>󢐠󢒀󢑰</div>
+          <div>󢐠󢑐󢒐</div>
         </div>
       </div>
-      <div class="row">
-        <div class="columns seven">
+      <div class="column one-half">
+        <h3>Vowels</h3>
+        <div class="reference rows">
+          <div class="table-row">
+            <div>󢌀󢑐</div>
+            <div>󢌀󢑠</div>
+            <div>󢌀󢑰</div>
+            <div>󢌀󢒀</div>
+            <div>󢌀󢒐</div>
+            <div>󢌀󢒠</div>
+            <div>󢌀󢑐󢑰</div>
+            <div>󢌀󢑠󢑰</div>
+            <div>󢌀󢒀󢑰</div>
+            <div>󢌀󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢌐󢑐</div>
+            <div>󢌐󢑠</div>
+            <div>󢌐󢑰</div>
+            <div>󢌐󢒀</div>
+            <div>󢌐󢒐</div>
+            <div>󢌐󢒠</div>
+            <div>󢌐󢑐󢑰</div>
+            <div>󢌐󢑠󢑰</div>
+            <div>󢌐󢒀󢑰</div>
+            <div>󢌐󢑐󢒐</div>
+          </div>
+        </div>
+        <h3>Semivowels</h3>
+        <div class="reference rows">
+          <div class="table-row">
+            <div>󢑰󢑐</div>
+            <div>󢑰󢑠</div>
+            <div>󢑰󢑰</div>
+            <div>󢑰󢒀</div>
+            <div>󢑰󢒐</div>
+            <div>󢑰󢒠</div>
+            <div>󢑰󢑐󢑰</div>
+            <div>󢑰󢑠󢑰</div>
+            <div>󢑰󢒀󢑰</div>
+            <div>󢑰󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢒐󢑐</div>
+            <div>󢒐󢑠</div>
+            <div>󢒐󢑰</div>
+            <div>󢒐󢒀</div>
+            <div>󢒐󢒐</div>
+            <div>󢒐󢒠</div>
+            <div>󢒐󢑐󢑰</div>
+            <div>󢒐󢑠󢑰</div>
+            <div>󢒐󢒀󢑰</div>
+            <div>󢒐󢑐󢒐</div>
+          </div>
+        </div>
+        <h3>Attitudinal ligatures</h3>
+        <div class="reference rows">
+          <div class="table-row">
+            <div>󢑐󢌐󢑐</div>
+            <div>󢑐󢌐󢑠</div>
+            <div>󢑐󢌐󢑰</div>
+            <div>󢑐󢌐󢒀</div>
+            <div>󢑐󢌐󢒐</div>
+            <div>󢑐󢌐󢒠</div>
+            <div>󢑐󢌐󢑐󢑰</div>
+            <div>󢑐󢌐󢑠󢑰</div>
+            <div>󢑐󢌐󢒀󢑰</div>
+            <div>󢑐󢌐󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢑠󢌐󢑐</div>
+            <div>󢑠󢌐󢑠</div>
+            <div>󢑠󢌐󢑰</div>
+            <div>󢑠󢌐󢒀</div>
+            <div>󢑠󢌐󢒐</div>
+            <div>󢑠󢌐󢒠</div>
+            <div>󢑠󢌐󢑐󢑰</div>
+            <div>󢑠󢌐󢑠󢑰</div>
+            <div>󢑠󢌐󢒀󢑰</div>
+            <div>󢑠󢌐󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢑰󢌐󢑐</div>
+            <div>󢑰󢌐󢑠</div>
+            <div>󢑰󢌐󢑰</div>
+            <div>󢑰󢌐󢒀</div>
+            <div>󢑰󢌐󢒐</div>
+            <div>󢑰󢌐󢒠</div>
+            <div>󢑰󢌐󢑐󢑰</div>
+            <div>󢑰󢌐󢑠󢑰</div>
+            <div>󢑰󢌐󢒀󢑰</div>
+            <div>󢑰󢌐󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢒀󢌐󢑐</div>
+            <div>󢒀󢌐󢑠</div>
+            <div>󢒀󢌐󢑰</div>
+            <div>󢒀󢌐󢒀</div>
+            <div>󢒀󢌐󢒐</div>
+            <div>󢒀󢌐󢒠</div>
+            <div>󢒀󢌐󢑐󢑰</div>
+            <div>󢒀󢌐󢑠󢑰</div>
+            <div>󢒀󢌐󢒀󢑰</div>
+            <div>󢒀󢌐󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢒐󢌐󢑐</div>
+            <div>󢒐󢌐󢑠</div>
+            <div>󢒐󢌐󢑰</div>
+            <div>󢒐󢌐󢒀</div>
+            <div>󢒐󢌐󢒐</div>
+            <div>󢒐󢌐󢒠</div>
+            <div>󢒐󢌐󢑐󢑰</div>
+            <div>󢒐󢌐󢑠󢑰</div>
+            <div>󢒐󢌐󢒀󢑰</div>
+            <div>󢒐󢌐󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢑰󢌐󢑐</div>
+            <div>󢑰󢌐󢑠</div>
+            <div>󢑰󢌐󢑰</div>
+            <div>󢑰󢌐󢒀</div>
+            <div>󢑰󢌐󢒐</div>
+            <div>󢑰󢌐󢒠</div>
+            <div>󢑰󢌐󢑐󢑰</div>
+            <div>󢑰󢌐󢑠󢑰</div>
+            <div>󢑰󢌐󢒀󢑰</div>
+            <div>󢑰󢌐󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢒠󢌐󢑐</div>
+            <div>󢒠󢌐󢑠</div>
+            <div>󢒠󢌐󢑰</div>
+            <div>󢒠󢌐󢒀</div>
+            <div>󢒠󢌐󢒐</div>
+            <div>󢒠󢌐󢒠</div>
+            <div>󢒠󢌐󢑐󢑰</div>
+            <div>󢒠󢌐󢑠󢑰</div>
+            <div>󢒠󢌐󢒀󢑰</div>
+            <div>󢒠󢌐󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢑐󢑰󢌐󢑐</div>
+            <div>󢑐󢑰󢌐󢑠</div>
+            <div>󢑐󢑰󢌐󢑰</div>
+            <div>󢑐󢑰󢌐󢒀</div>
+            <div>󢑐󢑰󢌐󢒐</div>
+            <div>󢑐󢑰󢌐󢒠</div>
+            <div>󢑐󢑰󢌐󢑐󢑰</div>
+            <div>󢑐󢑰󢌐󢑠󢑰</div>
+            <div>󢑐󢑰󢌐󢒀󢑰</div>
+            <div>󢑐󢑰󢌐󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢑠󢑰󢌐󢑐</div>
+            <div>󢑠󢑰󢌐󢑠</div>
+            <div>󢑠󢑰󢌐󢑰</div>
+            <div>󢑠󢑰󢌐󢒀</div>
+            <div>󢑠󢑰󢌐󢒐</div>
+            <div>󢑠󢑰󢌐󢒠</div>
+            <div>󢑠󢑰󢌐󢑐󢑰</div>
+            <div>󢑠󢑰󢌐󢑠󢑰</div>
+            <div>󢑠󢑰󢌐󢒀󢑰</div>
+            <div>󢑠󢑰󢌐󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢒀󢑰󢌐󢑐</div>
+            <div>󢒀󢑰󢌐󢑠</div>
+            <div>󢒀󢑰󢌐󢑰</div>
+            <div>󢒀󢑰󢌐󢒀</div>
+            <div>󢒀󢑰󢌐󢒐</div>
+            <div>󢒀󢑰󢌐󢒠</div>
+            <div>󢒀󢑰󢌐󢑐󢑰</div>
+            <div>󢒀󢑰󢌐󢑠󢑰</div>
+            <div>󢒀󢑰󢌐󢒀󢑰</div>
+            <div>󢒀󢑰󢌐󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢑐󢒐󢌐󢑐</div>
+            <div>󢑐󢒐󢌐󢑠</div>
+            <div>󢑐󢒐󢌐󢑰</div>
+            <div>󢑐󢒐󢌐󢒀</div>
+            <div>󢑐󢒐󢌐󢒐</div>
+            <div>󢑐󢒐󢌐󢒠</div>
+            <div>󢑐󢒐󢌐󢑐󢑰</div>
+            <div>󢑐󢒐󢌐󢑠󢑰</div>
+            <div>󢑐󢒐󢌐󢒀󢑰</div>
+            <div>󢑐󢒐󢌐󢑐󢒐</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="columns seven">
         <h3>Ligature precedence</h3>
 
         <table>
           <tr>
-            <th>input</th> <th>output</th> <th>should be</th>
+            <th>input</th>
+            <th>output</th>
+            <th>should be</th>
           </tr>
 
           <tr class="reference">
-            <td> co'o ci'izra </td> <td data-zlm-translate> co'o ci'izra </td> <td>&#xe2384;&#xe2314; &#Xe2383;&#Xe2313;&#Xe2400;&#Xe23f1;</td>
+            <td> co'o ci'izra </td>
+            <td data-zlm-translate> co'o ci'izra </td>
+            <td>&#xe2384;&#xe2314; &#Xe2383;&#Xe2313;&#Xe2400;&#Xe23f1;</td>
           </tr>
 
           <tr class="reference">
-           <td> uau je'u do'oi </td>  <td data-zlm-translate> uau je'u do'oi </td> <td> &#xe244a; &#xe2412;&#xe2315; &#xe23c4;&#xe2319;</td>
+            <td> uau je'u do'oi </td>
+            <td data-zlm-translate> uau je'u do'oi </td>
+            <td> &#xe244a; &#xe2412;&#xe2315; &#xe23c4;&#xe2319;</td>
           </tr>
 
           <tr class="reference">
-            <td> plukauaii </td><td data-zlm-translate> plukauaii </td> <td> &#xe2320;&#xe2365;&#xe2341;&#xe2441;&#xe2433;</td>
+            <td> plukauaii </td>
+            <td data-zlm-translate> plukauaii </td>
+            <td> &#xe2320;&#xe2365;&#xe2341;&#xe2441;&#xe2433;</td>
           </tr>
         </table>
       </div>
@@ -527,7 +624,13 @@
 
         <h3>Full vowels</h3>
         <div class="reference">
-          <span>&#xe24F1; &#xe24F2; &#xe24F3; &#xe24F4; &#xe24F5; &#xe24F6; &#xe24F7; &#xe24F8; &#xe24F9; &#xe24FA;</span>
+          <span>&#xe24F1; &#xe24F2; &#xe24F3; &#xe24F4; &#xe24F5; &#xe24F6; &#xe24F7; &#xe24F8; &#xe24F9;
+            &#xe24FA;</span>
+        </div>
+
+        <h3>Optional features</h3>
+        <div class="reference">
+          <span>󢎐󢑠󢍟󢍟󢍟󢍠󢍟󢍟󢎰󢑰󢍟 󢎯󢎯 󢏐󢍠󢑠󢎏󢍀󢑰󢎏 󢎐󢑰󢌟 󢏀󢒀󢌯 󢐠󢒀󢌿 󢍠󢑠󢍏</span>
         </div>
       </div>
     </div>
@@ -552,17 +655,19 @@ ml  mr                          xl  xr
 </div>
 </div-->
 
-      <h3>IME Emulation</h3>
+    <h3>IME Emulation</h3>
     <div class="row">
-    <div class="column one-half">
+      <div class="column one-half">
 
-      <textarea data-ime-emulation class="reference test-block" id="ime-input">
+        <textarea data-ime-emulation class="reference test-block" id="ime-input">
 .i ma jufra gi'e se vanbi le vi cukta
       </textarea>
-    </div>
-      <div class="reference column one-half" id="ime-output" data-ime-output>&#xe2389;</div>
+      </div>
+      <div class="reference column one-half" id="ime-output" data-ime-output>󢌀󢑰 󢎐󢑐 󢐐󢒐󢍐󢏰󢑐 󢏐󢑰󢌐󢑠 󢍰󢑠
+        󢏠󢑐󢐠󢎰󢑰 󢍠󢑠 󢏠󢑰 󢎀󢒐󢍀󢌰󢑐</div>
     </div>
   </div>
-    <script src="preview.js"></script>
-  </body>
+  <script src="preview.js"></script>
+</body>
+
 </html>

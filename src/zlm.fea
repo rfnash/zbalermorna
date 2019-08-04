@@ -114,21 +114,21 @@ feature rlig {
 # ,VV
 
 feature rlig {
-  sub comma ZLM_FULL_AI by ZLM_FULL_AI;
-  sub comma ZLM_FULL_OI by ZLM_FULL_OI;
-  sub comma ZLM_FULL_EI by ZLM_FULL_EI;
-  sub comma ZLM_FULL_AU by ZLM_FULL_AU;
+  sub ZLM_SLAKABU ZLM_FULL_AI by ZLM_FULL_AI;
+  sub ZLM_SLAKABU ZLM_FULL_OI by ZLM_FULL_OI;
+  sub ZLM_SLAKABU ZLM_FULL_EI by ZLM_FULL_EI;
+  sub ZLM_SLAKABU ZLM_FULL_AU by ZLM_FULL_AU;
 } rlig;
 
 # ,V
 
 feature rlig {
-  sub comma ZLM_FULL_A by ZLM_FULL_A;
-  sub comma ZLM_FULL_E by ZLM_FULL_E;
-  sub comma ZLM_FULL_I by ZLM_FULL_I;
-  sub comma ZLM_FULL_O by ZLM_FULL_O;
-  sub comma ZLM_FULL_U by ZLM_FULL_U;
-  sub comma ZLM_FULL_Y by ZLM_FULL_Y;
+  sub ZLM_SLAKABU ZLM_FULL_A by ZLM_FULL_A;
+  sub ZLM_SLAKABU ZLM_FULL_E by ZLM_FULL_E;
+  sub ZLM_SLAKABU ZLM_FULL_I by ZLM_FULL_I;
+  sub ZLM_SLAKABU ZLM_FULL_O by ZLM_FULL_O;
+  sub ZLM_SLAKABU ZLM_FULL_U by ZLM_FULL_U;
+  sub ZLM_SLAKABU ZLM_FULL_Y by ZLM_FULL_Y;
 } rlig;
 
 

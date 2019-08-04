@@ -158,26 +158,28 @@ function formatUnicode (point) {
 }
 
 function parseCharacter(c) {
+  if (c == " ")
+    ta.insertAtCaret(" ");
   if (c == "h" || c == "H")
     c = "'";
   if (c == ",")
-    ta.insertAtCaret(","); // this may need to be mapped to a unicode spot
+    ta.insertAtCaret(formatUnicode(0xe230f)); // ZLM_SLAKABU
   if (c == "~")
-    ta.insertAtCaret(formatUnicode(0xe238f));
+    ta.insertAtCaret(formatUnicode(0xe238f)); // ZLM_STRETCH
   if (c == "-")
-    ta.insertAtCaret(formatUnicode(0xe23af));
+    ta.insertAtCaret(formatUnicode(0xe23af)); // ZLM_DASH_MEDI (smajibu)
   if (c == "!")
-    ta.insertAtCaret(formatUnicode(0xe235f));
+    ta.insertAtCaret(formatUnicode(0xe235f)); // ZLM_BAHEBU
   // if (c == ":" || c == "\"")
   //   ta.insertAtCaret(formatUnicode(0xe24f0)); // these ligatures aren't supported by the font standard yet
   if (c == "1")
-    ta.insertAtCaret(formatUnicode(0xe231F));
+    ta.insertAtCaret(formatUnicode(0xe231F)); // ZLM_TONE_UP
   if (c == "2")
-    ta.insertAtCaret(formatUnicode(0xe232F));
+    ta.insertAtCaret(formatUnicode(0xe232F)); // ZLM_TONE_DOWN
   if (c == "3")
-    ta.insertAtCaret(formatUnicode(0xe233F));
+    ta.insertAtCaret(formatUnicode(0xe233F)); // ZLM_TONE_UP_DOWN
   if (c == "4")
-    ta.insertAtCaret(formatUnicode(0xe234F));
+    ta.insertAtCaret(formatUnicode(0xe234F)); // ZLM_TONE_DOWN_UP
   if (fullVowels.indexOf(c) >= 0)
     ta.insertAtCaret(formatUnicode(UNICODE_FULL_VOWEL_START + fullVowels.indexOf(c)));
   else if (lerfu.indexOf(c.toLowerCase()) >= 0)
@@ -210,8 +212,6 @@ ta.onkeydown = function(event) {
   var k = event.key;
 
   if (kc == 8) // backspace
-    return true;
-  if (kc == 32) // space
     return true;
   if (kc >= 37 && kc <= 40) // arrow keys
     return true;

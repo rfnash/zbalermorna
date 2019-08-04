@@ -116,13 +116,13 @@ languagesystem grek dflt;"
       log "  sub ZLM_FULL_E ZLM_FULL_I by ZLM_FULL_EI;"
       log "  sub ZLM_FULL_A ZLM_FULL_U by ZLM_FULL_AU;"
     feature ",VV" ->
-      log "  sub comma ZLM_FULL_AI by ZLM_FULL_AI;"
-      log "  sub comma ZLM_FULL_OI by ZLM_FULL_OI;"
-      log "  sub comma ZLM_FULL_EI by ZLM_FULL_EI;"
-      log "  sub comma ZLM_FULL_AU by ZLM_FULL_AU;"
+      log "  sub ZLM_SLAKABU ZLM_FULL_AI by ZLM_FULL_AI;"
+      log "  sub ZLM_SLAKABU ZLM_FULL_OI by ZLM_FULL_OI;"
+      log "  sub ZLM_SLAKABU ZLM_FULL_EI by ZLM_FULL_EI;"
+      log "  sub ZLM_SLAKABU ZLM_FULL_AU by ZLM_FULL_AU;"
     feature ",V" ->
       for v in VOWELS
-        log "  sub comma ZLM_FULL_#v by ZLM_FULL_#v;"
+        log "  sub ZLM_SLAKABU ZLM_FULL_#v by ZLM_FULL_#v;"
 
   section "6-part ligatures", ->
     feature \NVV'VV, ->

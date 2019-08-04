@@ -1,6 +1,6 @@
 #!/usr/local/bin/fontforge
 # Sets up all of the CAS ligatures with ZLM_CAS_ISO and vowel references, and exports as new file with -cas-fixed appended
-# usage: fontforge.exe -lang=ff -script tools/fix-cas.pe <font-name> <first-vowel-x-position> <second-vowel-x-position>
+# usage: fontforge -lang=ff -script tools/fix-cas.pe <font-name> <first-vowel-x-position> <second-vowel-x-position>
 
 Open("src/" + $1 + ".sfd")
 
