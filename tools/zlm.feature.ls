@@ -228,10 +228,10 @@ languagesystem grek dflt;"
       log "  ignore sub ZLM_DASH_INIT ZLM_DASH_MEDI';"
       log "  sub ZLM_DASH_MEDI' by ZLM_DASH_ISO;"
 
-# I'm not sure this is needed in any jbo text
-#
-#  section "Single Substitutions", ->
-#    feature ".V", ->
-#      ignore \@anything \@vowel
-#      for v in ALL_VOWELS
-#        sub-tick v, dot v
+  section "Single Substitutions", ->
+    feature ".V", ->
+      ignore \@anything \@vowel
+      log "  ignore sub ZLM_SLAKABU @vowel';"
+      log "  ignore sub @vowel' ZLM_SLAKABU;"
+      for v in ALL_VOWELS
+        sub-tick v, dot v
