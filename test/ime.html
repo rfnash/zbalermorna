@@ -214,19 +214,43 @@ var ta = document.getElementById("textarea");
 var taHL = document.getElementById("textarea-highlight");
 
 function updateHighlighter() {
-  var text;
-  text = [...ta.value].slice(0, ta.uSelectionStart() - 1).join("");
+  var selectorPlusRight = "", 
+      diacritic = false;
+  var left = [...ta.value].slice(0, ta.uSelectionStart() - 1).join("");
   var lastChar = [...ta.value].slice(ta.uSelectionStart() - 1, ta.uSelectionStart()).join("");
   if (diacritics.indexOf(lastChar.codePointAt(0)) == -1) {
-    text += "<span class='base'>" + lastChar + "</span>";
+    selectorPlusRight += "<span class='base'>" + lastChar + "</span>";
   } else {
-    if (top_diacritics.indexOf(lastChar.codePointAt(0)) == -1) {
-      text += lastChar + "<span class='bottom'>←</span>";
-    } else {
-      text += lastChar + "<span class='top'>←</span>";
-    }
+    diacritic = true;
   }
-  taHL.innerHTML = text;
+  rightBit = [...ta.value].slice(ta.uSelectionStart(), [...ta.value].length).join("");
+  selectorPlusRight += "<span id='rightBit'>" + rightBit + "</span>";
+  taHL.innerHTML = left + selectorPlusRight;
+
+  if (diacritic) {
+    var rightBitOL = 0, 
+        newRightBitOL = 1, 
+        secondLastCharWidth = 0;
+    for (i = 2; ((rightBitOL != newRightBitOL) || (secondLastCharWidth == 0)) && (i <= 5); i++) {
+      var rightBitOL = document.getElementById('rightBit').offsetLeft;
+      var newLeft = [...ta.value].slice(0, ta.uSelectionStart() - i).join("");
+      taHL.innerHTML = newLeft + "<span id='leftCharSelector'>" + [...ta.value].slice(ta.uSelectionStart() - i, ta.uSelectionStart() - 1).join("") + "</span>" + selectorPlusRight;
+      var newRightBitOL = document.getElementById('rightBit').offsetLeft;
+
+      log(document.getElementById('rightBit'));
+      log(rightBitOL + " vs " + newRightBitOL + " @ i=" + i);
+      secondLastCharWidth = document.getElementById('leftCharSelector').offsetWidth;
+    }
+    if (top_diacritics.indexOf(lastChar.codePointAt(0)) == -1) {
+      document.getElementById('leftCharSelector').className += "bottom";
+    } else {
+      document.getElementById('leftCharSelector').className += "top";
+    }
+
+
+  }
+
+
 }
 
 ta.onkeydown = function(event) {
@@ -244,7 +268,6 @@ ta.onkeydown = function(event) {
   if (kc == 9)
     k = "\t";
   parseCharacter(k);
-  updateHighlighter();
   return false;
 };
 
@@ -253,6 +276,7 @@ ta.onfocusout = updateHighlighter;
 ta.onkeypress = updateHighlighter;
 ta.onchange = updateHighlighter;
 ta.onfocus = updateHighlighter;
+ta.oninput = updateHighlighter;
 ta.onclick = updateHighlighter;
 
 ta.onpaste = function(event) {

@@ -30,24 +30,37 @@ h1 {
 }
 
 #textarea-highlight .base {
-	background: #eee;
+	background: #99d7ea;
 	border-radius: 3px;
-	line-height: 120%;
+	line-height: 65%;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
 }
 
-#textarea-highlight .top {
-	color: #ccc;
+#textarea-highlight #leftCharSelector {
+	position: relative;
+}
+#textarea-highlight #leftCharSelector.top:before {
+	content: "↓";
+	color: #33C3F0;
     font-size: 50%;
     top: -18px;
-    position: relative;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+#textarea-highlight #leftCharSelector.bottom:before {
+	content: "↑";
+	color: #33C3F0;
+    font-size: 50%;
+    top: 37px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
 }
 
-#textarea-highlight .bottom {
-	color: #ccc;
-    font-size: 50%;
-    top: 10px;
-    position: relative;
-}
+
 
 #textarea {
 	width: 100%;
