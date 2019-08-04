@@ -218,10 +218,14 @@ function updateHighlighter() {
       diacritic = false;
   var left = [...ta.value].slice(0, ta.uSelectionStart() - 1).join("");
   var lastChar = [...ta.value].slice(ta.uSelectionStart() - 1, ta.uSelectionStart()).join("");
-  if (diacritics.indexOf(lastChar.codePointAt(0)) == -1) {
-    selectorPlusRight += "<span class='base'>" + lastChar + "</span>";
+  if (diacritics.indexOf(lastChar.codePointAt(0)) == -1 ) {
+      selectorPlusRight += "<span class='base'>" + lastChar + "</span>";
   } else {
-    diacritic = true;
+    if ([...ta.value][ta.uSelectionStart() - 2] == " " || [...ta.value][ta.uSelectionStart() - 2] == undefined) {
+      selectorPlusRight += "<span class='base full'>" + lastChar + "</span>";
+    } else {
+      diacritic = true;
+    }
   }
   rightBit = [...ta.value].slice(ta.uSelectionStart(), [...ta.value].length).join("");
   selectorPlusRight += "<span id='rightBit'>" + rightBit + "</span>";
@@ -237,8 +241,6 @@ function updateHighlighter() {
       taHL.innerHTML = newLeft + "<span id='leftCharSelector'>" + [...ta.value].slice(ta.uSelectionStart() - i, ta.uSelectionStart() - 1).join("") + "</span>" + selectorPlusRight;
       var newRightBitOL = document.getElementById('rightBit').offsetLeft;
 
-      log(document.getElementById('rightBit'));
-      log(rightBitOL + " vs " + newRightBitOL + " @ i=" + i);
       secondLastCharWidth = document.getElementById('leftCharSelector').offsetWidth;
     }
     if (top_diacritics.indexOf(lastChar.codePointAt(0)) == -1) {
