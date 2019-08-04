@@ -682,3 +682,16 @@ feature rlig {
   sub ZLM_NULL' ZLM_DIACRITIC_OI' by ZLM_DOT_OI;
   sub ZLM_NULL' ZLM_DIACRITIC_AU' by ZLM_DOT_AU;
 } rlig;
+
+
+#
+# symbols
+#
+
+
+# bahebu
+
+feature rlig {
+  sub ZLM_BAHEBU_1 ZLM_BAHEBU_1 ZLM_BAHEBU_1 by ZLM_BAHEBU_3;
+  sub ZLM_BAHEBU_1 ZLM_BAHEBU_1 by ZLM_BAHEBU_2;
+} rlig;

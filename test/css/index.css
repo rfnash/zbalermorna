@@ -1,0 +1,102 @@
+body {
+  margin: 100px auto 0px;
+  font-family: "Lato", "Lato ZLM", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.reference {
+  font-size: 40px;
+}
+
+
+p + p {
+  margin-top: -1em;
+}
+
+p.rows span {
+  margin:  0;
+  display: block;
+}
+
+textarea.reference {
+  font-size: 40px;
+}
+
+small {
+  font-size:   20px;
+  font-family: monospace;
+}
+
+.test-blocks {
+  display: flex;
+  padding: 0px 20px;
+}
+
+.test-block {
+  flex: 1;
+}
+
+#ime-output {
+  margin-left: 10px;
+  font-size: 40px;
+  white-space: pre-wrap;
+}
+header {
+    width: 100%;
+    position: fixed;   
+    top: 0px;
+    background: #eee;
+    border-bottom: solid 1px #ccc;
+    height: 100px;
+    z-index: 5;
+}
+header .container {
+  display: flex;
+}
+
+header .container h1 {
+  line-height: 100px;
+}
+header label {
+  font-size: 20px;
+  line-height: 100px;
+}
+header label select {
+  font-size: 20px;
+}
+
+.flex-right {
+  margin-left: auto;
+}
+
+
+.preview-block {
+  overflow-x: scroll;
+}
+.size-preview {
+  white-space: nowrap;
+  line-height: 120%;
+  color: #eee;
+}
+
+.size-preview:hover, .size-preview:active {
+  color: #000;
+}
+
+.size-preview span {
+  line-height: 100%;
+}
+
+.size-preview dict {
+  width: 350px;
+  display: inline-block;
+  text-align: right;
+  margin-right: 50px;
+}
+
+.table-row {
+  display: flex;
+}
+
+.table-row div {
+  flex: 1;
+}

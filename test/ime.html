@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Zbalermorna IME</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"-->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/ime.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <style>
+    @font-face { font-family: "lato-zlm"; font-weight: normal; src: url('font/lato-zlm.otf'); }
+    @font-face { font-family: "lato-zlm-extended"; font-weight: normal; src: url('font/lato-zlm-extended.otf'); }
+    @font-face { font-family: "zlm-manri"; font-weight: normal; src: url('font/zlm-manri.otf'); }
+    @font-face { font-family: "tnr-zlm"; font-weight: normal; src: url('font/tnr-zlm.otf'); }
+    @font-face { font-family: "lavi-zlm"; font-weight: normal; src: url('font/lavi-zlm.otf'); }
+    @font-face { font-family: "pepper-carrot-zlm"; font-weight: normal; src: url('font/pepper-carrot-zlm.otf'); }
+    @font-face { font-family: "lobster-zlm"; font-weight: normal; src: url('font/lobster-zlm.otf'); }
+    @font-face { font-family: "fira-code-zlm"; font-weight: normal; src: url('font/fira-code-zlm.otf'); }
+  </style>
+
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <h1>Zbalermorna IME</h1>
+        <textarea id="textarea"></textarea>
+      </div>
+    </div>
+  </div>
+<script>
+
+HTMLTextAreaElement.prototype.insertAtCaret = function (text) {
+  if (this.selectionStart || this.selectionStart === 0) {
+    var startPos = this.selectionStart,
+        endPos   = this.selectionEnd,
+        before   = this.value.substring(0, startPos),
+        after    = this.value.substring(endPos, this.value.length);
+    this.value = before + text + after;
+    this.selectionStart = startPos + text.length;
+    this.selectionEnd   = startPos + text.length;
+  } else {
+    this.value += text;
+  }
+};
+
+// Config
+
+const KEY_CODE_APOSTROPHE = 222;
+const UNICODE_RANGE_START = 0xE2300;
+const UNICODE_FULL_VOWEL_START = 0xE24F1;
+const PARSE_MODE_TEXT = 0;
+const PARSE_MODE_TAG  = 1;
+
+const lerfu = ".'ptkflscmxbdgvrzjnqwaeiouy";
+const fullVowels = "AEIOUY";
+
+// Global Helpers
+
+var log = console.log.bind(console);
+
+function id (x) {
+  return x;
+}
+
+function trim (str) {
+  return str.trim();
+}
+
+function toArray (list) {
+  return Array.prototype.slice.apply(list);
+}
+
+function Q (sel, parent) {
+  return toArray((parent || document).querySelectorAll(sel));
+};
+
+function comp (a, b) {
+  return function (x) { return a(b(x)); }
+}
+
+function defer (λ) {
+  return setTimeout(λ, 0);
+}
+
+function deferOf (λ) {
+  return function () { defer(λ); };
+}
+
+
+// Domain Helpers
+
+function formatUnicode (point) {
+  return String.fromCodePoint(point);
+}
+
+function latinToZLM (chr) {
+  if (chr === "h" || chr === "'")
+    return UNICODE_RANGE_START + 16;
+  if (-1 < lerfu.indexOf(chr))
+    return UNICODE_RANGE_START + lerfu.indexOf(chr) * 16;
+  if (-1 < fullVowels.indexOf(chr))
+    return UNICODE_FULL_VOWEL_START + fullVowels.indexOf(chr);
+  return chr.codePointAt(0);
+}
+
+function keyCodeToZLM (code) {
+  if (code === KEY_CODE_APOSTROPHE)
+    return UNICODE_RANGE_START + 16;
+  if (code > 64 && code < 92)
+    return latinToZLM(String.fromCharCode(code).toLowerCase());
+  return code;
+}
+
+function parseCharacter(c) {
+  if (c == "h" || c == "H")
+    c = "'";
+  if (c == ",")
+    ta.insertAtCaret(","); // this may need to be mapped to a unicode spot
+  if (c == "~")
+    ta.insertAtCaret(formatUnicode(0xe238f));
+  if (c == "-")
+    ta.insertAtCaret(formatUnicode(0xe23af));
+  if (c == "!")
+    ta.insertAtCaret(formatUnicode(0xe235f));
+  // if (c == ":" || c == "\"")
+  //   ta.insertAtCaret(formatUnicode(0xe24f0)); // these ligatures aren't supported by the font standard yet
+  if (c == "1")
+    ta.insertAtCaret(formatUnicode(0xe231F));
+  if (c == "2")
+    ta.insertAtCaret(formatUnicode(0xe232F));
+  if (c == "3")
+    ta.insertAtCaret(formatUnicode(0xe233F));
+  if (c == "4")
+    ta.insertAtCaret(formatUnicode(0xe234F));
+  if (fullVowels.indexOf(c) >= 0)
+    ta.insertAtCaret(formatUnicode(UNICODE_FULL_VOWEL_START + fullVowels.indexOf(c)));
+  else if (lerfu.indexOf(c.toLowerCase()) >= 0)
+    ta.insertAtCaret(formatUnicode(UNICODE_RANGE_START + lerfu.indexOf(c.toLowerCase()) * 16));
+  if (c == "\n")
+    ta.insertAtCaret("\n");
+  if (c == "\t")
+    ta.insertAtCaret("\t");
+}
+
+var ta = document.getElementById("textarea");
+ta.onkeydown = function(event) {
+  console.log(event.keyCode);
+  console.log(event);
+  var kc = event.keyCode;
+  var k = event.key;
+
+  if (kc == 8) // backspace
+    return true;
+  if (kc == 32) // space
+    return true;
+  if (kc >= 37 && kc <= 40) // arrow keys
+    return true;
+  if (event.ctrlKey) // ignore anything with ctrl
+    return true;
+  if (kc == 13)
+    k = "\n";
+  if (kc == 9)
+    k = "\t";
+  parseCharacter(k);
+  return false;
+};
+
+ta.onpaste = function(event) {
+  var text = undefined;
+  if (window.clipboardData && window.clipboardData.getData) { // IE
+    text = window.clipboardData.getData('Text');
+  } else if (event.clipboardData && event.clipboardData.getData) {
+    text = event.clipboardData.getData('text/plain');
+  }
+  console.log(text);
+  for (var i = 0; i < text.length; i++) {
+    parseCharacter(text[i]);
+  }
+  return false;
+}; 
+
+</script>
+</body>
+</html>

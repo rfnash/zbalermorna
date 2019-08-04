@@ -203,6 +203,11 @@ languagesystem grek dflt;"
       for v in ALL_VOWELS
         sub-tick \NULL, v, dot v
 
+  section "symbols", ->
+    feature "bahebu", ->
+      sub \BAHEBU_1, \BAHEBU_1, \BAHEBU_1, \ZLM_BAHEBU_3
+      sub \BAHEBU_1, \BAHEBU_1, \ZLM_BAHEBU_2
+
 # I'm not sure this is needed in any jbo text
 #
 #  section "Single Substitutions", ->

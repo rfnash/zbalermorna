@@ -1,9 +1,14 @@
+@font-face { font-family: "Lato ZLM"; font-weight: normal; src: url('../font/lato-zlm-extended.otf'); }
+
 header {
 	text-align: center;
 	margin: 40px auto 20px;
 	counter-reset: figure;
 }
-body { counter-reset: section }
+body { 
+	counter-reset: section;
+  font-family: "Lato", "Lato ZLM", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 h2 { counter-reset: sub-section }
 h3 { counter-reset: composite }
 h4 { counter-reset: detail }

@@ -1,128 +1,33 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>ZLM FDK Test Page</title>
-    <meta name="viewport" content="width=device-width">
-    <style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-      body {
-        margin: 100px auto 0px;
-        font-family: sans-serif;
-      }
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Zbalermorna Font Examiner</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    * { box-sizing: border-box; }
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    .reference {
-      font-size: 40px;
-    }
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"-->
 
-    input[type=checkbox] {
-      /* Double-sized Checkboxes */
-      -ms-transform: scale(1.5); /* IE */
-      -moz-transform: scale(1.5); /* FF */
-      -webkit-transform: scale(1.5); /* Safari and Chrome */
-      -o-transform: scale(1.5); /* Opera */
-      transform: scale(1.5);
-      padding: 10px;
-    }
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/index.css">
 
-    table th {
-      font-size: 24px;
-    }
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
 
-    table td {
-      padding-right: 20px;
-    }
-
-    p + p {
-      margin-top: -1em;
-    }
-
-    p.rows span {
-      margin:  0;
-      display: block;
-    }
-
-    textarea.reference {
-      font-size: 40px;
-    }
-
-    small {
-      font-size:   20px;
-      font-family: monospace;
-    }
-
-    .test-blocks {
-      display: flex;
-      padding: 0px 20px;
-    }
-
-    .test-block {
-      flex: 1;
-    }
-
-    #ime-output {
-      margin-left: 10px;
-      font-size: 40px;
-      white-space: pre-wrap;
-    }
-    header {
-        width: 100%;
-        position: fixed;   
-        top: 0px;
-        background: #eee;
-        border-bottom: solid 1px #ccc;
-        height: 100px;
-        padding: 0px 20px;
-        display: flex;
-    }
-    header h1 {
-      width: 30%;
-      margin: auto 0px;
-    }
-    header label {
-      font-size: 20px;
-      width: 50%;
-    }
-    header label select {
-      font-size: 20px;
-    }
-
-    .flex-right {
-      display: flex;
-      margin: auto;
-      width: 100%;
-      flex-direction: column;
-      flex-wrap: wrap;
-      height: 80px;
-    }
-
-
-    .preview-block {
-      overflow-x: scroll;
-    }
-    .size-preview {
-      white-space: nowrap;
-      line-height: 120%;
-      color: #eee;
-    }
-
-    .size-preview:hover, .size-preview:active {
-      color: #000;
-    }
-
-    .size-preview span {
-      line-height: 100%;
-    }
-
-    .size-preview dict {
-      width: 350px;
-      display: inline-block;
-      text-align: right;
-      margin-right: 50px;
-    }
-
+  <style>
     @font-face { font-family: "lato-zlm"; font-weight: normal; src: url('font/lato-zlm.otf'); }
     @font-face { font-family: "lato-zlm-extended"; font-weight: normal; src: url('font/lato-zlm-extended.otf'); }
     @font-face { font-family: "zlm-manri"; font-weight: normal; src: url('font/zlm-manri.otf'); }
@@ -130,16 +35,17 @@
     @font-face { font-family: "lavi-zlm"; font-weight: normal; src: url('font/lavi-zlm.otf'); }
     @font-face { font-family: "pepper-carrot-zlm"; font-weight: normal; src: url('font/pepper-carrot-zlm.otf'); }
     @font-face { font-family: "lobster-zlm"; font-weight: normal; src: url('font/lobster-zlm.otf'); }
+    @font-face { font-family: "fira-code-zlm"; font-weight: normal; src: url('font/fira-code-zlm.otf'); }
+  </style>
 
-    </style>
-  </head>
+</head>
+<body>
 
-  <body>
     <header>
-      <h1>ZLM FDK Test Page</h1>
+      <div class="container">
+      <h1>Zbalermorna Font Examiner</h1>
       <div class="flex-right">
       <label>
-        preview font: 
         <select id="font-selector">
           <option value="lato-zlm">lato-zlm</option>
           <option value="lato-zlm-extended">lato-zlm-extended</option>
@@ -148,133 +54,448 @@
           <option value="lavi-zlm">lavi-zlm</option>
           <option value="pepper-carrot-zlm">pepper-carrot-zlm</option>
           <option value="lobster-zlm">lobster-zlm</option>
+          <option value="fira-code-zlm">fira-code-zlm</option>
         </select>
       </label>
-      <label><input type="checkbox" id="liga" name="liga" /> <code>liga</code>: regular ligatures in latin (breaks some things)</label>
+      <!--label><input type="checkbox" id="liga" name="liga" /> <code>liga</code>: regular ligatures in latin (breaks some things)</label>
       <label><input type="checkbox" id="calt" name="calt" /> <code>calt</code>: contextual alts (breaks some things)</label>
       <label><input type="checkbox" id="ss10" name="ss10" /> <code>ss10</code>: latin to zlm conversion </label>
       <label><input type="checkbox" id="ss11" name="ss11" /> <code>ss11</code>: numbers to zlm conversion</label>
-      <label><input type="checkbox" id="zlm2" name="zlm2" /> <code>zlm2</code>: stylistic zlm alternatives</label>
+      <label><input type="checkbox" id="zlm2" name="zlm2" /> <code>zlm2</code>: stylistic zlm alternatives</label-->
       </div>
+    </div>
     </header>
 
-    <div class="test-blocks">
-      <div class="test-block reference preview-block">
-        <div class="size-preview" style="font-size:128px"><dict>128px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-        <div class="size-preview" style="font-size:96px"><dict>96px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-        <div class="size-preview" style="font-size:72px"><dict>72px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-        <div class="size-preview" style="font-size:60px"><dict>60px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-        <div class="size-preview" style="font-size:48px"><dict>48px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-        <div class="size-preview" style="font-size:32px"><dict>32px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-        <div class="size-preview" style="font-size:24px"><dict>24px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-        <div class="size-preview" style="font-size:18px"><dict>18px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-        <div class="size-preview" style="font-size:16px"><dict>16px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-        <div class="size-preview" style="font-size:14px"><dict>14px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-        <div class="size-preview" style="font-size:12px"><dict>12px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-        <div class="size-preview" style="font-size:10px"><dict>10px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
-      </div>
-    </div>
+    <div class="reference preview-block">
+      <div class="size-preview" style="font-size:128px"><dict>128px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+      <div class="size-preview" style="font-size:96px"><dict>96px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+      <div class="size-preview" style="font-size:72px"><dict>72px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+      <div class="size-preview" style="font-size:60px"><dict>60px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+      <div class="size-preview" style="font-size:48px"><dict>48px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+      <div class="size-preview" style="font-size:32px"><dict>32px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+      <div class="size-preview" style="font-size:24px"><dict>24px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+      <div class="size-preview" style="font-size:18px"><dict>18px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+      <div class="size-preview" style="font-size:16px"><dict>16px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+      <div class="size-preview" style="font-size:14px"><dict>14px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+      <div class="size-preview" style="font-size:12px"><dict>12px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+      <div class="size-preview" style="font-size:10px"><dict>10px</dict><span data-zlm-translate>la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987</span></div>
+    </div><p></p>
 
-    <div class="test-blocks">
-      <div class="test-block">
-        <h3>A translation of The North Wind and the Sun <a href="https://en.wikipedia.org/wiki/Lojban#The_North_Wind_and_the_Sun">(la berti brife jo'u la solri)</a></h3>
-        <div class="reference" data-zlm-translate>
-ni'o la berti brife jo'u la solri pu troci lo ka cuxna lo poi me vo'a vau traji be lo ka vlipa i ca'o bo lo pa litru noi dasni lo glare kosta cu klama
-.i le re mei pu simxu lo ka tugni fi lo nu lo traji be lo ka clira fa lo nu ce'u snada lo ka gasnu lo nu le litru co'u dasni le kosta cu traji lo ka vlipa
-.i ba bo la berti brife co'a traji cupra lo brife i ku'i lo nu by by zenba lo ka cupra lo xo kau brife cu rinka lo nu le litru zu'e ri zenba lo ka se tagji le kosta i ba bo la berti brife co'u troci i ba bo la solri co'a glare dirce i ba zi bo le litru co'u dasni le kosta
-.i se ki'u bo la berti brife cu bilga lo ka tugni fi lo nu la solri cu traji lo ka vlipa
-</div>
-      </div>
-    </div>
-
-    <div class="test-blocks">
-      <div class="test-block">
-      <h3>CV ligatures</h3>
-        <table class="reference">
-          <tr>
-            <td data-zlm-translate>pa</td><td data-zlm-translate>pe</td><td data-zlm-translate>pi</td><td data-zlm-translate>po</td><td data-zlm-translate>pu</td><td data-zlm-translate>py</td><td data-zlm-translate>pai</td><td data-zlm-translate>pei</td><td data-zlm-translate>poi</td><td data-zlm-translate>pau</td>
-          </tr>
-          <tr>
-            <td data-zlm-translate>ta</td><td data-zlm-translate>te</td><td data-zlm-translate>ti</td><td data-zlm-translate>to</td><td data-zlm-translate>tu</td><td data-zlm-translate>ty</td><td data-zlm-translate>tai</td><td data-zlm-translate>tei</td><td data-zlm-translate>toi</td><td data-zlm-translate>tau</td>
-          </tr>
-          <tr>
-            <td data-zlm-translate>ka</td><td data-zlm-translate>ke</td><td data-zlm-translate>ki</td><td data-zlm-translate>ko</td><td data-zlm-translate>ku</td><td data-zlm-translate>ky</td><td data-zlm-translate>kai</td><td data-zlm-translate>kei</td><td data-zlm-translate>koi</td><td data-zlm-translate>kau</td>
-          </tr>
-          <tr>
-            <td data-zlm-translate>fa</td><td data-zlm-translate>fe</td><td data-zlm-translate>fi</td><td data-zlm-translate>fo</td><td data-zlm-translate>fu</td><td data-zlm-translate>fy</td><td data-zlm-translate>fai</td><td data-zlm-translate>fei</td><td data-zlm-translate>foi</td><td data-zlm-translate>fau</td>
-          </tr>
-          <tr>
-            <td data-zlm-translate>la</td><td data-zlm-translate>le</td><td data-zlm-translate>li</td><td data-zlm-translate>lo</td><td data-zlm-translate>lu</td><td data-zlm-translate>ly</td><td data-zlm-translate>lai</td><td data-zlm-translate>lei</td><td data-zlm-translate>loi</td><td data-zlm-translate>lau</td>
-          </tr>
-          <tr>
-            <td data-zlm-translate>sa</td><td data-zlm-translate>se</td><td data-zlm-translate>si</td><td data-zlm-translate>so</td><td data-zlm-translate>su</td><td data-zlm-translate>sy</td><td data-zlm-translate>sai</td><td data-zlm-translate>sei</td><td data-zlm-translate>soi</td><td data-zlm-translate>sau</td>
-          </tr>
-          <tr>
-            <td data-zlm-translate>ca</td><td data-zlm-translate>ce</td><td data-zlm-translate>ci</td><td data-zlm-translate>co</td><td data-zlm-translate>cu</td><td data-zlm-translate>cy</td><td data-zlm-translate>cai</td><td data-zlm-translate>cei</td><td data-zlm-translate>coi</td><td data-zlm-translate>cau</td>
-          </tr>
-          <tr>
-            <td data-zlm-translate>ma</td><td data-zlm-translate>me</td><td data-zlm-translate>mi</td><td data-zlm-translate>mo</td><td data-zlm-translate>mu</td><td data-zlm-translate>my</td><td data-zlm-translate>mai</td><td data-zlm-translate>mei</td><td data-zlm-translate>moi</td><td data-zlm-translate>mau</td>
-          </tr>
-          <tr>
-            <td data-zlm-translate>xa</td><td data-zlm-translate>xe</td><td data-zlm-translate>xi</td><td data-zlm-translate>xo</td><td data-zlm-translate>xu</td><td data-zlm-translate>xy</td><td data-zlm-translate>xai</td><td data-zlm-translate>xei</td><td data-zlm-translate>xoi</td><td data-zlm-translate>xau</td>
-          </tr>
-          <tr>
-            <td data-zlm-translate>ba</td><td data-zlm-translate>be</td><td data-zlm-translate>bi</td><td data-zlm-translate>bo</td><td data-zlm-translate>bu</td><td data-zlm-translate>by</td><td data-zlm-translate>bai</td><td data-zlm-translate>bei</td><td data-zlm-translate>boi</td><td data-zlm-translate>bau</td>
-          </tr>
-          <tr>
-            <td data-zlm-translate>da</td><td data-zlm-translate>de</td><td data-zlm-translate>di</td><td data-zlm-translate>do</td><td data-zlm-translate>du</td><td data-zlm-translate>dy</td><td data-zlm-translate>dai</td><td data-zlm-translate>dei</td><td data-zlm-translate>doi</td><td data-zlm-translate>dau</td>
-          </tr>
-          <tr>
-            <td data-zlm-translate>ga</td><td data-zlm-translate>ge</td><td data-zlm-translate>gi</td><td data-zlm-translate>go</td><td data-zlm-translate>gu</td><td data-zlm-translate>gy</td><td data-zlm-translate>gai</td><td data-zlm-translate>gei</td><td data-zlm-translate>goi</td><td data-zlm-translate>gau</td>
-          </tr>
-          <tr>
-            <td data-zlm-translate>va</td><td data-zlm-translate>ve</td><td data-zlm-translate>vi</td><td data-zlm-translate>vo</td><td data-zlm-translate>vu</td><td data-zlm-translate>vy</td><td data-zlm-translate>vai</td><td data-zlm-translate>vei</td><td data-zlm-translate>voi</td><td data-zlm-translate>vau</td>
-          </tr>
-          <tr>
-            <td data-zlm-translate>ra</td><td data-zlm-translate>re</td><td data-zlm-translate>ri</td><td data-zlm-translate>ro</td><td data-zlm-translate>ru</td><td data-zlm-translate>ry</td><td data-zlm-translate>rai</td><td data-zlm-translate>rei</td><td data-zlm-translate>roi</td><td data-zlm-translate>rau</td>
-          </tr>
-          <tr>
-            <td data-zlm-translate>za</td><td data-zlm-translate>ze</td><td data-zlm-translate>zi</td><td data-zlm-translate>zo</td><td data-zlm-translate>zu</td><td data-zlm-translate>zy</td><td data-zlm-translate>zai</td><td data-zlm-translate>zei</td><td data-zlm-translate>zoi</td><td data-zlm-translate>zau</td>
-          </tr>
-          <tr>
-            <td data-zlm-translate>ja</td><td data-zlm-translate>je</td><td data-zlm-translate>ji</td><td data-zlm-translate>jo</td><td data-zlm-translate>ju</td><td data-zlm-translate>jy</td><td data-zlm-translate>jai</td><td data-zlm-translate>jei</td><td data-zlm-translate>joi</td><td data-zlm-translate>jau</td>
-          </tr>
-          <tr>
-            <td data-zlm-translate>na</td><td data-zlm-translate>ne</td><td data-zlm-translate>ni</td><td data-zlm-translate>no</td><td data-zlm-translate>nu</td><td data-zlm-translate>ny</td><td data-zlm-translate>nai</td><td data-zlm-translate>nei</td><td data-zlm-translate>noi</td><td data-zlm-translate>nau</td>
-          </tr>
-        </table>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <h3>la berti brife jo'u la solri<br /><small><a href="https://en.wikipedia.org/wiki/Lojban#The_North_Wind_and_the_Sun">A translation of The North Wind and the Sun</a></small></h3>
+        <div class="reference">
+          <p>󢐠󢑰󢌐󢒀 󢍠󢑐 󢎰󢑠󢏰󢌰󢑰 󢎰󢏰󢑰󢍐󢑠 󢐐󢒀󢌐󢒐 󢍠󢑐 󢍰󢒀󢍠󢏰󢑰 󢌠󢒐 󢌰󢏰󢒀󢎀󢑰 󢍠󢒀 󢍀󢑐 󢎀󢒐󢎠󢐠󢑐 󢍠󢒀 󢌠󢒀󢑰 󢎐󢑠 󢏠󢒀󢌐󢑐 󢏠󢑐󢒐 󢌰󢏰󢑐󢐐󢑰 󢎰󢑠 󢍠󢒀 󢍀󢑐 󢏠󢍠󢑰󢌠󢑐 󢑰 󢎀󢑐󢌐󢒀 󢎰󢒀 󢍠󢒀 󢌠󢑐 󢍠󢑰󢌰󢏰󢒐 󢐠󢒀󢑰 󢏀󢑐󢍰󢐠󢑰 󢍠󢒀 󢏐󢍠󢑐󢏰󢑠 󢍀󢒀󢍰󢌰󢑐 󢎀󢒐 󢍀󢍠󢑐󢎐󢑐</p>
+          <p>󢌀󢑰 󢍠󢑠 󢏰󢑠 󢎐󢑠󢑰 󢌠󢒐 󢍰󢑰󢎐󢎠󢒐 󢍠󢒀 󢍀󢑐 󢌰󢒐󢏐󢐠󢑰 󢍐󢑰 󢍠󢒀 󢐠󢒐 󢍠󢒀 󢌰󢏰󢑐󢐐󢑰 󢎰󢑠 󢍠󢒀 󢍀󢑐 󢎀󢍠󢑰󢏰󢑐 󢍐󢑐 󢍠󢒀 󢐠󢒐 󢎀󢑠󢌐󢒐 󢍰󢐠󢑐󢏀󢑐 󢍠󢒀 󢍀󢑐 󢏐󢑐󢍰󢐠󢒐 󢍠󢒀 󢐠󢒐 󢍠󢑠 󢍠󢑰󢌰󢏰󢒐 󢎀󢒀󢌐󢒐 󢏀󢑐󢍰󢐠󢑰 󢍠󢑠 󢍀󢒀󢍰󢌰󢑐 󢎀󢒐 󢌰󢏰󢑐󢐐󢑰 󢍠󢒀 󢍀󢑐 󢏠󢍠󢑰󢌠󢑐</p>
+          <p>󢌀󢑰 󢎰󢑐 󢎰󢒀 󢍠󢑐 󢎰󢑠󢏰󢌰󢑰 󢎰󢏰󢑰󢍐󢑠 󢎀󢒀󢌐󢑐 󢌰󢏰󢑐󢐐󢑰 󢎀󢒐󢌠󢏰󢑐 󢍠󢒀 󢎰󢏰󢑰󢍐󢑠 󢑰 󢍀󢒐󢌐󢑰 󢍠󢒀 󢐠󢒐 󢎰󢒠 󢎰󢒠 󢐀󢑠󢐠󢎰󢑐 󢍠󢒀 󢍀󢑐 󢎀󢒐󢌠󢏰󢑐 󢍠󢒀 󢎠󢒀 󢍀󢑐󢒐 󢎰󢏰󢑰󢍐󢑠 󢎀󢒐 󢏰󢑰󢐠󢍀󢑐 󢍠󢒀 󢐠󢒐 󢍠󢑠 󢍠󢑰󢌰󢏰󢒐 󢐀󢒐󢌐󢑠 󢏰󢑰 󢐀󢑠󢐠󢎰󢑐 󢍠󢒀 󢍀󢑐 󢍰󢑠 󢌰󢑐󢏐󢐐󢑰 󢍠󢑠 󢍀󢒀󢍰󢌰󢑐 󢑰 󢎰󢑐 󢎰󢒀 󢍠󢑐 󢎰󢑠󢏰󢌰󢑰 󢎰󢏰󢑰󢍐󢑠 󢎀󢒀󢌐󢒐 󢌰󢏰󢒀󢎀󢑰 󢑰 󢎰󢑐 󢎰󢒀 󢍠󢑐 󢍰󢒀󢍠󢏰󢑰 󢎀󢒀󢌐󢑐 󢏐󢍠󢑐󢏰󢑠 󢏀󢑰󢏰󢎀󢑠 󢑰 󢎰󢑐 󢐀󢑰 󢎰󢒀 󢍠󢑠 󢍠󢑰󢌰󢏰󢒐 󢎀󢒀󢌐󢒐 󢏀󢑐󢍰󢐠󢑰 󢍠󢑠 󢍀󢒀󢍰󢌰󢑐</p>
+          <p>󢌀󢑰 󢍰󢑠 󢍀󢑰󢌐󢒐 󢎰󢒀 󢍠󢑐 󢎰󢑠󢏰󢌰󢑰 󢎰󢏰󢑰󢍐󢑠 󢎀󢒐 󢎰󢑰󢍠󢏐󢑐 󢍠󢒀 󢍀󢑐 󢌰󢒐󢏐󢐠󢑰 󢍐󢑰 󢍠󢒀 󢐠󢒐 󢍠󢑐 󢍰󢒀󢍠󢏰󢑰 󢎀󢒐 󢌰󢏰󢑐󢐐󢑰 󢍠󢒀 󢍀󢑐 󢏠󢍠󢑰󢌠󢑐</p>
         </div>
-        <div class="test-block">
-          <h3>Auto semivowels</h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column one-half">
+      <h3>CV ligatures</h3>
+      <div class="table-row reference">
+        <div>󢌠󢑐</div>
+        <div>󢌠󢑠</div>
+        <div>󢌠󢑰</div>
+        <div>󢌠󢒀</div>
+        <div>󢌠󢒐</div>
+        <div>󢌠󢒠</div>
+        <div>󢌠󢑐󢑰</div>
+        <div>󢌠󢑠󢑰</div>
+        <div>󢌠󢒀󢑰</div>
+        <div>󢌠󢑐󢒐</div>
+      </div>
+      <div class="table-row reference">
+        <div>󢌰󢑐</div>
+        <div>󢌰󢑠</div>
+        <div>󢌰󢑰</div>
+        <div>󢌰󢒀</div>
+        <div>󢌰󢒐</div>
+        <div>󢌰󢒠</div>
+        <div>󢌰󢑐󢑰</div>
+        <div>󢌰󢑠󢑰</div>
+        <div>󢌰󢒀󢑰</div>
+        <div>󢌰󢑐󢒐</div>
+      </div>
+      <div class="table-row reference">
+        <div>󢍀󢑐</div>
+        <div>󢍀󢑠</div>
+        <div>󢍀󢑰</div>
+        <div>󢍀󢒀</div>
+        <div>󢍀󢒐</div>
+        <div>󢍀󢒠</div>
+        <div>󢍀󢑐󢑰</div>
+        <div>󢍀󢑠󢑰</div>
+        <div>󢍀󢒀󢑰</div>
+        <div>󢍀󢑐󢒐</div>
+      </div>
+      <div class="table-row reference">
+        <div>󢍐󢑐</div>
+        <div>󢍐󢑠</div>
+        <div>󢍐󢑰</div>
+        <div>󢍐󢒀</div>
+        <div>󢍐󢒐</div>
+        <div>󢍐󢒠</div>
+        <div>󢍐󢑐󢑰</div>
+        <div>󢍐󢑠󢑰</div>
+        <div>󢍐󢒀󢑰</div>
+        <div>󢍐󢑐󢒐</div>
+      </div>
+      <div class="table-row reference">
+        <div>󢍠󢑐</div>
+        <div>󢍠󢑠</div>
+        <div>󢍠󢑰</div>
+        <div>󢍠󢒀</div>
+        <div>󢍠󢒐</div>
+        <div>󢍠󢒠</div>
+        <div>󢍠󢑐󢑰</div>
+        <div>󢍠󢑠󢑰</div>
+        <div>󢍠󢒀󢑰</div>
+        <div>󢍠󢑐󢒐</div>
+      </div>
+      <div class="table-row reference">
+        <div>󢍰󢑐</div>
+        <div>󢍰󢑠</div>
+        <div>󢍰󢑰</div>
+        <div>󢍰󢒀</div>
+        <div>󢍰󢒐</div>
+        <div>󢍰󢒠</div>
+        <div>󢍰󢑐󢑰</div>
+        <div>󢍰󢑠󢑰</div>
+        <div>󢍰󢒀󢑰</div>
+        <div>󢍰󢑐󢒐</div>
+      </div>
+      <div class="table-row reference">
+        <div>󢎀󢑐</div>
+        <div>󢎀󢑠</div>
+        <div>󢎀󢑰</div>
+        <div>󢎀󢒀</div>
+        <div>󢎀󢒐</div>
+        <div>󢎀󢒠</div>
+        <div>󢎀󢑐󢑰</div>
+        <div>󢎀󢑠󢑰</div>
+        <div>󢎀󢒀󢑰</div>
+        <div>󢎀󢑐󢒐</div>
+      </div>
+      <div class="table-row reference">
+        <div>󢎐󢑐</div>
+        <div>󢎐󢑠</div>
+        <div>󢎐󢑰</div>
+        <div>󢎐󢒀</div>
+        <div>󢎐󢒐</div>
+        <div>󢎐󢒠</div>
+        <div>󢎐󢑐󢑰</div>
+        <div>󢎐󢑠󢑰</div>
+        <div>󢎐󢒀󢑰</div>
+        <div>󢎐󢑐󢒐</div>
+      </div>
+      <div class="table-row reference">
+        <div>󢎠󢑐</div>
+        <div>󢎠󢑠</div>
+        <div>󢎠󢑰</div>
+        <div>󢎠󢒀</div>
+        <div>󢎠󢒐</div>
+        <div>󢎠󢒠</div>
+        <div>󢎠󢑐󢑰</div>
+        <div>󢎠󢑠󢑰</div>
+        <div>󢎠󢒀󢑰</div>
+        <div>󢎠󢑐󢒐</div>
+      </div>
+      <div class="table-row reference">
+        <div>󢎰󢑐</div>
+        <div>󢎰󢑠</div>
+        <div>󢎰󢑰</div>
+        <div>󢎰󢒀</div>
+        <div>󢎰󢒐</div>
+        <div>󢎰󢒠</div>
+        <div>󢎰󢑐󢑰</div>
+        <div>󢎰󢑠󢑰</div>
+        <div>󢎰󢒀󢑰</div>
+        <div>󢎰󢑐󢒐</div>
+      </div>
+      <div class="table-row reference">
+        <div>󢏀󢑐</div>
+        <div>󢏀󢑠</div>
+        <div>󢏀󢑰</div>
+        <div>󢏀󢒀</div>
+        <div>󢏀󢒐</div>
+        <div>󢏀󢒠</div>
+        <div>󢏀󢑐󢑰</div>
+        <div>󢏀󢑠󢑰</div>
+        <div>󢏀󢒀󢑰</div>
+        <div>󢏀󢑐󢒐</div>
+      </div>
+      <div class="table-row reference">
+        <div>󢏐󢑐</div>
+        <div>󢏐󢑠</div>
+        <div>󢏐󢑰</div>
+        <div>󢏐󢒀</div>
+        <div>󢏐󢒐</div>
+        <div>󢏐󢒠</div>
+        <div>󢏐󢑐󢑰</div>
+        <div>󢏐󢑠󢑰</div>
+        <div>󢏐󢒀󢑰</div>
+        <div>󢏐󢑐󢒐</div>
+      </div>
+      <div class="table-row reference">
+        <div>󢏠󢑐</div>
+        <div>󢏠󢑠</div>
+        <div>󢏠󢑰</div>
+        <div>󢏠󢒀</div>
+        <div>󢏠󢒐</div>
+        <div>󢏠󢒠</div>
+        <div>󢏠󢑐󢑰</div>
+        <div>󢏠󢑠󢑰</div>
+        <div>󢏠󢒀󢑰</div>
+        <div>󢏠󢑐󢒐</div>
+      </div>
+      <div class="table-row reference">
+        <div>󢏰󢑐</div>
+        <div>󢏰󢑠</div>
+        <div>󢏰󢑰</div>
+        <div>󢏰󢒀</div>
+        <div>󢏰󢒐</div>
+        <div>󢏰󢒠</div>
+        <div>󢏰󢑐󢑰</div>
+        <div>󢏰󢑠󢑰</div>
+        <div>󢏰󢒀󢑰</div>
+        <div>󢏰󢑐󢒐</div>
+      </div>
+      <div class="table-row reference">
+        <div>󢐀󢑐</div>
+        <div>󢐀󢑠</div>
+        <div>󢐀󢑰</div>
+        <div>󢐀󢒀</div>
+        <div>󢐀󢒐</div>
+        <div>󢐀󢒠</div>
+        <div>󢐀󢑐󢑰</div>
+        <div>󢐀󢑠󢑰</div>
+        <div>󢐀󢒀󢑰</div>
+        <div>󢐀󢑐󢒐</div>
+      </div>
+      <div class="table-row reference">
+        <div>󢐐󢑐</div>
+        <div>󢐐󢑠</div>
+        <div>󢐐󢑰</div>
+        <div>󢐐󢒀</div>
+        <div>󢐐󢒐</div>
+        <div>󢐐󢒠</div>
+        <div>󢐐󢑐󢑰</div>
+        <div>󢐐󢑠󢑰</div>
+        <div>󢐐󢒀󢑰</div>
+        <div>󢐐󢑐󢒐</div>
+      </div>
+      <div class="table-row reference">
+        <div>󢐠󢑐</div>
+        <div>󢐠󢑠</div>
+        <div>󢐠󢑰</div>
+        <div>󢐠󢒀</div>
+        <div>󢐠󢒐</div>
+        <div>󢐠󢒠</div>
+        <div>󢐠󢑐󢑰</div>
+        <div>󢐠󢑠󢑰</div>
+        <div>󢐠󢒀󢑰</div>
+        <div>󢐠󢑐󢒐</div>
+      </div>
+        </div>
+        <div class="column one-half">
+          <h3>Vowels</h3>
           <div class="reference rows">
-            <div data-zlm-translate>   ia   ie   ii   io   iu   iy   iai   iei   ioi   iau </div>
-            <div data-zlm-translate>   ua   ue   ui   uo   uu   uy   uai   uei   uoi   uau </div>
+            <div class="table-row">
+              <div>󢌀󢑐</div>
+              <div>󢌀󢑠</div>
+              <div>󢌀󢑰</div>
+              <div>󢌀󢒀</div>
+              <div>󢌀󢒐</div>
+              <div>󢌀󢒠</div>
+              <div>󢌀󢑐󢑰</div>
+              <div>󢌀󢑠󢑰</div>
+              <div>󢌀󢒀󢑰</div>
+              <div>󢌀󢑐󢒐</div>
+            </div>
+            <div class="table-row">
+              <div>󢌐󢑐</div>
+              <div>󢌐󢑠</div>
+              <div>󢌐󢑰</div>
+              <div>󢌐󢒀</div>
+              <div>󢌐󢒐</div>
+              <div>󢌐󢒠</div>
+              <div>󢌐󢑐󢑰</div>
+              <div>󢌐󢑠󢑰</div>
+              <div>󢌐󢒀󢑰</div>
+              <div>󢌐󢑐󢒐</div>
+            </div>
           </div>
-          <h3>Self-dotting vowels</h3>
+          <h3>Semivowels</h3>
           <div class="reference rows">
-            <div data-zlm-translate>    a    e    i    o    u    y    ai    ei    oi    au </div>
-            <div data-zlm-translate>   'a   'e   'i   'o   'u   'y   'ai   'ei   'oi   'au </div>
+            <div class="table-row">
+              <div>󢑰󢑐</div>
+              <div>󢑰󢑠</div>
+              <div>󢑰󢑰</div>
+              <div>󢑰󢒀</div>
+              <div>󢑰󢒐</div>
+              <div>󢑰󢒠</div>
+              <div>󢑰󢑐󢑰</div>
+              <div>󢑰󢑠󢑰</div>
+              <div>󢑰󢒀󢑰</div>
+              <div>󢑰󢑐󢒐</div>
+            </div>
+            <div class="table-row">
+              <div>󢒐󢑐</div>
+              <div>󢒐󢑠</div>
+              <div>󢒐󢑰</div>
+              <div>󢒐󢒀</div>
+              <div>󢒐󢒐</div>
+              <div>󢒐󢒠</div>
+              <div>󢒐󢑐󢑰</div>
+              <div>󢒐󢑠󢑰</div>
+              <div>󢒐󢒀󢑰</div>
+              <div>󢒐󢑐󢒐</div>
+            </div>
           </div>
           <h3>Attitudinal ligatures</h3>
           <div class="reference rows">
-            <div data-zlm-translate>  a'a  a'e  a'i  a'o  a'u  a'y  a'ai  a'ei  a'oi  a'au </div>
-            <div data-zlm-translate>  e'a  e'e  e'i  e'o  e'u  e'y  e'ai  e'ei  e'oi  e'au </div>
-            <div data-zlm-translate>  i'a  i'e  i'i  i'o  i'u  i'y  i'ai  i'ei  i'oi  i'au </div>
-            <div data-zlm-translate>  o'a  o'e  o'i  o'o  o'u  o'y  o'ai  o'ei  o'oi  o'au </div>
-            <div data-zlm-translate>  u'a  u'e  u'i  u'o  u'u  u'y  u'ai  u'ei  u'oi  u'au </div>
-            <div data-zlm-translate>  i'a  i'e  i'i  i'o  i'u  i'y  i'ai  i'ei  i'oi  i'au </div>
-            <div data-zlm-translate>  y'a  y'e  y'i  y'o  y'u  y'y  y'ai  y'ei  y'oi  y'au </div>
-            <div data-zlm-translate> ai'a ai'e ai'i ai'o ai'u ai'y ai'ai ai'ei ai'oi ai'au </div>
-            <div data-zlm-translate> ei'a ei'e ei'i ei'o ei'u ei'y ei'ai ei'ei ei'oi ei'au </div>
-            <div data-zlm-translate> oi'a oi'e oi'i oi'o oi'u oi'y oi'ai oi'ei oi'oi oi'au </div>
-            <div data-zlm-translate> au'a au'e au'i au'o au'u au'y au'ai au'ei au'oi au'au </div>
+            <div class="table-row">
+              <div>󢑐󢌐󢑐</div>
+              <div>󢑐󢌐󢑠</div>
+              <div>󢑐󢌐󢑰</div>
+              <div>󢑐󢌐󢒀</div>
+              <div>󢑐󢌐󢒐</div>
+              <div>󢑐󢌐󢒠</div>
+              <div>󢑐󢌐󢑐󢑰</div>
+              <div>󢑐󢌐󢑠󢑰</div>
+              <div>󢑐󢌐󢒀󢑰</div>
+              <div>󢑐󢌐󢑐󢒐</div>
+            </div>
+            <div class="table-row">
+              <div>󢑠󢌐󢑐</div>
+              <div>󢑠󢌐󢑠</div>
+              <div>󢑠󢌐󢑰</div>
+              <div>󢑠󢌐󢒀</div>
+              <div>󢑠󢌐󢒐</div>
+              <div>󢑠󢌐󢒠</div>
+              <div>󢑠󢌐󢑐󢑰</div>
+              <div>󢑠󢌐󢑠󢑰</div>
+              <div>󢑠󢌐󢒀󢑰</div>
+              <div>󢑠󢌐󢑐󢒐</div>
+            </div>
+            <div class="table-row">
+              <div>󢑰󢌐󢑐</div>
+              <div>󢑰󢌐󢑠</div>
+              <div>󢑰󢌐󢑰</div>
+              <div>󢑰󢌐󢒀</div>
+              <div>󢑰󢌐󢒐</div>
+              <div>󢑰󢌐󢒠</div>
+              <div>󢑰󢌐󢑐󢑰</div>
+              <div>󢑰󢌐󢑠󢑰</div>
+              <div>󢑰󢌐󢒀󢑰</div>
+              <div>󢑰󢌐󢑐󢒐</div>
+            </div>
+            <div class="table-row">
+              <div>󢒀󢌐󢑐</div>
+              <div>󢒀󢌐󢑠</div>
+              <div>󢒀󢌐󢑰</div>
+              <div>󢒀󢌐󢒀</div>
+              <div>󢒀󢌐󢒐</div>
+              <div>󢒀󢌐󢒠</div>
+              <div>󢒀󢌐󢑐󢑰</div>
+              <div>󢒀󢌐󢑠󢑰</div>
+              <div>󢒀󢌐󢒀󢑰</div>
+              <div>󢒀󢌐󢑐󢒐</div>
+            </div>
+            <div class="table-row">
+              <div>󢒐󢌐󢑐</div>
+              <div>󢒐󢌐󢑠</div>
+              <div>󢒐󢌐󢑰</div>
+              <div>󢒐󢌐󢒀</div>
+              <div>󢒐󢌐󢒐</div>
+              <div>󢒐󢌐󢒠</div>
+              <div>󢒐󢌐󢑐󢑰</div>
+              <div>󢒐󢌐󢑠󢑰</div>
+              <div>󢒐󢌐󢒀󢑰</div>
+              <div>󢒐󢌐󢑐󢒐</div>
+            </div>
+            <div class="table-row">
+              <div>󢑰󢌐󢑐</div>
+              <div>󢑰󢌐󢑠</div>
+              <div>󢑰󢌐󢑰</div>
+              <div>󢑰󢌐󢒀</div>
+              <div>󢑰󢌐󢒐</div>
+              <div>󢑰󢌐󢒠</div>
+              <div>󢑰󢌐󢑐󢑰</div>
+              <div>󢑰󢌐󢑠󢑰</div>
+              <div>󢑰󢌐󢒀󢑰</div>
+              <div>󢑰󢌐󢑐󢒐</div>
+            </div>
+            <div class="table-row">
+              <div>󢒠󢌐󢑐</div>
+              <div>󢒠󢌐󢑠</div>
+              <div>󢒠󢌐󢑰</div>
+              <div>󢒠󢌐󢒀</div>
+              <div>󢒠󢌐󢒐</div>
+              <div>󢒠󢌐󢒠</div>
+              <div>󢒠󢌐󢑐󢑰</div>
+              <div>󢒠󢌐󢑠󢑰</div>
+              <div>󢒠󢌐󢒀󢑰</div>
+              <div>󢒠󢌐󢑐󢒐</div>
+            </div>
+            <div class="table-row">
+              <div>󢑐󢑰󢌐󢑐</div>
+              <div>󢑐󢑰󢌐󢑠</div>
+              <div>󢑐󢑰󢌐󢑰</div>
+              <div>󢑐󢑰󢌐󢒀</div>
+              <div>󢑐󢑰󢌐󢒐</div>
+              <div>󢑐󢑰󢌐󢒠</div>
+              <div>󢑐󢑰󢌐󢑐󢑰</div>
+              <div>󢑐󢑰󢌐󢑠󢑰</div>
+              <div>󢑐󢑰󢌐󢒀󢑰</div>
+              <div>󢑐󢑰󢌐󢑐󢒐</div>
+            </div>
+            <div class="table-row">
+              <div>󢑠󢑰󢌐󢑐</div>
+              <div>󢑠󢑰󢌐󢑠</div>
+              <div>󢑠󢑰󢌐󢑰</div>
+              <div>󢑠󢑰󢌐󢒀</div>
+              <div>󢑠󢑰󢌐󢒐</div>
+              <div>󢑠󢑰󢌐󢒠</div>
+              <div>󢑠󢑰󢌐󢑐󢑰</div>
+              <div>󢑠󢑰󢌐󢑠󢑰</div>
+              <div>󢑠󢑰󢌐󢒀󢑰</div>
+              <div>󢑠󢑰󢌐󢑐󢒐</div>
+            </div>
+            <div class="table-row">
+              <div>󢒀󢑰󢌐󢑐</div>
+              <div>󢒀󢑰󢌐󢑠</div>
+              <div>󢒀󢑰󢌐󢑰</div>
+              <div>󢒀󢑰󢌐󢒀</div>
+              <div>󢒀󢑰󢌐󢒐</div>
+              <div>󢒀󢑰󢌐󢒠</div>
+              <div>󢒀󢑰󢌐󢑐󢑰</div>
+              <div>󢒀󢑰󢌐󢑠󢑰</div>
+              <div>󢒀󢑰󢌐󢒀󢑰</div>
+              <div>󢒀󢑰󢌐󢑐󢒐</div>
+            </div>
+            <div class="table-row">
+              <div>󢑐󢒐󢌐󢑐</div>
+              <div>󢑐󢒐󢌐󢑠</div>
+              <div>󢑐󢒐󢌐󢑰</div>
+              <div>󢑐󢒐󢌐󢒀</div>
+              <div>󢑐󢒐󢌐󢒐</div>
+              <div>󢑐󢒐󢌐󢒠</div>
+              <div>󢑐󢒐󢌐󢑐󢑰</div>
+              <div>󢑐󢒐󢌐󢑠󢑰</div>
+              <div>󢑐󢒐󢌐󢒀󢑰</div>
+              <div>󢑐󢒐󢌐󢑐󢒐</div>
+            </div>
           </div>
         </div>
       </div>
-
-
-    <div class="test-blocks">
-      <div class="test-block">
+      <div class="row">
+        <div class="columns seven">
         <h3>Ligature precedence</h3>
 
         <table>
@@ -296,7 +517,7 @@ ni'o la berti brife jo'u la solri pu troci lo ka cuxna lo poi me vo'a vau traji 
         </table>
       </div>
 
-      <div class="test-block">
+      <div class="columns five">
         <h3>Size WRT latin text</h3>
         <div class="reference">
           <span style="font-family:Lato">k</span><span data-zlm-translate>pa</span>
@@ -333,27 +554,17 @@ ml  mr                          xl  xr
 </div>
 </div-->
 
-    <div class="test-blocks">
-    <div class="test-block">
-
       <h3>IME Emulation</h3>
+    <div class="row">
+    <div class="column one-half">
+
+      <textarea data-ime-emulation class="reference test-block" id="ime-input">
+.i ma jufra gi'e se vanbi le vi cukta
+      </textarea>
+    </div>
+      <div class="reference column one-half" id="ime-output" data-ime-output>&#xe2389;</div>
     </div>
   </div>
-    <div class="test-blocks">
-      <textarea data-ime-emulation class="reference test-block" id="ime-input">
-la .lojban. no'u lo jbobau cu runbau .i ly. se finti la .lojbangirz. lo za'i zasti fa su'o bangu poi se jicmu lo logji gi'e zifre selcpa gi'e se pilno ku'o de'i li 1987 .i lo na'e ralju te finti cu nu cipra lo ka lo nu pilno ce'u cu galfi lo tadji be lo nu pensi .i la .lojban. se lidne la .loglan. noi no'e mulno se finti fo lo sidbo be fi la .djeims.kuk.braun. fi lo nu cipra fi lo se skesmadi be la .sapir. jo'u la .uorf. .i ni'o de'i li 1987 so'o goi gy gunka be tu'a la .loglan. cu fendi lo girzu fo la .loglan. ki'u lo za'i dy ky by finca'i lo bangu gi'e djica lo nu dukse be fi ku jitro lo selci'a be bau .i gy. ganzu fi la .lojbangirz. mu'i lo nu finti lo cnino lojbau .i ba za bo la .lojban. co'a vajmau la .loglan .i la .lojban. ca ti noi nanca 2016 moi cu bangu ji'i 200 prenu
-
-plukauaii 2019 cizra .i je ci'izra .i sei mi ciska .i plukau .au
-la piper joi la karot
-kAtrInAs djEIn mAdjqYrIs
-wEIn wE,In
-.i ma jufra gi'e se vanbi le vi cukta
-.i .e'o ko denpa .i mi troci co tolcri fi le vi cukta
-.i le trene cu klama fi ma poi tsina
-.i .e'o ko livycru mi bu'u le bavla'i ke nunde'a tcana
-      </textarea>
-      <div class="reference test-block" id="ime-output" data-ime-output>&#xe2389;</div>
-    </div>
     <script src="preview.js"></script>
   </body>
 </html>

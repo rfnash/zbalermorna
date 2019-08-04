@@ -1,0 +1,18 @@
+
+body { 
+	font-family: "Lato", "lato-zlm-extended", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	margin-top: 50px;
+	text-align: center;
+}
+
+#textarea {
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 300px;
+	font-size: 36px;
+	font-family: "Lato", "lato-zlm-extended", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

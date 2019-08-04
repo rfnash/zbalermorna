@@ -125,22 +125,22 @@ Q('[data-ime-emulation]').forEach(function (textarea) {
 });
 
 const font_selector = document.getElementById('font-selector');
-const liga = document.getElementById('liga');
-const calt = document.getElementById('calt');
-const ss10 = document.getElementById('ss10');
-const ss11 = document.getElementById('ss11');
-const zlm2 = document.getElementById('zlm2');
+// const liga = document.getElementById('liga');
+// const calt = document.getElementById('calt');
+// const ss10 = document.getElementById('ss10');
+// const ss11 = document.getElementById('ss11');
+// const zlm2 = document.getElementById('zlm2');
 
-function updateFontFeatures() { 
-  for (var i = 0; i < document.getElementsByClassName('reference').length; i++) {
-    document.getElementsByClassName('reference')[i].style["font-feature-settings"] = 
-    "'liga' " + ( liga.checked ? 1 : 0 ) + 
-    ", 'ss10' " + ( ss10.checked ? 1 : 0 )  + 
-    ", 'ss11' " + ( ss11.checked ? 1 : 0 ) + 
-    ", 'zlm2' " + ( zlm2.checked ? 1 : 0 ) + 
-    ", 'calt' " + ( calt.checked ? 1 : 0 );
-  }
-}
+// function updateFontFeatures() { 
+//   for (var i = 0; i < document.getElementsByClassName('reference').length; i++) {
+//     document.getElementsByClassName('reference')[i].style["font-feature-settings"] = 
+//     "'liga' " + ( liga.checked ? 1 : 0 ) + 
+//     ", 'ss10' " + ( ss10.checked ? 1 : 0 )  + 
+//     ", 'ss11' " + ( ss11.checked ? 1 : 0 ) + 
+//     ", 'zlm2' " + ( zlm2.checked ? 1 : 0 ) + 
+//     ", 'calt' " + ( calt.checked ? 1 : 0 );
+//   }
+// }
 
 
 
@@ -151,26 +151,26 @@ font_selector.addEventListener('change', (event) => {
   }
 })
 
-liga.addEventListener('change', (event) => {
-  updateFontFeatures();
-})
+// liga.addEventListener('change', (event) => {
+//   updateFontFeatures();
+// })
 
-calt.addEventListener('change', (event) => {
-  updateFontFeatures();
-})
+// calt.addEventListener('change', (event) => {
+//   updateFontFeatures();
+// })
 
-ss10.addEventListener('change', (event) => {
-  updateFontFeatures();
-})
+// ss10.addEventListener('change', (event) => {
+//   updateFontFeatures();
+// })
 
-ss11.addEventListener('change', (event) => {
-  updateFontFeatures();
-})
+// ss11.addEventListener('change', (event) => {
+//   updateFontFeatures();
+// })
 
 
-zlm2.addEventListener('change', (event) => {
-  updateFontFeatures();
-})
+// zlm2.addEventListener('change', (event) => {
+//   updateFontFeatures();
+// })
 
 if (window.location.hash) {
   font_selector.value = window.location.hash.substring(1);
@@ -182,4 +182,4 @@ if (window.location.hash) {
 for (var i = 0; i < document.getElementsByClassName('reference').length; i++) {
   document.getElementsByClassName('reference')[i].style["font-family"] = font_selector.value;
 }
-updateFontFeatures();
+// updateFontFeatures();
