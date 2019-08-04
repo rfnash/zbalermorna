@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1564760079
-ModificationTime: 1564923919
+ModificationTime: 1564933020
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -5262,7 +5262,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 926416 16 11
+WinInfo: 926528 16 11
 BeginPrivate: 8
 BlueValues 37 [-26 0 1053 1080 1377 1404 1478 1504]
 OtherBlues 11 [-426 -399]
@@ -5274,7 +5274,7 @@ StemSnapH 5 [138]
 StemSnapV 5 [168]
 EndPrivate
 AnchorClass2: "Anchor-0" "'mark' Mark Positioning lookup 1 subtable" "Anchor-1" "'mark' Mark Positioning lookup 1 subtable" "Anchor-2" "'mkmk' Mark to Mark lookup 2 subtable" "Anchor-3" "'mkmk' Mark to Mark lookup 3 subtable"
-BeginChars: 1114385 2165
+BeginChars: 1114385 2162
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -61664,14 +61664,20 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_DASH_INIT
-Encoding: 926624 926624 1774
-Width: 454
-VWidth: 0
+Encoding: 926623 926623 1774
+Width: 1200
 GlyphClass: 2
 Flags: W
+HStem: 555 134<220 1303>
 LayerCount: 2
 Fore
-Validated: 1
+SplineSet
+1303 555 m 5
+ 220 555 l 1
+ 220 689 l 1
+ 1303 689 l 5
+ 1303 555 l 5
+EndSplineSet
 EndChar
 
 StartChar: ZLM_X
@@ -61854,15 +61860,15 @@ Encoding: 926639 926639 1786
 Width: 1200
 GlyphClass: 2
 Flags: W
-HStem: 555 134<-50 1253>
+HStem: 555 134<-91.5 1291.5>
 LayerCount: 2
 Fore
 SplineSet
-1253 555 m 1
- -50 555 l 1
- -50 689 l 1
- 1253 689 l 1
- 1253 555 l 1
+1291.5 555 m 1
+ -91.5 555 l 1
+ -91.5 689 l 1
+ 1291.5 689 l 1
+ 1291.5 555 l 1
 EndSplineSet
 EndChar
 
@@ -62046,14 +62052,20 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_DASH_FINAL
-Encoding: 926656 926656 1798
-Width: 454
-VWidth: 0
+Encoding: 926655 926655 1798
+Width: 1200
 GlyphClass: 2
 Flags: W
+HStem: 555 134<-104 979>
 LayerCount: 2
 Fore
-Validated: 1
+SplineSet
+979 555 m 1
+ -104 555 l 5
+ -104 689 l 5
+ 979 689 l 1
+ 979 555 l 1
+EndSplineSet
 EndChar
 
 StartChar: ZLM_D
@@ -62235,14 +62247,20 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: ZLM_DASH_ISO
-Encoding: 926672 926672 1810
-Width: 600
-VWidth: 0
+Encoding: 926671 926671 1810
+Width: 1200
 GlyphClass: 2
 Flags: W
+HStem: 555 134<220 993>
 LayerCount: 2
 Fore
-Validated: 1
+SplineSet
+993 555 m 1
+ 220 555 l 1
+ 220 689 l 1
+ 993 689 l 1
+ 993 555 l 1
+EndSplineSet
 EndChar
 
 StartChar: ZLM_G
@@ -65882,16 +65900,8 @@ Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uE239F
-Encoding: 926623 926623 2060
-Width: 1200
-VWidth: 0
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: uE23AB
-Encoding: 926635 926635 2061
+Encoding: 926635 926635 2060
 Width: 1200
 VWidth: 0
 Flags: W
@@ -65899,7 +65909,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23AC
-Encoding: 926636 926636 2062
+Encoding: 926636 926636 2061
 Width: 1200
 VWidth: 0
 Flags: W
@@ -65907,7 +65917,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23AD
-Encoding: 926637 926637 2063
+Encoding: 926637 926637 2062
 Width: 1200
 VWidth: 0
 Flags: W
@@ -65915,7 +65925,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23AE
-Encoding: 926638 926638 2064
+Encoding: 926638 926638 2063
 Width: 1200
 VWidth: 0
 Flags: W
@@ -65923,7 +65933,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23BB
-Encoding: 926651 926651 2065
+Encoding: 926651 926651 2064
 Width: 1200
 VWidth: 0
 Flags: W
@@ -65931,7 +65941,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23BC
-Encoding: 926652 926652 2066
+Encoding: 926652 926652 2065
 Width: 1200
 VWidth: 0
 Flags: W
@@ -65939,7 +65949,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23BD
-Encoding: 926653 926653 2067
+Encoding: 926653 926653 2066
 Width: 1200
 VWidth: 0
 Flags: W
@@ -65947,15 +65957,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23BE
-Encoding: 926654 926654 2068
-Width: 1200
-VWidth: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uE23BF
-Encoding: 926655 926655 2069
+Encoding: 926654 926654 2067
 Width: 1200
 VWidth: 0
 Flags: W
@@ -65963,7 +65965,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23CB
-Encoding: 926667 926667 2070
+Encoding: 926667 926667 2068
 Width: 1200
 VWidth: 0
 Flags: W
@@ -65971,7 +65973,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23CC
-Encoding: 926668 926668 2071
+Encoding: 926668 926668 2069
 Width: 1200
 VWidth: 0
 Flags: W
@@ -65979,7 +65981,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23CD
-Encoding: 926669 926669 2072
+Encoding: 926669 926669 2070
 Width: 1200
 VWidth: 0
 Flags: W
@@ -65987,15 +65989,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23CE
-Encoding: 926670 926670 2073
-Width: 1200
-VWidth: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uE23CF
-Encoding: 926671 926671 2074
+Encoding: 926670 926670 2071
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66003,7 +65997,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23DB
-Encoding: 926683 926683 2075
+Encoding: 926683 926683 2072
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66011,7 +66005,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23DC
-Encoding: 926684 926684 2076
+Encoding: 926684 926684 2073
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66019,7 +66013,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23DD
-Encoding: 926685 926685 2077
+Encoding: 926685 926685 2074
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66027,7 +66021,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23DE
-Encoding: 926686 926686 2078
+Encoding: 926686 926686 2075
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66035,7 +66029,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23DF
-Encoding: 926687 926687 2079
+Encoding: 926687 926687 2076
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66043,7 +66037,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23EB
-Encoding: 926699 926699 2080
+Encoding: 926699 926699 2077
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66051,7 +66045,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23EC
-Encoding: 926700 926700 2081
+Encoding: 926700 926700 2078
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66059,7 +66053,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23ED
-Encoding: 926701 926701 2082
+Encoding: 926701 926701 2079
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66067,7 +66061,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23EE
-Encoding: 926702 926702 2083
+Encoding: 926702 926702 2080
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66075,7 +66069,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23EF
-Encoding: 926703 926703 2084
+Encoding: 926703 926703 2081
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66083,7 +66077,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23FB
-Encoding: 926715 926715 2085
+Encoding: 926715 926715 2082
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66091,7 +66085,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23FC
-Encoding: 926716 926716 2086
+Encoding: 926716 926716 2083
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66099,7 +66093,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23FD
-Encoding: 926717 926717 2087
+Encoding: 926717 926717 2084
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66107,7 +66101,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23FE
-Encoding: 926718 926718 2088
+Encoding: 926718 926718 2085
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66115,7 +66109,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE23FF
-Encoding: 926719 926719 2089
+Encoding: 926719 926719 2086
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66123,7 +66117,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE240B
-Encoding: 926731 926731 2090
+Encoding: 926731 926731 2087
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66131,7 +66125,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE240C
-Encoding: 926732 926732 2091
+Encoding: 926732 926732 2088
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66139,7 +66133,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE240D
-Encoding: 926733 926733 2092
+Encoding: 926733 926733 2089
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66147,7 +66141,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE240E
-Encoding: 926734 926734 2093
+Encoding: 926734 926734 2090
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66155,7 +66149,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE240F
-Encoding: 926735 926735 2094
+Encoding: 926735 926735 2091
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66163,7 +66157,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE241B
-Encoding: 926747 926747 2095
+Encoding: 926747 926747 2092
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66171,7 +66165,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE241C
-Encoding: 926748 926748 2096
+Encoding: 926748 926748 2093
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66179,7 +66173,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE241D
-Encoding: 926749 926749 2097
+Encoding: 926749 926749 2094
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66187,7 +66181,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE241E
-Encoding: 926750 926750 2098
+Encoding: 926750 926750 2095
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66195,7 +66189,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE241F
-Encoding: 926751 926751 2099
+Encoding: 926751 926751 2096
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66203,7 +66197,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE242B
-Encoding: 926763 926763 2100
+Encoding: 926763 926763 2097
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66211,7 +66205,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE242C
-Encoding: 926764 926764 2101
+Encoding: 926764 926764 2098
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66219,7 +66213,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE242D
-Encoding: 926765 926765 2102
+Encoding: 926765 926765 2099
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66227,7 +66221,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE242E
-Encoding: 926766 926766 2103
+Encoding: 926766 926766 2100
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66235,7 +66229,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE242F
-Encoding: 926767 926767 2104
+Encoding: 926767 926767 2101
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66243,7 +66237,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE243B
-Encoding: 926779 926779 2105
+Encoding: 926779 926779 2102
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66251,7 +66245,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE243C
-Encoding: 926780 926780 2106
+Encoding: 926780 926780 2103
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66259,7 +66253,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE243D
-Encoding: 926781 926781 2107
+Encoding: 926781 926781 2104
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66267,7 +66261,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE243E
-Encoding: 926782 926782 2108
+Encoding: 926782 926782 2105
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66275,7 +66269,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE243F
-Encoding: 926783 926783 2109
+Encoding: 926783 926783 2106
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66283,7 +66277,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE244B
-Encoding: 926795 926795 2110
+Encoding: 926795 926795 2107
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66291,7 +66285,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE244C
-Encoding: 926796 926796 2111
+Encoding: 926796 926796 2108
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66299,7 +66293,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE244D
-Encoding: 926797 926797 2112
+Encoding: 926797 926797 2109
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66307,7 +66301,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE244E
-Encoding: 926798 926798 2113
+Encoding: 926798 926798 2110
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66315,7 +66309,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE244F
-Encoding: 926799 926799 2114
+Encoding: 926799 926799 2111
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66323,7 +66317,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE245B
-Encoding: 926811 926811 2115
+Encoding: 926811 926811 2112
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66331,7 +66325,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE245C
-Encoding: 926812 926812 2116
+Encoding: 926812 926812 2113
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66339,7 +66333,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE245D
-Encoding: 926813 926813 2117
+Encoding: 926813 926813 2114
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66347,7 +66341,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE245E
-Encoding: 926814 926814 2118
+Encoding: 926814 926814 2115
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66355,7 +66349,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE245F
-Encoding: 926815 926815 2119
+Encoding: 926815 926815 2116
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66363,7 +66357,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE246B
-Encoding: 926827 926827 2120
+Encoding: 926827 926827 2117
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66371,7 +66365,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE246C
-Encoding: 926828 926828 2121
+Encoding: 926828 926828 2118
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66379,7 +66373,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE246D
-Encoding: 926829 926829 2122
+Encoding: 926829 926829 2119
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66387,7 +66381,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE246E
-Encoding: 926830 926830 2123
+Encoding: 926830 926830 2120
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66395,7 +66389,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE246F
-Encoding: 926831 926831 2124
+Encoding: 926831 926831 2121
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66403,7 +66397,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE247B
-Encoding: 926843 926843 2125
+Encoding: 926843 926843 2122
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66411,7 +66405,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE247C
-Encoding: 926844 926844 2126
+Encoding: 926844 926844 2123
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66419,7 +66413,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE247D
-Encoding: 926845 926845 2127
+Encoding: 926845 926845 2124
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66427,7 +66421,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE247E
-Encoding: 926846 926846 2128
+Encoding: 926846 926846 2125
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66435,7 +66429,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE247F
-Encoding: 926847 926847 2129
+Encoding: 926847 926847 2126
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66443,7 +66437,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE248B
-Encoding: 926859 926859 2130
+Encoding: 926859 926859 2127
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66451,7 +66445,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE248C
-Encoding: 926860 926860 2131
+Encoding: 926860 926860 2128
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66459,7 +66453,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE248D
-Encoding: 926861 926861 2132
+Encoding: 926861 926861 2129
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66467,7 +66461,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE248E
-Encoding: 926862 926862 2133
+Encoding: 926862 926862 2130
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66475,7 +66469,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE248F
-Encoding: 926863 926863 2134
+Encoding: 926863 926863 2131
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66483,7 +66477,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE249B
-Encoding: 926875 926875 2135
+Encoding: 926875 926875 2132
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66491,7 +66485,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE249C
-Encoding: 926876 926876 2136
+Encoding: 926876 926876 2133
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66499,7 +66493,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE249D
-Encoding: 926877 926877 2137
+Encoding: 926877 926877 2134
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66507,7 +66501,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE249E
-Encoding: 926878 926878 2138
+Encoding: 926878 926878 2135
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66515,7 +66509,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE249F
-Encoding: 926879 926879 2139
+Encoding: 926879 926879 2136
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66523,7 +66517,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24AB
-Encoding: 926891 926891 2140
+Encoding: 926891 926891 2137
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66531,7 +66525,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24AC
-Encoding: 926892 926892 2141
+Encoding: 926892 926892 2138
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66539,7 +66533,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24AD
-Encoding: 926893 926893 2142
+Encoding: 926893 926893 2139
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66547,7 +66541,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24AE
-Encoding: 926894 926894 2143
+Encoding: 926894 926894 2140
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66555,7 +66549,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24AF
-Encoding: 926895 926895 2144
+Encoding: 926895 926895 2141
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66563,7 +66557,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24BB
-Encoding: 926907 926907 2145
+Encoding: 926907 926907 2142
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66571,7 +66565,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24BC
-Encoding: 926908 926908 2146
+Encoding: 926908 926908 2143
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66579,7 +66573,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24BD
-Encoding: 926909 926909 2147
+Encoding: 926909 926909 2144
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66587,7 +66581,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24BE
-Encoding: 926910 926910 2148
+Encoding: 926910 926910 2145
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66595,7 +66589,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24BF
-Encoding: 926911 926911 2149
+Encoding: 926911 926911 2146
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66603,7 +66597,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24CB
-Encoding: 926923 926923 2150
+Encoding: 926923 926923 2147
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66611,7 +66605,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24CC
-Encoding: 926924 926924 2151
+Encoding: 926924 926924 2148
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66619,7 +66613,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24CD
-Encoding: 926925 926925 2152
+Encoding: 926925 926925 2149
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66627,7 +66621,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24CE
-Encoding: 926926 926926 2153
+Encoding: 926926 926926 2150
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66635,7 +66629,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24CF
-Encoding: 926927 926927 2154
+Encoding: 926927 926927 2151
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66643,7 +66637,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24DB
-Encoding: 926939 926939 2155
+Encoding: 926939 926939 2152
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66651,7 +66645,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24DC
-Encoding: 926940 926940 2156
+Encoding: 926940 926940 2153
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66659,7 +66653,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24DD
-Encoding: 926941 926941 2157
+Encoding: 926941 926941 2154
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66667,7 +66661,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24DE
-Encoding: 926942 926942 2158
+Encoding: 926942 926942 2155
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66675,7 +66669,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24DF
-Encoding: 926943 926943 2159
+Encoding: 926943 926943 2156
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66683,7 +66677,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24EB
-Encoding: 926955 926955 2160
+Encoding: 926955 926955 2157
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66691,7 +66685,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24EC
-Encoding: 926956 926956 2161
+Encoding: 926956 926956 2158
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66699,7 +66693,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24ED
-Encoding: 926957 926957 2162
+Encoding: 926957 926957 2159
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66707,7 +66701,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24EE
-Encoding: 926958 926958 2163
+Encoding: 926958 926958 2160
 Width: 1200
 VWidth: 0
 Flags: W
@@ -66715,7 +66709,7 @@ LayerCount: 2
 EndChar
 
 StartChar: uE24EF
-Encoding: 926959 926959 2164
+Encoding: 926959 926959 2161
 Width: 1200
 VWidth: 0
 Flags: W

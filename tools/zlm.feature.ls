@@ -209,12 +209,23 @@ languagesystem grek dflt;"
       sub \BAHEBU_1, \BAHEBU_1, \ZLM_BAHEBU_2
     feature "smajibu initial", ->
       log "  ignore sub ZLM_DASH_MEDI ZLM_DASH_MEDI';"
+      log "  ignore sub ZLM_DASH_INIT ZLM_DASH_MEDI';"
       log "  sub ZLM_DASH_MEDI' ZLM_DASH_MEDI by ZLM_DASH_INIT;"
+      log "  sub ZLM_DASH_MEDI' ZLM_DASH_FINAL by ZLM_DASH_INIT;"
     feature "smajibu final", ->
       log "  ignore sub ZLM_DASH_MEDI' ZLM_DASH_MEDI;"
+      log "  ignore sub ZLM_DASH_MEDI' ZLM_DASH_FINAL;"
       log "  sub ZLM_DASH_MEDI ZLM_DASH_MEDI' by ZLM_DASH_FINAL;"
+      log "  sub ZLM_DASH_INIT ZLM_DASH_MEDI' by ZLM_DASH_FINAL;"
     feature "smajibu iso", ->
       log "  ignore sub ZLM_DASH_MEDI ZLM_DASH_MEDI' ZLM_DASH_MEDI;"
+      log "  ignore sub ZLM_DASH_INIT ZLM_DASH_MEDI' ZLM_DASH_MEDI;"
+      log "  ignore sub ZLM_DASH_MEDI ZLM_DASH_MEDI' ZLM_DASH_FINAL;"
+      log "  ignore sub ZLM_DASH_INIT ZLM_DASH_MEDI' ZLM_DASH_FINAL;"
+      log "  ignore sub ZLM_DASH_MEDI' ZLM_DASH_MEDI;"
+      log "  ignore sub ZLM_DASH_MEDI ZLM_DASH_MEDI';"
+      log "  ignore sub ZLM_DASH_MEDI' ZLM_DASH_FINAL;"
+      log "  ignore sub ZLM_DASH_INIT ZLM_DASH_MEDI';"
       log "  sub ZLM_DASH_MEDI' by ZLM_DASH_ISO;"
 
 # I'm not sure this is needed in any jbo text

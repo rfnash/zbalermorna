@@ -700,19 +700,30 @@ feature rlig {
 
 feature rlig {
   ignore sub ZLM_DASH_MEDI ZLM_DASH_MEDI';
+  ignore sub ZLM_DASH_INIT ZLM_DASH_MEDI';
   sub ZLM_DASH_MEDI' ZLM_DASH_MEDI by ZLM_DASH_INIT;
+  sub ZLM_DASH_MEDI' ZLM_DASH_FINAL by ZLM_DASH_INIT;
 } rlig;
 
 # smajibu final
 
 feature rlig {
   ignore sub ZLM_DASH_MEDI' ZLM_DASH_MEDI;
+  ignore sub ZLM_DASH_MEDI' ZLM_DASH_FINAL;
   sub ZLM_DASH_MEDI ZLM_DASH_MEDI' by ZLM_DASH_FINAL;
+  sub ZLM_DASH_INIT ZLM_DASH_MEDI' by ZLM_DASH_FINAL;
 } rlig;
 
 # smajibu iso
 
 feature rlig {
   ignore sub ZLM_DASH_MEDI ZLM_DASH_MEDI' ZLM_DASH_MEDI;
+  ignore sub ZLM_DASH_INIT ZLM_DASH_MEDI' ZLM_DASH_MEDI;
+  ignore sub ZLM_DASH_MEDI ZLM_DASH_MEDI' ZLM_DASH_FINAL;
+  ignore sub ZLM_DASH_INIT ZLM_DASH_MEDI' ZLM_DASH_FINAL;
+  ignore sub ZLM_DASH_MEDI' ZLM_DASH_MEDI;
+  ignore sub ZLM_DASH_MEDI ZLM_DASH_MEDI';
+  ignore sub ZLM_DASH_MEDI' ZLM_DASH_FINAL;
+  ignore sub ZLM_DASH_INIT ZLM_DASH_MEDI';
   sub ZLM_DASH_MEDI' by ZLM_DASH_ISO;
 } rlig;

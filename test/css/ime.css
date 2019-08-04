@@ -24,12 +24,29 @@ h1 {
     box-shadow: none;
     box-sizing: border-box;  
     color: transparent;
+    overflow: auto;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
 }
 
-#textarea-highlight span {
+#textarea-highlight .base {
 	background: #eee;
 	border-radius: 3px;
 	line-height: 120%;
+}
+
+#textarea-highlight .top {
+	color: #ccc;
+    font-size: 50%;
+    top: -18px;
+    position: relative;
+}
+
+#textarea-highlight .bottom {
+	color: #ccc;
+    font-size: 50%;
+    top: 10px;
+    position: relative;
 }
 
 #textarea {
