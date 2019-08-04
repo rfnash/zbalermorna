@@ -44,7 +44,7 @@ header {
     width: 100%;
     position: fixed;   
     top: 0px;
-    background: #eee;
+    background: #fff;
     border-bottom: solid 1px #ccc;
     height: 100px;
     z-index: 5;
@@ -56,16 +56,14 @@ header .container {
 header .container h1 {
   line-height: 100px;
 }
-header label {
-  font-size: 20px;
+header select {
   line-height: 100px;
-}
-header label select {
-  font-size: 20px;
 }
 
 .flex-right {
   margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 

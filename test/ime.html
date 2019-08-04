@@ -44,11 +44,57 @@
     <div class="row">
       <div class="column">
         <h1>Zbalermorna IME</h1>
-        <textarea id="textarea"></textarea>
+
+        <select id="font-selector">
+          <option value="lato-zlm">lato-zlm</option>
+          <option value="lato-zlm-extended">lato-zlm-extended</option>
+          <option value="zlm-manri">zlm-manri</option>
+          <option value="tnr-zlm">tnr-zlm</option>
+          <option value="lavi-zlm">lavi-zlm</option>
+          <option value="pepper-carrot-zlm">pepper-carrot-zlm</option>
+          <option value="lobster-zlm">lobster-zlm</option>
+          <option value="fira-code-zlm">fira-code-zlm</option>
+        </select>
+
+        <div id="textarea-highlight" class="reference"></div>
+        <textarea id="textarea" class="reference"></textarea>
+
+        <p>Type any consonant to insert the zlm equivalent. Lowercase vowels are inserted as diacritics, unless they form semivowels. Uppercase vowels form full vowels. All diphthongs are automatic. <code>h</code> or <code>'</code> will insert a .y'ybu <span class="zlm">󢌐</span>, and <code>.</code> will insert denpabu <span class="zlm">󢌀</span>. The <a href="write-up.html#attitudinal-shorthand">attitudinal shorthand</a> (<span class="zlm">󢌀󢒐󢌐󢒀</span>) is created automatically with ligatures.</p>
+
+        <p>
+          <code>,</code> will separate two <a href="write-up.html#full-vowels">full vowels</a> from becoming a diphthong<br />
+          <code>-</code> inserts one character of <a href="write-up.html#silence">silence</a><br />
+          <code>~</code> applies <a href="write-up.html#stretch">stretch</a> to the previous character - use after the vowel<br />
+          <code>1234</code> adds the respective <a href="write-up.html#intonation">intonation</a> to the previous character - use after the vowel<br />
+          <code>!</code> adds <a href="write-up.html#dynamics">dynamics</a> to the previous character - use after the vowel
+        </p>
+
+        <p>Text can be typed or <strong>pasted</strong> in, but may take some time to transcribe - the result should be the same. Any text copied from the textarea will be encoded to the Zbalermorna Unicode space, and will only display correctly with Zbalermorna-compatible fonts.</p>
       </div>
     </div>
   </div>
 <script>
+
+const font_selector = document.getElementById('font-selector');
+
+font_selector.addEventListener('change', (event) => {
+  window.location.hash = event.target.value;
+  for (var i = 0; i < document.getElementsByClassName('reference').length; i++) {
+    document.getElementsByClassName('reference')[i].style["font-family"] = event.target.value;
+  }
+})
+
+if (window.location.hash) {
+  font_selector.value = window.location.hash.substring(1);
+} else {
+  font_selector.value = "lato-zlm";
+  window.location.hash = font_selector.value;
+}
+
+for (var i = 0; i < document.getElementsByClassName('reference').length; i++) {
+  document.getElementsByClassName('reference')[i].style["font-family"] = font_selector.value;
+}
+
 
 HTMLTextAreaElement.prototype.insertAtCaret = function (text) {
   if (this.selectionStart || this.selectionStart === 0) {
@@ -66,11 +112,8 @@ HTMLTextAreaElement.prototype.insertAtCaret = function (text) {
 
 // Config
 
-const KEY_CODE_APOSTROPHE = 222;
 const UNICODE_RANGE_START = 0xE2300;
 const UNICODE_FULL_VOWEL_START = 0xE24F1;
-const PARSE_MODE_TEXT = 0;
-const PARSE_MODE_TAG  = 1;
 
 const lerfu = ".'ptkflscmxbdgvrzjnqwaeiouy";
 const fullVowels = "AEIOUY";
@@ -114,24 +157,6 @@ function formatUnicode (point) {
   return String.fromCodePoint(point);
 }
 
-function latinToZLM (chr) {
-  if (chr === "h" || chr === "'")
-    return UNICODE_RANGE_START + 16;
-  if (-1 < lerfu.indexOf(chr))
-    return UNICODE_RANGE_START + lerfu.indexOf(chr) * 16;
-  if (-1 < fullVowels.indexOf(chr))
-    return UNICODE_FULL_VOWEL_START + fullVowels.indexOf(chr);
-  return chr.codePointAt(0);
-}
-
-function keyCodeToZLM (code) {
-  if (code === KEY_CODE_APOSTROPHE)
-    return UNICODE_RANGE_START + 16;
-  if (code > 64 && code < 92)
-    return latinToZLM(String.fromCharCode(code).toLowerCase());
-  return code;
-}
-
 function parseCharacter(c) {
   if (c == "h" || c == "H")
     c = "'";
@@ -161,10 +186,24 @@ function parseCharacter(c) {
     ta.insertAtCaret("\n");
   if (c == "\t")
     ta.insertAtCaret("\t");
+  updateHighlighter();
 }
 
 var ta = document.getElementById("textarea");
+var taHL = document.getElementById("textarea-highlight");
+
+function updateHighlighter() {
+  var text;
+  var c = ta.value.substring(ta.selectionStart - 2, ta.selectionEnd).charCodeAt(0);
+  if (c >= 0xD800 % c <= 0xDBFF)
+    text = ta.value.substring(0, ta.selectionStart - 2) + "<span>" + ta.value.substring(ta.selectionStart - 2, ta.selectionEnd) + "</span>"
+  else
+    text = ta.value.substring(0, ta.selectionStart - 1) + "<span>" + ta.value.substring(ta.selectionStart - 1, ta.selectionEnd) + "</span>"
+  taHL.innerHTML = text;
+}
+
 ta.onkeydown = function(event) {
+
   console.log(event.keyCode);
   console.log(event);
   var kc = event.keyCode;
@@ -183,8 +222,16 @@ ta.onkeydown = function(event) {
   if (kc == 9)
     k = "\t";
   parseCharacter(k);
+  updateHighlighter();
   return false;
 };
+
+ta.onkeyup = updateHighlighter;
+ta.onfocusout = updateHighlighter;
+ta.onkeypress = updateHighlighter;
+ta.onchange = updateHighlighter;
+ta.onfocus = updateHighlighter;
+ta.onclick = updateHighlighter;
 
 ta.onpaste = function(event) {
   var text = undefined;
@@ -197,6 +244,7 @@ ta.onpaste = function(event) {
   for (var i = 0; i < text.length; i++) {
     parseCharacter(text[i]);
   }
+  taHL.innerHTML = ta.value;
   return false;
 }; 
 
