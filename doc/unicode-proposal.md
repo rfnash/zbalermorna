@@ -77,14 +77,14 @@ ba'orsu'utonga
 su'urba'otonga
 ```
 
-These codes could be arranged in a 3x16 table with 1 slots to spare, similar to this:
-
+These codes could be arranged in a 4x16 table with 15 slots to spare, similar to this:
 
 |    | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 0x | 󢌠 | 󢌰 | 󢍀 | 󢍐 | 󢍠 | 󢍰 | 󢎀 | 󢎐 | 󢎠 | 󢌀 | 󢌐 | 󢓰 | 󢒰 | 󢓀 | 󢓐 | 󢓠 |
-| 1x | 󢎰 | 󢏀 | 󢏐 | 󢏠 | 󢏰 | 󢐀 | 󢐐 | 󢐠 | 󢑐 | 󢑠 | 󢑰 | 󢒀 | 󢒐 | 󢍟 | 󢏏 | X |
-| 2x | 󢓱 | 󢓲 | 󢓳 | 󢓴 | 󢓵 | 󢓶 | 󢓷 | 󢓸 | 󢓹 | 󢓺 | 󢌏 | 󢌟 | 󢌯 | 󢌿 | 󢍏 | 󢎏 |
+| 1x | 󢎰 | 󢏀 | 󢏐 | 󢏠 | 󢏰 | 󢐀 | 󢐐 | 󢐠 | 󢑐 | 󢑠 | 󢑰 | 󢒀 | 󢒐 | 󢍟 | 󢏏 |   |
+| 2x | 󢓱 | 󢓲 | 󢓳 | 󢓴 | 󢓵 | 󢓶 | 󢓷 | 󢓸 | 󢓹 | 󢓺 |(󢌏)| 󢌟 | 󢌯 | 󢌿 | 󢍏 | 󢎏 |
+| 3x |   |   |   |   |   |   |   |   |   |   |   |   |   |   | 󢐰 | 󢑀 |
 
 ## Full glyph list for Zbalermorna fonts:
 
