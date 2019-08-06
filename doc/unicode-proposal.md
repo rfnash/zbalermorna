@@ -4,60 +4,60 @@ This is a list of distinct non-ligatured glyphs and potential names with the cur
 
 
 ```
-Code Point  Glyph Name          Unicode Name
+Code Point C Glyph Name          Unicode Name
 --------------------------------------------------------
-U+E2300     denpabu             ZBALERMORNA SYMBOL FOR DENPABU
-U+E2310     yhybu               ZBALERMORNA SYMBOL FOR YHYBU
-U+E2320     py                  ZBALERMORNA LETTER PY
-U+E2330     ty                  ZBALERMORNA LETTER TY
-U+E2340     ky                  ZBALERMORNA LETTER KY
-U+E2350     fy                  ZBALERMORNA LETTER FY
-U+E2360     ly                  ZBALERMORNA LETTER LY
-U+E2370     sy                  ZBALERMORNA LETTER SY
-U+E2380     cy                  ZBALERMORNA LETTER CY
-U+E2390     my                  ZBALERMORNA LETTER MY
-U+E23A0     xy                  ZBALERMORNA LETTER XY
-U+E23B0     by                  ZBALERMORNA LETTER BY
-U+E23C0     dy                  ZBALERMORNA LETTER DY
-U+E23D0     gy                  ZBALERMORNA LETTER GY
-U+E23E0     vy                  ZBALERMORNA LETTER VY
-U+E23F0     ry                  ZBALERMORNA LETTER RY
-U+E2400     zy                  ZBALERMORNA LETTER ZY
-U+E2410     jy                  ZBALERMORNA LETTER JY
-U+E2420     ny                  ZBALERMORNA LETTER NY
-U+E2430     leribu              ZBALERMORNA LETTER SEMIVOWEL IBU
-U+E2440     lerubu              ZBALERMORNA LETTER SEMIVOWEL UBU
+U+E2300    󢌀 denpabu             ZBALERMORNA SYMBOL FOR DENPABU
+U+E2310    󢌐 yhybu               ZBALERMORNA SYMBOL FOR YHYBU
+U+E2320    󢌠 py                  ZBALERMORNA LETTER PY
+U+E2330    󢌰 ty                  ZBALERMORNA LETTER TY
+U+E2340    󢍀 ky                  ZBALERMORNA LETTER KY
+U+E2350    󢍐 fy                  ZBALERMORNA LETTER FY
+U+E2360    󢍠 ly                  ZBALERMORNA LETTER LY
+U+E2370    󢍰 sy                  ZBALERMORNA LETTER SY
+U+E2380    󢎀 cy                  ZBALERMORNA LETTER CY
+U+E2390    󢎐 my                  ZBALERMORNA LETTER MY
+U+E23A0    󢎠 xy                  ZBALERMORNA LETTER XY
+U+E23B0    󢎰 by                  ZBALERMORNA LETTER BY
+U+E23C0    󢏀 dy                  ZBALERMORNA LETTER DY
+U+E23D0    󢏐 gy                  ZBALERMORNA LETTER GY
+U+E23E0    󢏠 vy                  ZBALERMORNA LETTER VY
+U+E23F0    󢏰 ry                  ZBALERMORNA LETTER RY
+U+E2400    󢐀 zy                  ZBALERMORNA LETTER ZY
+U+E2410    󢐐 jy                  ZBALERMORNA LETTER JY
+U+E2420    󢐠 ny                  ZBALERMORNA LETTER NY
+U+E2430    󢐰 leribu              ZBALERMORNA LETTER SEMIVOWEL IBU
+U+E2440    󢑀 lerubu              ZBALERMORNA LETTER SEMIVOWEL UBU
 
-U+E2450     abu                 ZBALERMORNA VOWEL SIGN ABU
-U+E2460     ebu                 ZBALERMORNA VOWEL SIGN EBU
-U+E2470     ibu                 ZBALERMORNA VOWEL SIGN IBU
-U+E2480     obu                 ZBALERMORNA VOWEL SIGN OBU
-U+E2490     ubu                 ZBALERMORNA VOWEL SIGN UBU
-U+E24A0     ybu                 ZBALERMORNA VOWEL SIGN YBU
-U+E24B0     aibu                ZBALERMORNA VOWEL SIGN AIBU
-U+E24C0     eibu                ZBALERMORNA VOWEL SIGN EIBU
-U+E24D0     oibu                ZBALERMORNA VOWEL SIGN OIBU
-U+E24E0     aubu                ZBALERMORNA VOWEL SIGN AUBU
+U+E2450    󢑐 abu                 ZBALERMORNA VOWEL SIGN ABU
+U+E2460    󢑠 ebu                 ZBALERMORNA VOWEL SIGN EBU
+U+E2470    󢑰 ibu                 ZBALERMORNA VOWEL SIGN IBU
+U+E2480    󢒀 obu                 ZBALERMORNA VOWEL SIGN OBU
+U+E2490    󢒐 ubu                 ZBALERMORNA VOWEL SIGN UBU
+U+E24A0    󢒠 ybu                 ZBALERMORNA VOWEL SIGN YBU
+U+E24B0    󢒰 aibu                ZBALERMORNA VOWEL SIGN AIBU
+U+E24C0    󢓀 eibu                ZBALERMORNA VOWEL SIGN EIBU
+U+E24D0    󢓐 oibu                ZBALERMORNA VOWEL SIGN OIBU
+U+E24E0    󢓠 aubu                ZBALERMORNA VOWEL SIGN AUBU
 
-U+E24F1     cluabu              ZBALERMORNA LETTER FULL ABU
-U+E24F2     cluebu              ZBALERMORNA LETTER FULL EBU
-U+E24F3     cluibu              ZBALERMORNA LETTER FULL IBU
-U+E24F4     cluobu              ZBALERMORNA LETTER FULL OBU
-U+E24F5     cluubu              ZBALERMORNA LETTER FULL UBU
-U+E24F6     clurybu             ZBALERMORNA LETTER FULL YBU
-U+E24F7     cluraibu            ZBALERMORNA LETTER FULL AIBU
-U+E24F8     clureibu            ZBALERMORNA LETTER FULL EIBU
-U+E24F9     cluroibu            ZBALERMORNA LETTER FULL OIBU
-U+E24FA     cluraubu            ZBALERMORNA LETTER FULL AUBU
+U+E24F1    󢓱 cluabu              ZBALERMORNA LETTER FULL ABU
+U+E24F2    󢓲 cluebu              ZBALERMORNA LETTER FULL EBU
+U+E24F3    󢓳 cluibu              ZBALERMORNA LETTER FULL IBU
+U+E24F4    󢓴 cluobu              ZBALERMORNA LETTER FULL OBU
+U+E24F5    󢓵 cluubu              ZBALERMORNA LETTER FULL UBU
+U+E24F6    󢓶 clurybu             ZBALERMORNA LETTER FULL YBU
+U+E24F7    󢓷 cluraibu            ZBALERMORNA LETTER FULL AIBU
+U+E24F8    󢓸 clureibu            ZBALERMORNA LETTER FULL EIBU
+U+E24F9    󢓹 cluroibu            ZBALERMORNA LETTER FULL OIBU
+U+E24FA    󢓺 cluraubu            ZBALERMORNA LETTER FULL AUBU
 
-U+E230F     slakabu             ZBALERMORNA SYMBOL FOR SLAKABU
-U+E231F     bahotongabu         ZBALERMORNA COMBINING BAHOTONGABU
-U+E232F     suhutongabu         ZBALERMORNA COMBINING SUHUTONGABU
-U+E233F     bahorsuhutongabu    ZBALERMORNA COMBINING BAHORSUHUTONGABU
-U+E234F     suhurbahutongabu    ZBALERMORNA COMBINING SUHURBAHUTONGABU
-U+E235F     bahebu              ZBALERMORNA COMBINING BAHEBU
-U+E238F     tcenabu             ZBALERMORNA COMBINING TCENABU
-U+E23CF     samjibu             ZBALERMORNA SYMBOL FOR SMAJIBU
+U+E230F    󢌏 slakabu             ZBALERMORNA SYMBOL FOR SLAKABU
+U+E231F    󢌟 bahotongabu         ZBALERMORNA COMBINING BAHOTONGABU
+U+E232F    󢌯 suhutongabu         ZBALERMORNA COMBINING SUHUTONGABU
+U+E233F    󢌿 bahorsuhutongabu    ZBALERMORNA COMBINING BAHORSUHUTONGABU
+U+E234F    󢍏 suhurbahutongabu    ZBALERMORNA COMBINING SUHURBAHUTONGABU
+U+E235F    󢍟 bahebu              ZBALERMORNA COMBINING BAHEBU
+U+E238F    󢎏 tcenabu             ZBALERMORNA COMBINING TCENABU
+U+E23CF    󢏏 samjibu             ZBALERMORNA SYMBOL FOR SMAJIBU
 ```
 
 Ligatures would then take the format `ty_abu`, `bahebu_bahebu`, `denpabu_yhybu`, etc and would not be a part of the unicode spec, just as the other ligatures have been removed.
