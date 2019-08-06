@@ -4,60 +4,60 @@ This is a list of distinct non-ligatured glyphs and potential names with the cur
 
 
 ```
-Code Point	Glyph Name			Unicode Name
+Code Point  Glyph Name          Unicode Name
 --------------------------------------------------------
-0+E2300		denpabu				ZBALERMORNA SYMBOL FOR DENPABU
-0+E2310		yhybu				ZBALERMORNA SYMBOL FOR YHYBU
-0+E2320		py					ZBALERMORNA LETTER PY
-0+E2330		ty					ZBALERMORNA LETTER TY
-0+E2340		ky					ZBALERMORNA LETTER KY
-0+E2350		fy					ZBALERMORNA LETTER FY
-0+E2360		ly					ZBALERMORNA LETTER LY
-0+E2370		sy					ZBALERMORNA LETTER SY
-0+E2380		cy					ZBALERMORNA LETTER CY
-0+E2390		my					ZBALERMORNA LETTER MY
-0+E23A0		xy					ZBALERMORNA LETTER XY
-0+E23B0		by					ZBALERMORNA LETTER BY
-0+E23C0		dy					ZBALERMORNA LETTER DY
-0+E23D0		gy					ZBALERMORNA LETTER GY
-0+E23E0		vy					ZBALERMORNA LETTER VY
-0+E23F0		ry					ZBALERMORNA LETTER RY
-0+E2400		zy					ZBALERMORNA LETTER ZY
-0+E2410		jy					ZBALERMORNA LETTER JY
-0+E2420		ny					ZBALERMORNA LETTER NY
-0+E2430		leribu				ZBALERMORNA LETTER SEMIVOWEL IBU
-0+E2440		lerubu				ZBALERMORNA LETTER SEMIVOWEL UBU
+0+E2300     denpabu             ZBALERMORNA SYMBOL FOR DENPABU
+0+E2310     yhybu               ZBALERMORNA SYMBOL FOR YHYBU
+0+E2320     py                  ZBALERMORNA LETTER PY
+0+E2330     ty                  ZBALERMORNA LETTER TY
+0+E2340     ky                  ZBALERMORNA LETTER KY
+0+E2350     fy                  ZBALERMORNA LETTER FY
+0+E2360     ly                  ZBALERMORNA LETTER LY
+0+E2370     sy                  ZBALERMORNA LETTER SY
+0+E2380     cy                  ZBALERMORNA LETTER CY
+0+E2390     my                  ZBALERMORNA LETTER MY
+0+E23A0     xy                  ZBALERMORNA LETTER XY
+0+E23B0     by                  ZBALERMORNA LETTER BY
+0+E23C0     dy                  ZBALERMORNA LETTER DY
+0+E23D0     gy                  ZBALERMORNA LETTER GY
+0+E23E0     vy                  ZBALERMORNA LETTER VY
+0+E23F0     ry                  ZBALERMORNA LETTER RY
+0+E2400     zy                  ZBALERMORNA LETTER ZY
+0+E2410     jy                  ZBALERMORNA LETTER JY
+0+E2420     ny                  ZBALERMORNA LETTER NY
+0+E2430     leribu              ZBALERMORNA LETTER SEMIVOWEL IBU
+0+E2440     lerubu              ZBALERMORNA LETTER SEMIVOWEL UBU
 
-0+E2450		abu					ZBALERMORNA VOWEL SIGN ABU
-0+E2460		ebu					ZBALERMORNA VOWEL SIGN EBU
-0+E2470		ibu					ZBALERMORNA VOWEL SIGN IBU
-0+E2480		obu					ZBALERMORNA VOWEL SIGN OBU
-0+E2490		ubu					ZBALERMORNA VOWEL SIGN UBU
-0+E24A0		ybu					ZBALERMORNA VOWEL SIGN YBU
-0+E24B0		aibu				ZBALERMORNA VOWEL SIGN AIBU
-0+E24C0		eibu				ZBALERMORNA VOWEL SIGN EIBU
-0+E24D0		oibu				ZBALERMORNA VOWEL SIGN OIBU
-0+E24E0		aubu				ZBALERMORNA VOWEL SIGN AUBU
+0+E2450     abu                 ZBALERMORNA VOWEL SIGN ABU
+0+E2460     ebu                 ZBALERMORNA VOWEL SIGN EBU
+0+E2470     ibu                 ZBALERMORNA VOWEL SIGN IBU
+0+E2480     obu                 ZBALERMORNA VOWEL SIGN OBU
+0+E2490     ubu                 ZBALERMORNA VOWEL SIGN UBU
+0+E24A0     ybu                 ZBALERMORNA VOWEL SIGN YBU
+0+E24B0     aibu                ZBALERMORNA VOWEL SIGN AIBU
+0+E24C0     eibu                ZBALERMORNA VOWEL SIGN EIBU
+0+E24D0     oibu                ZBALERMORNA VOWEL SIGN OIBU
+0+E24E0     aubu                ZBALERMORNA VOWEL SIGN AUBU
 
-0+E24F1		cluabu				ZBALERMORNA LETTER FULL ABU
-0+E24F2		cluebu				ZBALERMORNA LETTER FULL EBU
-0+E24F3		cluibu				ZBALERMORNA LETTER FULL IBU
-0+E24F4		cluobu				ZBALERMORNA LETTER FULL OBU
-0+E24F5		cluubu				ZBALERMORNA LETTER FULL UBU
-0+E24F6		clurybu				ZBALERMORNA LETTER FULL YBU
-0+E24F7		cluraibu			ZBALERMORNA LETTER FULL AIBU
-0+E24F8		clureibu			ZBALERMORNA LETTER FULL EIBU
-0+E24F9		cluroibu			ZBALERMORNA LETTER FULL OIBU
-0+E24FA		cluraubu			ZBALERMORNA LETTER FULL AUBU
+0+E24F1     cluabu              ZBALERMORNA LETTER FULL ABU
+0+E24F2     cluebu              ZBALERMORNA LETTER FULL EBU
+0+E24F3     cluibu              ZBALERMORNA LETTER FULL IBU
+0+E24F4     cluobu              ZBALERMORNA LETTER FULL OBU
+0+E24F5     cluubu              ZBALERMORNA LETTER FULL UBU
+0+E24F6     clurybu             ZBALERMORNA LETTER FULL YBU
+0+E24F7     cluraibu            ZBALERMORNA LETTER FULL AIBU
+0+E24F8     clureibu            ZBALERMORNA LETTER FULL EIBU
+0+E24F9     cluroibu            ZBALERMORNA LETTER FULL OIBU
+0+E24FA     cluraubu            ZBALERMORNA LETTER FULL AUBU
 
-0+E230F		slakabu				ZBALERMORNA SYMBOL FOR SLAKABU
-0+E231F		bahotongabu			ZBALERMORNA COMBINING BAHOTONGABU
-0+E232F		suhutongabu			ZBALERMORNA COMBINING SUHUTONGABU
-0+E233F		bahorsuhutongabu	ZBALERMORNA COMBINING BAHORSUHUTONGABU
-0+E234F		suhurbahutongabu	ZBALERMORNA COMBINING SUHURBAHUTONGABU
-0+E235F		bahebu				ZBALERMORNA COMBINING BAHEBU
-0+E238F		tcenabu				ZBALERMORNA COMBINING TCENABU
-0+E23CF		samjibu				ZBALERMORNA SYMBOL FOR SMAJIBU
+0+E230F     slakabu             ZBALERMORNA SYMBOL FOR SLAKABU
+0+E231F     bahotongabu         ZBALERMORNA COMBINING BAHOTONGABU
+0+E232F     suhutongabu         ZBALERMORNA COMBINING SUHUTONGABU
+0+E233F     bahorsuhutongabu    ZBALERMORNA COMBINING BAHORSUHUTONGABU
+0+E234F     suhurbahutongabu    ZBALERMORNA COMBINING SUHURBAHUTONGABU
+0+E235F     bahebu              ZBALERMORNA COMBINING BAHEBU
+0+E238F     tcenabu             ZBALERMORNA COMBINING TCENABU
+0+E23CF     samjibu             ZBALERMORNA SYMBOL FOR SMAJIBU
 ```
 
 Ligatures would then take the format `ty_abu`, `bahebu_bahebu`, `denpabu_yhybu`, etc and would not be a part of the unicode spec, just as the other ligatures have been removed.
@@ -65,11 +65,11 @@ Ligatures would then take the format `ty_abu`, `bahebu_bahebu`, `denpabu_yhybu`,
 Native Lojban names should/could be used for all of the glyphs - some options for these are below. `bu` is added at the end to indicate a symbol is being talked about:
 
 ```
-stretch:	tcena	-ten-
+stretch:    tcena   -ten-
 
-tone:		tonga	-tog-	-to'a-	
-rising:		banro	-ba'o-	
-diving:		sfubu	-sub-	-su'u-	
+tone:       tonga   -tog-   -to'a-  
+rising:     banro   -ba'o-  
+diving:     sfubu   -sub-   -su'u-  
 
 ba'otonga
 su'utonga
