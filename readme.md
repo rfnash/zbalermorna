@@ -74,7 +74,7 @@ This procedure is still incomplete - build script and feature file have bugs
 - Modify vector shapes for component glyphs; composite glyphs will auto-update
 - Self-assembling composites can also be manually overriden with real vectors,
   if your typeface wants to use special forms for certain composites.
-- Build the font for preview with `fontforge <name of file without .sfd> --update-test` or
+- Build the font for preview with `./build.sh <name of file without .sfd> --update-test` or
 - When your `.sfd` file is saved, Gulp will automatically recompile it into a
   TrueType font, and refresh the preview page so you can see how your updates
   effect ligatures and kerning.
