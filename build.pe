@@ -1,6 +1,10 @@
 #!/usr/local/bin/fontforge
 
 Open("src/" + $1 + ".sfd")
+
+# can be used to inspect features
+# GenerateFeatureFile("src/" + $1 + "-new.fea")
+
 MergeFeature("src/zlm.fea")
 if ( FileAccess("src/" + $1 + ".fea") == 0 )
 	MergeFeature("src/" + $1 + ".fea")
