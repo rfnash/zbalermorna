@@ -1,5 +1,10 @@
 # This file is generated automatically by tools/zlm.feature.ls
 # Run 'lsc tools/zlm.feature.ls > src/zlm.fea' to update it
+#
+# This file is designed in conjunction with the build.pe script to replace
+# the lookup tables so that they aren't appended and get out of control.
+# You can manually merge this with your .sfd file in Fontforge to be able
+# to take advantage of the built-in tools for previewing ligatures.
 
 
 #
@@ -9,85 +14,12 @@
 @consonant = [ ZLM_P ZLM_T ZLM_K ZLM_F ZLM_L ZLM_S ZLM_C ZLM_M ZLM_X ZLM_B ZLM_D ZLM_G ZLM_V ZLM_R ZLM_Z ZLM_J ZLM_N ZLM_H ZLM_SEMIVOWEL_Q ZLM_SEMIVOWEL_W ];
 @vowel = [ ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU ];
 @anything = [ @consonant @vowel ];
-languagesystem DFLT dflt;languagesystem latn dflt;languagesystem latn DEU;languagesystem cyrl dflt;languagesystem cyrl SRB;languagesystem grek dflt;
-
-
-#
-# Latin Mapping
-#
-
-lookup zlmLatinC {
-  lookupflag 0;
-  sub P by ZLM_P;
-  sub p by ZLM_P;
-  sub T by ZLM_T;
-  sub t by ZLM_T;
-  sub K by ZLM_K;
-  sub k by ZLM_K;
-  sub F by ZLM_F;
-  sub f by ZLM_F;
-  sub L by ZLM_L;
-  sub l by ZLM_L;
-  sub S by ZLM_S;
-  sub s by ZLM_S;
-  sub C by ZLM_C;
-  sub c by ZLM_C;
-  sub M by ZLM_M;
-  sub m by ZLM_M;
-  sub X by ZLM_X;
-  sub x by ZLM_X;
-  sub B by ZLM_B;
-  sub b by ZLM_B;
-  sub D by ZLM_D;
-  sub d by ZLM_D;
-  sub G by ZLM_G;
-  sub g by ZLM_G;
-  sub V by ZLM_V;
-  sub v by ZLM_V;
-  sub R by ZLM_R;
-  sub r by ZLM_R;
-  sub Z by ZLM_Z;
-  sub z by ZLM_Z;
-  sub J by ZLM_J;
-  sub j by ZLM_J;
-  sub N by ZLM_N;
-  sub n by ZLM_N;
-  sub H by ZLM_H;
-  sub h by ZLM_H;
-  sub period by ZLM_NULL;
-  sub quotesingle by ZLM_H;
-  sub A by ZLM_FULL_A;
-  sub a by ZLM_DIACRITIC_A;
-  sub E by ZLM_FULL_E;
-  sub e by ZLM_DIACRITIC_E;
-  sub I by ZLM_FULL_I;
-  sub i by ZLM_DIACRITIC_I;
-  sub O by ZLM_FULL_O;
-  sub o by ZLM_DIACRITIC_O;
-  sub U by ZLM_FULL_U;
-  sub u by ZLM_DIACRITIC_U;
-  sub Y by ZLM_FULL_Y;
-  sub y by ZLM_DIACRITIC_Y;
-  sub w by ZLM_SEMIVOWEL_W;
-  sub W by ZLM_SEMIVOWEL_W;
-  sub q by ZLM_SEMIVOWEL_Q;
-  sub Q by ZLM_SEMIVOWEL_Q;
-} zlmLatinC;
-
-lookup zlmLatinNumbers {
-  lookupflag 0;
-  sub zero by ZLM_NO;
-  sub one by ZLM_PA;
-  sub two by ZLM_RE;
-  sub three by ZLM_CI;
-  sub four by ZLM_VO;
-  sub five by ZLM_MU;
-  sub six by ZLM_XA;
-  sub seven by ZLM_ZE;
-  sub eight by ZLM_BI;
-  sub nine by ZLM_SO;
-} zlmLatinNumbers;
-
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn DEU;
+languagesystem cyrl dflt;
+languagesystem cyrl SRB;
+languagesystem grek dflt;
 
 
 #
@@ -719,24 +651,6 @@ lookup zlmSelfDottingVowels {
   sub ZLM_DIACRITIC_OI' by ZLM_DOT_OI;
   sub ZLM_DIACRITIC_AU' by ZLM_DOT_AU;
 } zlmSelfDottingVowels;
-
-feature ss10 {
-  script DFLT;
-    language dflt;
-    lookup zlmLatinC;
-  script latn;
-    language dflt;
-    lookup zlmLatinC;
-} ss10;
-
-feature ss11 {
-  script DFLT;
-    language dflt;
-    lookup zlmLatinNumbers;
-  script latn;
-    language dflt;
-    lookup zlmLatinNumbers;
-} ss11;
 
 feature rlig {
   script DFLT;
