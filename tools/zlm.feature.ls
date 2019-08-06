@@ -44,17 +44,22 @@ def-class = (name, members) ->
   else
     log "@#name = [ #{ list members } ];"
 
+lookups = {}
+langs = [<[DFLT dflt]>, <[latn dflt]>]
+
 comment     = (text) -> log "\n# #text\n"
 big-comment = (text) -> log "\n\n#\n# #text\n#\n"
 description = (title, λ) -> big-comment title; λ!
 section     = (name, λ) -> big-comment name; λ!
-feature     = (name, λ) -> comment name; log "feature rlig {"; λ!; log "} rlig;"
-feature-custom     = (name, f, λ) -> comment name; log "feature #f {"; λ!; log "} #f;"
+lookup      = (name, feature, λ) -> 
+  if not lookups[feature]?
+    lookups[feature] = [];
+  lookups[feature].push(name);
+  log "lookup #name {\n  lookupflag 0;"; λ!; log "} #name;\n";
 sub         = (...parts, lig) -> log "  sub #{ map glyph, parts |> spaces } by #lig;"
 sub-tick    = (...parts, lig) -> log "  sub #{ map glyph, parts |> map (+ \') |> spaces } by #lig;"
 ignore      = (ctx, ...gs) -> log "  ignore sub #ctx #{ map (+ \'), gs |> spaces  };"
 name        = (name) -> log "  featureNames {\n    name \"#name\";\n  };"
-
 
 # Data
 
@@ -83,7 +88,7 @@ languagesystem cyrl SRB;
 languagesystem grek dflt;"
 
   section "Latin Mapping", ->
-    feature-custom "C", "ss10", ->
+    lookup \zlmLatinC \ss10 ->
       for c in CONSN
         log "  sub #c by ZLM_#c;"
         log "  sub #{ c.toLowerCase() } by ZLM_#c;"
@@ -96,7 +101,7 @@ languagesystem grek dflt;"
       log "  sub W by ZLM_SEMIVOWEL_W;"
       log "  sub q by ZLM_SEMIVOWEL_Q;"
       log "  sub Q by ZLM_SEMIVOWEL_Q;"
-    feature-custom "Numbers", "ss11", ->
+    lookup \zlmLatinNumbers \ss11 ->
       log "  sub zero by ZLM_NO;"
       log "  sub one by ZLM_PA;"
       log "  sub two by ZLM_RE;"
@@ -107,117 +112,117 @@ languagesystem grek dflt;"
       log "  sub seven by ZLM_ZE;"
       log "  sub eight by ZLM_BI;"
       log "  sub nine by ZLM_SO;"
-    feature-custom "Split diphthongs", "ss10" ->
 
   section "Full Vowel Support", ->
-    feature "VV" ->
+    lookup \zlmFF \rlig ->
       log "  sub ZLM_FULL_A ZLM_FULL_I by ZLM_FULL_AI;"
       log "  sub ZLM_FULL_O ZLM_FULL_I by ZLM_FULL_OI;"
       log "  sub ZLM_FULL_E ZLM_FULL_I by ZLM_FULL_EI;"
       log "  sub ZLM_FULL_A ZLM_FULL_U by ZLM_FULL_AU;"
-    feature ",VV" ->
+    lookup \zlmSFF \rlig ->
       log "  sub ZLM_SLAKABU ZLM_FULL_AI by ZLM_FULL_AI;"
       log "  sub ZLM_SLAKABU ZLM_FULL_OI by ZLM_FULL_OI;"
       log "  sub ZLM_SLAKABU ZLM_FULL_EI by ZLM_FULL_EI;"
       log "  sub ZLM_SLAKABU ZLM_FULL_AU by ZLM_FULL_AU;"
-    feature ",V" ->
+    lookup \zlmSF \rlig ->
       for v in VOWELS
         log "  sub ZLM_SLAKABU ZLM_FULL_#v by ZLM_FULL_#v;"
 
   section "6-part ligatures", ->
-    feature \NVV'VV, ->
+    lookup \zlmNVVHVV \rlig ->
       for [ a, b ] in DIPHTH
         for [ c, d ] in DIPHTH
           sub \NULL, a, b, \H, c, d, cas [ a, b ], [ c, d ]
+
   section "5-part ligatures", ->
-    feature \VV'VV, ->
+    lookup \zlmVVHVV \rlig ->
       ignore \@consonant \@vowel \@vowel \ZLM_H \@vowel \@vowel
       for [ a, b ] in DIPHTH
         for [ c, d ] in DIPHTH
           sub-tick a, b, \H, c, d, cas [ a, b ], [ c, d ]
-    feature \NVV'V, ->
+    lookup \zlmNVVHV \rlig ->
       for [ a, b ] in DIPHTH
         for c in VOWELS
           sub \NULL, a, b, \H, c, cas [ a, b ], [ c ]
-    feature \NV'VV, ->
+    lookup \zlmNVHVV \rlig ->
       for a in VOWELS
         for [ c, d ] in DIPHTH
           sub \NULL, a, \H, c, d, cas [ a ], [ c, d ]
 
   section "4-part ligatures", ->
-    feature \VV'V, ->
+    lookup \zlmVVHV \rlig ->
       ignore \@consonant \@vowel \@vowel \ZLM_H \@vowel
       for [ a, b ] in DIPHTH
         for v in VOWELS
           sub-tick a, b, \H, v, cas [ a, b ], [ v ]
-    feature \NV'V, ->
+    lookup \zlmNVHV \rlig ->
       for a in VOWELS
         for b in VOWELS
           sub-tick \NULL, a, \H, b, cas [ a ], [ b ]
-    feature \V'VV, ->
+    lookup \zlmVHVV \rlig ->
       ignore \@consonant \@vowel \ZLM_H \@vowel \@vowel
       for v in VOWELS
         for [ a, b ] in DIPHTH
           sub-tick v, \H, a, b, cas [ v ], [ a, b ]
 
   section "3-part ligatures", ->
-    feature \V'V, ->
+    lookup \zlmVHV \rlig ->
       ignore \@consonant \@vowel \ZLM_H \@vowel
       for a in VOWELS
         for b in VOWELS
           sub-tick a, \H, b, cas [ a ], [ b ]
-    feature \QVV, ->
+    lookup \zlmQVV \rlig ->
       ignore \@consonant \@vowel \@vowel \@vowel
       for q in SEMIV
         for [ a, b ] in DIPHTH
           sub-tick q, a, b, glyph q + a + b
-    feature \WVV, ->
+    lookup \zlmWVV \rlig ->
       ignore \@consonant \@vowel \@vowel \@vowel
       for q in SEMIV
         for [ a, b ] in DIPHTH
           sub-tick (to-v q), a, b, glyph q + a + b
-    feature \CVV, ->
+    lookup \zlmCVV \rlig ->
       log "  ignore sub @consonant' @vowel' @vowel' @vowel;"
       for c in CONSN
         for [ a, b ] in DIPHTH
           sub-tick c, a, b, glyph c + a + b
 
   section "2-part ligatures", ->
-    feature \QV, ->
+    lookup \zlmQV \rlig ->
       for q in SEMIV
         for v in VOWELS
           sub q, v, glyph q + v
-    feature \WV, ->
+    lookup \zlmWV \rlig ->
       for q in SEMIV
         for v in VOWELS
           sub (to-v q), v, glyph q + v
-    feature \CV, ->
+    lookup \zlmCV \rlig ->
       for c in CONSN
         for v in VOWELS
           sub c, v, glyph c + v
-    feature \VV, ->
+    lookup \zlmVV \rlig ->
       for [ a, b ] in DIPHTH
         sub a, b, glyph a + b
-    feature "\NV", ->
+    lookup \zlmNV \rlig ->
       ignore \@anything \@vowel
       for v in ALL_VOWELS
         sub-tick \NULL, v, dot v
 
   section "symbols", ->
-    feature "bahebu", ->
+    lookup \zlmBahebu \rlig ->
       sub \BAHEBU_1, \BAHEBU_1, \BAHEBU_1, \ZLM_BAHEBU_3
       sub \BAHEBU_1, \BAHEBU_1, \ZLM_BAHEBU_2
-    feature "smajibu initial", ->
+    lookup \zlmSmajibuInit \rlig ->
       log "  ignore sub ZLM_DASH_MEDI ZLM_DASH_MEDI';"
       log "  ignore sub ZLM_DASH_INIT ZLM_DASH_MEDI';"
       log "  sub ZLM_DASH_MEDI' ZLM_DASH_MEDI by ZLM_DASH_INIT;"
       log "  sub ZLM_DASH_MEDI' ZLM_DASH_FINAL by ZLM_DASH_INIT;"
-    feature "smajibu final", ->
+    lookup \zlmSmajibuFinal \rlig ->
       log "  ignore sub ZLM_DASH_MEDI' ZLM_DASH_MEDI;"
       log "  ignore sub ZLM_DASH_MEDI' ZLM_DASH_FINAL;"
       log "  sub ZLM_DASH_MEDI ZLM_DASH_MEDI' by ZLM_DASH_FINAL;"
       log "  sub ZLM_DASH_INIT ZLM_DASH_MEDI' by ZLM_DASH_FINAL;"
-    feature "smajibu iso", ->
+    lookup \zlmSmajibuIso \rlig ->
       log "  ignore sub ZLM_DASH_MEDI ZLM_DASH_MEDI' ZLM_DASH_MEDI;"
       log "  ignore sub ZLM_DASH_INIT ZLM_DASH_MEDI' ZLM_DASH_MEDI;"
       log "  ignore sub ZLM_DASH_MEDI ZLM_DASH_MEDI' ZLM_DASH_FINAL;"
@@ -228,10 +233,19 @@ languagesystem grek dflt;"
       log "  ignore sub ZLM_DASH_INIT ZLM_DASH_MEDI';"
       log "  sub ZLM_DASH_MEDI' by ZLM_DASH_ISO;"
 
-  section "Single Substitutions", ->
-    feature ".V", ->
+  section "Self-dotting subs", ->
+    lookup \zlmSelfDottingVowels \rlig ->
       ignore \@anything \@vowel
       log "  ignore sub ZLM_SLAKABU @vowel';"
       log "  ignore sub @vowel' ZLM_SLAKABU;"
       for v in ALL_VOWELS
         sub-tick v, dot v
+
+  for f in Object.keys(lookups)
+    log "feature #f {"
+    for lang in langs
+      log "  script #{lang[0]};"
+      log "    language #{lang[1]};"
+      for l in lookups[f]
+        log "    lookup #l;"
+    log "} #f;\n"
