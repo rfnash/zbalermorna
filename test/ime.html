@@ -43,6 +43,8 @@
   <div class="container">
     <div class="row">
       <div class="column">
+        <a href="index.html" class="button u-pull-left back-button">← Back to examiner</a>
+
         <h1>Zbalermorna IME</h1>
 
         <select id="font-selector">
@@ -73,6 +75,7 @@
       </div>
     </div>
   </div>
+  <script type="text/javascript" src="zbalermorna.js"></script>
 <script>
 
 const font_selector = document.getElementById('font-selector');
@@ -119,19 +122,13 @@ HTMLTextAreaElement.prototype.uSelectionEnd = function() {
 }
 
 // Config
-
-const UNICODE_RANGE_START = 0xE2300;
-const UNICODE_FULL_VOWEL_START = 0xE24F1;
 const top_diacritics =     [0xe2450, 0xe2460, 0xe2470, 0xe2480, 
                             0xe2490, 0xe24a0, 0xe24b0, 0xe24c0, 
                             0xe24d0, 0xe24e0];
 const bottom_diacritics =  [0xe231f, 0xe232f, 0xe233f, 0xe234f,
                             0xe235f, 0xe236f, 0xe237f, 0xe238f, 
                             0xe239f, 0xe23bf, 0xe23cf];
-const diacritics = top_diacritics.concat(bottom_diacritics);
-
-const lerfu = ".'ptkflscmxbdgvrzjnqwaeiouy";
-const fullVowels = "AEIOUY";
+const diacritics = top_diacritics.concat(bottom_diacritics);;
 
 // Global Helpers
 
@@ -165,51 +162,6 @@ function deferOf (λ) {
   return function () { defer(λ); };
 }
 
-
-// Domain Helpers
-
-function formatUnicode (point) {
-  return String.fromCodePoint(point);
-}
-
-function parseCharacter(c) {
-  log(c);
-  if (c.codePointAt(0) >= 0xe2300) {
-    ta.insertAtCaret(c);
-  }
-  if (c == " ")
-    ta.insertAtCaret(" ");
-  if (c == "h" || c == "H")
-    c = "'";
-  if (c == ",")
-    ta.insertAtCaret(formatUnicode(0xe230f)); // ZLM_SLAKABU
-  if (c == "~")
-    ta.insertAtCaret(formatUnicode(0xe238f)); // ZLM_STRETCH
-  if (c == "-")
-    ta.insertAtCaret(formatUnicode(0xe23af)); // ZLM_DASH_MEDI (smajibu)
-  if (c == "!")
-    ta.insertAtCaret(formatUnicode(0xe235f)); // ZLM_BAHEBU
-  // if (c == ":" || c == "\"")
-  //   ta.insertAtCaret(formatUnicode(0xe24f0)); // these ligatures aren't supported by the font standard yet
-  if (c == "1")
-    ta.insertAtCaret(formatUnicode(0xe231F)); // ZLM_TONE_UP
-  if (c == "2")
-    ta.insertAtCaret(formatUnicode(0xe232F)); // ZLM_TONE_DOWN
-  if (c == "3")
-    ta.insertAtCaret(formatUnicode(0xe233F)); // ZLM_TONE_UP_DOWN
-  if (c == "4")
-    ta.insertAtCaret(formatUnicode(0xe234F)); // ZLM_TONE_DOWN_UP
-  if (fullVowels.indexOf(c) >= 0)
-    ta.insertAtCaret(formatUnicode(UNICODE_FULL_VOWEL_START + fullVowels.indexOf(c)));
-  else if (lerfu.indexOf(c.toLowerCase()) >= 0)
-    ta.insertAtCaret(formatUnicode(UNICODE_RANGE_START + lerfu.indexOf(c.toLowerCase()) * 16));
-  if (c == "\n")
-    ta.insertAtCaret("\n");
-  if (c == "\t")
-    ta.insertAtCaret("\t");
-  updateHighlighter();
-}
-
 var ta = document.getElementById("textarea");
 var taHL = document.getElementById("textarea-highlight");
 
@@ -238,7 +190,7 @@ function updateHighlighter() {
     for (i = 2; ((rightBitOL != newRightBitOL) || (secondLastCharWidth == 0)) && (i <= 5); i++) {
       var rightBitOL = document.getElementById('rightBit').offsetLeft;
       var newLeft = [...ta.value].slice(0, ta.uSelectionStart() - i).join("");
-      taHL.innerHTML = newLeft + "<span id='leftCharSelector'>" + [...ta.value].slice(ta.uSelectionStart() - i, ta.uSelectionStart() - 1).join("") + "</span>" + selectorPlusRight;
+      taHL.innerHTML = newLeft + "<span id='leftCharSelector'>" + [...ta.value].slice(ta.uSelectionStart() - i, ta.uSelectionStart()).join("") + "</span>" + selectorPlusRight;
       var newRightBitOL = document.getElementById('rightBit').offsetLeft;
 
       secondLastCharWidth = document.getElementById('leftCharSelector').offsetWidth;
@@ -248,11 +200,7 @@ function updateHighlighter() {
     } else {
       document.getElementById('leftCharSelector').className += "top";
     }
-
-
   }
-
-
 }
 
 ta.onkeydown = function(event) {
@@ -269,7 +217,9 @@ ta.onkeydown = function(event) {
     k = "\n";
   if (kc == 9)
     k = "\t";
-  parseCharacter(k);
+
+  ta.insertAtCaret(latinToZbalermorna(k));
+  updateHighlighter();
   return false;
 };
 
@@ -288,13 +238,14 @@ ta.onpaste = function(event) {
   } else if (event.clipboardData && event.clipboardData.getData) {
     text = event.clipboardData.getData('text/plain');
   }
-  console.log(text);
   for (var i = 0; i < [...text].length; i++) {
-    parseCharacter([...text][i]);
+    ta.insertAtCaret(latinToZbalermorna([...text][i]));
   }
-  taHL.innerHTML = ta.value;
+  updateHighlighter();
   return false;
 }; 
+
+ta.focus();
 
 </script>
 </body>

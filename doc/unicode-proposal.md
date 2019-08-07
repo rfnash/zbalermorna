@@ -52,8 +52,8 @@ U+E24FA    󢓺 cluraubu            ZBALERMORNA LETTER FULL AUBU
 
 U+E230F    󢌏 slakabu             ZBALERMORNA SYMBOL FOR SLAKABU
 U+E231F    󢌟 bahotongabu         ZBALERMORNA COMBINING BAHOTONGABU
-U+E232F    󢌯 suhutongabu         ZBALERMORNA COMBINING SUHUTONGABU
-U+E233F    󢌿 bahorsuhutongabu    ZBALERMORNA COMBINING BAHORSUHUTONGABU
+U+E232F    󢌯 subytongabu         ZBALERMORNA COMBINING SUBYTONGABU
+U+E233F    󢌿 bahorsubytongabu    ZBALERMORNA COMBINING BAHORSUBYTONGABU
 U+E234F    󢍏 suhurbahutongabu    ZBALERMORNA COMBINING SUHURBAHUTONGABU
 U+E235F    󢍟 bahebu              ZBALERMORNA COMBINING BAHEBU
 U+E238F    󢎏 tcenabu             ZBALERMORNA COMBINING TCENABU
@@ -67,12 +67,28 @@ Native Lojban names should/could be used for all of the glyphs - some options fo
 ```
 stretch:    tcena   -ten-
 
+brato'a  t1 is a tone high in pitch/frequency from source t3.
+cmato'a  t1 is a tone low in pitch/frequency from source t3.
+cmabrato'a low-high pitch
+bracmato'a high-low pitch
+
+togystika x1 is a musical accidental (e.g. sharp, flat, or natural) modifying note x2 by a change of x3 to a pitch of x4.
+
 tone:       tonga   -tog-   -to'a-  
 rising:     banro   -ba'o-  
 diving:     sfubu   -sub-   -su'u-  
 
+ba'orto'a
+subyto'a
+ba'orsubyto'a
+
+zengau in sense "make greater"
+cmaze'a in sense "become diminished"
+zgito'a in sense "of note" on place 2
+
+galcparetonga
 ba'otonga
-su'utonga
+fa'urtonga
 ba'orsu'utonga
 su'urba'otonga
 ```
@@ -140,8 +156,8 @@ cluraubu
 
 slakabu
 bahotongabu
-suhutongabu
-bahorsuhutongabu
+subytongabu
+bahorsubytongabu
 suhurbahutongabu
 bahebu
 bahebu_bahebu

@@ -15,16 +15,14 @@ TESTDIR="test/font"
 echo ""
 echo "Building feature: src/zlm.fea"
 
-lsc tools/zlm.feature.ls > src/zlm.fea
+lsc tools/zlm.fea.ls > src/zlm.fea
 
 # Generate incorporating common feature file
 echo ""
 echo "Building font: $INFILE -> $OUTFILE"
 echo ""
 
-
-"/c/Program Files (x86)/FontForgeBuilds/bin/fontforge.exe" -lang=ff -script build.pe $1
-
+fontforge -lang=ff -script build.pe $1
 
 # Copy generated file to update test page
 if [ "$2" == "--update-test" ]; then

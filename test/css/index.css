@@ -1,5 +1,5 @@
 body {
-  margin: 100px auto 0px;
+  margin: 140px auto 0px;
   font-family: "Lato", "Lato ZLM", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -59,31 +59,6 @@ header select {
   margin-left: auto;
   margin-top: auto;
   margin-bottom: auto;
-}
-
-
-.preview-block {
-  overflow-x: scroll;
-}
-.size-preview {
-  white-space: nowrap;
-  line-height: 120%;
-  color: #eee;
-}
-
-.size-preview:hover, .size-preview:active {
-  color: #000;
-}
-
-.size-preview span {
-  line-height: 100%;
-}
-
-.size-preview dict {
-  width: 350px;
-  display: inline-block;
-  text-align: right;
-  margin-right: 50px;
 }
 
 .table-row {

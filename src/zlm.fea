@@ -1,5 +1,5 @@
-# This file is generated automatically by tools/zlm.feature.ls
-# Run 'lsc tools/zlm.feature.ls > src/zlm.fea' to update it
+# This file is generated automatically by tools/zlm.fea.ls
+# Run 'lsc tools/zlm.fea.ls > src/zlm.fea' to update it
 #
 # This file is designed in conjunction with the build.pe script to replace
 # the lookup tables so that they aren't appended and get out of control.

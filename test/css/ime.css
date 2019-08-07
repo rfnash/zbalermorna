@@ -95,3 +95,8 @@ code, .zlm {
 	font-size: 110%;
 	line-height: 100%;
 }
+
+.back-button {
+	position: absolute;
+	top: 15px;
+}

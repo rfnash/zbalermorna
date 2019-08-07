@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1564760079
-ModificationTime: 1564968393
+ModificationTime: 1565135494
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -453,6 +453,279 @@ Lookup: 1 0 0 "Single Substitution lookup 392" { "Single Substitution lookup 392
 Lookup: 1 0 0 "Single Substitution lookup 393" { "Single Substitution lookup 393 subtable"  } []
 Lookup: 1 0 0 "'salt' Stylistic Alternatives lookup 394" { "'salt' Stylistic Alternatives lookup 394 subtable"  } ['salt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AFK ' 'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'PLK ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > 'zinh' <'dflt' > 'zyyy' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss01' Style Set 1 lookup 395" { "'ss01' Style Set 1 lookup 395 subtable"  } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'AFK ' 'AZE ' 'CAT ' 'CRT ' 'KAZ ' 'MOL ' 'PLK ' 'ROM ' 'TAT ' 'TRK ' 'dflt' > 'zinh' <'dflt' > 'zyyy' <'dflt' > ) ]
+Lookup: 4 0 1 "zlmFF" { "zlmFF subtable"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 1 "zlmSFF" { "zlmSFF subtable"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 1 "zlmSF" { "zlmSF subtable"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 1 "zlmNVVHVV" { "zlmNVVHVV subtable"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "zlmVVHVV" { "zlmVVHVV contextual 0"  "zlmVVHVV contextual 1"  "zlmVVHVV contextual 2"  "zlmVVHVV contextual 3"  "zlmVVHVV contextual 4"  "zlmVVHVV contextual 5"  "zlmVVHVV contextual 6"  "zlmVVHVV contextual 7"  "zlmVVHVV contextual 8"  "zlmVVHVV contextual 9"  "zlmVVHVV contextual 10"  "zlmVVHVV contextual 11"  "zlmVVHVV contextual 12"  "zlmVVHVV contextual 13"  "zlmVVHVV contextual 14"  "zlmVVHVV contextual 15"  "zlmVVHVV contextual 16"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 0 "Ligature Substitution lookup 401" { "Ligature Substitution lookup 401 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 402" { "Ligature Substitution lookup 402 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 403" { "Ligature Substitution lookup 403 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 404" { "Ligature Substitution lookup 404 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 405" { "Ligature Substitution lookup 405 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 406" { "Ligature Substitution lookup 406 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 407" { "Ligature Substitution lookup 407 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 408" { "Ligature Substitution lookup 408 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 409" { "Ligature Substitution lookup 409 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 410" { "Ligature Substitution lookup 410 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 411" { "Ligature Substitution lookup 411 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 412" { "Ligature Substitution lookup 412 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 413" { "Ligature Substitution lookup 413 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 414" { "Ligature Substitution lookup 414 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 415" { "Ligature Substitution lookup 415 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 416" { "Ligature Substitution lookup 416 subtable"  } []
+Lookup: 4 0 1 "zlmNVVHV" { "zlmNVVHV subtable"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 1 "zlmNVHVV" { "zlmNVHVV subtable"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "zlmVVHV" { "zlmVVHV contextual 0"  "zlmVVHV contextual 1"  "zlmVVHV contextual 2"  "zlmVVHV contextual 3"  "zlmVVHV contextual 4"  "zlmVVHV contextual 5"  "zlmVVHV contextual 6"  "zlmVVHV contextual 7"  "zlmVVHV contextual 8"  "zlmVVHV contextual 9"  "zlmVVHV contextual 10"  "zlmVVHV contextual 11"  "zlmVVHV contextual 12"  "zlmVVHV contextual 13"  "zlmVVHV contextual 14"  "zlmVVHV contextual 15"  "zlmVVHV contextual 16"  "zlmVVHV contextual 17"  "zlmVVHV contextual 18"  "zlmVVHV contextual 19"  "zlmVVHV contextual 20"  "zlmVVHV contextual 21"  "zlmVVHV contextual 22"  "zlmVVHV contextual 23"  "zlmVVHV contextual 24"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 0 "Ligature Substitution lookup 420" { "Ligature Substitution lookup 420 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 421" { "Ligature Substitution lookup 421 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 422" { "Ligature Substitution lookup 422 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 423" { "Ligature Substitution lookup 423 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 424" { "Ligature Substitution lookup 424 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 425" { "Ligature Substitution lookup 425 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 426" { "Ligature Substitution lookup 426 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 427" { "Ligature Substitution lookup 427 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 428" { "Ligature Substitution lookup 428 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 429" { "Ligature Substitution lookup 429 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 430" { "Ligature Substitution lookup 430 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 431" { "Ligature Substitution lookup 431 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 432" { "Ligature Substitution lookup 432 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 433" { "Ligature Substitution lookup 433 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 434" { "Ligature Substitution lookup 434 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 435" { "Ligature Substitution lookup 435 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 436" { "Ligature Substitution lookup 436 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 437" { "Ligature Substitution lookup 437 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 438" { "Ligature Substitution lookup 438 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 439" { "Ligature Substitution lookup 439 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 440" { "Ligature Substitution lookup 440 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 441" { "Ligature Substitution lookup 441 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 442" { "Ligature Substitution lookup 442 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 443" { "Ligature Substitution lookup 443 subtable"  } []
+Lookup: 6 0 0 "zlmNVHV" { "zlmNVHV contextual 0"  "zlmNVHV contextual 1"  "zlmNVHV contextual 2"  "zlmNVHV contextual 3"  "zlmNVHV contextual 4"  "zlmNVHV contextual 5"  "zlmNVHV contextual 6"  "zlmNVHV contextual 7"  "zlmNVHV contextual 8"  "zlmNVHV contextual 9"  "zlmNVHV contextual 10"  "zlmNVHV contextual 11"  "zlmNVHV contextual 12"  "zlmNVHV contextual 13"  "zlmNVHV contextual 14"  "zlmNVHV contextual 15"  "zlmNVHV contextual 16"  "zlmNVHV contextual 17"  "zlmNVHV contextual 18"  "zlmNVHV contextual 19"  "zlmNVHV contextual 20"  "zlmNVHV contextual 21"  "zlmNVHV contextual 22"  "zlmNVHV contextual 23"  "zlmNVHV contextual 24"  "zlmNVHV contextual 25"  "zlmNVHV contextual 26"  "zlmNVHV contextual 27"  "zlmNVHV contextual 28"  "zlmNVHV contextual 29"  "zlmNVHV contextual 30"  "zlmNVHV contextual 31"  "zlmNVHV contextual 32"  "zlmNVHV contextual 33"  "zlmNVHV contextual 34"  "zlmNVHV contextual 35"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 0 "Ligature Substitution lookup 445" { "Ligature Substitution lookup 445 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 446" { "Ligature Substitution lookup 446 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 447" { "Ligature Substitution lookup 447 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 448" { "Ligature Substitution lookup 448 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 449" { "Ligature Substitution lookup 449 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 450" { "Ligature Substitution lookup 450 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 451" { "Ligature Substitution lookup 451 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 452" { "Ligature Substitution lookup 452 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 453" { "Ligature Substitution lookup 453 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 454" { "Ligature Substitution lookup 454 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 455" { "Ligature Substitution lookup 455 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 456" { "Ligature Substitution lookup 456 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 457" { "Ligature Substitution lookup 457 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 458" { "Ligature Substitution lookup 458 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 459" { "Ligature Substitution lookup 459 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 460" { "Ligature Substitution lookup 460 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 461" { "Ligature Substitution lookup 461 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 462" { "Ligature Substitution lookup 462 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 463" { "Ligature Substitution lookup 463 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 464" { "Ligature Substitution lookup 464 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 465" { "Ligature Substitution lookup 465 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 466" { "Ligature Substitution lookup 466 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 467" { "Ligature Substitution lookup 467 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 468" { "Ligature Substitution lookup 468 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 469" { "Ligature Substitution lookup 469 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 470" { "Ligature Substitution lookup 470 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 471" { "Ligature Substitution lookup 471 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 472" { "Ligature Substitution lookup 472 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 473" { "Ligature Substitution lookup 473 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 474" { "Ligature Substitution lookup 474 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 475" { "Ligature Substitution lookup 475 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 476" { "Ligature Substitution lookup 476 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 477" { "Ligature Substitution lookup 477 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 478" { "Ligature Substitution lookup 478 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 479" { "Ligature Substitution lookup 479 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 480" { "Ligature Substitution lookup 480 subtable"  } []
+Lookup: 6 0 0 "zlmVHVV" { "zlmVHVV contextual 0"  "zlmVHVV contextual 1"  "zlmVHVV contextual 2"  "zlmVHVV contextual 3"  "zlmVHVV contextual 4"  "zlmVHVV contextual 5"  "zlmVHVV contextual 6"  "zlmVHVV contextual 7"  "zlmVHVV contextual 8"  "zlmVHVV contextual 9"  "zlmVHVV contextual 10"  "zlmVHVV contextual 11"  "zlmVHVV contextual 12"  "zlmVHVV contextual 13"  "zlmVHVV contextual 14"  "zlmVHVV contextual 15"  "zlmVHVV contextual 16"  "zlmVHVV contextual 17"  "zlmVHVV contextual 18"  "zlmVHVV contextual 19"  "zlmVHVV contextual 20"  "zlmVHVV contextual 21"  "zlmVHVV contextual 22"  "zlmVHVV contextual 23"  "zlmVHVV contextual 24"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 0 "Ligature Substitution lookup 482" { "Ligature Substitution lookup 482 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 483" { "Ligature Substitution lookup 483 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 484" { "Ligature Substitution lookup 484 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 485" { "Ligature Substitution lookup 485 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 486" { "Ligature Substitution lookup 486 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 487" { "Ligature Substitution lookup 487 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 488" { "Ligature Substitution lookup 488 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 489" { "Ligature Substitution lookup 489 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 490" { "Ligature Substitution lookup 490 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 491" { "Ligature Substitution lookup 491 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 492" { "Ligature Substitution lookup 492 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 493" { "Ligature Substitution lookup 493 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 494" { "Ligature Substitution lookup 494 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 495" { "Ligature Substitution lookup 495 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 496" { "Ligature Substitution lookup 496 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 497" { "Ligature Substitution lookup 497 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 498" { "Ligature Substitution lookup 498 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 499" { "Ligature Substitution lookup 499 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 500" { "Ligature Substitution lookup 500 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 501" { "Ligature Substitution lookup 501 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 502" { "Ligature Substitution lookup 502 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 503" { "Ligature Substitution lookup 503 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 504" { "Ligature Substitution lookup 504 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 505" { "Ligature Substitution lookup 505 subtable"  } []
+Lookup: 6 0 0 "zlmVHV" { "zlmVHV contextual 0"  "zlmVHV contextual 1"  "zlmVHV contextual 2"  "zlmVHV contextual 3"  "zlmVHV contextual 4"  "zlmVHV contextual 5"  "zlmVHV contextual 6"  "zlmVHV contextual 7"  "zlmVHV contextual 8"  "zlmVHV contextual 9"  "zlmVHV contextual 10"  "zlmVHV contextual 11"  "zlmVHV contextual 12"  "zlmVHV contextual 13"  "zlmVHV contextual 14"  "zlmVHV contextual 15"  "zlmVHV contextual 16"  "zlmVHV contextual 17"  "zlmVHV contextual 18"  "zlmVHV contextual 19"  "zlmVHV contextual 20"  "zlmVHV contextual 21"  "zlmVHV contextual 22"  "zlmVHV contextual 23"  "zlmVHV contextual 24"  "zlmVHV contextual 25"  "zlmVHV contextual 26"  "zlmVHV contextual 27"  "zlmVHV contextual 28"  "zlmVHV contextual 29"  "zlmVHV contextual 30"  "zlmVHV contextual 31"  "zlmVHV contextual 32"  "zlmVHV contextual 33"  "zlmVHV contextual 34"  "zlmVHV contextual 35"  "zlmVHV contextual 36"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 0 "Ligature Substitution lookup 507" { "Ligature Substitution lookup 507 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 508" { "Ligature Substitution lookup 508 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 509" { "Ligature Substitution lookup 509 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 510" { "Ligature Substitution lookup 510 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 511" { "Ligature Substitution lookup 511 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 512" { "Ligature Substitution lookup 512 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 513" { "Ligature Substitution lookup 513 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 514" { "Ligature Substitution lookup 514 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 515" { "Ligature Substitution lookup 515 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 516" { "Ligature Substitution lookup 516 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 517" { "Ligature Substitution lookup 517 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 518" { "Ligature Substitution lookup 518 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 519" { "Ligature Substitution lookup 519 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 520" { "Ligature Substitution lookup 520 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 521" { "Ligature Substitution lookup 521 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 522" { "Ligature Substitution lookup 522 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 523" { "Ligature Substitution lookup 523 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 524" { "Ligature Substitution lookup 524 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 525" { "Ligature Substitution lookup 525 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 526" { "Ligature Substitution lookup 526 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 527" { "Ligature Substitution lookup 527 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 528" { "Ligature Substitution lookup 528 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 529" { "Ligature Substitution lookup 529 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 530" { "Ligature Substitution lookup 530 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 531" { "Ligature Substitution lookup 531 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 532" { "Ligature Substitution lookup 532 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 533" { "Ligature Substitution lookup 533 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 534" { "Ligature Substitution lookup 534 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 535" { "Ligature Substitution lookup 535 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 536" { "Ligature Substitution lookup 536 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 537" { "Ligature Substitution lookup 537 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 538" { "Ligature Substitution lookup 538 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 539" { "Ligature Substitution lookup 539 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 540" { "Ligature Substitution lookup 540 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 541" { "Ligature Substitution lookup 541 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 542" { "Ligature Substitution lookup 542 subtable"  } []
+Lookup: 6 0 0 "zlmQVV" { "zlmQVV contextual 0"  "zlmQVV contextual 1"  "zlmQVV contextual 2"  "zlmQVV contextual 3"  "zlmQVV contextual 4"  "zlmQVV contextual 5"  "zlmQVV contextual 6"  "zlmQVV contextual 7"  "zlmQVV contextual 8"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 0 "Ligature Substitution lookup 544" { "Ligature Substitution lookup 544 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 545" { "Ligature Substitution lookup 545 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 546" { "Ligature Substitution lookup 546 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 547" { "Ligature Substitution lookup 547 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 548" { "Ligature Substitution lookup 548 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 549" { "Ligature Substitution lookup 549 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 550" { "Ligature Substitution lookup 550 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 551" { "Ligature Substitution lookup 551 subtable"  } []
+Lookup: 6 0 0 "zlmWVV" { "zlmWVV contextual 0"  "zlmWVV contextual 1"  "zlmWVV contextual 2"  "zlmWVV contextual 3"  "zlmWVV contextual 4"  "zlmWVV contextual 5"  "zlmWVV contextual 6"  "zlmWVV contextual 7"  "zlmWVV contextual 8"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 0 "Ligature Substitution lookup 553" { "Ligature Substitution lookup 553 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 554" { "Ligature Substitution lookup 554 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 555" { "Ligature Substitution lookup 555 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 556" { "Ligature Substitution lookup 556 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 557" { "Ligature Substitution lookup 557 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 558" { "Ligature Substitution lookup 558 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 559" { "Ligature Substitution lookup 559 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 560" { "Ligature Substitution lookup 560 subtable"  } []
+Lookup: 6 0 0 "zlmCVV" { "zlmCVV contextual 0"  "zlmCVV contextual 1"  "zlmCVV contextual 2"  "zlmCVV contextual 3"  "zlmCVV contextual 4"  "zlmCVV contextual 5"  "zlmCVV contextual 6"  "zlmCVV contextual 7"  "zlmCVV contextual 8"  "zlmCVV contextual 9"  "zlmCVV contextual 10"  "zlmCVV contextual 11"  "zlmCVV contextual 12"  "zlmCVV contextual 13"  "zlmCVV contextual 14"  "zlmCVV contextual 15"  "zlmCVV contextual 16"  "zlmCVV contextual 17"  "zlmCVV contextual 18"  "zlmCVV contextual 19"  "zlmCVV contextual 20"  "zlmCVV contextual 21"  "zlmCVV contextual 22"  "zlmCVV contextual 23"  "zlmCVV contextual 24"  "zlmCVV contextual 25"  "zlmCVV contextual 26"  "zlmCVV contextual 27"  "zlmCVV contextual 28"  "zlmCVV contextual 29"  "zlmCVV contextual 30"  "zlmCVV contextual 31"  "zlmCVV contextual 32"  "zlmCVV contextual 33"  "zlmCVV contextual 34"  "zlmCVV contextual 35"  "zlmCVV contextual 36"  "zlmCVV contextual 37"  "zlmCVV contextual 38"  "zlmCVV contextual 39"  "zlmCVV contextual 40"  "zlmCVV contextual 41"  "zlmCVV contextual 42"  "zlmCVV contextual 43"  "zlmCVV contextual 44"  "zlmCVV contextual 45"  "zlmCVV contextual 46"  "zlmCVV contextual 47"  "zlmCVV contextual 48"  "zlmCVV contextual 49"  "zlmCVV contextual 50"  "zlmCVV contextual 51"  "zlmCVV contextual 52"  "zlmCVV contextual 53"  "zlmCVV contextual 54"  "zlmCVV contextual 55"  "zlmCVV contextual 56"  "zlmCVV contextual 57"  "zlmCVV contextual 58"  "zlmCVV contextual 59"  "zlmCVV contextual 60"  "zlmCVV contextual 61"  "zlmCVV contextual 62"  "zlmCVV contextual 63"  "zlmCVV contextual 64"  "zlmCVV contextual 65"  "zlmCVV contextual 66"  "zlmCVV contextual 67"  "zlmCVV contextual 68"  "zlmCVV contextual 69"  "zlmCVV contextual 70"  "zlmCVV contextual 71"  "zlmCVV contextual 72"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 0 "Ligature Substitution lookup 562" { "Ligature Substitution lookup 562 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 563" { "Ligature Substitution lookup 563 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 564" { "Ligature Substitution lookup 564 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 565" { "Ligature Substitution lookup 565 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 566" { "Ligature Substitution lookup 566 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 567" { "Ligature Substitution lookup 567 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 568" { "Ligature Substitution lookup 568 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 569" { "Ligature Substitution lookup 569 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 570" { "Ligature Substitution lookup 570 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 571" { "Ligature Substitution lookup 571 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 572" { "Ligature Substitution lookup 572 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 573" { "Ligature Substitution lookup 573 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 574" { "Ligature Substitution lookup 574 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 575" { "Ligature Substitution lookup 575 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 576" { "Ligature Substitution lookup 576 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 577" { "Ligature Substitution lookup 577 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 578" { "Ligature Substitution lookup 578 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 579" { "Ligature Substitution lookup 579 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 580" { "Ligature Substitution lookup 580 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 581" { "Ligature Substitution lookup 581 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 582" { "Ligature Substitution lookup 582 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 583" { "Ligature Substitution lookup 583 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 584" { "Ligature Substitution lookup 584 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 585" { "Ligature Substitution lookup 585 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 586" { "Ligature Substitution lookup 586 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 587" { "Ligature Substitution lookup 587 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 588" { "Ligature Substitution lookup 588 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 589" { "Ligature Substitution lookup 589 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 590" { "Ligature Substitution lookup 590 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 591" { "Ligature Substitution lookup 591 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 592" { "Ligature Substitution lookup 592 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 593" { "Ligature Substitution lookup 593 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 594" { "Ligature Substitution lookup 594 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 595" { "Ligature Substitution lookup 595 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 596" { "Ligature Substitution lookup 596 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 597" { "Ligature Substitution lookup 597 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 598" { "Ligature Substitution lookup 598 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 599" { "Ligature Substitution lookup 599 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 600" { "Ligature Substitution lookup 600 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 601" { "Ligature Substitution lookup 601 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 602" { "Ligature Substitution lookup 602 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 603" { "Ligature Substitution lookup 603 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 604" { "Ligature Substitution lookup 604 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 605" { "Ligature Substitution lookup 605 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 606" { "Ligature Substitution lookup 606 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 607" { "Ligature Substitution lookup 607 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 608" { "Ligature Substitution lookup 608 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 609" { "Ligature Substitution lookup 609 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 610" { "Ligature Substitution lookup 610 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 611" { "Ligature Substitution lookup 611 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 612" { "Ligature Substitution lookup 612 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 613" { "Ligature Substitution lookup 613 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 614" { "Ligature Substitution lookup 614 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 615" { "Ligature Substitution lookup 615 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 616" { "Ligature Substitution lookup 616 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 617" { "Ligature Substitution lookup 617 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 618" { "Ligature Substitution lookup 618 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 619" { "Ligature Substitution lookup 619 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 620" { "Ligature Substitution lookup 620 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 621" { "Ligature Substitution lookup 621 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 622" { "Ligature Substitution lookup 622 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 623" { "Ligature Substitution lookup 623 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 624" { "Ligature Substitution lookup 624 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 625" { "Ligature Substitution lookup 625 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 626" { "Ligature Substitution lookup 626 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 627" { "Ligature Substitution lookup 627 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 628" { "Ligature Substitution lookup 628 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 629" { "Ligature Substitution lookup 629 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 630" { "Ligature Substitution lookup 630 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 631" { "Ligature Substitution lookup 631 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 632" { "Ligature Substitution lookup 632 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 633" { "Ligature Substitution lookup 633 subtable"  } []
+Lookup: 4 0 1 "zlmQV" { "zlmQV subtable"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 1 "zlmWV" { "zlmWV subtable"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 1 "zlmCV" { "zlmCV subtable"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 1 "zlmVV" { "zlmVV subtable"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "zlmNV" { "zlmNV contextual 0"  "zlmNV contextual 1"  "zlmNV contextual 2"  "zlmNV contextual 3"  "zlmNV contextual 4"  "zlmNV contextual 5"  "zlmNV contextual 6"  "zlmNV contextual 7"  "zlmNV contextual 8"  "zlmNV contextual 9"  "zlmNV contextual 10"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 0 "Ligature Substitution lookup 639" { "Ligature Substitution lookup 639 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 640" { "Ligature Substitution lookup 640 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 641" { "Ligature Substitution lookup 641 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 642" { "Ligature Substitution lookup 642 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 643" { "Ligature Substitution lookup 643 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 644" { "Ligature Substitution lookup 644 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 645" { "Ligature Substitution lookup 645 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 646" { "Ligature Substitution lookup 646 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 647" { "Ligature Substitution lookup 647 subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution lookup 648" { "Ligature Substitution lookup 648 subtable"  } []
+Lookup: 4 0 1 "zlmBahebu" { "zlmBahebu subtable"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "zlmSmajibuInit" { "zlmSmajibuInit contextual 0"  "zlmSmajibuInit contextual 1"  "zlmSmajibuInit contextual 2"  "zlmSmajibuInit contextual 3"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 651" { "Single Substitution lookup 651 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 652" { "Single Substitution lookup 652 subtable"  } []
+Lookup: 6 0 0 "zlmSmajibuFinal" { "zlmSmajibuFinal contextual 0"  "zlmSmajibuFinal contextual 1"  "zlmSmajibuFinal contextual 2"  "zlmSmajibuFinal contextual 3"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 654" { "Single Substitution lookup 654 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 655" { "Single Substitution lookup 655 subtable"  } []
+Lookup: 6 0 0 "zlmSmajibuIso" { "zlmSmajibuIso contextual 0"  "zlmSmajibuIso contextual 1"  "zlmSmajibuIso contextual 2"  "zlmSmajibuIso contextual 3"  "zlmSmajibuIso contextual 4"  "zlmSmajibuIso contextual 5"  "zlmSmajibuIso contextual 6"  "zlmSmajibuIso contextual 7"  "zlmSmajibuIso contextual 8"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 657" { "Single Substitution lookup 657 subtable"  } []
+Lookup: 6 0 0 "zlmSelfDottingVowels" { "zlmSelfDottingVowels contextual 0"  "zlmSelfDottingVowels contextual 1"  "zlmSelfDottingVowels contextual 2"  "zlmSelfDottingVowels contextual 3"  "zlmSelfDottingVowels contextual 4"  "zlmSelfDottingVowels contextual 5"  "zlmSelfDottingVowels contextual 6"  "zlmSelfDottingVowels contextual 7"  "zlmSelfDottingVowels contextual 8"  "zlmSelfDottingVowels contextual 9"  "zlmSelfDottingVowels contextual 10"  "zlmSelfDottingVowels contextual 11"  "zlmSelfDottingVowels contextual 12"  } ['rlig' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 659" { "Single Substitution lookup 659 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 660" { "Single Substitution lookup 660 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 661" { "Single Substitution lookup 661 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 662" { "Single Substitution lookup 662 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 663" { "Single Substitution lookup 663 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 664" { "Single Substitution lookup 664 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 665" { "Single Substitution lookup 665 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 666" { "Single Substitution lookup 666 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 667" { "Single Substitution lookup 667 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 668" { "Single Substitution lookup 668 subtable"  } []
 Lookup: 257 0 0 "'cpsp' Capital Spacing lookup 0" { "'cpsp' Capital Spacing lookup 0 subtable"  } ['cpsp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > 'zinh' <'dflt' > 'zyyy' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 1" { "'mark' Mark Positioning lookup 1 subtable"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > 'zinh' <'dflt' > 'zyyy' <'dflt' > ) ]
 Lookup: 262 16 0 "'mkmk' Mark to Mark lookup 2" { "'mkmk' Mark to Mark lookup 2 subtable"  } ['mkmk' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > 'zinh' <'dflt' > 'zyyy' <'dflt' > ) ]
@@ -462,6 +735,1905 @@ MarkAttachSets: 2
 "MarkSet-0" 23 uni0326 uni0327 uni0345
 "MarkSet-1" 133 uni0308 uni0307 gravecomb acutecomb uni030B uni0302 uni030C uni0306 uni030A tildecomb uni0304 uni0305 uni030F uni0313 uni0314 uni0342
 DEI: 91125
+ChainSub2: glyph "zlmSelfDottingVowels contextual 12" 0 0 0 1
+ String: 16 ZLM_DIACRITIC_AU
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 668"
+EndFPST
+ChainSub2: glyph "zlmSelfDottingVowels contextual 11" 0 0 0 1
+ String: 16 ZLM_DIACRITIC_OI
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 667"
+EndFPST
+ChainSub2: glyph "zlmSelfDottingVowels contextual 10" 0 0 0 1
+ String: 16 ZLM_DIACRITIC_EI
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 666"
+EndFPST
+ChainSub2: glyph "zlmSelfDottingVowels contextual 9" 0 0 0 1
+ String: 16 ZLM_DIACRITIC_AI
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 665"
+EndFPST
+ChainSub2: glyph "zlmSelfDottingVowels contextual 8" 0 0 0 1
+ String: 15 ZLM_DIACRITIC_Y
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 664"
+EndFPST
+ChainSub2: glyph "zlmSelfDottingVowels contextual 7" 0 0 0 1
+ String: 15 ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 663"
+EndFPST
+ChainSub2: glyph "zlmSelfDottingVowels contextual 6" 0 0 0 1
+ String: 15 ZLM_DIACRITIC_O
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 662"
+EndFPST
+ChainSub2: glyph "zlmSelfDottingVowels contextual 5" 0 0 0 1
+ String: 15 ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 661"
+EndFPST
+ChainSub2: glyph "zlmSelfDottingVowels contextual 4" 0 0 0 1
+ String: 15 ZLM_DIACRITIC_E
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 660"
+EndFPST
+ChainSub2: glyph "zlmSelfDottingVowels contextual 3" 0 0 0 1
+ String: 15 ZLM_DIACRITIC_A
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 659"
+EndFPST
+ChainSub2: coverage "zlmSelfDottingVowels contextual 2" 0 0 0 1
+ 1 0 1
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  FCoverage: 11 ZLM_SLAKABU
+ 0
+EndFPST
+ChainSub2: coverage "zlmSelfDottingVowels contextual 1" 0 0 0 1
+ 1 1 0
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  BCoverage: 11 ZLM_SLAKABU
+ 0
+EndFPST
+ChainSub2: coverage "zlmSelfDottingVowels contextual 0" 0 0 0 1
+ 1 1 0
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  BCoverage: 303 ZLM_P ZLM_T ZLM_K ZLM_F ZLM_L ZLM_S ZLM_C ZLM_M ZLM_X ZLM_B ZLM_D ZLM_G ZLM_V ZLM_R ZLM_Z ZLM_J ZLM_N ZLM_H ZLM_SEMIVOWEL_Q ZLM_SEMIVOWEL_W ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+ 0
+EndFPST
+ChainSub2: glyph "zlmSmajibuIso contextual 8" 0 0 0 1
+ String: 13 ZLM_DASH_MEDI
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 657"
+EndFPST
+ChainSub2: glyph "zlmSmajibuIso contextual 7" 0 0 0 1
+ String: 13 ZLM_DASH_MEDI
+ BString: 13 ZLM_DASH_INIT
+ FString: 0 
+ 0
+EndFPST
+ChainSub2: glyph "zlmSmajibuIso contextual 6" 0 0 0 1
+ String: 13 ZLM_DASH_MEDI
+ BString: 0 
+ FString: 14 ZLM_DASH_FINAL
+ 0
+EndFPST
+ChainSub2: glyph "zlmSmajibuIso contextual 5" 0 0 0 1
+ String: 13 ZLM_DASH_MEDI
+ BString: 13 ZLM_DASH_MEDI
+ FString: 0 
+ 0
+EndFPST
+ChainSub2: glyph "zlmSmajibuIso contextual 4" 0 0 0 1
+ String: 13 ZLM_DASH_MEDI
+ BString: 0 
+ FString: 13 ZLM_DASH_MEDI
+ 0
+EndFPST
+ChainSub2: glyph "zlmSmajibuIso contextual 3" 0 0 0 1
+ String: 13 ZLM_DASH_MEDI
+ BString: 13 ZLM_DASH_INIT
+ FString: 14 ZLM_DASH_FINAL
+ 0
+EndFPST
+ChainSub2: glyph "zlmSmajibuIso contextual 2" 0 0 0 1
+ String: 13 ZLM_DASH_MEDI
+ BString: 13 ZLM_DASH_MEDI
+ FString: 14 ZLM_DASH_FINAL
+ 0
+EndFPST
+ChainSub2: glyph "zlmSmajibuIso contextual 1" 0 0 0 1
+ String: 13 ZLM_DASH_MEDI
+ BString: 13 ZLM_DASH_INIT
+ FString: 13 ZLM_DASH_MEDI
+ 0
+EndFPST
+ChainSub2: glyph "zlmSmajibuIso contextual 0" 0 0 0 1
+ String: 13 ZLM_DASH_MEDI
+ BString: 13 ZLM_DASH_MEDI
+ FString: 13 ZLM_DASH_MEDI
+ 0
+EndFPST
+ChainSub2: glyph "zlmSmajibuFinal contextual 3" 0 0 0 1
+ String: 13 ZLM_DASH_MEDI
+ BString: 13 ZLM_DASH_INIT
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 655"
+EndFPST
+ChainSub2: glyph "zlmSmajibuFinal contextual 2" 0 0 0 1
+ String: 13 ZLM_DASH_MEDI
+ BString: 13 ZLM_DASH_MEDI
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 654"
+EndFPST
+ChainSub2: glyph "zlmSmajibuFinal contextual 1" 0 0 0 1
+ String: 13 ZLM_DASH_MEDI
+ BString: 0 
+ FString: 14 ZLM_DASH_FINAL
+ 0
+EndFPST
+ChainSub2: glyph "zlmSmajibuFinal contextual 0" 0 0 0 1
+ String: 13 ZLM_DASH_MEDI
+ BString: 0 
+ FString: 13 ZLM_DASH_MEDI
+ 0
+EndFPST
+ChainSub2: glyph "zlmSmajibuInit contextual 3" 0 0 0 1
+ String: 13 ZLM_DASH_MEDI
+ BString: 0 
+ FString: 14 ZLM_DASH_FINAL
+ 1
+  SeqLookup: 0 "Single Substitution lookup 652"
+EndFPST
+ChainSub2: glyph "zlmSmajibuInit contextual 2" 0 0 0 1
+ String: 13 ZLM_DASH_MEDI
+ BString: 0 
+ FString: 13 ZLM_DASH_MEDI
+ 1
+  SeqLookup: 0 "Single Substitution lookup 651"
+EndFPST
+ChainSub2: glyph "zlmSmajibuInit contextual 1" 0 0 0 1
+ String: 13 ZLM_DASH_MEDI
+ BString: 13 ZLM_DASH_INIT
+ FString: 0 
+ 0
+EndFPST
+ChainSub2: glyph "zlmSmajibuInit contextual 0" 0 0 0 1
+ String: 13 ZLM_DASH_MEDI
+ BString: 13 ZLM_DASH_MEDI
+ FString: 0 
+ 0
+EndFPST
+ChainSub2: glyph "zlmNV contextual 10" 0 0 0 1
+ String: 25 ZLM_NULL ZLM_DIACRITIC_AU
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 648"
+EndFPST
+ChainSub2: glyph "zlmNV contextual 9" 0 0 0 1
+ String: 25 ZLM_NULL ZLM_DIACRITIC_OI
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 647"
+EndFPST
+ChainSub2: glyph "zlmNV contextual 8" 0 0 0 1
+ String: 25 ZLM_NULL ZLM_DIACRITIC_EI
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 646"
+EndFPST
+ChainSub2: glyph "zlmNV contextual 7" 0 0 0 1
+ String: 25 ZLM_NULL ZLM_DIACRITIC_AI
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 645"
+EndFPST
+ChainSub2: glyph "zlmNV contextual 6" 0 0 0 1
+ String: 24 ZLM_NULL ZLM_DIACRITIC_Y
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 644"
+EndFPST
+ChainSub2: glyph "zlmNV contextual 5" 0 0 0 1
+ String: 24 ZLM_NULL ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 643"
+EndFPST
+ChainSub2: glyph "zlmNV contextual 4" 0 0 0 1
+ String: 24 ZLM_NULL ZLM_DIACRITIC_O
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 642"
+EndFPST
+ChainSub2: glyph "zlmNV contextual 3" 0 0 0 1
+ String: 24 ZLM_NULL ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 641"
+EndFPST
+ChainSub2: glyph "zlmNV contextual 2" 0 0 0 1
+ String: 24 ZLM_NULL ZLM_DIACRITIC_E
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 640"
+EndFPST
+ChainSub2: glyph "zlmNV contextual 1" 0 0 0 1
+ String: 24 ZLM_NULL ZLM_DIACRITIC_A
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 639"
+EndFPST
+ChainSub2: coverage "zlmNV contextual 0" 0 0 0 1
+ 1 1 0
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  BCoverage: 303 ZLM_P ZLM_T ZLM_K ZLM_F ZLM_L ZLM_S ZLM_C ZLM_M ZLM_X ZLM_B ZLM_D ZLM_G ZLM_V ZLM_R ZLM_Z ZLM_J ZLM_N ZLM_H ZLM_SEMIVOWEL_Q ZLM_SEMIVOWEL_W ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+ 0
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 72" 0 0 0 1
+ String: 37 ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 633"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 71" 0 0 0 1
+ String: 37 ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 632"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 70" 0 0 0 1
+ String: 37 ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 631"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 69" 0 0 0 1
+ String: 37 ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 630"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 68" 0 0 0 1
+ String: 37 ZLM_N ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 629"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 67" 0 0 0 1
+ String: 37 ZLM_N ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 628"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 66" 0 0 0 1
+ String: 37 ZLM_N ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 627"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 65" 0 0 0 1
+ String: 37 ZLM_N ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 626"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 64" 0 0 0 1
+ String: 37 ZLM_J ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 625"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 63" 0 0 0 1
+ String: 37 ZLM_J ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 624"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 62" 0 0 0 1
+ String: 37 ZLM_J ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 623"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 61" 0 0 0 1
+ String: 37 ZLM_J ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 622"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 60" 0 0 0 1
+ String: 37 ZLM_Z ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 621"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 59" 0 0 0 1
+ String: 37 ZLM_Z ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 620"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 58" 0 0 0 1
+ String: 37 ZLM_Z ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 619"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 57" 0 0 0 1
+ String: 37 ZLM_Z ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 618"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 56" 0 0 0 1
+ String: 37 ZLM_R ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 617"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 55" 0 0 0 1
+ String: 37 ZLM_R ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 616"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 54" 0 0 0 1
+ String: 37 ZLM_R ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 615"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 53" 0 0 0 1
+ String: 37 ZLM_R ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 614"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 52" 0 0 0 1
+ String: 37 ZLM_V ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 613"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 51" 0 0 0 1
+ String: 37 ZLM_V ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 612"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 50" 0 0 0 1
+ String: 37 ZLM_V ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 611"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 49" 0 0 0 1
+ String: 37 ZLM_V ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 610"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 48" 0 0 0 1
+ String: 37 ZLM_G ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 609"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 47" 0 0 0 1
+ String: 37 ZLM_G ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 608"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 46" 0 0 0 1
+ String: 37 ZLM_G ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 607"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 45" 0 0 0 1
+ String: 37 ZLM_G ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 606"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 44" 0 0 0 1
+ String: 37 ZLM_D ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 605"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 43" 0 0 0 1
+ String: 37 ZLM_D ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 604"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 42" 0 0 0 1
+ String: 37 ZLM_D ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 603"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 41" 0 0 0 1
+ String: 37 ZLM_D ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 602"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 40" 0 0 0 1
+ String: 37 ZLM_B ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 601"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 39" 0 0 0 1
+ String: 37 ZLM_B ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 600"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 38" 0 0 0 1
+ String: 37 ZLM_B ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 599"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 37" 0 0 0 1
+ String: 37 ZLM_B ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 598"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 36" 0 0 0 1
+ String: 37 ZLM_X ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 597"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 35" 0 0 0 1
+ String: 37 ZLM_X ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 596"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 34" 0 0 0 1
+ String: 37 ZLM_X ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 595"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 33" 0 0 0 1
+ String: 37 ZLM_X ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 594"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 32" 0 0 0 1
+ String: 37 ZLM_M ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 593"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 31" 0 0 0 1
+ String: 37 ZLM_M ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 592"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 30" 0 0 0 1
+ String: 37 ZLM_M ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 591"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 29" 0 0 0 1
+ String: 37 ZLM_M ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 590"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 28" 0 0 0 1
+ String: 37 ZLM_C ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 589"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 27" 0 0 0 1
+ String: 37 ZLM_C ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 588"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 26" 0 0 0 1
+ String: 37 ZLM_C ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 587"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 25" 0 0 0 1
+ String: 37 ZLM_C ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 586"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 24" 0 0 0 1
+ String: 37 ZLM_S ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 585"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 23" 0 0 0 1
+ String: 37 ZLM_S ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 584"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 22" 0 0 0 1
+ String: 37 ZLM_S ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 583"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 21" 0 0 0 1
+ String: 37 ZLM_S ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 582"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 20" 0 0 0 1
+ String: 37 ZLM_L ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 581"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 19" 0 0 0 1
+ String: 37 ZLM_L ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 580"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 18" 0 0 0 1
+ String: 37 ZLM_L ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 579"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 17" 0 0 0 1
+ String: 37 ZLM_L ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 578"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 16" 0 0 0 1
+ String: 37 ZLM_F ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 577"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 15" 0 0 0 1
+ String: 37 ZLM_F ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 576"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 14" 0 0 0 1
+ String: 37 ZLM_F ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 575"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 13" 0 0 0 1
+ String: 37 ZLM_F ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 574"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 12" 0 0 0 1
+ String: 37 ZLM_K ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 573"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 11" 0 0 0 1
+ String: 37 ZLM_K ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 572"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 10" 0 0 0 1
+ String: 37 ZLM_K ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 571"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 9" 0 0 0 1
+ String: 37 ZLM_K ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 570"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 8" 0 0 0 1
+ String: 37 ZLM_T ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 569"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 7" 0 0 0 1
+ String: 37 ZLM_T ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 568"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 6" 0 0 0 1
+ String: 37 ZLM_T ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 567"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 5" 0 0 0 1
+ String: 37 ZLM_T ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 566"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 4" 0 0 0 1
+ String: 37 ZLM_P ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 565"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 3" 0 0 0 1
+ String: 37 ZLM_P ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 564"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 2" 0 0 0 1
+ String: 37 ZLM_P ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 563"
+EndFPST
+ChainSub2: glyph "zlmCVV contextual 1" 0 0 0 1
+ String: 37 ZLM_P ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 562"
+EndFPST
+ChainSub2: coverage "zlmCVV contextual 0" 0 0 0 1
+ 3 0 1
+  Coverage: 139 ZLM_P ZLM_T ZLM_K ZLM_F ZLM_L ZLM_S ZLM_C ZLM_M ZLM_X ZLM_B ZLM_D ZLM_G ZLM_V ZLM_R ZLM_Z ZLM_J ZLM_N ZLM_H ZLM_SEMIVOWEL_Q ZLM_SEMIVOWEL_W
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  FCoverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+ 0
+EndFPST
+ChainSub2: glyph "zlmWVV contextual 8" 0 0 0 1
+ String: 47 ZLM_DIACRITIC_U ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 560"
+EndFPST
+ChainSub2: glyph "zlmWVV contextual 7" 0 0 0 1
+ String: 47 ZLM_DIACRITIC_U ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 559"
+EndFPST
+ChainSub2: glyph "zlmWVV contextual 6" 0 0 0 1
+ String: 47 ZLM_DIACRITIC_U ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 558"
+EndFPST
+ChainSub2: glyph "zlmWVV contextual 5" 0 0 0 1
+ String: 47 ZLM_DIACRITIC_U ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 557"
+EndFPST
+ChainSub2: glyph "zlmWVV contextual 4" 0 0 0 1
+ String: 47 ZLM_DIACRITIC_I ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 556"
+EndFPST
+ChainSub2: glyph "zlmWVV contextual 3" 0 0 0 1
+ String: 47 ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 555"
+EndFPST
+ChainSub2: glyph "zlmWVV contextual 2" 0 0 0 1
+ String: 47 ZLM_DIACRITIC_I ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 554"
+EndFPST
+ChainSub2: glyph "zlmWVV contextual 1" 0 0 0 1
+ String: 47 ZLM_DIACRITIC_I ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 553"
+EndFPST
+ChainSub2: coverage "zlmWVV contextual 0" 0 0 0 1
+ 3 1 0
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  BCoverage: 139 ZLM_P ZLM_T ZLM_K ZLM_F ZLM_L ZLM_S ZLM_C ZLM_M ZLM_X ZLM_B ZLM_D ZLM_G ZLM_V ZLM_R ZLM_Z ZLM_J ZLM_N ZLM_H ZLM_SEMIVOWEL_Q ZLM_SEMIVOWEL_W
+ 0
+EndFPST
+ChainSub2: glyph "zlmQVV contextual 8" 0 0 0 1
+ String: 47 ZLM_SEMIVOWEL_W ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 551"
+EndFPST
+ChainSub2: glyph "zlmQVV contextual 7" 0 0 0 1
+ String: 47 ZLM_SEMIVOWEL_W ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 550"
+EndFPST
+ChainSub2: glyph "zlmQVV contextual 6" 0 0 0 1
+ String: 47 ZLM_SEMIVOWEL_W ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 549"
+EndFPST
+ChainSub2: glyph "zlmQVV contextual 5" 0 0 0 1
+ String: 47 ZLM_SEMIVOWEL_W ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 548"
+EndFPST
+ChainSub2: glyph "zlmQVV contextual 4" 0 0 0 1
+ String: 47 ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 547"
+EndFPST
+ChainSub2: glyph "zlmQVV contextual 3" 0 0 0 1
+ String: 47 ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 546"
+EndFPST
+ChainSub2: glyph "zlmQVV contextual 2" 0 0 0 1
+ String: 47 ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 545"
+EndFPST
+ChainSub2: glyph "zlmQVV contextual 1" 0 0 0 1
+ String: 47 ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 544"
+EndFPST
+ChainSub2: coverage "zlmQVV contextual 0" 0 0 0 1
+ 3 1 0
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  BCoverage: 139 ZLM_P ZLM_T ZLM_K ZLM_F ZLM_L ZLM_S ZLM_C ZLM_M ZLM_X ZLM_B ZLM_D ZLM_G ZLM_V ZLM_R ZLM_Z ZLM_J ZLM_N ZLM_H ZLM_SEMIVOWEL_Q ZLM_SEMIVOWEL_W
+ 0
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 36" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_Y
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 542"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 35" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 541"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 34" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_O
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 540"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 33" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 539"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 32" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_E
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 538"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 31" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_A
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 537"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 30" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_Y
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 536"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 29" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 535"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 28" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 534"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 27" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 533"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 26" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 532"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 25" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 531"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 24" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_Y
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 530"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 23" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 529"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 22" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_O
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 528"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 21" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 527"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 20" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_E
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 526"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 19" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_A
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 525"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 18" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 524"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 17" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 523"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 16" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 522"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 15" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 521"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 14" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 520"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 13" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 519"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 12" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_Y
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 518"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 11" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 517"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 10" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_O
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 516"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 9" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 515"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 8" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_E
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 514"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 7" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_A
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 513"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 6" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_Y
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 512"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 5" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 511"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 4" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_O
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 510"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 3" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 509"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 2" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_E
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 508"
+EndFPST
+ChainSub2: glyph "zlmVHV contextual 1" 0 0 0 1
+ String: 37 ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_A
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 507"
+EndFPST
+ChainSub2: coverage "zlmVHV contextual 0" 0 0 0 1
+ 3 1 0
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  Coverage: 5 ZLM_H
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  BCoverage: 139 ZLM_P ZLM_T ZLM_K ZLM_F ZLM_L ZLM_S ZLM_C ZLM_M ZLM_X ZLM_B ZLM_D ZLM_G ZLM_V ZLM_R ZLM_Z ZLM_J ZLM_N ZLM_H ZLM_SEMIVOWEL_Q ZLM_SEMIVOWEL_W
+ 0
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 24" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 505"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 23" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 504"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 22" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 503"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 21" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 502"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 20" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 501"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 19" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 500"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 18" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 499"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 17" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 498"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 16" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 497"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 15" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 496"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 14" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 495"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 13" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 494"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 12" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 493"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 11" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 492"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 10" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 491"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 9" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 490"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 8" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 489"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 7" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 488"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 6" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 487"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 5" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 486"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 4" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 485"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 3" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 484"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 2" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 483"
+EndFPST
+ChainSub2: glyph "zlmVHVV contextual 1" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 482"
+EndFPST
+ChainSub2: coverage "zlmVHVV contextual 0" 0 0 0 1
+ 4 1 0
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  Coverage: 5 ZLM_H
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  BCoverage: 139 ZLM_P ZLM_T ZLM_K ZLM_F ZLM_L ZLM_S ZLM_C ZLM_M ZLM_X ZLM_B ZLM_D ZLM_G ZLM_V ZLM_R ZLM_Z ZLM_J ZLM_N ZLM_H ZLM_SEMIVOWEL_Q ZLM_SEMIVOWEL_W
+ 0
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 35" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_Y
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 480"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 34" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 479"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 33" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_O
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 478"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 32" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 477"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 31" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_E
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 476"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 30" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_A
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 475"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 29" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_Y
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 474"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 28" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 473"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 27" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 472"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 26" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 471"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 25" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 470"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 24" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 469"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 23" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_Y
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 468"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 22" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 467"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 21" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_O
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 466"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 20" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 465"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 19" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_E
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 464"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 18" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_A
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 463"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 17" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 462"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 16" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 461"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 15" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 460"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 14" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 459"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 13" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 458"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 12" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 457"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 11" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_Y
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 456"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 10" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 455"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 9" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_O
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 454"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 8" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 453"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 7" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_E
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 452"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 6" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_A
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 451"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 5" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_Y
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 450"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 4" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 449"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 3" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_O
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 448"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 2" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 447"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 1" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_E
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 446"
+EndFPST
+ChainSub2: glyph "zlmNVHV contextual 0" 0 0 0 1
+ String: 46 ZLM_NULL ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_A
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 445"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 24" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_Y
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 443"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 23" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 442"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 22" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 441"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 21" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 440"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 20" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 439"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 19" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 438"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 18" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 437"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 17" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 436"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 16" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 435"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 15" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 434"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 14" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 433"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 13" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 432"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 12" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 431"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 11" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 430"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 10" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 429"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 9" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 428"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 8" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 427"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 7" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 426"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 6" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 425"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 5" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 424"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 4" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 423"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 3" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 422"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 2" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 421"
+EndFPST
+ChainSub2: glyph "zlmVVHV contextual 1" 0 0 0 1
+ String: 53 ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 420"
+EndFPST
+ChainSub2: coverage "zlmVVHV contextual 0" 0 0 0 1
+ 4 1 0
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  Coverage: 5 ZLM_H
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  BCoverage: 139 ZLM_P ZLM_T ZLM_K ZLM_F ZLM_L ZLM_S ZLM_C ZLM_M ZLM_X ZLM_B ZLM_D ZLM_G ZLM_V ZLM_R ZLM_Z ZLM_J ZLM_N ZLM_H ZLM_SEMIVOWEL_Q ZLM_SEMIVOWEL_W
+ 0
+EndFPST
+ChainSub2: glyph "zlmVVHVV contextual 16" 0 0 0 1
+ String: 69 ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 416"
+EndFPST
+ChainSub2: glyph "zlmVVHVV contextual 15" 0 0 0 1
+ String: 69 ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 415"
+EndFPST
+ChainSub2: glyph "zlmVVHVV contextual 14" 0 0 0 1
+ String: 69 ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 414"
+EndFPST
+ChainSub2: glyph "zlmVVHVV contextual 13" 0 0 0 1
+ String: 69 ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 413"
+EndFPST
+ChainSub2: glyph "zlmVVHVV contextual 12" 0 0 0 1
+ String: 69 ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 412"
+EndFPST
+ChainSub2: glyph "zlmVVHVV contextual 11" 0 0 0 1
+ String: 69 ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 411"
+EndFPST
+ChainSub2: glyph "zlmVVHVV contextual 10" 0 0 0 1
+ String: 69 ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 410"
+EndFPST
+ChainSub2: glyph "zlmVVHVV contextual 9" 0 0 0 1
+ String: 69 ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 409"
+EndFPST
+ChainSub2: glyph "zlmVVHVV contextual 8" 0 0 0 1
+ String: 69 ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 408"
+EndFPST
+ChainSub2: glyph "zlmVVHVV contextual 7" 0 0 0 1
+ String: 69 ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 407"
+EndFPST
+ChainSub2: glyph "zlmVVHVV contextual 6" 0 0 0 1
+ String: 69 ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 406"
+EndFPST
+ChainSub2: glyph "zlmVVHVV contextual 5" 0 0 0 1
+ String: 69 ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 405"
+EndFPST
+ChainSub2: glyph "zlmVVHVV contextual 4" 0 0 0 1
+ String: 69 ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 404"
+EndFPST
+ChainSub2: glyph "zlmVVHVV contextual 3" 0 0 0 1
+ String: 69 ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 403"
+EndFPST
+ChainSub2: glyph "zlmVVHVV contextual 2" 0 0 0 1
+ String: 69 ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 402"
+EndFPST
+ChainSub2: glyph "zlmVVHVV contextual 1" 0 0 0 1
+ String: 69 ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Ligature Substitution lookup 401"
+EndFPST
+ChainSub2: coverage "zlmVVHVV contextual 0" 0 0 0 1
+ 5 1 0
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  Coverage: 5 ZLM_H
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  Coverage: 163 ZLM_DIACRITIC_A ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_U ZLM_DIACRITIC_Y ZLM_DIACRITIC_AI ZLM_DIACRITIC_EI ZLM_DIACRITIC_OI ZLM_DIACRITIC_AU
+  BCoverage: 139 ZLM_P ZLM_T ZLM_K ZLM_F ZLM_L ZLM_S ZLM_C ZLM_M ZLM_X ZLM_B ZLM_D ZLM_G ZLM_V ZLM_R ZLM_Z ZLM_J ZLM_N ZLM_H ZLM_SEMIVOWEL_Q ZLM_SEMIVOWEL_W
+ 0
+EndFPST
 ChainSub2: coverage "'calt' Contextual Alternates lookup 389 contextual 3" 0 0 0 1
  1 2 0
   Coverage: 847 Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos uni1F08 uni1F09 uni1F0A uni1F0B uni1F0C uni1F0D uni1F0E uni1F0F uni1FBA uni1FBB uni1FB8 uni1FB9 uni1FBC uni1F88 uni1F89 uni1F8A uni1F8B uni1F8C uni1F8D uni1F8E uni1F8F uni1F18 uni1F19 uni1F1A uni1F1B uni1F1C uni1F1D uni1FC8 uni1FC9 uni1F28 uni1F29 uni1F2A uni1F2B uni1F2C uni1F2D uni1F2E uni1F2F uni1FCA uni1FCB uni1FCC uni1F98 uni1F99 uni1F9A uni1F9B uni1F9C uni1F9D uni1F9E uni1F9F uni1F38 uni1F39 uni1F3A uni1F3B uni1F3C uni1F3D uni1F3E uni1F3F uni1FDA uni1FDB uni1FD8 uni1FD9 uni1F48 uni1F49 uni1F4A uni1F4B uni1F4C uni1F4D uni1FF8 uni1FF9 uni1FEC uni1F59 uni1F5B uni1F5D uni1F5F uni1FEA uni1FEB uni1FE8 uni1FE9 uni1F68 uni1F69 uni1F6A uni1F6B uni1F6C uni1F6D uni1F6E uni1F6F uni1FFA uni1FFB uni1FFC uni1FA8 uni1FA9 uni1FAA uni1FAB uni1FAC uni1FAD uni1FAE uni1FAF
@@ -5262,7 +7434,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 926480 16 11
+WinInfo: 926560 16 11
 BeginPrivate: 8
 BlueValues 37 [-26 0 1053 1080 1377 1404 1478 1504]
 OtherBlues 11 [-426 -399]
@@ -59740,6 +61912,7 @@ LayerCount: 2
 Fore
 Refer: 1655 926464 N 1 0 0 1 0 0 2
 Refer: 1899 926800 S 1 0 0 1 93 0 2
+Ligature2: "Ligature Substitution lookup 639 subtable" ZLM_NULL ZLM_DIACRITIC_A
 EndChar
 
 StartChar: ZLM_DOT_E
@@ -59754,6 +61927,7 @@ LayerCount: 2
 Fore
 Refer: 1910 926816 S 0.75 0 0 1 150 0 2
 Refer: 1655 926464 N 1 0 0 1 3 0 2
+Ligature2: "Ligature Substitution lookup 640 subtable" ZLM_NULL ZLM_DIACRITIC_E
 EndChar
 
 StartChar: ZLM_DOT_I
@@ -59768,6 +61942,7 @@ LayerCount: 2
 Fore
 Refer: 1921 926832 S 1 0 0 1 3 0 2
 Refer: 1655 926464 N 1 0 0 1 0 0 2
+Ligature2: "Ligature Substitution lookup 641 subtable" ZLM_NULL ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_DOT_O
@@ -59782,6 +61957,7 @@ LayerCount: 2
 Fore
 Refer: 1932 926848 S 1 0 0 1 -9 0 2
 Refer: 1655 926464 N 1 0 0 1 1 0 2
+Ligature2: "Ligature Substitution lookup 642 subtable" ZLM_NULL ZLM_DIACRITIC_O
 EndChar
 
 StartChar: ZLM_DOT_U
@@ -59796,6 +61972,7 @@ LayerCount: 2
 Fore
 Refer: 1943 926864 S 1 0 0 1 5 0 2
 Refer: 1655 926464 N 1 0 0 1 1 0 2
+Ligature2: "Ligature Substitution lookup 643 subtable" ZLM_NULL ZLM_DIACRITIC_U
 EndChar
 
 StartChar: ZLM_DOT_Y
@@ -59810,6 +61987,7 @@ LayerCount: 2
 Fore
 Refer: 1655 926464 N 1 0 0 1 1.32031 0 2
 Refer: 1954 926880 S 1 0 0 1 1 0 2
+Ligature2: "Ligature Substitution lookup 644 subtable" ZLM_NULL ZLM_DIACRITIC_Y
 EndChar
 
 StartChar: ZLM_DOT_AI
@@ -59824,6 +62002,7 @@ LayerCount: 2
 Fore
 Refer: 1965 926896 S 1 0 0 1 9 0 2
 Refer: 1655 926464 N 1 0 0 1 0 0 2
+Ligature2: "Ligature Substitution lookup 645 subtable" ZLM_NULL ZLM_DIACRITIC_AI
 EndChar
 
 StartChar: ZLM_DOT_EI
@@ -59838,6 +62017,7 @@ LayerCount: 2
 Fore
 Refer: 1655 926464 N 1 0 0 1 1 0 2
 Refer: 1976 926912 S 1 0 0 1 -32 0 2
+Ligature2: "Ligature Substitution lookup 646 subtable" ZLM_NULL ZLM_DIACRITIC_EI
 EndChar
 
 StartChar: ZLM_DOT_OI
@@ -59852,6 +62032,7 @@ LayerCount: 2
 Fore
 Refer: 1655 926464 N 1 0 0 1 1 0 2
 Refer: 1987 926928 S 1 0 0 1 1 0 2
+Ligature2: "Ligature Substitution lookup 647 subtable" ZLM_NULL ZLM_DIACRITIC_OI
 EndChar
 
 StartChar: ZLM_DOT_AU
@@ -59866,6 +62047,7 @@ LayerCount: 2
 Fore
 Refer: 1655 926464 N 1 0 0 1 0.929688 0 2
 Refer: 1998 926944 S 1 0 0 1 60 0 2
+Ligature2: "Ligature Substitution lookup 648 subtable" ZLM_NULL ZLM_DIACRITIC_AU
 EndChar
 
 StartChar: ZLM_SLAKABU
@@ -59914,6 +62096,7 @@ LayerCount: 2
 Fore
 Refer: 1899 926800 S 1 0 0 1 90 0 2
 Refer: 1667 926480 N 1 0 0 1 0 0 2
+Ligature2: "zlmCV subtable" ZLM_H ZLM_DIACRITIC_A
 LCarets2: 1 0
 EndChar
 
@@ -59929,6 +62112,7 @@ LayerCount: 2
 Fore
 Refer: 1910 926816 S 0.75 0 0 1 158 0 2
 Refer: 1667 926480 N 1 0 0 1 0 0 2
+Ligature2: "zlmCV subtable" ZLM_H ZLM_DIACRITIC_E
 LCarets2: 1 0
 EndChar
 
@@ -59944,6 +62128,7 @@ LayerCount: 2
 Fore
 Refer: 1921 926832 N 1 0 0 1 12 0 2
 Refer: 1667 926480 N 1 0 0 1 0 0 2
+Ligature2: "zlmCV subtable" ZLM_H ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -59959,6 +62144,7 @@ LayerCount: 2
 Fore
 Refer: 1667 926480 N 1 0 0 1 0 0 2
 Refer: 1932 926848 S 1 0 0 1 8 0 2
+Ligature2: "zlmCV subtable" ZLM_H ZLM_DIACRITIC_O
 LCarets2: 1 0
 EndChar
 
@@ -59974,6 +62160,7 @@ LayerCount: 2
 Fore
 Refer: 1667 926480 N 1 0 0 1 0 0 2
 Refer: 1943 926864 S 1 0 0 1 -18 0 2
+Ligature2: "zlmCV subtable" ZLM_H ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -59989,6 +62176,7 @@ LayerCount: 2
 Fore
 Refer: 1667 926480 N 1 0 0 1 0 0 2
 Refer: 1954 926880 S 1 0 0 1 8 0 2
+Ligature2: "zlmCV subtable" ZLM_H ZLM_DIACRITIC_Y
 LCarets2: 1 0
 EndChar
 
@@ -60004,6 +62192,7 @@ LayerCount: 2
 Fore
 Refer: 1667 926480 N 1 0 0 1 0 0 2
 Refer: 1965 926896 S 1 0 0 1 50 0 2
+Ligature2: "Ligature Substitution lookup 630 subtable" ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -60019,6 +62208,7 @@ LayerCount: 2
 Fore
 Refer: 1667 926480 N 1 0 0 1 0 0 2
 Refer: 1976 926912 S 1 0 0 1 24 0 2
+Ligature2: "Ligature Substitution lookup 631 subtable" ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -60034,6 +62224,7 @@ LayerCount: 2
 Fore
 Refer: 1667 926480 N 1 0 0 1 0 0 2
 Refer: 1987 926928 N 1 0 0 1 64 0 2
+Ligature2: "Ligature Substitution lookup 632 subtable" ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -60049,6 +62240,7 @@ LayerCount: 2
 Fore
 Refer: 1667 926480 N 1 0 0 1 0 0 2
 Refer: 1998 926944 S 1 0 0 1 88 0 2
+Ligature2: "Ligature Substitution lookup 633 subtable" ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -60112,6 +62304,7 @@ LayerCount: 2
 Fore
 Refer: 1679 926496 N 1 0 0 1 0 0 2
 Refer: 1899 926800 S 1 0 0 1 162 0 2
+Ligature2: "zlmCV subtable" ZLM_P ZLM_DIACRITIC_A
 LCarets2: 1 0
 EndChar
 
@@ -60127,6 +62320,7 @@ LayerCount: 2
 Fore
 Refer: 1679 926496 N 1 0 0 1 0 0 2
 Refer: 1910 926816 S 0.75 0 0 1 341.508 0 2
+Ligature2: "zlmCV subtable" ZLM_P ZLM_DIACRITIC_E
 LCarets2: 1 0
 EndChar
 
@@ -60142,6 +62336,7 @@ LayerCount: 2
 Fore
 Refer: 1679 926496 N 1 0 0 1 0 0 2
 Refer: 1921 926832 S 1 0 0 1 144 0 2
+Ligature2: "zlmCV subtable" ZLM_P ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -60157,6 +62352,7 @@ LayerCount: 2
 Fore
 Refer: 1679 926496 N 1 0 0 1 0 0 2
 Refer: 1932 926848 S 1 0 0 1 247 0 2
+Ligature2: "zlmCV subtable" ZLM_P ZLM_DIACRITIC_O
 LCarets2: 1 0
 EndChar
 
@@ -60172,6 +62368,7 @@ LayerCount: 2
 Fore
 Refer: 1679 926496 N 1 0 0 1 0 0 2
 Refer: 1943 926864 S 1 0 0 1 234 0 2
+Ligature2: "zlmCV subtable" ZLM_P ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -60187,6 +62384,7 @@ LayerCount: 2
 Fore
 Refer: 1679 926496 N 1 0 0 1 0.4 0 2
 Refer: 1954 926880 S 1 0 0 1 170.515 0 2
+Ligature2: "zlmCV subtable" ZLM_P ZLM_DIACRITIC_Y
 LCarets2: 1 0
 EndChar
 
@@ -60202,6 +62400,7 @@ LayerCount: 2
 Fore
 Refer: 1679 926496 N 1 0 0 1 0 0 2
 Refer: 1965 926896 S 1 0 0 1 118 0 2
+Ligature2: "Ligature Substitution lookup 562 subtable" ZLM_P ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -60217,6 +62416,7 @@ LayerCount: 2
 Fore
 Refer: 1679 926496 N 1 0 0 1 0 0 2
 Refer: 1976 926912 S 1 0 0 1 173 0 2
+Ligature2: "Ligature Substitution lookup 563 subtable" ZLM_P ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -60232,6 +62432,7 @@ LayerCount: 2
 Fore
 Refer: 1679 926496 N 1 0 0 1 0 0 2
 Refer: 1987 926928 S 1 0 0 1 181 0 2
+Ligature2: "Ligature Substitution lookup 564 subtable" ZLM_P ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -60247,6 +62448,7 @@ LayerCount: 2
 Fore
 Refer: 1679 926496 N 1 0 0 1 -0.23563 0 2
 Refer: 1998 926944 S 1 0 0 1 142.738 0 2
+Ligature2: "Ligature Substitution lookup 565 subtable" ZLM_P ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -60310,6 +62512,7 @@ LayerCount: 2
 Fore
 Refer: 1899 926800 S 1 0 0 1 176 0 2
 Refer: 1691 926512 N 1 0 0 1 0 0 2
+Ligature2: "zlmCV subtable" ZLM_T ZLM_DIACRITIC_A
 LCarets2: 1 0
 EndChar
 
@@ -60325,6 +62528,7 @@ LayerCount: 2
 Fore
 Refer: 1691 926512 N 1 0 0 1 0 0 2
 Refer: 1910 926816 S 0.75 0 0 1 326 0 2
+Ligature2: "zlmCV subtable" ZLM_T ZLM_DIACRITIC_E
 LCarets2: 1 0
 EndChar
 
@@ -60340,6 +62544,7 @@ LayerCount: 2
 Fore
 Refer: 1921 926832 S 1 0 0 1 122 0 2
 Refer: 1691 926512 N 1 0 0 1 0 0 2
+Ligature2: "zlmCV subtable" ZLM_T ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -60355,6 +62560,7 @@ LayerCount: 2
 Fore
 Refer: 1691 926512 N 1 0 0 1 0 0 2
 Refer: 1932 926848 S 1 0 0 1 184 0 2
+Ligature2: "zlmCV subtable" ZLM_T ZLM_DIACRITIC_O
 LCarets2: 1 0
 EndChar
 
@@ -60370,6 +62576,7 @@ LayerCount: 2
 Fore
 Refer: 1943 926864 S 1 0 0 1 192 0 2
 Refer: 1691 926512 N 1 0 0 1 0 0 2
+Ligature2: "zlmCV subtable" ZLM_T ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -60385,6 +62592,7 @@ LayerCount: 2
 Fore
 Refer: 1691 926512 N 1 0 0 1 0 0 2
 Refer: 1954 926880 S 1 0 0 1 130 0 2
+Ligature2: "zlmCV subtable" ZLM_T ZLM_DIACRITIC_Y
 LCarets2: 1 0
 EndChar
 
@@ -60400,6 +62608,7 @@ LayerCount: 2
 Fore
 Refer: 1691 926512 N 1 0 0 1 0 0 2
 Refer: 1965 926896 S 1 0 0 1 138 0 2
+Ligature2: "Ligature Substitution lookup 566 subtable" ZLM_T ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -60416,6 +62625,7 @@ Fore
 Refer: 1976 926912 S 1 0 0 1 154 0 2
 Refer: 1691 926512 N 1 0 0 1 0 0 2
 Refer: 1976 926912 N 0 0 0 0 640 0 2
+Ligature2: "Ligature Substitution lookup 567 subtable" ZLM_T ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -60431,6 +62641,7 @@ LayerCount: 2
 Fore
 Refer: 1691 926512 N 1 0 0 1 0 0 2
 Refer: 1987 926928 S 1 0 0 1 160 0 2
+Ligature2: "Ligature Substitution lookup 568 subtable" ZLM_T ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -60446,6 +62657,7 @@ LayerCount: 2
 Fore
 Refer: 1691 926512 N 1 0 0 1 0 0 2
 Refer: 1998 926944 S 1 0 0 1 150 0 2
+Ligature2: "Ligature Substitution lookup 569 subtable" ZLM_T ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -60518,6 +62730,7 @@ LayerCount: 2
 Fore
 Refer: 1703 926528 N 1 0 0 1 0 0 2
 Refer: 1899 926800 S 1 0 0 1 162 0 2
+Ligature2: "zlmCV subtable" ZLM_K ZLM_DIACRITIC_A
 LCarets2: 1 0
 EndChar
 
@@ -60533,6 +62746,7 @@ LayerCount: 2
 Fore
 Refer: 1910 926816 S 0.75 0 0 1 306 0 2
 Refer: 1703 926528 N 1 0 0 1 0 0 2
+Ligature2: "zlmCV subtable" ZLM_K ZLM_DIACRITIC_E
 LCarets2: 1 0
 EndChar
 
@@ -60548,6 +62762,7 @@ LayerCount: 2
 Fore
 Refer: 1921 926832 S 1 0 0 1 122 0 2
 Refer: 1703 926528 N 1 0 0 1 0 0 2
+Ligature2: "zlmCV subtable" ZLM_K ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -60563,6 +62778,7 @@ LayerCount: 2
 Fore
 Refer: 1932 926848 S 1 0 0 1 190 0 2
 Refer: 1703 926528 N 1 0 0 1 0 0 2
+Ligature2: "zlmCV subtable" ZLM_K ZLM_DIACRITIC_O
 LCarets2: 1 0
 EndChar
 
@@ -60578,6 +62794,7 @@ LayerCount: 2
 Fore
 Refer: 1943 926864 S 1 0 0 1 200 0 2
 Refer: 1703 926528 N 1 0 0 1 0 0 2
+Ligature2: "zlmCV subtable" ZLM_K ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -60593,6 +62810,7 @@ LayerCount: 2
 Fore
 Refer: 1703 926528 N 1 0 0 1 0 0 2
 Refer: 1954 926880 S 1 0 0 1 156 0 2
+Ligature2: "zlmCV subtable" ZLM_K ZLM_DIACRITIC_Y
 LCarets2: 1 0
 EndChar
 
@@ -60608,6 +62826,7 @@ LayerCount: 2
 Fore
 Refer: 1703 926528 N 1 0 0 1 0 0 2
 Refer: 1965 926896 S 1 0 0 1 48 0 2
+Ligature2: "Ligature Substitution lookup 570 subtable" ZLM_K ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -60623,6 +62842,7 @@ LayerCount: 2
 Fore
 Refer: 1703 926528 N 1 0 0 1 0 0 2
 Refer: 1976 926912 S 1 0 0 1 160 0 2
+Ligature2: "Ligature Substitution lookup 571 subtable" ZLM_K ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -60638,6 +62858,7 @@ LayerCount: 2
 Fore
 Refer: 1703 926528 N 1 0 0 1 0 0 2
 Refer: 1987 926928 S 1 0 0 1 122 0 2
+Ligature2: "Ligature Substitution lookup 572 subtable" ZLM_K ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -60653,6 +62874,7 @@ LayerCount: 2
 Fore
 Refer: 1998 926944 S 1 0 0 1 100 0 2
 Refer: 1703 926528 N 1 0 0 1 0 0 2
+Ligature2: "Ligature Substitution lookup 573 subtable" ZLM_K ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -60716,6 +62938,7 @@ LayerCount: 2
 Fore
 Refer: 1715 926544 N 1 0 0 1 0 0 2
 Refer: 1899 926800 S 1 0 0 1 114 0 2
+Ligature2: "zlmCV subtable" ZLM_F ZLM_DIACRITIC_A
 LCarets2: 1 0
 EndChar
 
@@ -60731,6 +62954,7 @@ LayerCount: 2
 Fore
 Refer: 1910 926816 S 1 0 0 1 30 0 2
 Refer: 1715 926544 N 1 0 0 1 0 0 2
+Ligature2: "zlmCV subtable" ZLM_F ZLM_DIACRITIC_E
 LCarets2: 1 0
 EndChar
 
@@ -60746,6 +62970,7 @@ LayerCount: 2
 Fore
 Refer: 1715 926544 N 1 0 0 1 0 0 2
 Refer: 1921 926832 S 1 0 0 1 54 0 2
+Ligature2: "zlmCV subtable" ZLM_F ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -60761,6 +62986,7 @@ LayerCount: 2
 Fore
 Refer: 1715 926544 N 1 0 0 1 0 0 2
 Refer: 1932 926848 S 1 0 0 1 56 0 2
+Ligature2: "zlmCV subtable" ZLM_F ZLM_DIACRITIC_O
 LCarets2: 1 0
 EndChar
 
@@ -60776,6 +63002,7 @@ LayerCount: 2
 Fore
 Refer: 1715 926544 N 1 0 0 1 0 0 2
 Refer: 1943 926864 S 1 0 0 1 54 0 2
+Ligature2: "zlmCV subtable" ZLM_F ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -60791,6 +63018,7 @@ LayerCount: 2
 Fore
 Refer: 1954 926880 S 1 0 0 1 58 0 2
 Refer: 1715 926544 N 1 0 0 1 0 0 2
+Ligature2: "zlmCV subtable" ZLM_F ZLM_DIACRITIC_Y
 LCarets2: 1 0
 EndChar
 
@@ -60806,6 +63034,7 @@ LayerCount: 2
 Fore
 Refer: 1715 926544 N 1 0 0 1 0 0 2
 Refer: 1965 926896 S 1 0 0 1 86 0 2
+Ligature2: "Ligature Substitution lookup 574 subtable" ZLM_F ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -60821,6 +63050,7 @@ LayerCount: 2
 Fore
 Refer: 1715 926544 N 1 0 0 1 0 0 2
 Refer: 1976 926912 S 1 0 0 1 20 0 2
+Ligature2: "Ligature Substitution lookup 575 subtable" ZLM_F ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -60836,6 +63066,7 @@ LayerCount: 2
 Fore
 Refer: 1715 926544 N 1 0 0 1 0 0 2
 Refer: 1987 926928 S 1 0 0 1 78 0 2
+Ligature2: "Ligature Substitution lookup 576 subtable" ZLM_F ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -60851,6 +63082,7 @@ LayerCount: 2
 Fore
 Refer: 1715 926544 N 1 0 0 1 0 0 2
 Refer: 1998 926944 N 1 0 0 1 108 0 2
+Ligature2: "Ligature Substitution lookup 577 subtable" ZLM_F ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -60912,6 +63144,7 @@ LayerCount: 2
 Fore
 Refer: 1727 926560 N 1 0 0 1 0.0992281 0 2
 Refer: 1899 926800 S 1 0 0 1 143 0 2
+Ligature2: "zlmCV subtable" ZLM_L ZLM_DIACRITIC_A
 LCarets2: 1 0
 EndChar
 
@@ -60927,6 +63160,7 @@ LayerCount: 2
 Fore
 Refer: 1727 926560 N 1 0 0 1 0.0992281 0 2
 Refer: 1910 926816 S 1 0 0 1 55 0 2
+Ligature2: "zlmCV subtable" ZLM_L ZLM_DIACRITIC_E
 LCarets2: 1 0
 EndChar
 
@@ -60942,6 +63176,7 @@ LayerCount: 2
 Fore
 Refer: 1727 926560 N 1 0 0 1 0.0992281 0 2
 Refer: 1921 926832 S 1 0 0 1 67 0 2
+Ligature2: "zlmCV subtable" ZLM_L ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -60957,6 +63192,7 @@ LayerCount: 2
 Fore
 Refer: 1727 926560 N 1 0 0 1 0.0984469 0 2
 Refer: 1932 926848 S 1 0 0 1 69 0 2
+Ligature2: "zlmCV subtable" ZLM_L ZLM_DIACRITIC_O
 LCarets2: 1 0
 EndChar
 
@@ -60972,6 +63208,7 @@ LayerCount: 2
 Fore
 Refer: 1727 926560 N 1 0 0 1 0.0992281 0 2
 Refer: 1943 926864 S 1 0 0 1 53 0 2
+Ligature2: "zlmCV subtable" ZLM_L ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -60987,6 +63224,7 @@ LayerCount: 2
 Fore
 Refer: 1727 926560 N 1 0 0 1 0.0992281 0 2
 Refer: 1954 926880 S 1 0 0 1 37 0 2
+Ligature2: "zlmCV subtable" ZLM_L ZLM_DIACRITIC_Y
 LCarets2: 1 0
 EndChar
 
@@ -61002,6 +63240,7 @@ LayerCount: 2
 Fore
 Refer: 1727 926560 N 1 0 0 1 0.0992281 0 2
 Refer: 1965 926896 S 1 0 0 1 85 0 2
+Ligature2: "Ligature Substitution lookup 578 subtable" ZLM_L ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -61017,6 +63256,7 @@ LayerCount: 2
 Fore
 Refer: 1727 926560 N 1 0 0 1 0.0992281 0 2
 Refer: 1976 926912 S 1 0 0 1 41 0 2
+Ligature2: "Ligature Substitution lookup 579 subtable" ZLM_L ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -61032,6 +63272,7 @@ LayerCount: 2
 Fore
 Refer: 1727 926560 N 1 0 0 1 0.0992281 0 2
 Refer: 1987 926928 S 1 0 0 1 111 0 2
+Ligature2: "Ligature Substitution lookup 580 subtable" ZLM_L ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -61047,6 +63288,7 @@ LayerCount: 2
 Fore
 Refer: 1727 926560 N 1 0 0 1 0.0992281 0 2
 Refer: 1998 926944 S 1 0 0 1 161 0 2
+Ligature2: "Ligature Substitution lookup 581 subtable" ZLM_L ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -61073,6 +63315,7 @@ SplineSet
  372 -340 323 -288 323 -219 c 0
  323 -154 372 -102 444 -102 c 0
 EndSplineSet
+Ligature2: "zlmBahebu subtable" ZLM_BAHEBU_1 ZLM_BAHEBU_1
 EndChar
 
 StartChar: ZLM_S
@@ -61118,6 +63361,7 @@ LayerCount: 2
 Fore
 Refer: 1739 926576 N 1 0 0 1 0 0 2
 Refer: 1899 926800 S 1 0 0 1 28 0 2
+Ligature2: "zlmCV subtable" ZLM_S ZLM_DIACRITIC_A
 LCarets2: 1 0
 EndChar
 
@@ -61133,6 +63377,7 @@ LayerCount: 2
 Fore
 Refer: 1739 926576 N 1 0 0 1 0 0 2
 Refer: 1910 926816 S 0.75 0 0 1 49 0 2
+Ligature2: "zlmCV subtable" ZLM_S ZLM_DIACRITIC_E
 LCarets2: 1 0
 EndChar
 
@@ -61148,6 +63393,7 @@ LayerCount: 2
 Fore
 Refer: 1739 926576 N 1 0 0 1 0 0 2
 Refer: 1921 926832 S 1 0 0 1 -55 0 2
+Ligature2: "zlmCV subtable" ZLM_S ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -61163,6 +63409,7 @@ LayerCount: 2
 Fore
 Refer: 1932 926848 S 1 0 0 1 36 0 2
 Refer: 1739 926576 N 1 0 0 1 0 0 2
+Ligature2: "zlmCV subtable" ZLM_S ZLM_DIACRITIC_O
 LCarets2: 1 0
 EndChar
 
@@ -61178,6 +63425,7 @@ LayerCount: 2
 Fore
 Refer: 1739 926576 N 1 0 0 1 0 0 2
 Refer: 1943 926864 S 1 0 0 1 -154 0 2
+Ligature2: "zlmCV subtable" ZLM_S ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -61193,6 +63441,7 @@ LayerCount: 2
 Fore
 Refer: 1954 926880 S 1 0 0 1 -69 0 2
 Refer: 1739 926576 N 1 0 0 1 0 0 2
+Ligature2: "zlmCV subtable" ZLM_S ZLM_DIACRITIC_Y
 LCarets2: 1 0
 EndChar
 
@@ -61208,6 +63457,7 @@ LayerCount: 2
 Fore
 Refer: 1739 926576 N 1 0 0 1 0 0 2
 Refer: 1965 926896 S 1 0 0 1 -27 0 2
+Ligature2: "Ligature Substitution lookup 582 subtable" ZLM_S ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -61223,6 +63473,7 @@ LayerCount: 2
 Fore
 Refer: 1739 926576 N 1 0 0 1 0 0 2
 Refer: 1976 926912 S 1 0 0 1 -162 0 2
+Ligature2: "Ligature Substitution lookup 583 subtable" ZLM_S ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -61238,6 +63489,7 @@ LayerCount: 2
 Fore
 Refer: 1739 926576 N 1 0 0 1 0 0 2
 Refer: 1987 926928 S 1 0 0 1 -82 0 2
+Ligature2: "Ligature Substitution lookup 584 subtable" ZLM_S ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -61253,6 +63505,7 @@ LayerCount: 2
 Fore
 Refer: 1739 926576 N 1 0 0 1 0 0 2
 Refer: 1998 926944 S 1 0 0 1 -7 0 2
+Ligature2: "Ligature Substitution lookup 585 subtable" ZLM_S ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -61284,6 +63537,7 @@ SplineSet
  372 -340 323 -288 323 -219 c 0xe0
  323 -154 372 -102 444 -102 c 0
 EndSplineSet
+Ligature2: "zlmBahebu subtable" ZLM_BAHEBU_1 ZLM_BAHEBU_1 ZLM_BAHEBU_1
 EndChar
 
 StartChar: ZLM_C
@@ -61331,6 +63585,7 @@ LayerCount: 2
 Fore
 Refer: 1751 926592 N 1 0 0 1 0 0 2
 Refer: 1899 926800 S 1 0 0 1 4 0 2
+Ligature2: "zlmCV subtable" ZLM_C ZLM_DIACRITIC_A
 LCarets2: 1 0
 EndChar
 
@@ -61346,6 +63601,7 @@ LayerCount: 2
 Fore
 Refer: 1910 926816 S 0.75 0 0 1 32 0 2
 Refer: 1751 926592 N 1 0 0 1 0 0 2
+Ligature2: "zlmCV subtable" ZLM_C ZLM_DIACRITIC_E
 LCarets2: 1 0
 EndChar
 
@@ -61361,6 +63617,7 @@ LayerCount: 2
 Fore
 Refer: 1751 926592 N 1 0 0 1 0 0 2
 Refer: 1921 926832 S 1 0 0 1 -50 0 2
+Ligature2: "zlmCV subtable" ZLM_C ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -61376,6 +63633,7 @@ LayerCount: 2
 Fore
 Refer: 1751 926592 N 1 0 0 1 0 0 2
 Refer: 1932 926848 S 1 0 0 1 33 0 2
+Ligature2: "zlmCV subtable" ZLM_C ZLM_DIACRITIC_O
 LCarets2: 1 0
 EndChar
 
@@ -61391,6 +63649,7 @@ LayerCount: 2
 Fore
 Refer: 1751 926592 N 1 0 0 1 0 0 2
 Refer: 1943 926864 S 1 0 0 1 -115 0 2
+Ligature2: "zlmCV subtable" ZLM_C ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -61406,6 +63665,7 @@ LayerCount: 2
 Fore
 Refer: 1751 926592 N 1 0 0 1 0 0 2
 Refer: 1954 926880 S 1 0 0 1 -70 0 2
+Ligature2: "zlmCV subtable" ZLM_C ZLM_DIACRITIC_Y
 LCarets2: 1 0
 EndChar
 
@@ -61421,6 +63681,7 @@ LayerCount: 2
 Fore
 Refer: 1751 926592 N 1 0 0 1 0 0 2
 Refer: 1965 926896 S 1 0 0 1 -31 0 2
+Ligature2: "Ligature Substitution lookup 586 subtable" ZLM_C ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -61436,6 +63697,7 @@ LayerCount: 2
 Fore
 Refer: 1751 926592 N 1 0 0 1 0 0 2
 Refer: 1976 926912 S 1 0 0 1 -137 0 2
+Ligature2: "Ligature Substitution lookup 587 subtable" ZLM_C ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -61451,6 +63713,7 @@ LayerCount: 2
 Fore
 Refer: 1751 926592 N 1 0 0 1 0 0 2
 Refer: 1987 926928 S 1 0 0 1 -79 0 2
+Ligature2: "Ligature Substitution lookup 588 subtable" ZLM_C ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -61466,6 +63729,7 @@ LayerCount: 2
 Fore
 Refer: 1751 926592 N 1 0 0 1 0 0 2
 Refer: 1998 926944 S 1 0 0 1 -36 0 2
+Ligature2: "Ligature Substitution lookup 589 subtable" ZLM_C ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -61525,6 +63789,7 @@ LayerCount: 2
 Fore
 Refer: 1899 926800 S 1 0 0 1 124 0 2
 Refer: 1763 926608 N 1 0 0 1 0 0 2
+Ligature2: "zlmCV subtable" ZLM_M ZLM_DIACRITIC_A
 LCarets2: 1 0
 EndChar
 
@@ -61540,6 +63805,7 @@ LayerCount: 2
 Fore
 Refer: 1763 926608 N 1 0 0 1 0 0 2
 Refer: 1910 926816 S 1 0 0 1 50 0 2
+Ligature2: "zlmCV subtable" ZLM_M ZLM_DIACRITIC_E
 LCarets2: 1 0
 EndChar
 
@@ -61555,6 +63821,7 @@ LayerCount: 2
 Fore
 Refer: 1921 926832 S 1 0 0 1 20 0 2
 Refer: 1763 926608 N 1 0 0 1 0 0 2
+Ligature2: "zlmCV subtable" ZLM_M ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -61570,6 +63837,7 @@ LayerCount: 2
 Fore
 Refer: 1763 926608 N 1 0 0 1 0 0 2
 Refer: 1932 926848 S 1 0 0 1 40 0 2
+Ligature2: "zlmCV subtable" ZLM_M ZLM_DIACRITIC_O
 LCarets2: 1 0
 EndChar
 
@@ -61585,6 +63853,7 @@ LayerCount: 2
 Fore
 Refer: 1763 926608 N 1 0 0 1 0 0 2
 Refer: 1943 926864 S 1 0 0 1 50 0 2
+Ligature2: "zlmCV subtable" ZLM_M ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -61600,6 +63869,7 @@ LayerCount: 2
 Fore
 Refer: 1763 926608 N 1 0 0 1 0 0 2
 Refer: 1954 926880 S 1 0 0 1 40 0 2
+Ligature2: "zlmCV subtable" ZLM_M ZLM_DIACRITIC_Y
 LCarets2: 1 0
 EndChar
 
@@ -61615,6 +63885,7 @@ LayerCount: 2
 Fore
 Refer: 1763 926608 N 1 0 0 1 0 0 2
 Refer: 1965 926896 S 1 0 0 1 60 0 2
+Ligature2: "Ligature Substitution lookup 590 subtable" ZLM_M ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -61630,6 +63901,7 @@ LayerCount: 2
 Fore
 Refer: 1763 926608 N 1 0 0 1 0 0 2
 Refer: 1976 926912 S 1 0 0 1 30 0 2
+Ligature2: "Ligature Substitution lookup 591 subtable" ZLM_M ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -61645,6 +63917,7 @@ LayerCount: 2
 Fore
 Refer: 1763 926608 N 1 0 0 1 0 0 2
 Refer: 1987 926928 S 1 0 0 1 50 0 2
+Ligature2: "Ligature Substitution lookup 592 subtable" ZLM_M ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -61653,13 +63926,14 @@ Encoding: 926618 926618 1773
 Width: 1200
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 HStem: 0 143<487 1045> 932 140<432.015 762.66> 1191 437<952.537 991>
 VStem: 857 177<552.52 835.254> 905 220<1434.03 1605.77>
 LayerCount: 2
 Fore
 Refer: 1763 926608 N 1 0 0 1 0 0 2
-Refer: 1998 926944 S 1 0 0 1 430 0 2
+Refer: 1998 926944 N 1 0 0 1 92 0 2
+Ligature2: "Ligature Substitution lookup 593 subtable" ZLM_M ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -61717,6 +63991,7 @@ LayerCount: 2
 Fore
 Refer: 1775 926624 N 1 0 0 1 1.27114e-05 0 2
 Refer: 1899 926800 S 1 0 0 1 103 0 2
+Ligature2: "zlmCV subtable" ZLM_X ZLM_DIACRITIC_A
 LCarets2: 1 0
 EndChar
 
@@ -61732,6 +64007,7 @@ LayerCount: 2
 Fore
 Refer: 1775 926624 N 1 0 0 1 0.000429192 0 2
 Refer: 1910 926816 S 1 0 0 1 -5 0 2
+Ligature2: "zlmCV subtable" ZLM_X ZLM_DIACRITIC_E
 LCarets2: 1 0
 EndChar
 
@@ -61747,6 +64023,7 @@ LayerCount: 2
 Fore
 Refer: 1775 926624 N 1 0 0 1 0.000429192 0 2
 Refer: 1921 926832 S 1 0 0 1 17 0 2
+Ligature2: "zlmCV subtable" ZLM_X ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -61762,6 +64039,7 @@ LayerCount: 2
 Fore
 Refer: 1775 926624 N 1 0 0 1 0.000469379 0 2
 Refer: 1932 926848 S 1 0 0 1 -9 0 2
+Ligature2: "zlmCV subtable" ZLM_X ZLM_DIACRITIC_O
 LCarets2: 1 0
 EndChar
 
@@ -61777,6 +64055,7 @@ LayerCount: 2
 Fore
 Refer: 1775 926624 N 1 0 0 1 0.000349943 0 2
 Refer: 1943 926864 S 1 0 0 1 -5 0 2
+Ligature2: "zlmCV subtable" ZLM_X ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -61792,6 +64071,7 @@ LayerCount: 2
 Fore
 Refer: 1775 926624 N 1 0 0 1 0.000349943 0 2
 Refer: 1954 926880 S 1 0 0 1 1 0 2
+Ligature2: "zlmCV subtable" ZLM_X ZLM_DIACRITIC_Y
 LCarets2: 1 0
 EndChar
 
@@ -61807,6 +64087,7 @@ LayerCount: 2
 Fore
 Refer: 1775 926624 N 1 0 0 1 0.000349943 0 2
 Refer: 1965 926896 S 1 0 0 1 35 0 2
+Ligature2: "Ligature Substitution lookup 594 subtable" ZLM_X ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -61822,6 +64103,7 @@ LayerCount: 2
 Fore
 Refer: 1775 926624 N 1 0 0 1 0.000349943 0 2
 Refer: 1976 926912 S 1 0 0 1 11 0 2
+Ligature2: "Ligature Substitution lookup 595 subtable" ZLM_X ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -61837,6 +64119,7 @@ LayerCount: 2
 Fore
 Refer: 1775 926624 N 1 0 0 1 0.000544132 0 2
 Refer: 1987 926928 S 1 0 0 1 49 0 2
+Ligature2: "Ligature Substitution lookup 596 subtable" ZLM_X ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -61852,6 +64135,7 @@ LayerCount: 2
 Fore
 Refer: 1775 926624 N 1 0 0 1 0.000349943 0 2
 Refer: 1998 926944 S 1 0 0 1 67 0 2
+Ligature2: "Ligature Substitution lookup 597 subtable" ZLM_X ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -61870,6 +64154,11 @@ SplineSet
  1291.5 689 l 1
  1291.5 555 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 657 subtable" ZLM_DASH_ISO
+Substitution2: "Single Substitution lookup 655 subtable" ZLM_DASH_FINAL
+Substitution2: "Single Substitution lookup 654 subtable" ZLM_DASH_FINAL
+Substitution2: "Single Substitution lookup 652 subtable" ZLM_DASH_INIT
+Substitution2: "Single Substitution lookup 651 subtable" ZLM_DASH_INIT
 EndChar
 
 StartChar: ZLM_B
@@ -61913,6 +64202,7 @@ LayerCount: 2
 Fore
 Refer: 1787 926640 N 1 0 0 1 0 0 2
 Refer: 1899 926800 S 1 0 0 1 248 0 2
+Ligature2: "zlmCV subtable" ZLM_B ZLM_DIACRITIC_A
 LCarets2: 1 0
 EndChar
 
@@ -61928,6 +64218,7 @@ LayerCount: 2
 Fore
 Refer: 1787 926640 N 1 0 0 1 0 0 2
 Refer: 1910 926816 S 0.75 0 0 1 338 0 2
+Ligature2: "zlmCV subtable" ZLM_B ZLM_DIACRITIC_E
 LCarets2: 1 0
 EndChar
 
@@ -61943,6 +64234,7 @@ LayerCount: 2
 Fore
 Refer: 1787 926640 N 1 0 0 1 0 0 2
 Refer: 1921 926832 S 1 0 0 1 142 0 2
+Ligature2: "zlmCV subtable" ZLM_B ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -61958,6 +64250,7 @@ LayerCount: 2
 Fore
 Refer: 1787 926640 N 1 0 0 1 0 0 2
 Refer: 1932 926848 S 1 0 0 1 170 0 2
+Ligature2: "zlmCV subtable" ZLM_B ZLM_DIACRITIC_O
 LCarets2: 1 0
 EndChar
 
@@ -61973,6 +64266,7 @@ LayerCount: 2
 Fore
 Refer: 1787 926640 N 1 0 0 1 0 0 2
 Refer: 1943 926864 S 1 0 0 1 138 0 2
+Ligature2: "zlmCV subtable" ZLM_B ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -61988,6 +64282,7 @@ LayerCount: 2
 Fore
 Refer: 1787 926640 N 1 0 0 1 0 0 2
 Refer: 1954 926880 S 1 0 0 1 160 0 2
+Ligature2: "zlmCV subtable" ZLM_B ZLM_DIACRITIC_Y
 LCarets2: 1 0
 EndChar
 
@@ -62003,6 +64298,7 @@ LayerCount: 2
 Fore
 Refer: 1787 926640 N 1 0 0 1 0 0 2
 Refer: 1965 926896 S 1 0 0 1 154 0 2
+Ligature2: "Ligature Substitution lookup 598 subtable" ZLM_B ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -62018,6 +64314,7 @@ LayerCount: 2
 Fore
 Refer: 1787 926640 N 1 0 0 1 0 0 2
 Refer: 1976 926912 S 1 0 0 1 156 0 2
+Ligature2: "Ligature Substitution lookup 599 subtable" ZLM_B ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -62033,6 +64330,7 @@ LayerCount: 2
 Fore
 Refer: 1787 926640 N 1 0 0 1 0 0 2
 Refer: 1987 926928 S 1 0 0 1 188 0 2
+Ligature2: "Ligature Substitution lookup 600 subtable" ZLM_B ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -62048,6 +64346,7 @@ LayerCount: 2
 Fore
 Refer: 1787 926640 N 1 0 0 1 0 0 2
 Refer: 1998 926944 S 1 0 0 1 236 0 2
+Ligature2: "Ligature Substitution lookup 601 subtable" ZLM_B ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -62108,6 +64407,7 @@ LayerCount: 2
 Fore
 Refer: 1799 926656 N 1 0 0 1 0 0 2
 Refer: 1899 926800 S 1 0 0 1 104 0 2
+Ligature2: "zlmCV subtable" ZLM_D ZLM_DIACRITIC_A
 LCarets2: 1 0
 EndChar
 
@@ -62123,6 +64423,7 @@ LayerCount: 2
 Fore
 Refer: 1799 926656 N 1 0 0 1 0 0 2
 Refer: 1910 926816 S 1 0 0 1 20 0 2
+Ligature2: "zlmCV subtable" ZLM_D ZLM_DIACRITIC_E
 LCarets2: 1 0
 EndChar
 
@@ -62138,6 +64439,7 @@ LayerCount: 2
 Fore
 Refer: 1799 926656 N 1 0 0 1 0 0 2
 Refer: 1921 926832 S 1 0 0 1 16 0 2
+Ligature2: "zlmCV subtable" ZLM_D ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -62153,6 +64455,7 @@ LayerCount: 2
 Fore
 Refer: 1799 926656 N 1 0 0 1 0 0 2
 Refer: 1932 926848 S 1 0 0 1 44 0 2
+Ligature2: "zlmCV subtable" ZLM_D ZLM_DIACRITIC_O
 LCarets2: 1 0
 EndChar
 
@@ -62168,6 +64471,7 @@ LayerCount: 2
 Fore
 Refer: 1799 926656 N 1 0 0 1 0 0 2
 Refer: 1943 926864 S 1 0 0 1 30 0 2
+Ligature2: "zlmCV subtable" ZLM_D ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -62183,6 +64487,7 @@ LayerCount: 2
 Fore
 Refer: 1799 926656 N 1 0 0 1 0 0 2
 Refer: 1954 926880 S 1 0 0 1 12 0 2
+Ligature2: "zlmCV subtable" ZLM_D ZLM_DIACRITIC_Y
 LCarets2: 1 0
 EndChar
 
@@ -62198,6 +64503,7 @@ LayerCount: 2
 Fore
 Refer: 1799 926656 N 1 0 0 1 0 0 2
 Refer: 1965 926896 S 1 0 0 1 12 0 2
+Ligature2: "Ligature Substitution lookup 602 subtable" ZLM_D ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -62213,6 +64519,7 @@ LayerCount: 2
 Fore
 Refer: 1799 926656 N 1 0 0 1 0 0 2
 Refer: 1976 926912 S 1 0 0 1 4 0 2
+Ligature2: "Ligature Substitution lookup 603 subtable" ZLM_D ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -62228,6 +64535,7 @@ LayerCount: 2
 Fore
 Refer: 1799 926656 N 1 0 0 1 0 0 2
 Refer: 1987 926928 S 1 0 0 1 48 0 2
+Ligature2: "Ligature Substitution lookup 604 subtable" ZLM_D ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -62243,6 +64551,7 @@ LayerCount: 2
 Fore
 Refer: 1799 926656 N 1 0 0 1 0 0 2
 Refer: 1998 926944 S 1 0 0 1 92 0 2
+Ligature2: "Ligature Substitution lookup 605 subtable" ZLM_D ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -62309,6 +64618,7 @@ LayerCount: 2
 Fore
 Refer: 1811 926672 N 1 0 0 1 0 0 2
 Refer: 1899 926800 S 1 0 0 1 92 0 2
+Ligature2: "zlmCV subtable" ZLM_G ZLM_DIACRITIC_A
 LCarets2: 1 0
 EndChar
 
@@ -62324,6 +64634,7 @@ LayerCount: 2
 Fore
 Refer: 1811 926672 N 1 0 0 1 0 0 2
 Refer: 1910 926816 S 1 0 0 1 20 0 2
+Ligature2: "zlmCV subtable" ZLM_G ZLM_DIACRITIC_E
 LCarets2: 1 0
 EndChar
 
@@ -62339,6 +64650,7 @@ LayerCount: 2
 Fore
 Refer: 1811 926672 N 1 0 0 1 0 0 2
 Refer: 1921 926832 S 1 0 0 1 28 0 2
+Ligature2: "zlmCV subtable" ZLM_G ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -62354,6 +64666,7 @@ LayerCount: 2
 Fore
 Refer: 1811 926672 N 1 0 0 1 0 0 2
 Refer: 1932 926848 S 1 0 0 1 30 0 2
+Ligature2: "zlmCV subtable" ZLM_G ZLM_DIACRITIC_O
 LCarets2: 1 0
 EndChar
 
@@ -62369,6 +64682,7 @@ LayerCount: 2
 Fore
 Refer: 1811 926672 N 1 0 0 1 0 0 2
 Refer: 1943 926864 S 1 0 0 1 34 0 2
+Ligature2: "zlmCV subtable" ZLM_G ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -62384,6 +64698,7 @@ LayerCount: 2
 Fore
 Refer: 1811 926672 N 1 0 0 1 0 0 2
 Refer: 1954 926880 S 1 0 0 1 28 0 2
+Ligature2: "zlmCV subtable" ZLM_G ZLM_DIACRITIC_Y
 LCarets2: 1 0
 EndChar
 
@@ -62399,6 +64714,7 @@ LayerCount: 2
 Fore
 Refer: 1811 926672 N 1 0 0 1 0 0 2
 Refer: 1965 926896 S 1 0 0 1 44 0 2
+Ligature2: "Ligature Substitution lookup 606 subtable" ZLM_G ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -62414,6 +64730,7 @@ LayerCount: 2
 Fore
 Refer: 1811 926672 N 1 0 0 1 0 0 2
 Refer: 1976 926912 S 1 0 0 1 6 0 2
+Ligature2: "Ligature Substitution lookup 607 subtable" ZLM_G ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -62429,6 +64746,7 @@ LayerCount: 2
 Fore
 Refer: 1811 926672 N 1 0 0 1 0 0 2
 Refer: 1987 926928 S 1 0 0 1 32 0 2
+Ligature2: "Ligature Substitution lookup 608 subtable" ZLM_G ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -62444,6 +64762,7 @@ LayerCount: 2
 Fore
 Refer: 1811 926672 N 1 0 0 1 0 0 2
 Refer: 1998 926944 S 1 0 0 1 40 0 2
+Ligature2: "Ligature Substitution lookup 609 subtable" ZLM_G ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -62484,6 +64803,7 @@ LayerCount: 2
 Fore
 Refer: 1822 926688 N 1 0 0 1 0 0 2
 Refer: 1899 926800 S 1 0 0 1 152 0 2
+Ligature2: "zlmCV subtable" ZLM_V ZLM_DIACRITIC_A
 LCarets2: 1 0
 EndChar
 
@@ -62499,6 +64819,7 @@ LayerCount: 2
 Fore
 Refer: 1822 926688 N 1 0 0 1 0 0 2
 Refer: 1910 926816 S 0.75 0 0 1 230 0 2
+Ligature2: "zlmCV subtable" ZLM_V ZLM_DIACRITIC_E
 LCarets2: 1 0
 EndChar
 
@@ -62514,6 +64835,7 @@ LayerCount: 2
 Fore
 Refer: 1822 926688 N 1 0 0 1 0 0 2
 Refer: 1921 926832 S 1 0 0 1 68 0 2
+Ligature2: "zlmCV subtable" ZLM_V ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -62529,6 +64851,7 @@ LayerCount: 2
 Fore
 Refer: 1822 926688 N 1 0 0 1 0 0 2
 Refer: 1932 926848 S 1 0 0 1 90 0 2
+Ligature2: "zlmCV subtable" ZLM_V ZLM_DIACRITIC_O
 LCarets2: 1 0
 EndChar
 
@@ -62544,6 +64867,7 @@ LayerCount: 2
 Fore
 Refer: 1822 926688 N 1 0 0 1 0 0 2
 Refer: 1943 926864 S 1 0 0 1 66 0 2
+Ligature2: "zlmCV subtable" ZLM_V ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -62559,6 +64883,7 @@ LayerCount: 2
 Fore
 Refer: 1822 926688 N 1 0 0 1 0 0 2
 Refer: 1954 926880 S 1 0 0 1 62 0 2
+Ligature2: "zlmCV subtable" ZLM_V ZLM_DIACRITIC_Y
 LCarets2: 1 0
 EndChar
 
@@ -62574,6 +64899,7 @@ LayerCount: 2
 Fore
 Refer: 1822 926688 N 1 0 0 1 0 0 2
 Refer: 1965 926896 S 1 0 0 1 82 0 2
+Ligature2: "Ligature Substitution lookup 610 subtable" ZLM_V ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -62590,6 +64916,7 @@ LayerCount: 2
 Fore
 Refer: 1822 926688 N 1 0 0 1 0 0 2
 Refer: 1976 926912 S 1 0 0 1 58 0 2
+Ligature2: "Ligature Substitution lookup 611 subtable" ZLM_V ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -62605,6 +64932,7 @@ LayerCount: 2
 Fore
 Refer: 1822 926688 N 1 0 0 1 0 0 2
 Refer: 1987 926928 S 1 0 0 1 80 0 2
+Ligature2: "Ligature Substitution lookup 612 subtable" ZLM_V ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -62620,6 +64948,7 @@ LayerCount: 2
 Fore
 Refer: 1822 926688 N 1 0 0 1 0 0 2
 Refer: 1998 926944 S 1 0 0 1 114 0 2
+Ligature2: "Ligature Substitution lookup 613 subtable" ZLM_V ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -62661,6 +64990,7 @@ LayerCount: 2
 Fore
 Refer: 1833 926704 N 1 0 0 1 0.0992281 0 2
 Refer: 1899 926800 S 1 0 0 1 92 0 2
+Ligature2: "zlmCV subtable" ZLM_R ZLM_DIACRITIC_A
 LCarets2: 1 0
 EndChar
 
@@ -62676,6 +65006,7 @@ LayerCount: 2
 Fore
 Refer: 1833 926704 N 1 0 0 1 0.0992281 0 2
 Refer: 1910 926816 S 1 0 0 1 10 0 2
+Ligature2: "zlmCV subtable" ZLM_R ZLM_DIACRITIC_E
 LCarets2: 1 0
 EndChar
 
@@ -62691,6 +65022,7 @@ LayerCount: 2
 Fore
 Refer: 1833 926704 N 1 0 0 1 0.0992281 0 2
 Refer: 1921 926832 S 1 0 0 1 12 0 2
+Ligature2: "zlmCV subtable" ZLM_R ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -62706,6 +65038,7 @@ LayerCount: 2
 Fore
 Refer: 1833 926704 N 1 0 0 1 0.0992281 0 2
 Refer: 1932 926848 S 1 0 0 1 6 0 2
+Ligature2: "zlmCV subtable" ZLM_R ZLM_DIACRITIC_O
 LCarets2: 1 0
 EndChar
 
@@ -62721,6 +65054,7 @@ LayerCount: 2
 Fore
 Refer: 1833 926704 N 1 0 0 1 0.0992281 0 2
 Refer: 1943 926864 S 1 0 0 1 -18 0 2
+Ligature2: "zlmCV subtable" ZLM_R ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -62736,6 +65070,7 @@ LayerCount: 2
 Fore
 Refer: 1833 926704 N 1 0 0 1 0.0992281 0 2
 Refer: 1954 926880 S 1 0 0 1 4 0 2
+Ligature2: "zlmCV subtable" ZLM_R ZLM_DIACRITIC_Y
 LCarets2: 1 0
 EndChar
 
@@ -62751,6 +65086,7 @@ LayerCount: 2
 Fore
 Refer: 1833 926704 N 1 0 0 1 0.0992281 0 2
 Refer: 1965 926896 S 1 0 0 1 52 0 2
+Ligature2: "Ligature Substitution lookup 614 subtable" ZLM_R ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -62766,6 +65102,7 @@ LayerCount: 2
 Fore
 Refer: 1833 926704 N 1 0 0 1 0.0992281 0 2
 Refer: 1976 926912 S 1 0 0 1 2 0 2
+Ligature2: "Ligature Substitution lookup 615 subtable" ZLM_R ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -62781,6 +65118,7 @@ LayerCount: 2
 Fore
 Refer: 1833 926704 N 1 0 0 1 0.0992281 0 2
 Refer: 1987 926928 S 1 0 0 1 38 0 2
+Ligature2: "Ligature Substitution lookup 616 subtable" ZLM_R ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -62796,6 +65134,7 @@ LayerCount: 2
 Fore
 Refer: 1833 926704 N 1 0 0 1 0.0992281 0 2
 Refer: 1998 926944 S 1 0 0 1 66 0 2
+Ligature2: "Ligature Substitution lookup 617 subtable" ZLM_R ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -62840,6 +65179,7 @@ LayerCount: 2
 Fore
 Refer: 1899 926800 S 1 0 0 1 138 0 2
 Refer: 1844 926720 N 1 0 0 1 0.000454195 0 2
+Ligature2: "zlmCV subtable" ZLM_Z ZLM_DIACRITIC_A
 LCarets2: 1 0
 EndChar
 
@@ -62855,6 +65195,7 @@ LayerCount: 2
 Fore
 Refer: 1910 926816 S 1 0 0 1 51 0 2
 Refer: 1844 926720 N 1 0 0 1 0.000454195 0 2
+Ligature2: "zlmCV subtable" ZLM_Z ZLM_DIACRITIC_E
 LCarets2: 1 0
 EndChar
 
@@ -62870,6 +65211,7 @@ LayerCount: 2
 Fore
 Refer: 1921 926832 S 1 0 0 1 46 0 2
 Refer: 1844 926720 N 1 0 0 1 0.00090839 0 2
+Ligature2: "zlmCV subtable" ZLM_Z ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -62885,6 +65227,7 @@ LayerCount: 2
 Fore
 Refer: 1844 926720 N 1 0 0 1 0.000454195 0 2
 Refer: 1932 926848 S 1 0 0 1 38 0 2
+Ligature2: "zlmCV subtable" ZLM_Z ZLM_DIACRITIC_O
 LCarets2: 1 0
 EndChar
 
@@ -62900,6 +65243,7 @@ LayerCount: 2
 Fore
 Refer: 1844 926720 N 1 0 0 1 0.000454195 0 2
 Refer: 1943 926864 S 1 0 0 1 60 0 2
+Ligature2: "zlmCV subtable" ZLM_Z ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -62915,6 +65259,7 @@ LayerCount: 2
 Fore
 Refer: 1844 926720 N 1 0 0 1 0.000454195 0 2
 Refer: 1954 926880 S 1 0 0 1 42 0 2
+Ligature2: "zlmCV subtable" ZLM_Z ZLM_DIACRITIC_Y
 LCarets2: 1 0
 EndChar
 
@@ -62930,6 +65275,7 @@ LayerCount: 2
 Fore
 Refer: 1844 926720 N 1 0 0 1 0.000454195 0 2
 Refer: 1965 926896 S 1 0 0 1 94 0 2
+Ligature2: "Ligature Substitution lookup 618 subtable" ZLM_Z ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -62945,6 +65291,7 @@ LayerCount: 2
 Fore
 Refer: 1844 926720 N 1 0 0 1 0.000454195 0 2
 Refer: 1976 926912 S 1 0 0 1 66 0 2
+Ligature2: "Ligature Substitution lookup 619 subtable" ZLM_Z ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -62960,6 +65307,7 @@ LayerCount: 2
 Fore
 Refer: 1844 926720 N 1 0 0 1 0.000454195 0 2
 Refer: 1987 926928 S 1 0 0 1 58 0 2
+Ligature2: "Ligature Substitution lookup 620 subtable" ZLM_Z ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -62975,6 +65323,7 @@ LayerCount: 2
 Fore
 Refer: 1844 926720 N 1 0 0 1 0.000454195 0 2
 Refer: 1998 926944 S 1 0 0 1 94 0 2
+Ligature2: "Ligature Substitution lookup 621 subtable" ZLM_Z ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -62982,7 +65331,7 @@ StartChar: ZLM_J
 Encoding: 926736 926736 1855
 Width: 1200
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: -21 132<436.191 693.17> 1034 20G<201.027 203 203 352.302 833 1001>
 VStem: 203 168<-423 87.4658 162.407 1007.67> 203 147<932.375 1054> 833 168<232.574 1054> 858 143<1 147>
 AnchorPoint: "Anchor-1" 598 1054 basechar 0
@@ -63023,6 +65372,7 @@ LayerCount: 2
 Fore
 Refer: 1855 926736 N 1 0 0 1 0 0 2
 Refer: 1899 926800 S 1 0 0 1 96 0 2
+Ligature2: "zlmCV subtable" ZLM_J ZLM_DIACRITIC_A
 LCarets2: 1 0
 EndChar
 
@@ -63038,6 +65388,7 @@ LayerCount: 2
 Fore
 Refer: 1855 926736 N 1 0 0 1 0 0 2
 Refer: 1910 926816 S 1 0 0 1 42 0 2
+Ligature2: "zlmCV subtable" ZLM_J ZLM_DIACRITIC_E
 LCarets2: 1 0
 EndChar
 
@@ -63053,6 +65404,7 @@ LayerCount: 2
 Fore
 Refer: 1855 926736 N 1 0 0 1 0 0 2
 Refer: 1921 926832 S 1 0 0 1 28 0 2
+Ligature2: "zlmCV subtable" ZLM_J ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -63068,6 +65420,7 @@ LayerCount: 2
 Fore
 Refer: 1855 926736 N 1 0 0 1 0 0 2
 Refer: 1932 926848 S 1 0 0 1 -2 0 2
+Ligature2: "zlmCV subtable" ZLM_J ZLM_DIACRITIC_O
 LCarets2: 1 0
 EndChar
 
@@ -63083,6 +65436,7 @@ LayerCount: 2
 Fore
 Refer: 1855 926736 N 1 0 0 1 0 0 2
 Refer: 1943 926864 S 1 0 0 1 14 0 2
+Ligature2: "zlmCV subtable" ZLM_J ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -63098,6 +65452,7 @@ LayerCount: 2
 Fore
 Refer: 1855 926736 N 1 0 0 1 0 0 2
 Refer: 1954 926880 S 1 0 0 1 8 0 2
+Ligature2: "zlmCV subtable" ZLM_J ZLM_DIACRITIC_Y
 LCarets2: 1 0
 EndChar
 
@@ -63113,6 +65468,7 @@ LayerCount: 2
 Fore
 Refer: 1855 926736 N 1 0 0 1 0 0 2
 Refer: 1965 926896 S 1 0 0 1 26 0 2
+Ligature2: "Ligature Substitution lookup 622 subtable" ZLM_J ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -63128,6 +65484,7 @@ LayerCount: 2
 Fore
 Refer: 1855 926736 N 1 0 0 1 0 0 2
 Refer: 1976 926912 S 1 0 0 1 -4 0 2
+Ligature2: "Ligature Substitution lookup 623 subtable" ZLM_J ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -63143,6 +65500,7 @@ LayerCount: 2
 Fore
 Refer: 1855 926736 N 1 0 0 1 0 0 2
 Refer: 1987 926928 S 1 0 0 1 48 0 2
+Ligature2: "Ligature Substitution lookup 624 subtable" ZLM_J ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -63158,6 +65516,7 @@ LayerCount: 2
 Fore
 Refer: 1855 926736 N 1 0 0 1 0 0 2
 Refer: 1998 926944 S 1 0 0 1 78 0 2
+Ligature2: "Ligature Substitution lookup 625 subtable" ZLM_J ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -63198,6 +65557,7 @@ LayerCount: 2
 Fore
 Refer: 1866 926752 N 1 0 0 1 0 0 2
 Refer: 1899 926800 S 1 0 0 1 124 0 2
+Ligature2: "zlmCV subtable" ZLM_N ZLM_DIACRITIC_A
 LCarets2: 1 0
 EndChar
 
@@ -63212,6 +65572,7 @@ LayerCount: 2
 Fore
 Refer: 1866 926752 N 1 0 0 1 0 0 2
 Refer: 1910 926816 S 1 0 0 1 52 0 2
+Ligature2: "zlmCV subtable" ZLM_N ZLM_DIACRITIC_E
 LCarets2: 1 0
 EndChar
 
@@ -63226,6 +65587,7 @@ LayerCount: 2
 Fore
 Refer: 1866 926752 N 1 0 0 1 0 0 2
 Refer: 1921 926832 S 1 0 0 1 40 0 2
+Ligature2: "zlmCV subtable" ZLM_N ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -63240,6 +65602,7 @@ LayerCount: 2
 Fore
 Refer: 1866 926752 N 1 0 0 1 0 0 2
 Refer: 1932 926848 S 1 0 0 1 39 0 2
+Ligature2: "zlmCV subtable" ZLM_N ZLM_DIACRITIC_O
 LCarets2: 1 0
 EndChar
 
@@ -63254,6 +65617,7 @@ LayerCount: 2
 Fore
 Refer: 1866 926752 N 1 0 0 1 0 0 2
 Refer: 1943 926864 S 1 0 0 1 52 0 2
+Ligature2: "zlmCV subtable" ZLM_N ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -63268,6 +65632,7 @@ LayerCount: 2
 Fore
 Refer: 1866 926752 N 1 0 0 1 0 0 2
 Refer: 1954 926880 S 1 0 0 1 54 0 2
+Ligature2: "zlmCV subtable" ZLM_N ZLM_DIACRITIC_Y
 LCarets2: 1 0
 EndChar
 
@@ -63282,6 +65647,7 @@ LayerCount: 2
 Fore
 Refer: 1866 926752 N 1 0 0 1 0 0 2
 Refer: 1965 926896 S 1 0 0 1 56 0 2
+Ligature2: "Ligature Substitution lookup 626 subtable" ZLM_N ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -63296,6 +65662,7 @@ LayerCount: 2
 Fore
 Refer: 1866 926752 N 1 0 0 1 0 0 2
 Refer: 1976 926912 S 1 0 0 1 26 0 2
+Ligature2: "Ligature Substitution lookup 627 subtable" ZLM_N ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -63310,6 +65677,7 @@ LayerCount: 2
 Fore
 Refer: 1866 926752 N 1 0 0 1 0 0 2
 Refer: 1987 926928 S 1 0 0 1 88 0 2
+Ligature2: "Ligature Substitution lookup 628 subtable" ZLM_N ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -63324,6 +65692,7 @@ LayerCount: 2
 Fore
 Refer: 1866 926752 N 1 0 0 1 0 0 2
 Refer: 1998 926944 S 1 0 0 1 112 0 2
+Ligature2: "Ligature Substitution lookup 629 subtable" ZLM_N ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -63350,6 +65719,8 @@ LayerCount: 2
 Fore
 Refer: 1899 926800 S 1 0 0 1 84 0 2
 Refer: 1877 926768 N 1 0 0 1 0 0 2
+Ligature2: "zlmWV subtable" ZLM_DIACRITIC_I ZLM_DIACRITIC_A
+Ligature2: "zlmQV subtable" ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_A
 LCarets2: 1 0
 EndChar
 
@@ -63364,6 +65735,8 @@ LayerCount: 2
 Fore
 Refer: 1910 926816 S 0.75 0 0 1 160 0 2
 Refer: 1877 926768 N 1 0 0 1 0 0 2
+Ligature2: "zlmWV subtable" ZLM_DIACRITIC_I ZLM_DIACRITIC_E
+Ligature2: "zlmQV subtable" ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_E
 LCarets2: 1 0
 EndChar
 
@@ -63378,6 +65751,8 @@ LayerCount: 2
 Fore
 Refer: 1921 926832 S 1 0 0 1 12 0 2
 Refer: 1877 926768 N 1 0 0 1 0 0 2
+Ligature2: "zlmWV subtable" ZLM_DIACRITIC_I ZLM_DIACRITIC_I
+Ligature2: "zlmQV subtable" ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -63392,6 +65767,8 @@ LayerCount: 2
 Fore
 Refer: 1932 926848 S 1 0 0 1 34 0 2
 Refer: 1877 926768 N 1 0 0 1 0 0 2
+Ligature2: "zlmWV subtable" ZLM_DIACRITIC_I ZLM_DIACRITIC_O
+Ligature2: "zlmQV subtable" ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_O
 LCarets2: 1 0
 EndChar
 
@@ -63406,6 +65783,8 @@ LayerCount: 2
 Fore
 Refer: 1943 926864 S 1 0 0 1 12 0 2
 Refer: 1877 926768 N 1 0 0 1 0 0 2
+Ligature2: "zlmWV subtable" ZLM_DIACRITIC_I ZLM_DIACRITIC_U
+Ligature2: "zlmQV subtable" ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -63420,6 +65799,8 @@ LayerCount: 2
 Fore
 Refer: 1954 926880 S 1 0 0 1 4 0 2
 Refer: 1877 926768 N 1 0 0 1 0 0 2
+Ligature2: "zlmWV subtable" ZLM_DIACRITIC_I ZLM_DIACRITIC_Y
+Ligature2: "zlmQV subtable" ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_Y
 LCarets2: 1 0
 EndChar
 
@@ -63433,6 +65814,8 @@ LayerCount: 2
 Fore
 Refer: 1965 926896 S 1 0 0 1 22 0 2
 Refer: 1877 926768 N 1 0 0 1 0 0 2
+Ligature2: "Ligature Substitution lookup 553 subtable" ZLM_DIACRITIC_I ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+Ligature2: "Ligature Substitution lookup 544 subtable" ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -63447,6 +65830,8 @@ LayerCount: 2
 Fore
 Refer: 1976 926912 S 1 0 0 1 -4 0 2
 Refer: 1877 926768 N 1 0 0 1 0 0 2
+Ligature2: "Ligature Substitution lookup 554 subtable" ZLM_DIACRITIC_I ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+Ligature2: "Ligature Substitution lookup 545 subtable" ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -63461,6 +65846,8 @@ LayerCount: 2
 Fore
 Refer: 1987 926928 S 1 0 0 1 24 0 2
 Refer: 1877 926768 N 1 0 0 1 0 0 2
+Ligature2: "Ligature Substitution lookup 555 subtable" ZLM_DIACRITIC_I ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+Ligature2: "Ligature Substitution lookup 546 subtable" ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -63475,6 +65862,8 @@ LayerCount: 2
 Fore
 Refer: 1998 926944 S 1 0 0 1 50 0 2
 Refer: 1877 926768 N 1 0 0 1 0 0 2
+Ligature2: "Ligature Substitution lookup 556 subtable" ZLM_DIACRITIC_I ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+Ligature2: "Ligature Substitution lookup 547 subtable" ZLM_SEMIVOWEL_Q ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -63510,6 +65899,8 @@ LayerCount: 2
 Fore
 Refer: 1899 926800 S 1 0 0 1 104 0 2
 Refer: 1888 926784 N 1 0 0 1 0 0 2
+Ligature2: "zlmWV subtable" ZLM_DIACRITIC_U ZLM_DIACRITIC_A
+Ligature2: "zlmQV subtable" ZLM_SEMIVOWEL_W ZLM_DIACRITIC_A
 LCarets2: 1 0
 EndChar
 
@@ -63524,6 +65915,8 @@ LayerCount: 2
 Fore
 Refer: 1910 926816 S 1 0 0 1 10 0 2
 Refer: 1888 926784 N 1 0 0 1 0 0 2
+Ligature2: "zlmWV subtable" ZLM_DIACRITIC_U ZLM_DIACRITIC_E
+Ligature2: "zlmQV subtable" ZLM_SEMIVOWEL_W ZLM_DIACRITIC_E
 LCarets2: 1 0
 EndChar
 
@@ -63538,6 +65931,8 @@ LayerCount: 2
 Fore
 Refer: 1921 926832 S 1 0 0 1 0 0 2
 Refer: 1888 926784 N 1 0 0 1 0 0 2
+Ligature2: "zlmWV subtable" ZLM_DIACRITIC_U ZLM_DIACRITIC_I
+Ligature2: "zlmQV subtable" ZLM_SEMIVOWEL_W ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -63552,6 +65947,8 @@ LayerCount: 2
 Fore
 Refer: 1932 926848 S 1 0 0 1 24 0 2
 Refer: 1888 926784 N 1 0 0 1 0 0 2
+Ligature2: "zlmWV subtable" ZLM_DIACRITIC_U ZLM_DIACRITIC_O
+Ligature2: "zlmQV subtable" ZLM_SEMIVOWEL_W ZLM_DIACRITIC_O
 LCarets2: 1 0
 EndChar
 
@@ -63566,6 +65963,8 @@ LayerCount: 2
 Fore
 Refer: 1943 926864 S 1 0 0 1 14 0 2
 Refer: 1888 926784 N 1 0 0 1 0 0 2
+Ligature2: "zlmWV subtable" ZLM_DIACRITIC_U ZLM_DIACRITIC_U
+Ligature2: "zlmQV subtable" ZLM_SEMIVOWEL_W ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -63580,6 +65979,8 @@ LayerCount: 2
 Fore
 Refer: 1954 926880 S 1 0 0 1 -6 0 2
 Refer: 1888 926784 N 1 0 0 1 0 0 2
+Ligature2: "zlmWV subtable" ZLM_DIACRITIC_U ZLM_DIACRITIC_Y
+Ligature2: "zlmQV subtable" ZLM_SEMIVOWEL_W ZLM_DIACRITIC_Y
 LCarets2: 1 0
 EndChar
 
@@ -63593,6 +65994,8 @@ LayerCount: 2
 Fore
 Refer: 1888 926784 N 1 0 0 1 0 0 2
 Refer: 1965 926896 S 1 0 0 1 24 0 2
+Ligature2: "Ligature Substitution lookup 557 subtable" ZLM_DIACRITIC_U ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+Ligature2: "Ligature Substitution lookup 548 subtable" ZLM_SEMIVOWEL_W ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -63607,6 +66010,8 @@ LayerCount: 2
 Fore
 Refer: 1976 926912 S 1 0 0 1 0 0 2
 Refer: 1888 926784 N 1 0 0 1 0 0 2
+Ligature2: "Ligature Substitution lookup 558 subtable" ZLM_DIACRITIC_U ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+Ligature2: "Ligature Substitution lookup 549 subtable" ZLM_SEMIVOWEL_W ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -63621,6 +66026,8 @@ LayerCount: 2
 Fore
 Refer: 1987 926928 S 1 0 0 1 38 0 2
 Refer: 1888 926784 N 1 0 0 1 0 0 2
+Ligature2: "Ligature Substitution lookup 559 subtable" ZLM_DIACRITIC_U ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+Ligature2: "Ligature Substitution lookup 550 subtable" ZLM_SEMIVOWEL_W ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -63635,6 +66042,8 @@ LayerCount: 2
 Fore
 Refer: 1998 926944 S 1 0 0 1 80 0 2
 Refer: 1888 926784 N 1 0 0 1 0 0 2
+Ligature2: "Ligature Substitution lookup 560 subtable" ZLM_DIACRITIC_U ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+Ligature2: "Ligature Substitution lookup 551 subtable" ZLM_SEMIVOWEL_W ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -63654,6 +66063,7 @@ SplineSet
  550 1171 l 1
  421 1171 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 659 subtable" ZLM_DOT_A
 EndChar
 
 StartChar: ZLM_CAS_AHA
@@ -63668,6 +66078,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1899 926800 N 1 0 0 1 -300 0 2
 Refer: 1899 926800 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 507 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_A
+Ligature2: "Ligature Substitution lookup 445 subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_A
 LCarets2: 2 0 0
 EndChar
 
@@ -63683,6 +66095,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1899 926800 N 1 0 0 1 -300 0 2
 Refer: 1910 926816 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 508 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_E
+Ligature2: "Ligature Substitution lookup 446 subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_E
 LCarets2: 2 0 0
 EndChar
 
@@ -63698,6 +66112,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1899 926800 N 1 0 0 1 -300 0 2
 Refer: 1921 926832 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 509 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_I
+Ligature2: "Ligature Substitution lookup 447 subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -63713,6 +66129,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1899 926800 N 1 0 0 1 -300 0 2
 Refer: 1932 926848 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 510 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_O
+Ligature2: "Ligature Substitution lookup 448 subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_O
 LCarets2: 2 0 0
 EndChar
 
@@ -63728,6 +66146,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1899 926800 N 1 0 0 1 -300 0 2
 Refer: 1943 926864 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 511 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_U
+Ligature2: "Ligature Substitution lookup 449 subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -63743,6 +66163,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1899 926800 N 1 0 0 1 -300 0 2
 Refer: 1954 926880 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 512 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_Y
+Ligature2: "Ligature Substitution lookup 450 subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_Y
 LCarets2: 2 0 0
 EndChar
 
@@ -63758,6 +66180,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1899 926800 N 1 0 0 1 -300 0 2
 Refer: 1965 926896 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 482 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 3 0 0 0
 EndChar
 
@@ -63773,6 +66197,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1899 926800 N 1 0 0 1 -300 0 2
 Refer: 1976 926912 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 483 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 3 0 0 0
 EndChar
 
@@ -63788,6 +66214,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1899 926800 N 1 0 0 1 -300 0 2
 Refer: 1987 926928 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 484 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 3 0 0 0
 EndChar
 
@@ -63803,6 +66231,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1899 926800 N 1 0 0 1 -300 0 2
 Refer: 1998 926944 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 485 subtable" ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 3 0 0 0
 EndChar
 
@@ -63822,6 +66252,7 @@ SplineSet
  868 1495 l 1
  868 1367 l 1
 EndSplineSet
+Substitution2: "Single Substitution lookup 660 subtable" ZLM_DOT_E
 EndChar
 
 StartChar: ZLM_CAS_EHA
@@ -63836,6 +66267,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1910 926816 N 1 0 0 1 -300 0 2
 Refer: 1899 926800 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 513 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_A
+Ligature2: "Ligature Substitution lookup 451 subtable" ZLM_NULL ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_A
 LCarets2: 2 0 0
 EndChar
 
@@ -63851,6 +66284,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1910 926816 N 1 0 0 1 -300 0 2
 Refer: 1910 926816 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 514 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_E
+Ligature2: "Ligature Substitution lookup 452 subtable" ZLM_NULL ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_E
 LCarets2: 2 0 0
 EndChar
 
@@ -63866,6 +66301,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1910 926816 N 1 0 0 1 -300 0 2
 Refer: 1921 926832 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 515 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_I
+Ligature2: "Ligature Substitution lookup 453 subtable" ZLM_NULL ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -63881,6 +66318,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1910 926816 N 1 0 0 1 -300 0 2
 Refer: 1932 926848 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 516 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_O
+Ligature2: "Ligature Substitution lookup 454 subtable" ZLM_NULL ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_O
 LCarets2: 2 0 0
 EndChar
 
@@ -63896,6 +66335,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1910 926816 N 1 0 0 1 -300 0 2
 Refer: 1943 926864 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 517 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_U
+Ligature2: "Ligature Substitution lookup 455 subtable" ZLM_NULL ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -63911,6 +66352,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1910 926816 N 1 0 0 1 -300 0 2
 Refer: 1954 926880 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 518 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_Y
+Ligature2: "Ligature Substitution lookup 456 subtable" ZLM_NULL ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_Y
 LCarets2: 2 0 0
 EndChar
 
@@ -63926,6 +66369,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1910 926816 N 1 0 0 1 -300 0 2
 Refer: 1965 926896 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 486 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 3 0 0 0
 EndChar
 
@@ -63941,6 +66386,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1910 926816 N 1 0 0 1 -300 0 2
 Refer: 1976 926912 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 487 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 3 0 0 0
 EndChar
 
@@ -63956,6 +66403,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1910 926816 N 1 0 0 1 -300 0 2
 Refer: 1987 926928 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 488 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 3 0 0 0
 EndChar
 
@@ -63971,6 +66420,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1910 926816 N 1 0 0 1 -300 0 2
 Refer: 1998 926944 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 489 subtable" ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_E ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 3 0 0 0
 EndChar
 
@@ -63990,6 +66441,7 @@ SplineSet
  526 1309 477 1361 477 1429 c 0
  477 1495 526 1546 598 1546 c 0
 EndSplineSet
+Substitution2: "Single Substitution lookup 661 subtable" ZLM_DOT_I
 EndChar
 
 StartChar: ZLM_CAS_IHA
@@ -64004,6 +66456,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1921 926832 N 1 0 0 1 -300 0 2
 Refer: 1899 926800 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 519 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
+Ligature2: "Ligature Substitution lookup 457 subtable" ZLM_NULL ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
 LCarets2: 2 0 0
 EndChar
 
@@ -64019,6 +66473,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1921 926832 N 1 0 0 1 -300 0 2
 Refer: 1910 926816 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 520 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
+Ligature2: "Ligature Substitution lookup 458 subtable" ZLM_NULL ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
 LCarets2: 2 0 0
 EndChar
 
@@ -64034,6 +66490,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1921 926832 N 1 0 0 1 -300 0 2
 Refer: 1921 926832 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 521 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
+Ligature2: "Ligature Substitution lookup 459 subtable" ZLM_NULL ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -64049,6 +66507,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1921 926832 N 1 0 0 1 -300 0 2
 Refer: 1932 926848 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 522 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
+Ligature2: "Ligature Substitution lookup 460 subtable" ZLM_NULL ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
 LCarets2: 2 0 0
 EndChar
 
@@ -64064,6 +66524,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1921 926832 N 1 0 0 1 -300 0 2
 Refer: 1943 926864 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 523 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
+Ligature2: "Ligature Substitution lookup 461 subtable" ZLM_NULL ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -64079,6 +66541,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1921 926832 N 1 0 0 1 -300 0 2
 Refer: 1954 926880 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 524 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
+Ligature2: "Ligature Substitution lookup 462 subtable" ZLM_NULL ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
 LCarets2: 2 0 0
 EndChar
 
@@ -64094,6 +66558,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1921 926832 N 1 0 0 1 -300 0 2
 Refer: 1965 926896 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 490 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 3 0 0 0
 EndChar
 
@@ -64109,6 +66575,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1921 926832 N 1 0 0 1 -300 0 2
 Refer: 1976 926912 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 491 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 3 0 0 0
 EndChar
 
@@ -64124,6 +66592,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1921 926832 N 1 0 0 1 -300 0 2
 Refer: 1987 926928 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 492 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 3 0 0 0
 EndChar
 
@@ -64139,6 +66609,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1921 926832 N 1 0 0 1 -300 0 2
 Refer: 1998 926944 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 493 subtable" ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 3 0 0 0
 EndChar
 
@@ -64162,6 +66634,7 @@ SplineSet
  929 1481 l 1
  877 1370 803 1317 717 1317 c 0xa0
 EndSplineSet
+Substitution2: "Single Substitution lookup 662 subtable" ZLM_DOT_O
 EndChar
 
 StartChar: ZLM_CAS_OHA
@@ -64176,6 +66649,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1932 926848 N 1 0 0 1 -300 0 2
 Refer: 1899 926800 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 525 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_A
+Ligature2: "Ligature Substitution lookup 463 subtable" ZLM_NULL ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_A
 EndChar
 
 StartChar: ZLM_CAS_OHE
@@ -64190,6 +66665,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1932 926848 N 1 0 0 1 -300 0 2
 Refer: 1910 926816 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 526 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_E
+Ligature2: "Ligature Substitution lookup 464 subtable" ZLM_NULL ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_E
 LCarets2: 2 0 0
 EndChar
 
@@ -64205,6 +66682,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1932 926848 N 1 0 0 1 -300 0 2
 Refer: 1921 926832 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 527 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_I
+Ligature2: "Ligature Substitution lookup 465 subtable" ZLM_NULL ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_OHO
@@ -64219,6 +66698,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1932 926848 N 1 0 0 1 -300 0 2
 Refer: 1932 926848 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 528 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_O
+Ligature2: "Ligature Substitution lookup 466 subtable" ZLM_NULL ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_O
 EndChar
 
 StartChar: ZLM_CAS_OHU
@@ -64233,6 +66714,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1932 926848 N 1 0 0 1 -300 0 2
 Refer: 1943 926864 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 529 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_U
+Ligature2: "Ligature Substitution lookup 467 subtable" ZLM_NULL ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_U
 EndChar
 
 StartChar: ZLM_CAS_OHY
@@ -64247,6 +66730,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1932 926848 N 1 0 0 1 -300 0 2
 Refer: 1954 926880 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 530 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_Y
+Ligature2: "Ligature Substitution lookup 468 subtable" ZLM_NULL ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_Y
 LCarets2: 2 0 0
 EndChar
 
@@ -64262,6 +66747,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1932 926848 N 1 0 0 1 -300 0 2
 Refer: 1965 926896 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 494 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_OHEI
@@ -64276,6 +66763,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1932 926848 N 1 0 0 1 -300 0 2
 Refer: 1976 926912 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 495 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_OHOI
@@ -64290,6 +66779,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1932 926848 N 1 0 0 1 -300 0 2
 Refer: 1987 926928 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 496 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_OHAU
@@ -64304,6 +66795,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1932 926848 N 1 0 0 1 -300 0 2
 Refer: 1998 926944 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 497 subtable" ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_O ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 EndChar
 
 StartChar: ZLM_DIACRITIC_U
@@ -64324,6 +66817,7 @@ SplineSet
  897 1531 l 1
  881 1409 780 1260 595 1260 c 0
 EndSplineSet
+Substitution2: "Single Substitution lookup 663 subtable" ZLM_DOT_U
 EndChar
 
 StartChar: ZLM_CAS_UHA
@@ -64338,6 +66832,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1943 926864 N 1 0 0 1 -300 0 2
 Refer: 1899 926800 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 531 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A
+Ligature2: "Ligature Substitution lookup 469 subtable" ZLM_NULL ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A
 EndChar
 
 StartChar: ZLM_CAS_UHE
@@ -64352,6 +66848,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1943 926864 N 1 0 0 1 -300 0 2
 Refer: 1910 926816 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 532 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E
+Ligature2: "Ligature Substitution lookup 470 subtable" ZLM_NULL ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E
 EndChar
 
 StartChar: ZLM_CAS_UHI
@@ -64366,6 +66864,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1943 926864 N 1 0 0 1 -300 0 2
 Refer: 1921 926832 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 533 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_I
+Ligature2: "Ligature Substitution lookup 471 subtable" ZLM_NULL ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_UHO
@@ -64380,6 +66880,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1943 926864 N 1 0 0 1 -300 0 2
 Refer: 1932 926848 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 534 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O
+Ligature2: "Ligature Substitution lookup 472 subtable" ZLM_NULL ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O
 EndChar
 
 StartChar: ZLM_CAS_UHU
@@ -64394,6 +66896,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1943 926864 N 1 0 0 1 -300 0 2
 Refer: 1943 926864 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 535 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_U
+Ligature2: "Ligature Substitution lookup 473 subtable" ZLM_NULL ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_U
 EndChar
 
 StartChar: ZLM_CAS_UHY
@@ -64408,6 +66912,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1943 926864 N 1 0 0 1 -300 0 2
 Refer: 1954 926880 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 536 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_Y
+Ligature2: "Ligature Substitution lookup 474 subtable" ZLM_NULL ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_Y
 LCarets2: 2 0 0
 EndChar
 
@@ -64423,6 +66929,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1943 926864 N 1 0 0 1 -300 0 2
 Refer: 1965 926896 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 498 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_UHEI
@@ -64437,6 +66945,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1943 926864 N 1 0 0 1 -300 0 2
 Refer: 1976 926912 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 499 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_UHOI
@@ -64451,6 +66961,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1943 926864 N 1 0 0 1 -300 0 2
 Refer: 1987 926928 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 500 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_UHAU
@@ -64465,6 +66977,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1943 926864 N 1 0 0 1 -300 0 2
 Refer: 1998 926944 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 501 subtable" ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 EndChar
 
 StartChar: ZLM_DIACRITIC_Y
@@ -64488,6 +67002,7 @@ SplineSet
  667 1328 708 1371 708 1441 c 0
  708 1511 667 1555 600 1555 c 0
 EndSplineSet
+Substitution2: "Single Substitution lookup 664 subtable" ZLM_DOT_Y
 EndChar
 
 StartChar: ZLM_CAS_YHA
@@ -64502,6 +67017,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1954 926880 N 1 0 0 1 -300 0 2
 Refer: 1899 926800 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 537 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_A
+Ligature2: "Ligature Substitution lookup 475 subtable" ZLM_NULL ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_A
 LCarets2: 2 0 0
 EndChar
 
@@ -64517,6 +67034,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1954 926880 N 1 0 0 1 -300 0 2
 Refer: 1910 926816 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 538 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_E
+Ligature2: "Ligature Substitution lookup 476 subtable" ZLM_NULL ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_E
 LCarets2: 2 0 0
 EndChar
 
@@ -64532,6 +67051,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1954 926880 N 1 0 0 1 -300 0 2
 Refer: 1921 926832 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 539 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_I
+Ligature2: "Ligature Substitution lookup 477 subtable" ZLM_NULL ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_I
 LCarets2: 2 0 0
 EndChar
 
@@ -64547,6 +67068,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1954 926880 N 1 0 0 1 -300 0 2
 Refer: 1932 926848 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 540 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_O
+Ligature2: "Ligature Substitution lookup 478 subtable" ZLM_NULL ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_O
 LCarets2: 2 0 0
 EndChar
 
@@ -64562,6 +67085,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1954 926880 N 1 0 0 1 -300 0 2
 Refer: 1943 926864 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 541 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_U
+Ligature2: "Ligature Substitution lookup 479 subtable" ZLM_NULL ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_U
 LCarets2: 2 0 0
 EndChar
 
@@ -64577,6 +67102,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1954 926880 N 1 0 0 1 -300 0 2
 Refer: 1954 926880 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 542 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_Y
+Ligature2: "Ligature Substitution lookup 480 subtable" ZLM_NULL ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_Y
 LCarets2: 2 0 0
 EndChar
 
@@ -64592,6 +67119,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1954 926880 N 1 0 0 1 -300 0 2
 Refer: 1965 926896 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 502 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 3 0 0 0
 EndChar
 
@@ -64607,6 +67136,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1954 926880 N 1 0 0 1 -300 0 2
 Refer: 1976 926912 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 503 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 3 0 0 0
 EndChar
 
@@ -64622,6 +67153,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1954 926880 N 1 0 0 1 -300 0 2
 Refer: 1987 926928 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 504 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 3 0 0 0
 EndChar
 
@@ -64637,6 +67170,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1954 926880 N 1 0 0 1 -300 0 2
 Refer: 1998 926944 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 505 subtable" ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+Ligature2: "zlmNVHVV subtable" ZLM_NULL ZLM_DIACRITIC_Y ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 3 0 0 0
 EndChar
 
@@ -64649,6 +67184,8 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 1932 926848 N 0 1 1 0 -841 878 2
+Substitution2: "Single Substitution lookup 665 subtable" ZLM_DOT_AI
+Ligature2: "zlmVV subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_AIHA
@@ -64663,6 +67200,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1965 926896 N 1 0 0 1 -300 0 2
 Refer: 1899 926800 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 420 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
 EndChar
 
 StartChar: ZLM_CAS_AIHE
@@ -64677,6 +67216,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1965 926896 N 1 0 0 1 -300 0 2
 Refer: 1910 926816 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 421 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
 LCarets2: 3 0 0 0
 EndChar
 
@@ -64692,6 +67233,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1965 926896 N 1 0 0 1 -300 0 2
 Refer: 1921 926832 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 422 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_AIHO
@@ -64706,6 +67249,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1965 926896 N 1 0 0 1 -300 0 2
 Refer: 1932 926848 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 423 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
 EndChar
 
 StartChar: ZLM_CAS_AIHU
@@ -64720,6 +67265,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1965 926896 N 1 0 0 1 -300 0 2
 Refer: 1943 926864 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 424 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
 EndChar
 
 StartChar: ZLM_CAS_AIHY
@@ -64734,6 +67281,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1965 926896 N 1 0 0 1 -300 0 2
 Refer: 1954 926880 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 425 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
 LCarets2: 3 0 0 0
 EndChar
 
@@ -64749,6 +67298,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1965 926896 N 1 0 0 1 -300 0 2
 Refer: 1965 926896 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 401 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+Ligature2: "zlmNVVHVV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_AIHEI
@@ -64763,6 +67314,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1965 926896 N 1 0 0 1 -300 0 2
 Refer: 1976 926912 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 402 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+Ligature2: "zlmNVVHVV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_AIHOI
@@ -64777,6 +67330,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1965 926896 N 1 0 0 1 -300 0 2
 Refer: 1987 926928 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 403 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+Ligature2: "zlmNVVHVV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_AIHAU
@@ -64791,6 +67346,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1965 926896 N 1 0 0 1 -300 0 2
 Refer: 1998 926944 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 404 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+Ligature2: "zlmNVVHVV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 EndChar
 
 StartChar: ZLM_DIACRITIC_EI
@@ -64804,6 +67361,8 @@ VStem: 315 116<1276.96 1344.51> 795 116<1276.96 1350.41>
 LayerCount: 2
 Fore
 Refer: 1943 926864 N -1 0 0 -1 1212 2811.1 2
+Substitution2: "Single Substitution lookup 666 subtable" ZLM_DOT_EI
+Ligature2: "zlmVV subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 1 0
 EndChar
 
@@ -64819,6 +67378,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1976 926912 N 1 0 0 1 -300 0 2
 Refer: 1899 926800 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 426 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
 EndChar
 
 StartChar: ZLM_CAS_EIHE
@@ -64833,6 +67394,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1976 926912 N 1 0 0 1 -300 0 2
 Refer: 1910 926816 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 427 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
 EndChar
 
 StartChar: ZLM_CAS_EIHI
@@ -64847,6 +67410,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1976 926912 N 1 0 0 1 -300 0 2
 Refer: 1921 926832 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 428 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_EIHO
@@ -64861,6 +67426,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1976 926912 N 1 0 0 1 -300 0 2
 Refer: 1932 926848 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 429 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
 EndChar
 
 StartChar: ZLM_CAS_EIHU
@@ -64875,6 +67442,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1976 926912 N 1 0 0 1 -300 0 2
 Refer: 1943 926864 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 430 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
 EndChar
 
 StartChar: ZLM_CAS_EIHY
@@ -64889,6 +67458,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1976 926912 N 1 0 0 1 -300 0 2
 Refer: 1954 926880 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 431 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
 EndChar
 
 StartChar: ZLM_CAS_EIHAI
@@ -64903,6 +67474,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1976 926912 N 1 0 0 1 -300 0 2
 Refer: 1965 926896 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 405 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+Ligature2: "zlmNVVHVV subtable" ZLM_NULL ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_EIHEI
@@ -64917,6 +67490,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1976 926912 N 1 0 0 1 -300 0 2
 Refer: 1976 926912 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 406 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+Ligature2: "zlmNVVHVV subtable" ZLM_NULL ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_EIHOI
@@ -64931,6 +67506,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1976 926912 N 1 0 0 1 -300 0 2
 Refer: 1987 926928 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 407 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+Ligature2: "zlmNVVHVV subtable" ZLM_NULL ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_EIHAU
@@ -64945,6 +67522,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1976 926912 N 1 0 0 1 -300 0 2
 Refer: 1998 926944 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 408 subtable" ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+Ligature2: "zlmNVVHVV subtable" ZLM_NULL ZLM_DIACRITIC_E ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 EndChar
 
 StartChar: ZLM_DIACRITIC_OI
@@ -64992,6 +67571,8 @@ SplineSet
  608.076382254 1359.9961064 619.821524456 1349.51182608 630.800635751 1339.86319126 c 0
  641.147707966 1330.77000341 651.313537478 1326.60742188 661.611328125 1326.60742188 c 0
 EndSplineSet
+Substitution2: "Single Substitution lookup 667 subtable" ZLM_DOT_OI
+Ligature2: "zlmVV subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_OIHA
@@ -65006,6 +67587,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1987 926928 N 1 0 0 1 -300 0 2
 Refer: 1899 926800 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 432 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A
 EndChar
 
 StartChar: ZLM_CAS_OIHE
@@ -65020,6 +67603,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1987 926928 N 1 0 0 1 -300 0 2
 Refer: 1910 926816 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 433 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E
 EndChar
 
 StartChar: ZLM_CAS_OIHI
@@ -65034,6 +67619,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1987 926928 N 1 0 0 1 -300 0 2
 Refer: 1921 926832 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 434 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_OIHO
@@ -65048,6 +67635,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1987 926928 N 1 0 0 1 -300 0 2
 Refer: 1932 926848 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 435 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O
 EndChar
 
 StartChar: ZLM_CAS_OIHU
@@ -65062,6 +67651,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1987 926928 N 1 0 0 1 -300 0 2
 Refer: 1943 926864 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 436 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_U
 EndChar
 
 StartChar: ZLM_CAS_OIHY
@@ -65076,6 +67667,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1987 926928 N 1 0 0 1 -300 0 2
 Refer: 1954 926880 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 437 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_Y
 EndChar
 
 StartChar: ZLM_CAS_OIHAI
@@ -65090,6 +67683,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1987 926928 N 1 0 0 1 -300 0 2
 Refer: 1965 926896 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 409 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+Ligature2: "zlmNVVHVV subtable" ZLM_NULL ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_OIHEI
@@ -65104,6 +67699,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1987 926928 N 1 0 0 1 -300 0 2
 Refer: 1976 926912 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 410 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+Ligature2: "zlmNVVHVV subtable" ZLM_NULL ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_OIHOI
@@ -65118,6 +67715,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1987 926928 N 1 0 0 1 -300 0 2
 Refer: 1987 926928 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 411 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+Ligature2: "zlmNVVHVV subtable" ZLM_NULL ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 EndChar
 
 StartChar: ZLM_CAS_OIHAU
@@ -65132,6 +67731,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1987 926928 N 1 0 0 1 -300 0 2
 Refer: 1998 926944 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 412 subtable" ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+Ligature2: "zlmNVVHVV subtable" ZLM_NULL ZLM_DIACRITIC_O ZLM_DIACRITIC_I ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 EndChar
 
 StartChar: ZLM_DIACRITIC_AU
@@ -65153,6 +67754,8 @@ SplineSet
  495 1455 475 1485 475 1521 c 4
  475 1583 526 1628 587 1628 c 4
 EndSplineSet
+Substitution2: "Single Substitution lookup 668 subtable" ZLM_DOT_AU
+Ligature2: "zlmVV subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 1 0
 EndChar
 
@@ -65168,6 +67771,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1998 926944 N 1 0 0 1 -300 0 2
 Refer: 1899 926800 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 438 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A
 LCarets2: 3 0 0 0
 EndChar
 
@@ -65183,6 +67788,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1998 926944 N 1 0 0 1 -300 0 2
 Refer: 1910 926816 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 439 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E
 LCarets2: 3 0 0 0
 EndChar
 
@@ -65198,6 +67805,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1998 926944 N 1 0 0 1 -300 0 2
 Refer: 1921 926832 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 440 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_I
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_I
 LCarets2: 3 0 0 0
 EndChar
 
@@ -65213,6 +67822,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1998 926944 N 1 0 0 1 -300 0 2
 Refer: 1932 926848 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 441 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O
 LCarets2: 3 0 0 0
 EndChar
 
@@ -65228,6 +67839,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1998 926944 N 1 0 0 1 -300 0 2
 Refer: 1943 926864 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 442 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_U
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_U
 LCarets2: 3 0 0 0
 EndChar
 
@@ -65243,6 +67856,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1998 926944 N 1 0 0 1 -300 0 2
 Refer: 1954 926880 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 443 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_Y
+Ligature2: "zlmNVVHV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_Y
 LCarets2: 3 0 0 0
 EndChar
 
@@ -65258,6 +67873,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1998 926944 N 1 0 0 1 -300 0 2
 Refer: 1965 926896 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 413 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
+Ligature2: "zlmNVVHVV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_I
 LCarets2: 4 0 0 0 0
 EndChar
 
@@ -65273,6 +67890,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1998 926944 N 1 0 0 1 -300 0 2
 Refer: 1976 926912 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 414 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
+Ligature2: "zlmNVVHVV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_E ZLM_DIACRITIC_I
 LCarets2: 4 0 0 0 0
 EndChar
 
@@ -65288,6 +67907,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1998 926944 N 1 0 0 1 -300 0 2
 Refer: 1987 926928 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 415 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
+Ligature2: "zlmNVVHVV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_O ZLM_DIACRITIC_I
 LCarets2: 4 0 0 0 0
 EndChar
 
@@ -65303,6 +67924,8 @@ Fore
 Refer: 2009 926960 N 1 0 0 1 0 0 2
 Refer: 1998 926944 N 1 0 0 1 -300 0 2
 Refer: 1998 926944 N 1 0 0 1 300 0 2
+Ligature2: "Ligature Substitution lookup 416 subtable" ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
+Ligature2: "zlmNVVHVV subtable" ZLM_NULL ZLM_DIACRITIC_A ZLM_DIACRITIC_U ZLM_H ZLM_DIACRITIC_A ZLM_DIACRITIC_U
 LCarets2: 4 0 0 0 0
 EndChar
 
@@ -65354,6 +67977,7 @@ SplineSet
  350 869 l 1
  1022 869 l 1
 EndSplineSet
+Ligature2: "zlmSF subtable" ZLM_SLAKABU ZLM_FULL_A
 EndChar
 
 StartChar: ZLM_FULL_E
@@ -65376,6 +68000,7 @@ SplineSet
  350 455 l 1
  1022 455 l 1
 EndSplineSet
+Ligature2: "zlmSF subtable" ZLM_SLAKABU ZLM_FULL_E
 EndChar
 
 StartChar: ZLM_FULL_I
@@ -65400,6 +68025,7 @@ SplineSet
  850 869 l 1
  350 869 l 1
 EndSplineSet
+Ligature2: "zlmSF subtable" ZLM_SLAKABU ZLM_FULL_I
 EndChar
 
 StartChar: ZLM_FULL_O
@@ -65420,6 +68046,7 @@ SplineSet
  850 144 l 1
  178 144 l 1
 EndSplineSet
+Ligature2: "zlmSF subtable" ZLM_SLAKABU ZLM_FULL_O
 EndChar
 
 StartChar: ZLM_FULL_U
@@ -65444,6 +68071,7 @@ SplineSet
  850 144 l 1
  350 144 l 1
 EndSplineSet
+Ligature2: "zlmSF subtable" ZLM_SLAKABU ZLM_FULL_U
 EndChar
 
 StartChar: ZLM_FULL_Y
@@ -65470,6 +68098,7 @@ SplineSet
  683 455 l 1
  1022 455 l 1
 EndSplineSet
+Ligature2: "zlmSF subtable" ZLM_SLAKABU ZLM_FULL_Y
 EndChar
 
 StartChar: ZLM_FULL_AI
@@ -65496,6 +68125,8 @@ SplineSet
  350 144 l 1
  1022 144 l 1
 EndSplineSet
+Ligature2: "zlmSFF subtable" ZLM_SLAKABU ZLM_FULL_AI
+Ligature2: "zlmFF subtable" ZLM_FULL_A ZLM_FULL_I
 EndChar
 
 StartChar: ZLM_FULL_EI
@@ -65526,6 +68157,8 @@ SplineSet
  243 230 l 1
  325 161 435 116 559 116 c 0
 EndSplineSet
+Ligature2: "zlmSFF subtable" ZLM_SLAKABU ZLM_FULL_EI
+Ligature2: "zlmFF subtable" ZLM_FULL_E ZLM_FULL_I
 EndChar
 
 StartChar: ZLM_FULL_OI
@@ -65550,6 +68183,8 @@ SplineSet
  850 144 l 1
  178 144 l 1
 EndSplineSet
+Ligature2: "zlmSFF subtable" ZLM_SLAKABU ZLM_FULL_OI
+Ligature2: "zlmFF subtable" ZLM_FULL_O ZLM_FULL_I
 EndChar
 
 StartChar: ZLM_FULL_AU
@@ -65577,6 +68212,8 @@ SplineSet
  595 452 l 1
  303 0 l 1
 EndSplineSet
+Ligature2: "zlmSFF subtable" ZLM_SLAKABU ZLM_FULL_AU
+Ligature2: "zlmFF subtable" ZLM_FULL_A ZLM_FULL_U
 EndChar
 
 StartChar: uE232B
