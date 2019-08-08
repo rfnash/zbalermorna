@@ -10,6 +10,9 @@ Zbalermorna is a diacritic system of writing, designed for use with the construc
 
 Sounds are constructed from a base symbol that represents a consonant, which is then modified, if necessary, by another smaller symbol called a diacritic, that represents a vowel. Together, a single consonant symbol with a single vowel symbol represent a syllable, with the consonant sound first.
 
+
+![fig-diacritic-positioning](img/fig-diacritic-positioning.png)
+
 <figure id="fig-diacritic-positioning">
 	<div class="figure-row">
 		<div class="figure-column">
@@ -29,6 +32,9 @@ Sounds are constructed from a base symbol that represents a consonant, which is 
 </figure>
 
 Consonants are not always required to be modified, and a consonant by itself only represents the sound that is assigned to it. Unmodified consonants can be used before modified ones to create blended consonants, or after them to create a final consonant for the syllable.
+
+
+![fig-combining](img/fig-combining.png)
 
 <figure id="fig-combining">
 	<div class="figure-row">
@@ -78,6 +84,8 @@ and the optional features are:
 * Some basic tools for transcribing vocal dynamics
 
 Here are the main set of sounds treated as consonants in Zbalermorna:
+
+![fig-consonants](img/fig-consonants.png)
 
 <figure id="fig-consonants">
 	<div class="figure-row">
@@ -161,6 +169,9 @@ Much consideration has been given to the shape of the consonant characters, in o
 
 With the exception of “x”, note that each consonant has a sister shape, created by rotation of 180 degrees about the text centerline. The pairing roughly represents a pairing of the sounds with their voiced or unvoiced selves.
 
+
+![fig-pairs-rotations](img/fig-pairs-rotations.png)
+
 <figure id="fig-pairs-rotations">
 	<div class="figure-row">
 		<div class="figure-column">
@@ -201,6 +212,8 @@ The shape of the characters, and in particular the way in which the stems protru
 
 Note the following:
 
+![fig-unvoiced-voice-stops](img/fig-unvoiced-voice-stops.png)
+
 <figure id="fig-unvoiced-voice-stops">
 	<div class="figure-row">
 		<div class="figure-column">
@@ -217,6 +230,8 @@ Note the following:
 </figure>
 
 The sounds classified as 'stops', P, T, K have their stems on the left side (and on the right side for their voiced sisters B, D, G).
+
+![fig-unvoiced-voice-sibilants](img/fig-unvoiced-voice-sibilants.png)
 
 <figure id="fig-unvoiced-voice-sibilants">
 	<div class="figure-row">
@@ -235,6 +250,8 @@ The sounds classified as 'stops', P, T, K have their stems on the left side (and
 
 The sounds classified as 'sibilants', S and C have their stems on the right side (and on the left side for their voiced sisters, Z and J).
 
+![fig-fricatives](img/fig-fricatives.png)
+
 <figure id="fig-fricatives">
 	<div class="figure-row">
 		<div class="figure-column">
@@ -252,8 +269,9 @@ The sounds classified as 'sibilants', S and C have their stems on the right side
 
 The sounds classified as 'fricatives', F and V theoretically have central stems. However, if they were normal length, they would interfere with the space which is occupied by the diacritic.
 
+![fig-nasal-liquids](img/fig-nasal-liquids.png)
 
-<figure  id="fig-nasals-liquids">
+<figure id="fig-nasals-liquids">
 	<div class="figure-row">
 		<div class="figure-column">
 			<div class="zlm">󢍠 󢏰</div>
@@ -274,6 +292,8 @@ The nasals N & M and the liquids L & R are deliberately round and stemless. This
 
 X has no voiced or unvoiced partner in Lojban, therefore it makes sense to assign X a shape that does not rotate at all: the circle.
 
+![fig-x](img/fig-x.png)
+
 <figure id="fig-x">
 	<div class="figure-row">
 		<div class="figure-column">
@@ -287,6 +307,8 @@ X has no voiced or unvoiced partner in Lojban, therefore it makes sense to assig
 ## Vowel Diacritics
 
 Here are Lojban's 6 vowels, as diacritics:
+
+![fig-vowel-diacritics](img/fig-vowel-diacritics.png)
 
 <figure id="fig-vowel-diacritics">
 	<div class="figure-row">
@@ -320,6 +342,8 @@ Here are Lojban's 6 vowels, as diacritics:
 
 Vowels are written above the consonants to create syllables, and in combination with diacritic-less consonants to create whole words.
 
+![fig-example-sentence](img/fig-example-sentence.png)
+
 <figure id="fig-example-sentence">
 	<div class="figure-row">
 		<div class="figure-column">
@@ -350,6 +374,8 @@ Vowels are written above the consonants to create syllables, and in combination 
 
 Lojban combines vowels into single sounds which are transcribed in Latin as two letters. Out of all the combinations of the 6 Lojban vowels, only 16 are actually used in spoken Lojban:
 
+![fig-allowed-diphthongs](img/fig-allowed-diphthongs.png)
+
 <figure id="fig-allowed-diphthongs">
 <style>
 	.na {
@@ -375,6 +401,8 @@ Lojban combines vowels into single sounds which are transcribed in Latin as two 
 One can see that six of these are made from just "i" + everything and six are just "u" + everything. These are handled by a set of characters called semivowels, which are explained in [Semivowels](#semivowels).
 
 The remaining 4 diphthongs are assigned their own diacritics:
+
+![fig-diphthong-diacritics](img/fig-diphthong-diacritics.png)
 
 <figure id="fig-diphthong-diacritics">
 	<div class="figure-row">
