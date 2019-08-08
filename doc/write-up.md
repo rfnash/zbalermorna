@@ -112,21 +112,7 @@ There are only two semivowels, one which represents the column of
 diphthongs beginning with “i” from Fig 1c3, and the other represents
 the column of diphthongs beginning with “u”.
 
-<figure id="fig-semivowels">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢐰</div>
-			<div class="jbo">i*</div>
-			<div class="eng">"q"</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢑀</div>
-			<div class="jbo">u*</div>
-			<div class="eng">"w"</div>
-		</div>
-	</div>
-	<figcaption>Semivowels, one for "i*" and one for "u*"</figcaption>
-</figure>
+![fig-semivowels](img/fig-semivowels.png)
 
 The semivowels are commonly referred to by their short names, which are “q” and “w” respectively. One way to remember which is which is to remember that “w” is the sound one makes when pronouncing diphthongs which begin with “u”, like {ui}.
 
@@ -134,35 +120,7 @@ The names “q” and “w” were used because they are the two letters from th
 
 Interestingly, the “q” and “w” diphthongs are never used with consonants. There are simply no words in Lojban which use a medial “i*” or “u*” diphthongs. This means the only case in native Lojban where “q” and “w” diphthongs appear is in attitudinal cmavo.
 
-<figure id="fig-semivowel-attitudinals">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢐰󢑐</div>
-			<div class="jbo">ia</div>
-			<div class="eng">"qa"</div>
-			<div class="ipa">"yan"</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢐰󢑰</div>
-			<div class="jbo">ii</div>
-			<div class="eng">"qi"</div>
-			<div class="ipa">"yee"</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢑀󢑠</div>
-			<div class="jbo">ue</div>
-			<div class="eng">"we"</div>
-			<div class="ipa">"weh"</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢑀󢒀</div>
-			<div class="jbo">uo</div>
-			<div class="eng">"wo"</div>
-			<div class="ipa">"woh"</div>
-		</div>
-	</div>
-	<figcaption>Semivowel attitudinals</figcaption>
-</figure>
+![fig-semivowel-attitudinals](img/fig-semivowel-attitudinals.png)
 
 Semivowels can also be used for transcribing cmene and non-lojban loanwords; this is described in [Full Vowels](#full-vowels).
 
@@ -174,21 +132,7 @@ In Zbalermorna, both are used in the same way as consonants, designed to carry v
 
 In Latin Lojban, the comma “,” is also a break, but Zbalermorna uses a different system to cope with the need for a comma, as detailed later on, and so does not include one.
 
-<figure id="fig-break-characters">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢌀</div>
-			<div class="jbo">.</div>
-			<div class="ipa">denpabu</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢌐</div>
-			<div class="jbo">'</div>
-			<div class="ipa">.y'ybu</div>
-		</div>
-	</div>
-	<figcaption>Break characters; denpabu and .y'ybu</figcaption>
-</figure>
+![fig-break-characters](img/fig-break-characters.png)
 
 ### Period
 
@@ -196,94 +140,23 @@ Functionally, the period is an 'optional reminder' to pause before a word that b
 
 In Zbalermorna it also serves as the “null consonant”, to carry single vowel diacritics, either for small cmavo or at the start of cmene that begin with vowels.
 
-<figure id="fig-denpabu">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢌀󢑐󢑰</div>
-			<div class="jbo">.ai</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢌀󢑐󢒐</div>
-			<div class="jbo">.au</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢌀󢒠</div>
-			<div class="jbo">.y</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢌀󢒀󢑰</div>
-			<div class="jbo">.oi</div>
-		</div>
-	</div>
-	<figcaption>Zbalermorna denpabu used in cmavo</figcaption>
-</figure>
+![fig-denpabu](img/fig-denpabu.png)
 
 An advantage of this system, and one of the reasons that the dot diacritic was chosen to represent the “i” sound, is that the most common cmavo in the whole language, {.i}, gets an extremely rapid notation: just two dots.
 
-
-<figure id="fig-i">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢌀󢑰</div>
-			<div class="jbo">.i</div>
-		</div>
-	</div>
-	<figcaption>{.i} is simple to write and recognise</figcaption>
-</figure>
+![fig-i](img/fig-i.png)
 
 ### Apostrophe
 
 The apostrophe {.y'ybu} is used in a very similar way to the Latin mode. Like the period it functions like a consonant.
 
-<figure id="fig-y-ybu">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢌀󢑰</div>
-			<div class="jbo">.i</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢌀󢑰󢑰</div>
-			<div class="jbo">.ii</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢌀󢑰&#X200C;󢌐󢑰</div>
-			<div class="jbo">.i'i</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢌀󢑐&#X200C;󢌐󢑠</div>
-			<div class="jbo">.a'e</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢌀󢒠&#X200C;󢌐󢒠󢎰󢒐</div>
-			<div class="jbo">.y'ybu</div>
-		</div>
-	</div>
-	<figcaption>Some cmavo demonstrating .y'ybu</figcaption>
-</figure>
+![fig-y-ybu](img/fig-y-ybu.png)
 
 ### Attitudinal Shorthand
 
 The Zbalermorna apostrophe also has an alternate form called the “Combining .y'ybu” or “Attitudinal Shorthand”, to make it more natural to write the denpabu and .y'ybu one after another, a sequence which represents the majority of the set of attitudinals. It looks like this:
 
-<figure id="fig-cas">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢌀</div>
-			<div class="jbo">.</div>
-		</div>
-		<div class="figure-column">+</div>
-		<div class="figure-column">
-			<div class="zlm">󢌐</div>
-			<div class="jbo">'</div>
-		</div>
-		<div class="figure-column">=</div>
-		<div class="figure-column">
-			<div class="zlm">&#xe24f0;</div>
-			<div class="jbo">:</div>
-		</div>
-	</div>
-	<figcaption>Period and apostroph combine to one character</figcaption>
-</figure>
+![fig-cas](img/fig-cas.png)
 
 The combining .y'ybu is functionally identical to writing a period and an apostrophe normally. It is the only character for which it is legal to assign more than one diacritic.
 
@@ -291,104 +164,17 @@ Although designed to assist handwriting, it should be supported by the computeri
 
 Here is the set of cmavo from:
 
-<figure id="fig-cas-example">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢌀󢑰</div>
-			<div class="jbo">.i</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢌀󢑰󢑰</div>
-			<div class="jbo">.ii</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢌀󢑰󢌐󢑰</div>
-			<div class="jbo">.i'i</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢌀󢑐󢌐󢑠</div>
-			<div class="jbo">.a'e</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢌀󢒠󢌐󢒠󢎰󢒐</div>
-			<div class="jbo">.y'ybu</div>
-		</div>
-	</div>
-	<figcaption>Combining makes cmavo tidier, easier to handwrite</figcaption>
-</figure>
+![fig-cas-example](img/fig-cas-example.png)
 
 ## Full vowels
 
 The full vowels are a separate set of consonant-sized characters that map directly to the vowel diacritics. They are used only in names and loanwords, never in “native” Lojban words.
 
-<figure id="fig-full-vowels">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢓱</div>
-			<div class="jbo">A</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢓲</div>
-			<div class="jbo">E</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢓳</div>
-			<div class="jbo">I</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢓴</div>
-			<div class="jbo">O</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢓵</div>
-			<div class="jbo">U</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢓶</div>
-			<div class="jbo">Y</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢓱󢓵</div>
-			<div class="jbo">AU</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢓱󢓳</div>
-			<div class="jbo">AI</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢓲󢓳</div>
-			<div class="jbo">EI</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢓴󢓳</div>
-			<div class="jbo">OI</div>
-		</div>
-	</div>
-	<figcaption>The set of full vowels</figcaption>
-</figure>
+![fig-full-vowels](img/fig-full-vowels.png)
 
 No diacritics are used in non-lojban words. All other symbols are allowed, including semivowels to force {i*} or {u*} diphthongs. Some examples are shown with Latin Lojban equivalents:
 
-<figure id="fig-full-vowel-examples">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢍀󢓱󢌰󢏰󢓳󢐠󢓱󢍰</div>
-			<div class="jbo">kAtrInAs</div>
-			<div class="ipa">Katrina</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢏀󢐐󢓲󢓳󢐠</div>
-			<div class="jbo">djEIn</div>
-			<div class="ipa">Jane</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢎐󢓱󢏀󢐐󢐰󢓶󢏰󢓳󢍰</div>
-			<div class="jbo">mAdjqYrIs</div>
-			<div class="ipa">Marjorie</div>
-		</div>
-	</div>
-	<figcaption>Some examples of Lojbanised names</figcaption>
-</figure>
+![fig-full-vowel-examples](img/fig-full-vowel-examples.png)
 
 There are two reasons for using full vowels:
 
@@ -398,21 +184,7 @@ Secondly, to implement some Lojbanisation workarounds made possible by the comma
 
 In Zbalermorna, because diphthongs are written as distinct characters, there is no confusion as to which interpretation is intended. If the word is written with diphthongs, it is pronounced as such, and if not, it is not. Compare:
 
-<figure id="fig-full-vowel-diphthongs">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢑀󢓲󢓳󢐠</div>
-			<div class="jbo">wEIn</div>
-			<div class="ipa">Wayne</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢑀󢓲&#xE230F;󢓳󢐠</div>
-			<div class="jbo">wE,In</div>
-			<div class="ipa">Weigh-in</div>
-		</div>
-	</div>
-	<figcaption>"Wayne" using diphthongs vs "weigh-in" using vowels</figcaption>
-</figure>
+![fig-full-vowel-diphthongs](img/fig-full-vowel-diphthongs.png)
 
 ## Optional Features
 
@@ -426,133 +198,39 @@ It is important that the optional features always take the back seat to correct,
 
 Zbalermorna has a silence character, a straight horizontal line at the text centerline. It can be any length to give a sense of relative timing if it is useful to the writer.
 
-<figure id="fig-silence">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">&#xE23CF;</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">&#xE239F;&#xE23AF;&#xE23AF;&#xE23AF;&#xE23BF;</div>
-		</div>
-	</div>
-	<figcaption>"..." "......."</figcaption>
-</figure>
+![fig-silence](img/fig-silence.png)
 
 ### Stretch
 
 This diacritic is used to extend the time spent vocalising a particular vowel. It's good for sarcasm. Again it can be any length.
 
-<figure id="fig-stretch">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">&#xE238F;</div>
-			<div class="ipa">Stretch</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢎐󢑰 󢏐󢍠󢑠&#xE238F;󢍀󢑰&#xE238F;&#xE238F;</div>
-			<div class="ipa">mi gle~ki~~</div>
-		</div>
-	</div>
-	<figcaption>Happy. Deliriously.</figcaption>
-</figure>
+![fig-stretch](img/fig-stretch.png)
 
 ### Intonation
 
 Very basic diacritics for describing intonation. Can be useful for emotional expression or comedic delivery.
 
-<figure id="fig-intonation">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">&#xE2360;&#xE231F;</div>
-			<div class="ipa">up</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">&#xE2390;&#xE232F;</div>
-			<div class="ipa">down</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">&#xE2380;&#xE233F;</div>
-			<div class="ipa">up-down</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">&#xE2370;&#xE234F;</div>
-			<div class="ipa">down-up</div>
-		</div>
-	</div>
-	<figcaption>Four available intonations</figcaption>
-</figure>
+![fig-intonation](img/fig-intonation.png)
 
 ### Dynamics
 
 These are a set of characters which denote relative levels of volume or emphasis. There are three levels. Three dots is more emphatic than two dots, and two dots is in turn more than one dot, which is more than no dots.
 
-<figure id="fig-dynamics">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">&#xE235F;</div>
-			<div class="ipa">single</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">&#xE236F;</div>
-			<div class="ipa">double</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">&#xE237F;</div>
-			<div class="ipa">triple</div>
-		</div>
-	</div>
-	<figcaption>Three available dynamics diacritics</figcaption>
-</figure>
+![fig-dynamics](img/fig-dynamics.png)
 
 One dot is called a ”single-dot dynamics diacritic”, but more commonly called a stress dot, or in Lojban, {ba'ebu}.
 
 The stress dot is the standard method of forcing non-penultimate stress in names and loanwords. This function replaces the use of capital letters in Latin Lojban. Example:
 
-<figure id="fig-stress">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢓲󢍠󢓳&#xE230F;󢓴󢌰</div>
-			<div class="ipa">"ell<strong>I</strong>ott"</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢓲&#xE235F;󢍠󢓳&#xE230F;󢓴󢌰</div>
-			<div class="ipa">"<strong>ELL</strong>iott"</div>
-		</div>
-	</div>
-	<figcaption>"Elliott" should be stressed on "El" and not "i"</figcaption>
-</figure>
+![fig-stress](img/fig-stress.png)
 
 The poetic use of dynamics is to show relative levels of emphasis. When used on a syllable which is stressed normally, a single stress dot shows a slight relative increase in emphasis compared to words or bridi which use no stress dots. Consider a spoken/barked order:
 
-<figure id="fig-emphasis-example">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢍀󢒀 󢎀󢑰󢍀󢍰󢑰 󢌰󢑰 󢎐󢑰</div>
-			<div class="ipa">ko ciksi ti mi</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢍀󢒀 󢎀󢑰&#xE235F;󢍀󢍰󢑰 󢌰󢑰 󢎐󢑰</div>
-			<div class="ipa">ko ciksi ti mi</div>
-		</div>
-	</div>
-	<figcaption>"You'd better"</figcaption>
-</figure>
+![fig-emphasis-example](img/fig-emphasis-example.png)
 
 Using a double or triple in a bridi with no other stress marks creates a larger disparity between the stress on that syllable and the rest of the bridi. Additionally, using lesser marks on every other syllable raises the overall emphasis for the whole bridi.
 
-<figure id="fig-emphasis-example-2">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢍀󢒀 󢎀󢑰&#xE236F;󢍀󢍰󢑰 󢌰󢑰 󢎐󢑰</div>
-			<div class="ipa">ko ciksi ti mi!</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢍀󢒀&#xE236F; 󢎀󢑰&#xE237F;󢍀󢍰󢑰&#xE236F; 󢌰󢑰&#xE236F; 󢎐󢑰&#xE236F;</div>
-			<div class="ipa">ko ciksi ti mi!!</div>
-		</div>
-	</div>
-	<figcaption>Serious business</figcaption>
-</figure>
+![fig-emphasis-example󢏏2](img/fig-emphasis-example󢏏2.png)
 
 ## Handwriting
 
