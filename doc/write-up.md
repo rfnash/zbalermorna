@@ -10,62 +10,11 @@ Zbalermorna is a diacritic system of writing, designed for use with the construc
 
 Sounds are constructed from a base symbol that represents a consonant, which is then modified, if necessary, by another smaller symbol called a diacritic, that represents a vowel. Together, a single consonant symbol with a single vowel symbol represent a syllable, with the consonant sound first.
 
-
 ![fig-diacritic-positioning](img/fig-diacritic-positioning.png)
-
-<figure id="fig-diacritic-positioning">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢌰</div>
-			<div class="jbo">t</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">&#xE230F;󢑐</div>
-			<div class="jbo">a</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢌰󢑐</div>
-			<div class="jbo">ta</div>
-		</div>
-	</div>
-	<figcaption>Diacritic positioning</figcaption>
-</figure>
 
 Consonants are not always required to be modified, and a consonant by itself only represents the sound that is assigned to it. Unmodified consonants can be used before modified ones to create blended consonants, or after them to create a final consonant for the syllable.
 
-
 ![fig-combining](img/fig-combining.png)
-
-<figure id="fig-combining">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢍰</div>
-			<div class="jbo">s</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢌠</div>
-			<div class="jbo">p</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">&#xE230F;󢑰</div>
-			<div class="jbo">i</div>
-		</div>
-		<div class="figure-column"></div>
-		<div class="figure-column">
-			<div class="zlm">󢍰󢌠</div>
-			<div class="jbo">sp</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢍰󢌠󢑰</div>
-			<div class="jbo">spi</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢍰󢑰󢌠</div>
-			<div class="jbo">sip</div>
-		</div>
-	</div>
-	<figcaption>Combining consonants and vowels</figcaption>
-</figure>
 
 Zbalermorna has several features that Latin Lojban does not have. Some of these are fundamentally important to Zbalermorna, and some are not, and are hence optional.
 
@@ -87,122 +36,13 @@ Here are the main set of sounds treated as consonants in Zbalermorna:
 
 ![fig-consonants](img/fig-consonants.png)
 
-<figure id="fig-consonants">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢌠</div>
-			<div class="jbo">p</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢌰</div>
-			<div class="jbo">t</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢍀</div>
-			<div class="jbo">k</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢍐</div>
-			<div class="jbo">f</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢍠</div>
-			<div class="jbo">l</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢍰</div>
-			<div class="jbo">s</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢎀</div>
-			<div class="jbo">c</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢎐</div>
-			<div class="jbo">m</div>
-		</div>
-		<div class="figure-column"></div>
-		<div class="figure-column">
-			<div class="zlm">󢎠</div>
-			<div class="jbo">x</div>
-		</div>
-		<div class="figure-column"></div>
-		<div class="figure-column">
-			<div class="zlm">󢎰</div>
-			<div class="jbo">b</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢏀</div>
-			<div class="jbo">d</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢏐</div>
-			<div class="jbo">g</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢏠</div>
-			<div class="jbo">v</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢏰</div>
-			<div class="jbo">r</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢐀</div>
-			<div class="jbo">z</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢐐</div>
-			<div class="jbo">j</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢐠</div>
-			<div class="jbo">n</div>
-		</div>
-	</div>
-	<figcaption>All consonants</figcaption>
-</figure>
-
 Much consideration has been given to the shape of the consonant characters, in order to ensure that they are distinct, are easy to write and read, follow some kind of meaningful pattern or system and are hard to render illegible by rushed or lazy handwriting. Here are some features of the consonant design you may notice:
 
 ### Voiced Pairs
 
 With the exception of “x”, note that each consonant has a sister shape, created by rotation of 180 degrees about the text centerline. The pairing roughly represents a pairing of the sounds with their voiced or unvoiced selves.
 
-
 ![fig-pairs-rotations](img/fig-pairs-rotations.png)
-
-<figure id="fig-pairs-rotations">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢌠</div>
-			<div class="jbo">p</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢎰</div>
-			<div class="jbo">b</div>
-		</div>
-		<div class="figure-column"></div>
-		<div class="figure-column">
-			<div class="zlm">󢌰</div>
-			<div class="jbo">t</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢏀</div>
-			<div class="jbo">d</div>
-		</div>
-		<div class="figure-column"></div>
-		<div class="figure-column">
-			<div class="zlm">󢍀</div>
-			<div class="jbo">k</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢏐</div>
-			<div class="jbo">g</div>
-		</div>
-	</div>
-	<figcaption>Pairs and rotation</figcaption>
-</figure>
 
 Notice that for all the unvoiced sounds, if they have stems, they go upward. And similarly, voiced sounds point downward. The nasal sounds, N and M, and the liquid sounds, L and R, do not have proper voiced/unvoiced equivalents. Instead, they are paired together for their similarities. It is not completely accurate, but it is convenient and elegant to group them in this way.
 
@@ -214,77 +54,17 @@ Note the following:
 
 ![fig-unvoiced-voice-stops](img/fig-unvoiced-voice-stops.png)
 
-<figure id="fig-unvoiced-voice-stops">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢌠 󢌰 󢍀</div>
-			<div class="jbo">p t k</div>
-		</div>
-		<div class="figure-column"></div>
-		<div class="figure-column">
-			<div class="zlm">󢎰 󢏀 󢏐</div>
-			<div class="jbo">b d g</div>
-		</div>
-	</div>
-	<figcaption>Unvoiced and voiced stops</figcaption>
-</figure>
-
 The sounds classified as 'stops', P, T, K have their stems on the left side (and on the right side for their voiced sisters B, D, G).
 
 ![fig-unvoiced-voice-sibilants](img/fig-unvoiced-voice-sibilants.png)
-
-<figure id="fig-unvoiced-voice-sibilants">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢍰 󢎀</div>
-			<div class="jbo">s c</div>
-		</div>
-		<div class="figure-column"></div>
-		<div class="figure-column">
-			<div class="zlm">󢐀 󢐐</div>
-			<div class="jbo">z j</div>
-		</div>
-	</div>
-	<figcaption>Unvoiced and voiced sibilants</figcaption>
-</figure>
 
 The sounds classified as 'sibilants', S and C have their stems on the right side (and on the left side for their voiced sisters, Z and J).
 
 ![fig-fricatives](img/fig-fricatives.png)
 
-<figure id="fig-fricatives">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢍐 󢏠</div>
-			<div class="jbo">f v</div>
-		</div>
-		<div class="figure-column"></div>
-		<div class="figure-column">
-			<div class="zlm">&#xe235B; &#xe23EB;</div>
-			<div class="jbo">f v</div>
-		</div>
-	</div>
-	<figcaption>Fricatives F and V and theoretical full-height stems</figcaption>
-</figure>
-
 The sounds classified as 'fricatives', F and V theoretically have central stems. However, if they were normal length, they would interfere with the space which is occupied by the diacritic.
 
 ![fig-nasal-liquids](img/fig-nasal-liquids.png)
-
-<figure id="fig-nasals-liquids">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢍠 󢏰</div>
-			<div class="jbo">l r</div>
-		</div>
-		<div class="figure-column"></div>
-		<div class="figure-column">
-			<div class="zlm">󢎐 󢐠</div>
-			<div class="jbo">m n</div>
-		</div>
-	</div>
-	<figcaption>Nasals and Liquids</figcaption>
-</figure>
 
 The nasals N & M and the liquids L & R are deliberately round and stemless. This distinguishes them from the set that are "proper" voiced/unvoiced pairs.
 
@@ -294,81 +74,15 @@ X has no voiced or unvoiced partner in Lojban, therefore it makes sense to assig
 
 ![fig-x](img/fig-x.png)
 
-<figure id="fig-x">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢎠</div>
-			<div class="jbo">x</div>
-		</div>
-	</div>
-	<figcaption>X can't rotate</figcaption>
-</figure>
-
 ## Vowel Diacritics
 
 Here are Lojban's 6 vowels, as diacritics:
 
 ![fig-vowel-diacritics](img/fig-vowel-diacritics.png)
 
-<figure id="fig-vowel-diacritics">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢑐</div>
-			<div class="jbo">a</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢑠</div>
-			<div class="jbo">e</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢑰</div>
-			<div class="jbo">i</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢒀</div>
-			<div class="jbo">o</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢒐</div>
-			<div class="jbo">u</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢒠</div>
-			<div class="jbo">y</div>
-		</div>
-	</div>
-	<figcaption>Vowel diacritics</figcaption>
-</figure>
-
 Vowels are written above the consonants to create syllables, and in combination with diacritic-less consonants to create whole words.
 
 ![fig-example-sentence](img/fig-example-sentence.png)
-
-<figure id="fig-example-sentence">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢏀󢒀</div>
-			<div class="jbo">do</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢏀󢏰󢑐󢐠󢑰</div>
-			<div class="jbo">drani</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢏰󢒀󢏀󢑐</div>
-			<div class="jbo">roda</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢏰󢒀󢏀󢑠</div>
-			<div class="jbo">rode</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢏰󢒀󢏀󢑰</div>
-			<div class="jbo">rodi</div>
-		</div>
-	</div>
-	<figcaption>Example sentence</figcaption>
-</figure>
 
 ### Diphthongs
 
@@ -376,95 +90,17 @@ Lojban combines vowels into single sounds which are transcribed in Latin as two 
 
 ![fig-allowed-diphthongs](img/fig-allowed-diphthongs.png)
 
-<figure id="fig-allowed-diphthongs">
-<style>
-	.na {
-		color: #eee;
-	}
-</style>
-<table style="caption-side: bottom; margin: 10px auto;">
-	<thead>
-		<tr><th></th><th>a</th><th>e</th><th>i</th><th>o</th><th>u</th><th>y</th></tr>
-	</thead>
-<tbody>
-<tr><th>a</th><td class="na">aa</td><td class="na">ea</td><td>ia</td><td class="na">oa</td><td>ua</td><td class="na">ya</td></tr>
-<tr><th>e</th><td class="na">ae</td><td class="na">ee</td><td>ie</td><td class="na">oe</td><td>ue</td><td class="na">ye</td></tr>
-<tr><th>i</th><td>ai</td><td>ei</td><td>ii</td><td>oi</td><td>ui</td><td class="na">yi</td></tr>
-<tr><th>o</th><td class="na">ao</td><td class="na">eo</td><td>io</td><td class="na">oo</td><td>uo</td><td class="na">yo</td></tr>
-<tr><th>u</th><td>au</td><td class="na">eu</td><td>iu</td><td class="na">ou</td><td>uu</td><td class="na">yu</td></tr>
-<tr><th>y</th><td class="na">ay</td><td class="na">ey</td><td>iy</td><td class="na">oy</td><td>uy</td><td class="na">yy</td></tr>
-</tbody>
-</table>
-<figcaption>Table of the allowed vowel diphthongs</figcaption>
-</figure>
-
 One can see that six of these are made from just "i" + everything and six are just "u" + everything. These are handled by a set of characters called semivowels, which are explained in [Semivowels](#semivowels).
 
 The remaining 4 diphthongs are assigned their own diacritics:
 
 ![fig-diphthong-diacritics](img/fig-diphthong-diacritics.png)
 
-<figure id="fig-diphthong-diacritics">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢑐󢒐</div>
-			<div class="jbo">au</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢑐󢑰</div>
-			<div class="jbo">ai</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢑠󢑰</div>
-			<div class="jbo">ei</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢒀󢑰</div>
-			<div class="jbo">oi</div>
-		</div>
-	</div>
-	<figcaption>Diphthong diacritics</figcaption>
-</figure>
-
 The diphthong "au" is unique, as it is the only one with a final "u", and it has a unique character.
 
 The others, all with final "i"s, are created by combining the character for the base vowel diacritic with the diacritic for "i". This somewhat reflects the original Latin "two letters" transcription method, however with the benefit of still only taking up one letter's worth of horizontal space.
 
-<figure id="fig-diphthong-generation">
-	<div class="figure-row">
-		<div class="figure-column">
-			<div class="zlm">󢑐</div>
-			<div class="jbo">a</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢑠</div>
-			<div class="jbo">e</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢒀</div>
-			<div class="jbo">o</div>
-		</div>
-		<div class="figure-column">+</div>
-		<div class="figure-column">
-			<div class="zlm">󢑰</div>
-			<div class="jbo">i</div>
-		</div>
-		<div class="figure-column">=</div>
-		<div class="figure-column">
-			<div class="zlm">󢑐󢑰</div>
-			<div class="jbo">ai</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢑠󢑰</div>
-			<div class="jbo">ei</div>
-		</div>
-		<div class="figure-column">
-			<div class="zlm">󢒀󢑰</div>
-			<div class="jbo">oi</div>
-		</div>
-	</div>
-	<figcaption>"ai" "ei" and "oi" are similar to their components</figcaption>
-</figure>
+![fig-diphthong-generation](img/fig-diphthong-generation.png)
 
 Of the 16 allowed diphthongs, it should be noted that both “iy” and “uy” are technically allowed but never appear in native Lojban words. They are reserved for use in Lojbanising proper names or foreign (non-lojban) words.
 
