@@ -99,75 +99,16 @@ These codes could be arranged in a 4x16 table with 14 slots to spare, similar to
 
 |     | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |-----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ED8 | 󢌠 | 󢌰 | 󢍀 | 󢍐 | 󢍠 | 󢍰 | 󢎀 | 󢎐 | 󢎠 | 󢌀 | 󢌐 | 󢓰 | 󢌟 | 󢌯 | 󢌿 | 󢍏 |
+| ED9 | 󢎰 | 󢏀 | 󢏐 | 󢏠 | 󢏰 | 󢐀 | 󢐐 | 󢐠 | 󢍟 | 󢏏 | 󢌏 | 󢎏 |   |   |   |   |
+| EDA | 󢑐 | 󢑠 | 󢑰 | 󢒀 | 󢒐 | 󢒠 | 󢒰 | 󢓀 | 󢓐 | 󢓠 | 󢐰 | 󢑀 |   |   |   |   |
+| EDB | 󢓱 | 󢓲 | 󢓳 | 󢓴 | 󢓵 | 󢓶 | 󢓷 | 󢓸 | 󢓹 | 󢓺 |   |   |   |   |   |   |
+
+|     | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
+|-----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | ED8 | py | ty | ky | fy | ly | sy | cy | my | 󢎠 | denpabu | yhy | cnimahobu | patonga | retonga | cionga | votonga |
 | ED9 | by_ | dy | gy | vy | ry | zy | jy | ny | banabu | smajibu | slakabu | tcenabu | | | | |
 | EDA | abu | ebu | ibu | obu | ubu | ybu | aibu | eibu | oibu | aubu | iy | uy | | | | |
 | EDB | seplimeabu | seplimeebu | seplimeibu | seplimeobu | seplimeubu | seplimeybu | seplimeaibu | seplimeeibu | seplimeoibu | seplimeaubu | | | | | | |
 
-
-## Full glyph list for Zbalermorna fonts:
-
-|   |`abu`|`ebu`|`ibu`|`obu`|`ubu`|`ybu`|`aibu`|`eibu`|`oibu`|`aubu`|
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `denpabu`|`denpabu_abu`|`denpabu_ebu`|`denpabu_ibu`|`denpabu_obu`|`denpabu_ubu`|`denpabu_ybu`|`denpabu_aibu`|`denpabu_eibu`|`denpabu_oibu`|`denpabu_aubu`|
-| `yhy`|`yhy_abu`|`yhy_ebu`|`yhy_ibu`|`yhy_obu`|`yhy_ubu`|`yhy_ybu`|`yhy_aibu`|`yhy_eibu`|`yhy_oibu`|`yhy_aubu`|
-| `py`|`py_abu`|`py_ebu`|`py_ibu`|`py_obu`|`py_ubu`|`py_ybu`|`py_aibu`|`py_eibu`|`py_oibu`|`py_aubu`|
-| `ty`|`ty_abu`|`ty_ebu`|`ty_ibu`|`ty_obu`|`ty_ubu`|`ty_ybu`|`ty_aibu`|`ty_eibu`|`ty_oibu`|`ty_aubu`|
-| `ky`|`ky_abu`|`ky_ebu`|`ky_ibu`|`ky_obu`|`ky_ubu`|`ky_ybu`|`ky_aibu`|`ky_eibu`|`ky_oibu`|`ky_aubu`|
-| `fy`|`fy_abu`|`fy_ebu`|`fy_ibu`|`fy_obu`|`fy_ubu`|`fy_ybu`|`fy_aibu`|`fy_eibu`|`fy_oibu`|`fy_aubu`|
-| `ly`|`ly_abu`|`ly_ebu`|`ly_ibu`|`ly_obu`|`ly_ubu`|`ly_ybu`|`ly_aibu`|`ly_eibu`|`ly_oibu`|`ly_aubu`|
-| `sy`|`sy_abu`|`sy_ebu`|`sy_ibu`|`sy_obu`|`sy_ubu`|`sy_ybu`|`sy_aibu`|`sy_eibu`|`sy_oibu`|`sy_aubu`|
-| `cy`|`cy_abu`|`cy_ebu`|`cy_ibu`|`cy_obu`|`cy_ubu`|`cy_ybu`|`cy_aibu`|`cy_eibu`|`cy_oibu`|`cy_aubu`|
-| `my`|`my_abu`|`my_ebu`|`my_ibu`|`my_obu`|`my_ubu`|`my_ybu`|`my_aibu`|`my_eibu`|`my_oibu`|`my_aubu`|
-| `xy`|`xy_abu`|`xy_ebu`|`xy_ibu`|`xy_obu`|`xy_ubu`|`xy_ybu`|`xy_aibu`|`xy_eibu`|`xy_oibu`|`xy_aubu`|
-| `by`|`by_abu`|`by_ebu`|`by_ibu`|`by_obu`|`by_ubu`|`by_ybu`|`by_aibu`|`by_eibu`|`by_oibu`|`by_aubu`|
-| `dy`|`dy_abu`|`dy_ebu`|`dy_ibu`|`dy_obu`|`dy_ubu`|`dy_ybu`|`dy_aibu`|`dy_eibu`|`dy_oibu`|`dy_aubu`|
-| `gy`|`gy_abu`|`gy_ebu`|`gy_ibu`|`gy_obu`|`gy_ubu`|`gy_ybu`|`gy_aibu`|`gy_eibu`|`gy_oibu`|`gy_aubu`|
-| `vy`|`vy_abu`|`vy_ebu`|`vy_ibu`|`vy_obu`|`vy_ubu`|`vy_ybu`|`vy_aibu`|`vy_eibu`|`vy_oibu`|`vy_aubu`|
-| `ry`|`ry_abu`|`ry_ebu`|`ry_ibu`|`ry_obu`|`ry_ubu`|`ry_ybu`|`ry_aibu`|`ry_eibu`|`ry_oibu`|`ry_aubu`|
-| `zy`|`zy_abu`|`zy_ebu`|`zy_ibu`|`zy_obu`|`zy_ubu`|`zy_ybu`|`zy_aibu`|`zy_eibu`|`zy_oibu`|`zy_aubu`|
-| `jy`|`jy_abu`|`jy_ebu`|`jy_ibu`|`jy_obu`|`jy_ubu`|`jy_ybu`|`jy_aibu`|`jy_eibu`|`jy_oibu`|`jy_aubu`|
-| `ny`|`ny_abu`|`ny_ebu`|`ny_ibu`|`ny_obu`|`ny_ubu`|`ny_ybu`|`ny_aibu`|`ny_eibu`|`ny_oibu`|`ny_aubu`|
-| `leribu`|`leribu_abu`|`leribu_ebu`|`leribu_ibu`|`leribu_obu`|`leribu_ubu`|`leribu_ybu`|`leribu_aibu`|`leribu_eibu`|`leribu_oibu`|`leribu_aubu`|
-| `lerubu`|`lerubu_abu`|`lerubu_ebu`|`lerubu_ibu`|`lerubu_obu`|`lerubu_ubu`|`lerubu_ybu`|`lerubu_aibu`|`lerubu_eibu`|`lerubu_oibu`|`lerubu_aubu`|
-|   |  |  |  |  |  |  |  |  |  |  |
-|   |  |  |  |  |  |  |  |  |  |  |
-| `abu`|`denpabu_abu_yhy_abu`|`denpabu_abu_yhy_ebu`|`denpabu_abu_yhy_ibu`|`denpabu_abu_yhy_obu`|`denpabu_abu_yhy_ubu`|`denpabu_abu_yhy_ybu`|`denpabu_abu_yhy_aibu`|`denpabu_abu_yhy_eibu`|`denpabu_abu_yhy_oibu`|`denpabu_abu_yhy_aubu`|
-| `ebu`|`denpabu_ebu_yhy_abu`|`denpabu_ebu_yhy_ebu`|`denpabu_ebu_yhy_ibu`|`denpabu_ebu_yhy_obu`|`denpabu_ebu_yhy_ubu`|`denpabu_ebu_yhy_ybu`|`denpabu_ebu_yhy_aibu`|`denpabu_ebu_yhy_eibu`|`denpabu_ebu_yhy_oibu`|`denpabu_ebu_yhy_aubu`|
-| `ibu`|`denpabu_ibu_yhy_abu`|`denpabu_ibu_yhy_ebu`|`denpabu_ibu_yhy_ibu`|`denpabu_ibu_yhy_obu`|`denpabu_ibu_yhy_ubu`|`denpabu_ibu_yhy_ybu`|`denpabu_ibu_yhy_aibu`|`denpabu_ibu_yhy_eibu`|`denpabu_ibu_yhy_oibu`|`denpabu_ibu_yhy_aubu`|
-| `obu`|`denpabu_obu_yhy_abu`|`denpabu_obu_yhy_ebu`|`denpabu_obu_yhy_ibu`|`denpabu_obu_yhy_obu`|`denpabu_obu_yhy_ubu`|`denpabu_obu_yhy_ybu`|`denpabu_obu_yhy_aibu`|`denpabu_obu_yhy_eibu`|`denpabu_obu_yhy_oibu`|`denpabu_obu_yhy_aubu`|
-| `ubu`|`denpabu_ubu_yhy_abu`|`denpabu_ubu_yhy_ebu`|`denpabu_ubu_yhy_ibu`|`denpabu_ubu_yhy_obu`|`denpabu_ubu_yhy_ubu`|`denpabu_ubu_yhy_ybu`|`denpabu_ubu_yhy_aibu`|`denpabu_ubu_yhy_eibu`|`denpabu_ubu_yhy_oibu`|`denpabu_ubu_yhy_aubu`|
-| `ybu`|`denpabu_ybu_yhy_abu`|`denpabu_ybu_yhy_ebu`|`denpabu_ybu_yhy_ibu`|`denpabu_ybu_yhy_obu`|`denpabu_ybu_yhy_ubu`|`denpabu_ybu_yhy_ybu`|`denpabu_ybu_yhy_aibu`|`denpabu_ybu_yhy_eibu`|`denpabu_ybu_yhy_oibu`|`denpabu_ybu_yhy_aubu`|
-| `aibu`|`denpabu_aibu_yhy_abu`|`denpabu_aibu_yhy_ebu`|`denpabu_aibu_yhy_ibu`|`denpabu_aibu_yhy_obu`|`denpabu_aibu_yhy_ubu`|`denpabu_aibu_yhy_ybu`|`denpabu_aibu_yhy_aibu`|`denpabu_aibu_yhy_eibu`|`denpabu_aibu_yhy_oibu`|`denpabu_aibu_yhy_aubu`|
-| `eibu`|`denpabu_eibu_yhy_abu`|`denpabu_eibu_yhy_ebu`|`denpabu_eibu_yhy_ibu`|`denpabu_eibu_yhy_obu`|`denpabu_eibu_yhy_ubu`|`denpabu_eibu_yhy_ybu`|`denpabu_eibu_yhy_aibu`|`denpabu_eibu_yhy_eibu`|`denpabu_eibu_yhy_oibu`|`denpabu_eibu_yhy_aubu`|
-| `oibu`|`denpabu_oibu_yhy_abu`|`denpabu_oibu_yhy_ebu`|`denpabu_oibu_yhy_ibu`|`denpabu_oibu_yhy_obu`|`denpabu_oibu_yhy_ubu`|`denpabu_oibu_yhy_ybu`|`denpabu_oibu_yhy_aibu`|`denpabu_oibu_yhy_eibu`|`denpabu_oibu_yhy_oibu`|`denpabu_oibu_yhy_aubu`|
-| `aubu`|`denpabu_aubu_yhy_abu`|`denpabu_aubu_yhy_ebu`|`denpabu_aubu_yhy_ibu`|`denpabu_aubu_yhy_obu`|`denpabu_aubu_yhy_ubu`|`denpabu_aubu_yhy_ybu`|`denpabu_aubu_yhy_aibu`|`denpabu_aubu_yhy_eibu`|`denpabu_aubu_yhy_oibu`|`denpabu_aubu_yhy_aubu`|
-
-```
-denpabu_yhy
-
-seplimeabu
-seplimeebu
-seplimeibu
-seplimeobu
-seplimeubu
-seplimeybu
-seplimeaibu
-seplimeeibu
-seplimeoibu
-seplimeaubu
-
-slaka_bu
-bahotongabu
-subytongabu
-bahorsubytongabu
-suhurbahutongabu
-bahebu
-bahebu_bahebu
-bahebu_bahebu_bahebu
-tcena_bu
-tcena_bu.init
-tcena_bu.medi
-tcena_bu.fina
-
-```
+Additional glyphs would be the second and third ba'ebu, three positional smaji bu (init, medi, fina), vowel + yhy ligatures (10), and vowel.dot alternatives for self-dotting (10). With mark-base positional lookups, this is all that's needed to completely render ZLM.
