@@ -69,3 +69,10 @@ header select {
 .table-row div {
   flex: 1;
 }
+.ucsur-zlm, .old-zlm {
+  display: inline;
+}
+
+.latin, .ucsur-zlm.hide, .old-zlm.hide {
+  display: none;
+}

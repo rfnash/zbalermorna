@@ -67,6 +67,20 @@ lookup zlmVV {
   sub abu ubu by aubu;
 } zlmVV;
 
+lookup zlmDVH {
+  lookupflag 0;
+  sub denpabu' abu' yhy' by abu_yhy;
+  sub denpabu' ebu' yhy' by ebu_yhy;
+  sub denpabu' ibu' yhy' by ibu_yhy;
+  sub denpabu' obu' yhy' by obu_yhy;
+  sub denpabu' ubu' yhy' by ubu_yhy;
+  sub denpabu' ybu' yhy' by ybu_yhy;
+  sub denpabu' aibu' yhy' by aibu_yhy;
+  sub denpabu' eibu' yhy' by eibu_yhy;
+  sub denpabu' oibu' yhy' by oibu_yhy;
+  sub denpabu' aubu' yhy' by aubu_yhy;
+} zlmDVH;
+
 lookup zlmVH {
   lookupflag 0;
   ignore sub @consonant @vowel' yhy';
@@ -152,6 +166,7 @@ feature liga {
     lookup zlmSFF;
     lookup zlmSF;
     lookup zlmVV;
+    lookup zlmDVH;
     lookup zlmVH;
     lookup zlmW;
     lookup zlmBahebu;
@@ -165,6 +180,7 @@ feature liga {
     lookup zlmSFF;
     lookup zlmSF;
     lookup zlmVV;
+    lookup zlmDVH;
     lookup zlmVH;
     lookup zlmW;
     lookup zlmBahebu;

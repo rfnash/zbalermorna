@@ -47,39 +47,32 @@ function translate (text) {
 // Translate test cases into appropriate unicode
 
 Q('[data-zlm-translate]').forEach(function (phrase) {
-  phrase.innerHTML = translate(phrase.innerHTML);
-  return;
-
-  var output = "";
-  var chars  = phrase.innerHTML;
-  var mode   = PARSE_MODE_TEXT;
-
-  for (var i = 0, max = chars.length - 1; i < max; i++) {
-    var c = chars[i];
-
-    if (c === '<') { mode = PARSE_MODE_TAG; }
-    if (c === '>') { mode = PARSE_MODE_TEXT; }
-
-    switch (mode) {
-      case PARSE_MODE_TEXT: output += translate(c); break;
-      case PARSE_MODE_TAG:  output += c; break;
-    }
-  }
-
-  phrase.innerHTML = output;
+    phrase.innerHTML = 
+      "<div class='ucsur-zlm'>" + toArray(phrase.innerHTML).map(latinToZbalermornaUnicode).join('') + "</div>" + 
+      "<div class='old-zlm'>" + toArray(phrase.innerHTML).map(latinToZbalermorna).join('') + "</dd>";
+    return;
 });
 
 const font_selector = document.getElementById('font-selector');
 const ime_link = document.getElementById('ime-link');
 
-var ed = lining(document.getElementById("eye-doctor"), {'autoResize': true});
+var ed = lining(document.getElementById("eye-doctor").querySelector('.ucsur-zlm'), {'autoResize': true});
+var edu = lining(document.getElementById("eye-doctor").querySelector('.old-zlm'), {'autoResize': true});
 
 function updateFont(value) {
+  if (value.match(/unicode/)) {
+    Q('.ucsur-zlm').forEach(function (element) { element.className = 'ucsur-zlm'; });
+    Q('.old-zlm').forEach(function (element) { element.className = 'old-zlm hide'; });
+  } else {
+    Q('.ucsur-zlm').forEach(function (element) { element.className = 'ucsur-zlm hide'; });
+    Q('.old-zlm').forEach(function (element) { element.className = 'old-zlm'; });
+  }
   for (var i = 0; i < document.getElementsByClassName('reference').length; i++) {
     document.getElementsByClassName('reference')[i].style["font-family"] = value;
   }
   document.fonts.ready.then(function() {
     ed.relining(true);
+    edu.relining(true);
   });
 }
 font_selector.addEventListener('change', (event) => {
