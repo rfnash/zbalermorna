@@ -37,27 +37,17 @@ function Q (sel, parent) {
   return toArray((parent || document).querySelectorAll(sel));
 };
 
-function translate (text) {
-  if (window.location.hash.match(/unicode/))
-    return toArray(text).map(latinToZbalermornaUnicode).join('');
-  else
-    return toArray(text).map(latinToZbalermorna).join('');
-}
-
 // Translate test cases into appropriate unicode
 
 Q('[data-zlm-translate]').forEach(function (phrase) {
     phrase.innerHTML = 
-      "<div class='ucsur-zlm'>" + toArray(phrase.innerHTML).map(latinToZbalermornaUnicode).join('') + "</div>" + 
-      "<div class='old-zlm'>" + toArray(phrase.innerHTML).map(latinToZbalermorna).join('') + "</dd>";
+      "<span class='ucsur-zlm'>" + toArray(phrase.innerHTML).map(latinToZbalermornaUnicode).join('') + "</span>" + 
+      "<span class='old-zlm'>" + toArray(phrase.innerHTML).map(latinToZbalermorna).join('') + "</span>";
     return;
 });
 
 const font_selector = document.getElementById('font-selector');
 const ime_link = document.getElementById('ime-link');
-
-var ed = lining(document.getElementById("eye-doctor").querySelector('.ucsur-zlm'), {'autoResize': true});
-var edu = lining(document.getElementById("eye-doctor").querySelector('.old-zlm'), {'autoResize': true});
 
 function updateFont(value) {
   if (value.match(/unicode/)) {
@@ -70,10 +60,6 @@ function updateFont(value) {
   for (var i = 0; i < document.getElementsByClassName('reference').length; i++) {
     document.getElementsByClassName('reference')[i].style["font-family"] = value;
   }
-  document.fonts.ready.then(function() {
-    ed.relining(true);
-    edu.relining(true);
-  });
 }
 font_selector.addEventListener('change', (event) => {
   window.location.hash = event.target.value;

@@ -72,7 +72,15 @@ header select {
 .ucsur-zlm, .old-zlm {
   display: inline;
 }
-
 .latin, .ucsur-zlm.hide, .old-zlm.hide {
   display: none;
+}
+#eye-doctor .ucsur-zlm, #eye-doctor .old-zlm {
+  display: block;
+}
+#eye-doctor .ucsur-zlm.hide, #eye-doctor .old-zlm.hide {
+  display: none;
+}
+#eye-doctor span::first-line {
+  font-size: 128px;
 }
