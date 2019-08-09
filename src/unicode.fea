@@ -103,7 +103,7 @@ lookup zlmVH {
 lookup zlmBahebu {
   lookupflag 0;
   sub bahebu bahebu bahebu by bahebu_bahebu_bahebu;
-  sub bahebu bahebu by bahebu_bahebu_bahebu;
+  sub bahebu bahebu by bahebu_bahebu;
 } zlmBahebu;
 
 lookup zlmSmajibuInit {
