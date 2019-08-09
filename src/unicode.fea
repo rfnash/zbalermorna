@@ -11,6 +11,8 @@
 @singlevowel = [ abu ebu ibu obu ubu ybu ];
 @vowel = [ @singlevowel aibu eibu oibu aubu ];
 @anything = [ @consonant @vowel ];
+@cnimahobu = [ abu_yhy ebu_yhy ibu_yhy obu_yhy ubu_yhy ybu_yhy aibu_yhy eibu_yhy oibu_yhy aubu_yhy ];
+@fullvowel = [ seplimeabu seplimeebu seplimeibu seplimeobu seplimeubu seplimeybu seplimeaibu seplimeeibu seplimeoibu seplimeaubu ];
 
 languagesystem DFLT dflt;
 languagesystem latn dflt;
@@ -49,6 +51,22 @@ lookup zlmSF {
   sub slakabu seplimeybu by seplimeybu;
 } zlmSF;
 
+lookup zlmW {
+  lookupflag 0;
+  sub ibu' @singlevowel by iy;
+  sub ubu' @singlevowel by uy;
+  sub ibu' @fullvowel by iy;
+  sub ubu' @fullvowel by uy;
+} zlmW;
+
+lookup zlmVV {
+  lookupflag 0;
+  sub abu ibu by aibu;
+  sub ebu ibu by eibu;
+  sub obu ibu by oibu;
+  sub abu ubu by aubu;
+} zlmVV;
+
 lookup zlmVH {
   lookupflag 0;
   ignore sub @consonant @vowel' yhy';
@@ -60,23 +78,9 @@ lookup zlmVH {
   sub ybu' yhy' by ybu_yhy;
   sub aibu' yhy' by aibu_yhy;
   sub eibu' yhy' by eibu_yhy;
-  sub oibu' yhy' by eibu_yhy;
+  sub oibu' yhy' by oibu_yhy;
   sub aubu' yhy' by aubu_yhy;
 } zlmVH;
-
-lookup zlmW {
-  lookupflag 0;
-  sub ibu' @singlevowel by iy;
-  sub ubu' @singlevowel by uy;
-} zlmW;
-
-lookup zlmVV {
-  lookupflag 0;
-  sub abu ibu by aibu;
-  sub ebu ibu by eibu;
-  sub obu ibu by oibu;
-  sub abu ubu by aubu;
-} zlmVV;
 
 #
 # symbols
@@ -90,6 +94,8 @@ lookup zlmBahebu {
 
 lookup zlmSmajibuInit {
   lookupflag 0;
+  ignore sub smajibu.medi smajibu';
+  ignore sub smajibu.init smajibu';
   sub smajibu' smajibu by smajibu.init;
   sub smajibu' smajibu.medi by smajibu.init;
   sub smajibu' smajibu.fina by smajibu.init;
@@ -101,10 +107,13 @@ lookup zlmSmajibuMedi {
   sub smajibu smajibu' smajibu.fina by smajibu.medi;
   sub smajibu.init smajibu' smajibu.fina by smajibu.medi;
   sub smajibu.init smajibu' smajibu by smajibu.medi;
+  sub smajibu.init smajibu' smajibu.fina by smajibu.medi;
+  sub smajibu.init smajibu' smajibu by smajibu.medi;
 } zlmSmajibuMedi;
 
 lookup zlmSmajibuFina {
   lookupflag 0;
+  ignore sub smajibu' smajibu.medi;
   sub smajibu smajibu' by smajibu.fina;
   sub smajibu.medi smajibu' by smajibu.fina;
   sub smajibu.init smajibu' by smajibu.fina;
@@ -121,6 +130,9 @@ lookup zlmSelfDottingVowels {
   ignore sub @anything @vowel';
   ignore sub slakabu @vowel';
   ignore sub @vowel' slakabu;
+  ignore sub denpabu @vowel';
+  ignore sub denpabu @vowel';
+  ignore sub @cnimahobu @vowel';
   sub abu' by abu.dot;
   sub ebu' by ebu.dot;
   sub ibu' by ibu.dot;
@@ -139,9 +151,9 @@ feature liga {
     lookup zlmFF;
     lookup zlmSFF;
     lookup zlmSF;
+    lookup zlmVV;
     lookup zlmVH;
     lookup zlmW;
-    lookup zlmVV;
     lookup zlmBahebu;
     lookup zlmSmajibuInit;
     lookup zlmSmajibuMedi;
@@ -152,9 +164,9 @@ feature liga {
     lookup zlmFF;
     lookup zlmSFF;
     lookup zlmSF;
+    lookup zlmVV;
     lookup zlmVH;
     lookup zlmW;
-    lookup zlmVV;
     lookup zlmBahebu;
     lookup zlmSmajibuInit;
     lookup zlmSmajibuMedi;

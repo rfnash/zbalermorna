@@ -38,7 +38,10 @@ function Q (sel, parent) {
 };
 
 function translate (text) {
-  return toArray(text).map(latinToZbalermorna).join('');
+  if (window.location.hash.match(/unicode/))
+    return toArray(text).map(latinToZbalermornaUnicode).join('');
+  else
+    return toArray(text).map(latinToZbalermorna).join('');
 }
 
 // Translate test cases into appropriate unicode

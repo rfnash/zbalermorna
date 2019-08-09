@@ -72,3 +72,26 @@ function latinToZbalermorna(c) {
     return "\t";
   return "";
 }
+
+
+const NEW_UNICODE_START = 0xED80;
+const lerfu_index = "ptkflscmx.' 1234bdgvrzjn!-,~    aeiouy          AEIOUY";
+
+function latinToZbalermornaUnicode(c) {
+  if (c.codePointAt(0) >= 0xED80) {
+    return c;
+  }
+  if (c == " ")
+    return " ";
+  if (c == "h" || c == "H")
+    c = "'";
+  if (lerfu_index.indexOf(c) >= 0)
+    return formatUnicode(NEW_UNICODE_START + lerfu_index.indexOf(c));
+  else if (lerfu_index.indexOf(c.toLowerCase()) >= 0)
+    return formatUnicode(NEW_UNICODE_START + lerfu_index.indexOf(c.toLowerCase()));
+  if (c == "\n")
+    return "\n";
+  if (c == "\t")
+    return "\t";
+  return "";
+}
