@@ -1,0 +1,164 @@
+# This file is designed in conjunction with the build.pe script to replace
+# the lookup tables so that they aren't appended and get out of control.
+# You can manually merge this with your .sfd file in Fontforge to be able
+# to take advantage of the built-in tools for previewing ligatures.
+
+#
+# ZLM OpenType Feature Table Definitions
+#
+
+@consonant = [ py ty ky fy ly sy cy my xy by_ dy gy vy ry zy jy ny yhy iy uy ];
+@singlevowel = [ abu ebu ibu obu ubu ybu ];
+@vowel = [ @singlevowel aibu eibu oibu aubu ];
+@anything = [ @consonant @vowel ];
+
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem latn DEU;
+languagesystem cyrl dflt;
+languagesystem cyrl SRB;
+languagesystem grek dflt;
+
+#
+# Full Vowel Support
+#
+
+lookup zlmFF {
+  lookupflag 0;
+  sub seplimeabu seplimeibu by seplimeaibu;
+  sub seplimeobu seplimeibu by seplimeoibu;
+  sub seplimeebu seplimeibu by seplimeeibu;
+  sub seplimeabu seplimeubu by seplimeaubu;
+} zlmFF;
+
+lookup zlmSFF {
+  lookupflag 0;
+  sub slakabu seplimeaibu by seplimeaibu;
+  sub slakabu seplimeoibu by seplimeoibu;
+  sub slakabu seplimeeibu by seplimeeibu;
+  sub slakabu seplimeaubu by seplimeaubu;
+} zlmSFF;
+
+lookup zlmSF {
+  lookupflag 0;
+  sub slakabu seplimeabu by seplimeabu;
+  sub slakabu seplimeebu by seplimeebu;
+  sub slakabu seplimeibu by seplimeibu;
+  sub slakabu seplimeobu by seplimeobu;
+  sub slakabu seplimeubu by seplimeubu;
+  sub slakabu seplimeybu by seplimeybu;
+} zlmSF;
+
+lookup zlmVH {
+  lookupflag 0;
+  ignore sub @consonant @vowel' yhy';
+  sub abu' yhy' by abu_yhy;
+  sub ebu' yhy' by ebu_yhy;
+  sub ibu' yhy' by ibu_yhy;
+  sub obu' yhy' by obu_yhy;
+  sub ubu' yhy' by ubu_yhy;
+  sub ybu' yhy' by ybu_yhy;
+  sub aibu' yhy' by aibu_yhy;
+  sub eibu' yhy' by eibu_yhy;
+  sub oibu' yhy' by eibu_yhy;
+  sub aubu' yhy' by aubu_yhy;
+} zlmVH;
+
+lookup zlmW {
+  lookupflag 0;
+  sub ibu' @singlevowel by iy;
+  sub ubu' @singlevowel by uy;
+} zlmW;
+
+lookup zlmVV {
+  lookupflag 0;
+  sub abu ibu by aibu;
+  sub ebu ibu by eibu;
+  sub obu ibu by oibu;
+  sub abu ubu by aubu;
+} zlmVV;
+
+#
+# symbols
+#
+
+lookup zlmBahebu {
+  lookupflag 0;
+  sub bahebu bahebu bahebu by bahebu_bahebu_bahebu;
+  sub bahebu bahebu by bahebu_bahebu_bahebu;
+} zlmBahebu;
+
+lookup zlmSmajibuInit {
+  lookupflag 0;
+  sub smajibu' smajibu by smajibu.init;
+  sub smajibu' smajibu.medi by smajibu.init;
+  sub smajibu' smajibu.fina by smajibu.init;
+} zlmSmajibuInit;
+
+lookup zlmSmajibuMedi {
+  lookupflag 0;
+  sub smajibu smajibu' smajibu by smajibu.medi;
+  sub smajibu smajibu' smajibu.fina by smajibu.medi;
+  sub smajibu.init smajibu' smajibu.fina by smajibu.medi;
+  sub smajibu.init smajibu' smajibu by smajibu.medi;
+} zlmSmajibuMedi;
+
+lookup zlmSmajibuFina {
+  lookupflag 0;
+  sub smajibu smajibu' by smajibu.fina;
+  sub smajibu.medi smajibu' by smajibu.fina;
+  sub smajibu.init smajibu' by smajibu.fina;
+} zlmSmajibuFina;
+
+
+
+#
+# Self-dotting subs
+#
+
+lookup zlmSelfDottingVowels {
+  lookupflag 0;
+  ignore sub @anything @vowel';
+  ignore sub slakabu @vowel';
+  ignore sub @vowel' slakabu;
+  sub abu' by abu.dot;
+  sub ebu' by ebu.dot;
+  sub ibu' by ibu.dot;
+  sub obu' by obu.dot;
+  sub ubu' by ubu.dot;
+  sub ybu' by ybu.dot;
+  sub aibu' by aibu.dot;
+  sub eibu' by eibu.dot;
+  sub oibu' by oibu.dot;
+  sub aubu' by aubu.dot;
+} zlmSelfDottingVowels;
+
+feature liga {
+  script DFLT;
+    language dflt;
+    lookup zlmFF;
+    lookup zlmSFF;
+    lookup zlmSF;
+    lookup zlmVH;
+    lookup zlmW;
+    lookup zlmVV;
+    lookup zlmBahebu;
+    lookup zlmSmajibuInit;
+    lookup zlmSmajibuMedi;
+    lookup zlmSmajibuFina;
+    lookup zlmSelfDottingVowels;
+  script latn;
+    language dflt;
+    lookup zlmFF;
+    lookup zlmSFF;
+    lookup zlmSF;
+    lookup zlmVH;
+    lookup zlmW;
+    lookup zlmVV;
+    lookup zlmBahebu;
+    lookup zlmSmajibuInit;
+    lookup zlmSmajibuMedi;
+    lookup zlmSmajibuFina;
+    lookup zlmSelfDottingVowels;
+} liga;
+
