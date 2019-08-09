@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1565309361
-ModificationTime: 1565321154
+ModificationTime: 1565322215
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -167,7 +167,7 @@ EndFPST
 ChainSub2: coverage "zlmSelfDottingVowels contextual 0" 0 0 0 1
  1 1 0
   Coverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
-  BCoverage: 105 py ty ky fy ly sy cy my xy by_ dy gy vy ry zy jy ny yhy iy uy abu ebu ibu obu ubu ybu aibu eibu oibu aubu
+  BCoverage: 104 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy abu ebu ibu obu ubu ybu aibu eibu oibu aubu
  0
 EndFPST
 ChainSub2: glyph "zlmSmajibuFina contextual 2" 0 0 0 1
@@ -328,7 +328,7 @@ ChainSub2: coverage "zlmVH contextual 0" 0 0 0 1
  2 1 0
   Coverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
   Coverage: 3 yhy
-  BCoverage: 61 py ty ky fy ly sy cy my xy by_ dy gy vy ry zy jy ny yhy iy uy
+  BCoverage: 60 py ty ky fy ly sy cy my xy by dy gy vy ry zy jy ny yhy iy uy
  0
 EndFPST
 Encoding: Original
@@ -727,7 +727,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: by_
+StartChar: by
 Encoding: 16 60816 16
 Width: 600
 VWidth: 0

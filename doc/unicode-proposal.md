@@ -107,7 +107,7 @@ These codes could be arranged in a 4x16 table with 14 slots to spare, similar to
 |     | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F |
 |-----|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | ED8 | py | ty | ky | fy | ly | sy | cy | my | 󢎠 | denpabu | yhy | cnimahobu | patonga | retonga | cionga | votonga |
-| ED9 | by_ | dy | gy | vy | ry | zy | jy | ny | banabu | smajibu | slakabu | tcenabu | | | | |
+| ED9 | by | dy | gy | vy | ry | zy | jy | ny | banabu | smajibu | slakabu | tcenabu | | | | |
 | EDA | abu | ebu | ibu | obu | ubu | ybu | aibu | eibu | oibu | aubu | iy | uy | | | | |
 | EDB | seplimeabu | seplimeebu | seplimeibu | seplimeobu | seplimeubu | seplimeybu | seplimeaibu | seplimeeibu | seplimeoibu | seplimeaubu | | | | | | |
 

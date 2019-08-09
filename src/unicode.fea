@@ -7,7 +7,7 @@
 # ZLM OpenType Feature Table Definitions
 #
 
-@consonant = [ py ty ky fy ly sy cy my xy by_ dy gy vy ry zy jy ny yhy iy uy ];
+@consonant = [ py ty ky fy ly sy cy my xy \by dy gy vy ry zy jy ny yhy iy uy ];
 @singlevowel = [ abu ebu ibu obu ubu ybu ];
 @vowel = [ @singlevowel aibu eibu oibu aubu ];
 @anything = [ @consonant @vowel ];
