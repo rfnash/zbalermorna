@@ -1,6 +1,6 @@
 # Zbalermorna IMEs
 
-IMEs should support make the following conversions:
+IMEs should make the following conversions:
 
 | input | output | description |
 |-------|--------|-------------|
@@ -40,9 +40,10 @@ IMEs should support make the following conversions:
 |  `o`  |`0xEDA3`| obu |
 |  `u`  |`0xEDA4`| ubu |
 |  `y`  |`0xEDA5`| ybu |
-|  `A`  |`0xEDA0`| sepli me abu |
-|  `E`  |`0xEDA1`| sepli me ebu |
-|  `I`  |`0xEDA2`| sepli me ibu |
-|  `O`  |`0xEDA3`| sepli me obu |
-|  `U`  |`0xEDA4`| sepli me ubu |
-|  `Y`  |`0xEDA5`| sepli me ybu |
+|  `A`  |`0xEDB0`| sepli me abu |
+|  `E`  |`0xEDB1`| sepli me ebu |
+|  `I`  |`0xEDB2`| sepli me ibu |
+|  `O`  |`0xEDB3`| sepli me obu |
+|  `U`  |`0xEDB4`| sepli me ubu |
+|  `Y`  |`0xEDB5`| sepli me ybu |
+|  ` `  |`0x0020`| space |
