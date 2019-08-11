@@ -70,17 +70,6 @@ lookup zlmBottoms {
   pos base [\uy ] <anchor 299 0> mark @Bottom;
 } zlmBottoms;
 
-feature kern {
-
- script DFLT;
-     language dflt ;
-      lookup kernHorizontalKerninginLatinlookup0;
-
- script latn;
-     language dflt ;
-      lookup kernHorizontalKerninginLatinlookup0;
-} kern;
-
 feature mark {
 
  script DFLT;
