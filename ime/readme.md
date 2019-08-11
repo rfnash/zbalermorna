@@ -29,7 +29,7 @@ IMEs should support make the following conversions:
 |  `j`  |`0xED96`| jy |
 |  `n`  |`0xED97`| ny |
 |  `!`  |`0xED98`| ba'abu |
-|  `\``  |`0xED98`| ba'abu |
+|  <code>`</code>  |`0xED98`| ba'abu |
 |  `-`  |`0xED99`| smaji bu |
 |  `,`  |`0xED9A`| slaka bu |
 |  `~`  |`0xED9B`| tcena bu |
