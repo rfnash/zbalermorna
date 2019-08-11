@@ -1,5 +1,9 @@
 # Zbalermorna in lessons
 
+Preview:
+
+!(img/zlm-in-lessons-ex.png)
+
 You can easily translate all of the Lojban in [la gleki's The Crash Course](https://mw.lojban.org/papri/The_Crash_Course_(a_draft)) with [this extension](https://chrome.google.com/webstore/detail/custom-javascript-for-web/ddbjnfjiigjmcpcpkmhogomapikjbjdk) and this javascript:
 
 ```js
