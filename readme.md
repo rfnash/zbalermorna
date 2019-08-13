@@ -24,6 +24,10 @@ Zbalermorna, an alternative orthography for the constructed language Lojban.
 - Port the old ZLM font, now called 'Drakono' to new system
 - Create alternate typefaces and add them to this repo
 
+### How to learn ZLM
+
+- [Tinycard deck of the 50 most common words in Lojban](https://tinycards.duolingo.com/decks/NE6TBYur/lojban-words-in-zbalermorna)
+
 
 ### How to type ZLM text
 
