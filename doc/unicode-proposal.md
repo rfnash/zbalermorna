@@ -93,6 +93,11 @@ ba'otonga
 fa'urtonga
 ba'orsu'utonga
 su'urba'otonga
+
+pamai tonga
+remai tonga
+cimai tonga
+vomai tonga
 ```
 
 These codes could be arranged in a 4x16 table with 14 slots to spare, similar to this to the table below. 0xED80-0xEDBF is a space that's currently a free in the UCSUR table.
@@ -112,3 +117,5 @@ These codes could be arranged in a 4x16 table with 14 slots to spare, similar to
 | EDB | seplimeabu | seplimeebu | seplimeibu | seplimeobu | seplimeubu | seplimeybu | seplimeaibu | seplimeeibu | seplimeoibu | seplimeaubu | | | | | | |
 
 Additional glyphs would be the second and third ba'ebu, three positional smaji bu (init, medi, fina), vowel + yhy ligatures (10), and vowel.dot alternatives for self-dotting (10). With mark-base positional lookups, this is all that's needed to completely render ZLM.
+
+Other glyphs like the question mark, exclamation mark, brakets, parenthesises, and braces may add to the font as well, for style.
