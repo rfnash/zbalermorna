@@ -1,11 +1,13 @@
 @font-face { 
 	font-family: 'lato-zlm-extended';
+	src: url('../font/lato-zlm.otf');
 	src: url('../font/lato-zlm-extended.otf');
 	font-weight: 600;
 }
 
 @font-face { 
 	font-family: 'lato-zlm-extended';
+	src: url('../font/lato-zlm.otf');
 	src: url('../font/lato-light-zlm-extended.otf');
 	font-weight: 400;
 }
