@@ -2,7 +2,7 @@
 
 A diacritic orthography for Lojban.
 
-poi finti la .kmir.
+noi se finti la .kmir.
 
 ## Introduction
 
