@@ -40,9 +40,7 @@ function Q (sel, parent) {
 // Translate test cases into appropriate unicode
 
 Q('[data-zlm-translate]').forEach(function (phrase) {
-    phrase.innerHTML = 
-      "<span class='ucsur-zlm'>" + toArray(phrase.innerHTML).map(latinToZbalermornaUnicode).join('') + "</span>" + 
-      "<span class='old-zlm'>" + toArray(phrase.innerHTML).map(latinToZbalermorna).join('') + "</span>";
+    phrase.innerHTML = toArray(phrase.innerHTML).map(latinToZbalermorna).join('');
     return;
 });
 
@@ -50,13 +48,6 @@ const font_selector = document.getElementById('font-selector');
 const ime_link = document.getElementById('ime-link');
 
 function updateFont(value) {
-  if (value.match(/unicode/)) {
-    Q('.ucsur-zlm').forEach(function (element) { element.className = 'ucsur-zlm'; });
-    Q('.old-zlm').forEach(function (element) { element.className = 'old-zlm hide'; });
-  } else {
-    Q('.ucsur-zlm').forEach(function (element) { element.className = 'ucsur-zlm hide'; });
-    Q('.old-zlm').forEach(function (element) { element.className = 'old-zlm'; });
-  }
   for (var i = 0; i < document.getElementsByClassName('reference').length; i++) {
     document.getElementsByClassName('reference')[i].style["font-family"] = value;
   }
@@ -72,7 +63,7 @@ if (window.location.hash) {
   font_selector.value = window.location.hash.substring(1);
   ime_link.href = "ime.html" + window.location.hash;
 } else {
-  font_selector.value = "lato-zlm";
+  font_selector.value = "crisa-regular";
   window.location.hash = font_selector.value;
   ime_link.href = "ime.html" + window.location.hash;
 }

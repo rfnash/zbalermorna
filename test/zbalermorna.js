@@ -27,57 +27,10 @@
 
 // Zbalermorna translation
 
-const UNICODE_RANGE_START = 0xE2300;
-const UNICODE_FULL_VOWEL_START = 0xE24F1;
-const lerfu = ".'ptkflscmxbdgvrzjnqwaeiouy";
-const fullVowels = "AEIOUY";
-
-function formatUnicode (point) {
-  return String.fromCodePoint(point);
-}
+const NEW_UNICODE_START = 0xED80;
+const lerfu_index = "ptkflscmx.' 1234bdgvrzjn!-,~    aeiouy    qw    AEIOUY";
 
 function latinToZbalermorna(c) {
-  if (c.codePointAt(0) >= 0xe2300) {
-    return c;
-  }
-  if (c == " ")
-    return " ";
-  if (c == "h" || c == "H")
-    c = "'";
-  if (c == ",")
-    return formatUnicode(0xe230f); // ZLM_SLAKABU
-  if (c == "~")
-    return formatUnicode(0xe238f); // ZLM_STRETCH
-  if (c == "-")
-    return formatUnicode(0xe23af); // ZLM_DASH_MEDI (smajibu)
-  if (c == "!")
-    return formatUnicode(0xe235f); // ZLM_BAHEBU
-  // if (c == ":" || c == "\"")
-  //   return formatUnicode(0xe24f0)); // these ligatures aren't supported by the font standard yet
-  if (c == "1")
-    return formatUnicode(0xe231F); // ZLM_TONE_UP
-  if (c == "2")
-    return formatUnicode(0xe232F); // ZLM_TONE_DOWN
-  if (c == "3")
-    return formatUnicode(0xe233F); // ZLM_TONE_UP_DOWN
-  if (c == "4")
-    return formatUnicode(0xe234F); // ZLM_TONE_DOWN_UP
-  if (fullVowels.indexOf(c) >= 0)
-    return formatUnicode(UNICODE_FULL_VOWEL_START + fullVowels.indexOf(c));
-  else if (lerfu.indexOf(c.toLowerCase()) >= 0)
-    return formatUnicode(UNICODE_RANGE_START + lerfu.indexOf(c.toLowerCase()) * 16);
-  if (c == "\n")
-    return "\n";
-  if (c == "\t")
-    return "\t";
-  return "";
-}
-
-
-const NEW_UNICODE_START = 0xED80;
-const lerfu_index = "ptkflscmx.' 1234bdgvrzjn!-,~    aeiouy          AEIOUY";
-
-function latinToZbalermornaUnicode(c) {
   if (c.codePointAt(0) >= 0xED80) {
     return c;
   }
@@ -86,12 +39,12 @@ function latinToZbalermornaUnicode(c) {
   if (c == "h" || c == "H")
     c = "'";
   if (lerfu_index.indexOf(c) >= 0)
-    return formatUnicode(NEW_UNICODE_START + lerfu_index.indexOf(c));
+    return String.fromCodePoint(NEW_UNICODE_START + lerfu_index.indexOf(c));
   else if (lerfu_index.indexOf(c.toLowerCase()) >= 0)
-    return formatUnicode(NEW_UNICODE_START + lerfu_index.indexOf(c.toLowerCase()));
+    return String.fromCodePoint(NEW_UNICODE_START + lerfu_index.indexOf(c.toLowerCase()));
   if (c == "\n")
     return "\n";
   if (c == "\t")
     return "\t";
-  return "";
+  return c;
 }

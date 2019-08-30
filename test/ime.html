@@ -28,14 +28,10 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
 
   <style>
-    @font-face { font-family: "lato-zlm"; font-weight: normal; src: url('font/lato-zlm.otf'); }
-    @font-face { font-family: "lato-zlm-extended"; font-weight: normal; src: url('font/lato-zlm-extended.otf'); }
-    @font-face { font-family: "zlm-manri"; font-weight: normal; src: url('font/zlm-manri.otf'); }
-    @font-face { font-family: "tnr-zlm"; font-weight: normal; src: url('font/tnr-zlm.otf'); }
-    @font-face { font-family: "lavi-zlm"; font-weight: normal; src: url('font/lavi-zlm.otf'); }
-    @font-face { font-family: "pepper-carrot-zlm"; font-weight: normal; src: url('font/pepper-carrot-zlm.otf'); }
-    @font-face { font-family: "lobster-zlm"; font-weight: normal; src: url('font/lobster-zlm.otf'); }
-    @font-face { font-family: "fira-code-zlm"; font-weight: normal; src: url('font/fira-code-zlm.otf'); }
+    @font-face { font-family: "manri"; font-weight: normal; src: url('font/unicode-manri.otf'); }
+    @font-face { font-family: "drakono"; font-weight: normal; src: url('font/unicode-drakono.otf'); }
+    @font-face { font-family: "lato-light-zlm-extended"; font-weight: normal; src: url('font/lato-light-zlm-extended.otf'); }
+    @font-face { font-family: "crisa-regular"; font-weight: normal; src: url('font/crisa-regular.otf'); }
   </style>
 
 </head>
@@ -48,14 +44,10 @@
         <h1>Zbalermorna IME</h1>
 
         <select id="font-selector">
-          <option value="lato-zlm">lato-zlm</option>
-          <option value="lato-zlm-extended">lato-zlm-extended</option>
-          <option value="zlm-manri">zlm-manri</option>
-          <option value="tnr-zlm">tnr-zlm</option>
-          <option value="lavi-zlm">lavi-zlm</option>
-          <option value="pepper-carrot-zlm">pepper-carrot-zlm</option>
-          <option value="lobster-zlm">lobster-zlm</option>
-          <option value="fira-code-zlm">fira-code-zlm</option>
+          <option value="manri">manri</option>
+          <option value="drakono">drakono</option>
+          <option value="lato-light-zlm-extended">lato-light-zlm-extended</option>
+          <option value="crisa-regular">crisa-regular</option>
         </select>
 
         <div id="textarea-highlight" class="reference"></div>
@@ -207,11 +199,19 @@ ta.onkeydown = function(event) {
   var kc = event.keyCode;
   var k = event.key;
 
+  console.log(event);
+
   if (kc == 8) // backspace
     return true;
   if (kc >= 37 && kc <= 40) // arrow keys
     return true;
   if (event.ctrlKey) // ignore anything with ctrl
+    return true;
+  if (event.shiftKey) // ignore shift
+    return true;
+  if (event.altKey) // ignore alt
+    return true;
+  if (event.metaKey) // ignore meta
     return true;
   if (kc == 13)
     k = "\n";
