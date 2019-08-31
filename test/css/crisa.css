@@ -1,5 +1,11 @@
 @font-face { 
 	font-family: 'crisa';
 	src: url('../font/crisa-regular.otf');
+	font-weight: 600;
+}
+
+@font-face { 
+	font-family: 'crisa';
+	src: url('../font/crisa-light.otf');
 	font-weight: 400;
 }
