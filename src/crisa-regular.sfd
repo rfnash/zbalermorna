@@ -8,8 +8,8 @@ Version: 0.1; 2019-08-03; http://www.latofonts.com/
 ItalicAngle: 0
 UnderlinePosition: -510
 UnderlineWidth: 89
-Ascent: 1610
-Descent: 390
+Ascent: 1518
+Descent: 506
 InvalidEm: 0
 sfntRevision: 0x0000199a
 LayerCount: 2
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1438840825
-ModificationTime: 1567284073
+ModificationTime: 1567285517
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -1544,7 +1544,7 @@ Grid
  4000 -506 l 1024
   Named: "zlm-bottom"
 -2000 1518 m 0
- 4000 1518 l 1024
+ 4000 1518 l 1028
   Named: "zlm-top"
 -1999 -362 m 0
  4001 -362 l 1024
@@ -1593,6 +1593,7 @@ StartChar: space
 Encoding: 32 32 0
 AltUni2: 0000a0.ffffffff.0
 Width: 512
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 LayerCount: 2
@@ -1601,6 +1602,7 @@ EndChar
 StartChar: exclam
 Encoding: 33 33 1
 Width: 538
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1641,6 +1643,7 @@ EndChar
 StartChar: question
 Encoding: 63 63 2
 Width: 895
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1702,6 +1705,7 @@ EndChar
 StartChar: semicolon
 Encoding: 59 59 3
 Width: 523
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1753,6 +1757,7 @@ EndChar
 StartChar: colon
 Encoding: 58 58 4
 Width: 500
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1797,6 +1802,7 @@ EndChar
 StartChar: guillemotleft
 Encoding: 171 171 5
 Width: 858
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1835,6 +1841,7 @@ EndChar
 StartChar: guillemotright
 Encoding: 187 187 6
 Width: 859
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1877,6 +1884,7 @@ EndChar
 StartChar: parenleft
 Encoding: 40 40 7
 Width: 534
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1906,6 +1914,7 @@ EndChar
 StartChar: parenright
 Encoding: 41 41 8
 Width: 534
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1939,6 +1948,7 @@ EndChar
 StartChar: bracketleft
 Encoding: 91 91 9
 Width: 612
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1962,6 +1972,7 @@ EndChar
 StartChar: bracketright
 Encoding: 93 93 10
 Width: 612
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -1985,6 +1996,7 @@ EndChar
 StartChar: braceleft
 Encoding: 123 123 11
 Width: 602
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -2047,6 +2059,7 @@ EndChar
 StartChar: braceright
 Encoding: 125 125 12
 Width: 602
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -2109,6 +2122,7 @@ EndChar
 StartChar: quotedbl
 Encoding: 34 34 13
 Width: 741
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -2140,6 +2154,7 @@ EndChar
 StartChar: ampersand
 Encoding: 38 38 14
 Width: 1424
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -2209,6 +2224,7 @@ EndChar
 StartChar: dollar
 Encoding: 36 36 15
 Width: 1160
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -2285,6 +2301,7 @@ EndChar
 StartChar: numbersign
 Encoding: 35 35 16
 Width: 1160
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -2347,6 +2364,7 @@ EndChar
 StartChar: less
 Encoding: 60 60 17
 Width: 1160
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -2373,6 +2391,7 @@ EndChar
 StartChar: greater
 Encoding: 62 62 18
 Width: 1160
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -2398,6 +2417,7 @@ EndChar
 StartChar: percent
 Encoding: 37 37 19
 Width: 1603
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -2485,6 +2505,7 @@ EndChar
 StartChar: NameMe.66773
 Encoding: 1114983 -1 20
 Width: 1116
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -2516,6 +2537,7 @@ EndChar
 StartChar: NameMe.66774
 Encoding: 1114984 -1 21
 Width: 1116
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -2547,6 +2569,7 @@ EndChar
 StartChar: NameMe.66777
 Encoding: 1114985 -1 22
 Width: 840
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -2572,6 +2595,7 @@ EndChar
 StartChar: NameMe.66775
 Encoding: 1114986 -1 23
 Width: 840
+VWidth: 2000
 Flags: HW
 HStem: 1499 60
 VStem: 551 171<260.647 413>
@@ -2595,6 +2619,7 @@ EndChar
 StartChar: NameMe.66778
 Encoding: 1114987 -1 24
 Width: 840
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -2620,6 +2645,7 @@ EndChar
 StartChar: NameMe.66776
 Encoding: 1114988 -1 25
 Width: 840
+VWidth: 2000
 Flags: HW
 VStem: 141 172<600 752.353>
 LayerCount: 2
@@ -2642,6 +2668,7 @@ EndChar
 StartChar: NameMe.66779
 Encoding: 1114989 -1 26
 Width: 1115
+VWidth: 2000
 Flags: HW
 HStem: 0 156<320 442.461> 993 20G<141 320 808.5 985>
 VStem: 141 179<156 1013> 806 179<0 726.656>
@@ -2671,6 +2698,7 @@ EndChar
 StartChar: NameMe.66780
 Encoding: 1114990 -1 27
 Width: 1115
+VWidth: 2000
 Flags: HW
 HStem: 0 156<320 442.461> 993 20G<141 320 808.5 985>
 VStem: 141 179<156 1013> 806 179<0 726.656>
@@ -2699,6 +2727,7 @@ EndChar
 StartChar: NameMe.66781
 Encoding: 1114991 -1 28
 Width: 728
+VWidth: 2000
 Flags: HW
 HStem: 1499 60
 VStem: 551 171<260.647 413>
@@ -2731,6 +2760,7 @@ EndChar
 StartChar: NameMe.66782
 Encoding: 1114992 -1 29
 Width: 728
+VWidth: 2000
 Flags: HW
 LayerCount: 2
 Fore
@@ -2761,6 +2791,7 @@ EndChar
 StartChar: NameMe.66783
 Encoding: 1114993 -1 30
 Width: 955
+VWidth: 2000
 Flags: HW
 AnchorPoint: "Anchor-3" 585 1120 basechar 0
 AnchorPoint: "Anchor-1" 223 -421 basechar 0
@@ -2808,6 +2839,7 @@ EndChar
 StartChar: NameMe.66784
 Encoding: 1114994 -1 31
 Width: 904
+VWidth: 2000
 Flags: HW
 HStem: -362 135<338.113 634.696>
 VStem: 60 152<-102.349 230.553>
@@ -2839,6 +2871,7 @@ EndChar
 StartChar: py
 Encoding: 60800 60800 32
 Width: 1089
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 HStem: 0 157<320 509.108> 993 20G<806 987>
@@ -2869,6 +2902,7 @@ EndChar
 StartChar: ty
 Encoding: 60801 60801 33
 Width: 1116
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<141 320 806 985> 887 142<459.256 733.524>
@@ -2905,6 +2939,7 @@ EndChar
 StartChar: ky
 Encoding: 60802 60802 34
 Width: 1115
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Top" 681 1329.1 basechar 0
@@ -2939,6 +2974,7 @@ EndChar
 StartChar: fy
 Encoding: 60803 60803 35
 Width: 904
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 VStem: 381 179<399.687 656>
@@ -2965,6 +3001,7 @@ EndChar
 StartChar: ly
 Encoding: 60804 60804 36
 Width: 955
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 HStem: -14 138<407.719 728.728> 890 139<408.389 736.301>
@@ -3016,6 +3053,7 @@ EndChar
 StartChar: sy
 Encoding: 60805 60805 37
 Width: 1135
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 HStem: -14 142<394.952 698.114>
@@ -3061,6 +3099,7 @@ EndChar
 StartChar: cy
 Encoding: 60806 60806 38
 Width: 1116
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<141 320 806.139 985> 887 142<437.992 734.143> 993 20G<141 260.667>
@@ -3100,6 +3139,7 @@ EndChar
 StartChar: my
 Encoding: 60807 60807 39
 Width: 904
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 HStem: 896 133<228.462 539.995>
@@ -3134,6 +3174,7 @@ EndChar
 StartChar: xy
 Encoding: 60808 60808 40
 Width: 1134
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 HStem: -14 139<401.365 731.54> 889 140<403.708 731.54>
@@ -3177,6 +3218,7 @@ EndChar
 StartChar: denpabu
 Encoding: 60809 60809 41
 Width: 520
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 HStem: 402 251<163.559 353.129>
@@ -3210,6 +3252,7 @@ EndChar
 StartChar: yhy
 Encoding: 60810 60810 42
 Width: 480
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<151 329> 993 20G<151 329>
@@ -3230,6 +3273,7 @@ EndChar
 StartChar: cnimahobu
 Encoding: 60811 60811 43
 Width: 940
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<620 798> 620 175<54.5579 424.135> 993 20G<616 798>
@@ -3260,6 +3304,7 @@ EndChar
 StartChar: patonga
 Encoding: 60812 60812 44
 Width: 0
+VWidth: 2000
 GlyphClass: 4
 Flags: W
 HStem: -413 286
@@ -3283,6 +3328,7 @@ EndChar
 StartChar: retonga
 Encoding: 60813 60813 45
 Width: 0
+VWidth: 2000
 GlyphClass: 4
 Flags: W
 HStem: -413 286
@@ -3306,6 +3352,7 @@ EndChar
 StartChar: citonga
 Encoding: 60814 60814 46
 Width: 0
+VWidth: 2000
 GlyphClass: 4
 Flags: W
 AnchorPoint: "Bottom" 0 0 mark 0
@@ -3334,6 +3381,7 @@ EndChar
 StartChar: votonga
 Encoding: 60815 60815 47
 Width: 0
+VWidth: 2000
 GlyphClass: 4
 Flags: W
 HStem: -393 264
@@ -3364,6 +3412,7 @@ EndChar
 StartChar: by
 Encoding: 60816 60816 48
 Width: 1031
+VWidth: 2000
 GlyphClass: 2
 Flags: WO
 HStem: 0 21G<55 236> 856 157<532.892 722>
@@ -3379,7 +3428,7 @@ SplineSet
  901 857 l 1
  901 70 l 1
  901 0 l 1
- 901 -506 l 1
+ 901 -506 l 5
  722 -506 l 1
  722 0 l 1
  722 856 l 1
@@ -3394,6 +3443,7 @@ EndChar
 StartChar: dy
 Encoding: 60817 60817 49
 Width: 1115
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 HStem: -16 142<380.868 655.998> 993 20G<131 309 796 974>
@@ -3429,6 +3479,7 @@ EndChar
 StartChar: gy
 Encoding: 60818 60818 50
 Width: 1115
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Top" 570 1330.1 basechar 0
@@ -3463,6 +3514,7 @@ EndChar
 StartChar: vy
 Encoding: 60819 60819 51
 Width: 904
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 VStem: 319 178<357 613.313>
@@ -3489,6 +3541,7 @@ EndChar
 StartChar: ry
 Encoding: 60820 60820 52
 Width: 955
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 HStem: -14 138<260.272 581.281> 890 139<252.699 580.611>
@@ -3540,6 +3593,7 @@ EndChar
 StartChar: zy
 Encoding: 60821 60821 53
 Width: 1135
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 HStem: 887 142<428.886 732.048>
@@ -3585,6 +3639,7 @@ EndChar
 StartChar: jy
 Encoding: 60822 60822 54
 Width: 1116
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 HStem: -16 142<391.857 688.008> 0 21G<865.333 985> 993 20G<141 319.861 806 985>
@@ -3626,6 +3681,7 @@ EndChar
 StartChar: ny
 Encoding: 60823 60823 55
 Width: 832
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 HStem: -16 133<287.005 598.538>
@@ -3692,6 +3748,7 @@ EndChar
 StartChar: smajibu
 Encoding: 60825 60825 57
 Width: 844
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 HStem: 453 151<141 694>
@@ -3731,6 +3788,7 @@ EndChar
 StartChar: tcenabu
 Encoding: 60827 60827 59
 Width: 0
+VWidth: 2000
 GlyphClass: 4
 Flags: W
 HStem: -343 151<-537 537>
@@ -3785,6 +3843,7 @@ EndChar
 StartChar: abu
 Encoding: 60832 60832 64
 Width: 0
+VWidth: 2000
 GlyphClass: 4
 Flags: W
 HStem: 1150 502<-41.0438 43.0741>
@@ -3810,6 +3869,7 @@ EndChar
 StartChar: ebu
 Encoding: 60833 60833 65
 Width: 0
+VWidth: 2000
 GlyphClass: 4
 Flags: W
 HStem: 1245.1 151<-247 247>
@@ -3830,6 +3890,7 @@ EndChar
 StartChar: ibu
 Encoding: 60834 60834 66
 Width: 0
+VWidth: 2000
 GlyphClass: 4
 Flags: W
 HStem: 1206 251<-94.4414 95.1289>
@@ -3864,6 +3925,7 @@ EndChar
 StartChar: obu
 Encoding: 60835 60835 67
 Width: 0
+VWidth: 2000
 GlyphClass: 4
 Flags: W
 HStem: 1201 117<30.4519 137.792> 1303 117<-110.605 -0.344597>
@@ -3896,6 +3958,7 @@ EndChar
 StartChar: ubu
 Encoding: 60836 60836 68
 Width: 0
+VWidth: 2000
 GlyphClass: 4
 Flags: W
 HStem: 1190.9 92.7998<-100.599 100.387>
@@ -3932,6 +3995,7 @@ EndChar
 StartChar: ybu
 Encoding: 60837 60837 69
 Width: 0
+VWidth: 2000
 GlyphClass: 4
 Flags: W
 HStem: 1146.1 84<-78.9133 77.5095> 1431.1 86<-78.9133 77.5095>
@@ -4045,6 +4109,7 @@ EndChar
 StartChar: oibu
 Encoding: 60840 60840 72
 Width: 0
+VWidth: 2000
 GlyphClass: 4
 Flags: W
 HStem: 1170 117<2.79582 112.273>
@@ -4084,6 +4149,7 @@ EndChar
 StartChar: aubu
 Encoding: 60841 60841 73
 Width: 0
+VWidth: 2000
 GlyphClass: 4
 Flags: W
 HStem: 1316 222<-80.5419 18.7666>
@@ -4151,6 +4217,7 @@ EndChar
 StartChar: uy
 Encoding: 60843 60843 75
 Width: 1032
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 HStem: 0 21G<427.846 604.154> 993 20G<23 175.333 863.667 1009>
@@ -4218,6 +4285,7 @@ EndChar
 StartChar: seplimeabu
 Encoding: 60848 60848 80
 Width: 1111
+VWidth: 2000
 GlyphClass: 3
 Flags: W
 AnchorPoint: "Bottom" 617 0 basechar 0
@@ -4238,6 +4306,7 @@ EndChar
 StartChar: seplimeebu
 Encoding: 60849 60849 81
 Width: 1111
+VWidth: 2000
 GlyphClass: 3
 Flags: W
 AnchorPoint: "Bottom" 622 0 basechar 0
@@ -4260,6 +4329,7 @@ EndChar
 StartChar: seplimeibu
 Encoding: 60850 60850 82
 Width: 1111
+VWidth: 2000
 GlyphClass: 3
 Flags: W
 HStem: 0 21G<141 313 813 985> 869 144<313 813>
@@ -4286,6 +4356,7 @@ EndChar
 StartChar: seplimeobu
 Encoding: 60851 60851 83
 Width: 1111
+VWidth: 2000
 GlyphClass: 3
 Flags: W
 AnchorPoint: "Bottom" 563 0 basechar 0
@@ -4306,6 +4377,7 @@ EndChar
 StartChar: seplimeubu
 Encoding: 60852 60852 84
 Width: 1111
+VWidth: 2000
 GlyphClass: 3
 Flags: W
 AnchorPoint: "Bottom" 578 0 basechar 0
@@ -4330,6 +4402,7 @@ EndChar
 StartChar: seplimeybu
 Encoding: 60853 60853 85
 Width: 1111
+VWidth: 2000
 GlyphClass: 3
 Flags: W
 AnchorPoint: "Bottom" 560 0 basechar 0
@@ -4356,6 +4429,7 @@ EndChar
 StartChar: seplimeaibu
 Encoding: 60854 60854 86
 Width: 1111
+VWidth: 2000
 GlyphClass: 3
 Flags: W
 HStem: 0 144<313 985> 869 144<313 985>
@@ -4383,6 +4457,7 @@ EndChar
 StartChar: seplimeeibu
 Encoding: 60855 60855 87
 Width: 866
+VWidth: 2000
 GlyphClass: 3
 Flags: W
 HStem: -16 128<245.123 562.363> 18.5 183.5<126.713 240.363> 896 133<315.295 627.149>
@@ -4449,6 +4524,7 @@ EndChar
 StartChar: seplimeoibu
 Encoding: 60856 60856 88
 Width: 1111
+VWidth: 2000
 GlyphClass: 3
 Flags: W
 AnchorPoint: "Bottom" 572 0 basechar 0
@@ -4474,6 +4550,7 @@ EndChar
 StartChar: seplimeaubu
 Encoding: 60857 60857 89
 Width: 996
+VWidth: 2000
 GlyphClass: 3
 Flags: W
 HStem: 0 21G<23 188.667 794.667 973> 993 20G<37 215.333 790 959>
@@ -4685,6 +4762,7 @@ EndChar
 StartChar: smajibu.init
 Encoding: 60876 -1 98
 Width: 844
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 HStem: 453 151<141 864>
@@ -4702,6 +4780,7 @@ EndChar
 StartChar: smajibu.medi
 Encoding: 60877 -1 99
 Width: 844
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 HStem: 453 151<-20 864>
@@ -4719,6 +4798,7 @@ EndChar
 StartChar: smajibu.fina
 Encoding: 60878 -1 100
 Width: 844
+VWidth: 2000
 GlyphClass: 2
 Flags: W
 HStem: 453 151<-20 694>
@@ -4736,6 +4816,7 @@ EndChar
 StartChar: abu.dot
 Encoding: 60864 -1 101
 Width: 520
+VWidth: 2000
 Flags: W
 HStem: 402 251<163.559 353.129> 1150 502<219.956 304.074>
 VStem: 134 250<431.889 622.129> 184 155<1236.38 1652>
@@ -4748,6 +4829,7 @@ EndChar
 StartChar: ebu.dot
 Encoding: 60865 -1 102
 Width: 520
+VWidth: 2000
 Flags: W
 HStem: 402 251<163.559 353.129> 1245.1 151<-5 489>
 VStem: -5 494<1245.1 1396.1> 134 250<431.889 622.129>
@@ -4760,6 +4842,7 @@ EndChar
 StartChar: ibu.dot
 Encoding: 60866 -1 103
 Width: 520
+VWidth: 2000
 Flags: W
 HStem: 402 251<163.559 353.129> 1206 251<158.559 348.129>
 VStem: 129 250<1235.89 1426.13> 134 250<431.889 622.129>
@@ -4772,6 +4855,7 @@ EndChar
 StartChar: obu.dot
 Encoding: 60867 -1 104
 Width: 520
+VWidth: 2000
 Flags: W
 HStem: 402 251<163.559 353.129> 1201 117<282.452 389.792> 1303 117<141.395 251.655>
 VStem: 54.6201 79.9199<1205 1299.37> 134 250<431.889 622.129> 396.62 77.7598<1323.89 1414>
@@ -4784,6 +4868,7 @@ EndChar
 StartChar: ubu.dot
 Encoding: 60868 -1 105
 Width: 520
+VWidth: 2000
 Flags: W
 HStem: 402 251<163.559 353.129> 1190.9 92.7998<141.401 342.387>
 VStem: 34 95.2002<1299.38 1406.1> 134 250<431.889 622.129> 360.4 100.8<1301.87 1406.1>
@@ -4796,6 +4881,7 @@ EndChar
 StartChar: ybu.dot
 Encoding: 60869 -1 106
 Width: 520
+VWidth: 2000
 Flags: W
 HStem: 402 251<163.559 353.129> 1146.1 84<189.087 345.51> 1431.1 86<189.087 345.51>
 VStem: 67 100<1251.85 1409.36> 134 250<431.889 622.129> 368 100<1252.36 1408.85>
@@ -4808,6 +4894,7 @@ EndChar
 StartChar: aibu.dot
 Encoding: 60870 -1 107
 Width: 520
+VWidth: 2000
 Flags: W
 HStem: 402 251<163.559 353.129> 1151.62 79.9199<146 240.372> 1493.62 77.7598<264.889 355>
 VStem: 134 250<431.889 622.129> 142 117<1379.45 1486.79> 244 117<1238.4 1348.66>
@@ -4820,6 +4907,7 @@ EndChar
 StartChar: eibu.dot
 Encoding: 60871 -1 108
 Width: 520
+VWidth: 2000
 Flags: W
 HStem: 402 251<163.559 353.129> 1313.4 92.7998<161.613 362.599>
 VStem: 42.7998 100.8<1191 1295.23> 134 250<431.889 622.129> 380.4 100.8<1191 1295.23>
@@ -4832,6 +4920,7 @@ EndChar
 StartChar: oibu.dot
 Encoding: 60872 -1 109
 Width: 520
+VWidth: 2000
 Flags: W
 HStem: 402 251<163.559 353.129> 1170 117<282.796 392.273>
 VStem: 62.3311 79.9199<1174 1259.23> 134 250<431.889 622.129> 404.331 77.7598<1313.82 1383>
@@ -4844,6 +4933,7 @@ EndChar
 StartChar: aubu.dot
 Encoding: 60873 -1 110
 Width: 520
+VWidth: 2000
 Flags: W
 HStem: 402 251<163.559 353.129> 1316 222<169.458 268.767>
 VStem: 134 250<431.889 622.129> 138 227<1349.52 1496.74>
@@ -4856,6 +4946,7 @@ EndChar
 StartChar: denpabu.cas
 Encoding: 60879 -1 111
 Width: 470
+VWidth: 2000
 Flags: W
 HStem: 620 175<54.5579 424.135> 993 20G<616 654>
 VStem: 36.3945 651.605
