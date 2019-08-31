@@ -28,7 +28,6 @@ IMEs should make the following conversions:
 |  `z`  |`0xED95`| zy |
 |  `j`  |`0xED96`| jy |
 |  `n`  |`0xED97`| ny |
-|  `!`  |`0xED98`| ba'abu |
 |  <code>`</code>  |`0xED98`| ba'abu |
 |  `-`  |`0xED99`| smaji bu |
 |  `,`  |`0xED9A`| slaka bu |
@@ -46,4 +45,3 @@ IMEs should make the following conversions:
 |  `O`  |`0xEDB3`| sepli me obu |
 |  `U`  |`0xEDB4`| sepli me ubu |
 |  `Y`  |`0xEDB5`| sepli me ybu |
-|  ` `  |`0x0020`| space |
