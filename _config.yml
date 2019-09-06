@@ -1,6 +1,6 @@
 title: Zbalermorna
 description: A diacritic orthography for Lojban
-baseurl: ""
+baseurl: "/zbalermorna"
 github_username: jackhumbert
 repository: jackhumbert/zbalermorna
 gems:
