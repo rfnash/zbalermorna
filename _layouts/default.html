@@ -14,17 +14,17 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="{{ "/assets/css/fonts.css" | absolute_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/normalize.css" | absolute_url }}">
-  <link rel="stylesheet" href="{{ "/assets/css/skeleton.css" | absolute_url }}">
-  {% if page.css %}<link rel="stylesheet" href="{{ "/assets/css/" | append: page.css | append: ".css" | absolute_url }}">{% endif %}
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fonts.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/skeleton.css">
+  {% if page.css %}<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ page.css | append: ".css" }}>{% endif %}
   {% if page.style %}<style>
     {{ page.style }}
   </style>{% endif %}
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="{{ "/assets/img/favicon.png" | absolute_url }}">
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/img/favicon.png" | absolute_url }}">
 
 
 </head>
