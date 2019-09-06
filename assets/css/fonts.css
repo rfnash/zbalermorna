@@ -1,0 +1,39 @@
+@font-face { 
+	font-family: 'crisa'; 
+	src: local('Crisa Regular'), url('../../fonts/crisa-regular.otf');
+	font-weight: 400;
+}
+@font-face { 
+	font-family: 'crisa'; 
+	src: local('Crisa Light'), url('../../fonts/crisa-light.otf');
+	font-weight: 200;
+}
+@font-face { 
+	font-family: "crisa-light";
+	src: local('Crisa Light'), url('../../fonts/crisa-light.otf');
+	font-weight: normal; 
+}
+@font-face { 
+	font-family: "crisa-regular";
+	src: local('Crisa Regular'), url('../../fonts/crisa-regular.otf');
+	font-weight: normal; 
+}
+@font-face { 
+	font-family: 'fira-code-zlm'; 
+	src: local('Fira Code Zbalermorna'), url('../../fonts/fira-code-zlm.otf');
+}
+@font-face { 
+	font-family: "manri";
+	src: local('Manri'), url('../../fonts/unicode-manri.otf');
+	font-weight: normal; 
+}
+@font-face { 
+	font-family: "drakono";
+	src: local('Drakono'), url('../../fonts/unicode-drakono.otf');
+	font-weight: normal; 
+}
+@font-face { 
+	font-family: "piper-karot";
+	src: local('Piper Karot'), url('../../fonts/piper-karot.otf');
+	font-weight: normal; 
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en" }}">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="{{ page.description }}">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="{{ "/assets/css/fonts.css" | absolute_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/normalize.css" | absolute_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/skeleton.css" | absolute_url }}">
+  {% if page.css %}<link rel="stylesheet" href="{{ "/assets/css/" | append: page.css | append: ".css" | absolute_url }}">{% endif %}
+  {% if page.style %}<style>
+    {{ page.style }}
+  </style>{% endif %}
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="{{ "/assets/img/favicon.png" | absolute_url }}">
+
+
+</head>
+<body>
+  
+  {% include navigation.html %}
+
+  {{ content }}
+
+</body>
+</html>

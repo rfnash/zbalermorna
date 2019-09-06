@@ -1,0 +1,39 @@
+---
+title: Zbalermorna Fonts
+permalink: /fonts/
+---
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <h1>Zbalermorna Fonts</h1>
+        <p>These are some of the featured fonts in the <a href="https://github.com/{{ site.repository }}/tree/master/fonts/">Zbalermorna Github repo <code>/fonts</code> folder</a>, and probably the most complete at the time of writing this. These and others are included in the fonts.css file that you can add to a page to load them in your stylesheet directly:
+          <pre><code>@import url(//jackhumbert.github.io/zbalermorna/assets/css/fonts.css);</code></pre>
+          or from the <code>head</code>:
+          <pre><code>&lt;link rel="stylesheet" href="//jackhumbert.github.io/zbalermorna/assets/css/fonts.css"&gt;</code></pre>
+          Check out the <code><a href="https://github.com/{{ site.repository }}/tree/master/assets/css/fonts.css">/assets/css/fonts.css</a></code> file for which fonts are included, and their names. There is slightly better feature support (namely embedded bitmaps) if they are installed locally, so preference is given to those (via <code>local('Font Name')</code>).
+        </p>
+        <p>This is the latin text that is used in these examples, from <a href="https://omniglot.com/writing/lojban.htm">the omniglot page for Lojban</a> (translated by Ben Slusky):
+          <pre><code>ro remna cu se jinzi co zifre je simdu'i be le ry. nilselsi'a .elei ry. selcru .i ry. se menli gi'e se sezmarde .i .ei jeseki'ubo ry. simyzu'e ta'i le tunba</code></pre>
+        </p>
+
+        <h3>Crisa Regular / Light</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column one-half">
+        <p style="font-family: 'crisa-regular'; font-size: 24px;">                              </p>
+      </div>
+      <div class="column one-half">
+        <p style="font-family: 'crisa-light'; font-size: 24px;">                              </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <p>Crisa is based on Lato, and is optimised for reading at smaller sizes. The font has embedded bitmaps for sizes 12-17px, which will only render if you install it on your system (as opposed to loading it from the web). These fonts only contain glyphs that are relevant/used in Zbalermorna texts. These additional characters are: <code>!&#x0020;"#$%&():;&lt;&gt;?[]{}&#x00ab;&#x00bb;</code></p>
+        
+        <h3>Fira Code Zbalermorna</h3>
+        <pre><code style="font-family: 'fira-code-zlm'; font-size: 16px;">                              </code></pre>
+        <p>This font is completely monospace and void of any combining ligatures, so developing with Zbalermorna text is easier. The {slaka bu} renders as `` to be able to see it (it otherwise has zero width). The full Fira Code font, plus the Zbalermorna additions are included in this font, so you can set your text editor/terminals to use this without worrying about missing other glyphs.</p>
+      </div>
+    </div>
+</div>
