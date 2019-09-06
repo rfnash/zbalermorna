@@ -1,4 +1,4 @@
-# Zbalermorna IMEs
+# Zbalermorna IME Spec
 
 IMEs should make the following conversions:
 
@@ -31,8 +31,7 @@ IMEs should make the following conversions:
 |  <code>`</code>  |  | `0xED98`| ba'abu |
 |  `-`  |  | `0xED99`| smaji bu |
 |  `,`  |  | `0xED9A`| slaka bu |
-|  `~`  |  | `0xED9B`| tcena bu |
-|  `_`  |  | `0xED9B`| tcena bu |
+|  `~`  |  | `0xED9B`| tcena bu |
 |  `a`  |  | `0xEDA0`| abu |
 |  `e`  |  | `0xEDA1`| ebu |
 |  `i`  |  | `0xEDA2`| ibu |
@@ -46,4 +45,4 @@ IMEs should make the following conversions:
 |  `U`  |  | `0xEDB4`| sepli me ubu |
 |  `Y`  |  | `0xEDB5`| sepli me ybu |
 
-It might make sense to pass through characters like `():;"?!<>[]{}«»` as well, since these are sometimes used with lojban text.
+All uppercase consonants should output their lowercase equivalent. All other characters should be passed through.

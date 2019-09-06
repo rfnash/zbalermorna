@@ -9,11 +9,10 @@ You can easily translate all of the Lojban in [la gleki's The Crash Course](http
 ```js
 document.querySelectorAll("body")[0].innerHTML += 
   "<style>" +
-  "  @import url(//jackhumbert.github.io/zbalermorna/test/css/lato-zlm-extended.css);" +
-  "  @import url(//jackhumbert.github.io/zbalermorna/test/css/fira-code.css);" +
+  "  @import url(//jackhumbert.github.io/zbalermorna/assets/css/fonts.css);" +
   "  .cjs-zlm {" +
   "    font-weight: 400!important;" + 
-  "    font-family: 'lato-zlm-extended';" + 
+  "    font-family: 'crisa';" + 
   "    font-size: 24px;" +
   "  }" +
   "</style>";
@@ -22,8 +21,8 @@ function formatUnicode (point) {
   return String.fromCodePoint(point);
 }
 
-const NEW_UNICODE_START = 0xED80;
-const lerfu_index = "ptkflscmx.' 1234bdgvrzjn!-,~    aeiouy          AEIOUY";
+const UNICODE_START = 0xED80;
+const lerfu_index = "ptkflscmx.' 1234bdgvrzjn`-,~    aeiouy          AEIOUY";
 
 function latinToZbalermornaUnicode(c) {
   if (c.codePointAt(0) >= 0xED80) {
@@ -31,12 +30,12 @@ function latinToZbalermornaUnicode(c) {
   }
   if (c == " ")
     return " ";
-  if (c == "h" || c == "H")
+  if (c == "h")
     c = "'";
   if (lerfu_index.indexOf(c) >= 0)
-    return formatUnicode(NEW_UNICODE_START + lerfu_index.indexOf(c));
+    return formatUnicode(UNICODE_START + lerfu_index.indexOf(c));
   else if (lerfu_index.indexOf(c.toLowerCase()) >= 0)
-    return formatUnicode(NEW_UNICODE_START + lerfu_index.indexOf(c.toLowerCase()));
+    return formatUnicode(UNICODE_START + lerfu_index.indexOf(c.toLowerCase()));
   if (c == "\n")
     return "\n";
   if (c == "\t")

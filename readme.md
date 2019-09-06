@@ -14,6 +14,7 @@ Zbalermorna, an alternative orthography for the constructed language Lojban.
 - Complete first working ZLM font
 - More complete sample jufra for test page
 - Create ibus config for existing unicode range
+- Port the old ZLM font, now called 'Drakono' to new system
 
 ###### To Do
 
@@ -21,7 +22,6 @@ Zbalermorna, an alternative orthography for the constructed language Lojban.
 - Finalise Unicode layout and submit to UCSUR
 - Finalise build process for new font development
 - Update existing fonts
-- Port the old ZLM font, now called 'Drakono' to new system
 - Create alternate typefaces and add them to this repo
 
 ### How to learn ZLM
@@ -37,7 +37,7 @@ Zbalermorna, an alternative orthography for the constructed language Lojban.
 **or**
 
 - Clone this repo
-- Open `test/ime.html` and use the IME emulator
+- Open `/ime/index.html` and use the IME emulator
 - Copy-paste the generated ZLM text
 
 Soon we will also have an online version of the IME emulator you can use to play
@@ -46,8 +46,7 @@ with ZLM text. You'll still need a font to support the generated ZLM text~
 
 ### How a ZLM font works
 
-Zbalermorna uses special glpyhs which live in the Unicode Supplementary
-Special Purpose plane, covering the region from 0xE2320 -> 0xE24FF.
+Zbalermorna uses special glpyhs which live in the Private Use Area, covering the region from 0xED80 -> 0xEDBF.
 
 A method of inputting these glyphs requires in IME for your particular
 operating system, such as `ibus` or `scim`. This project attempts to provide
@@ -61,7 +60,7 @@ as assembled composite glpyhs using OpenType features.
 ### Currently Supported IMEs using ligatured fonts
 
 - Windows (`ime/windows/setup.exe`)
-- Javascript (`test/ime.html`)
+- Javascript (`ime/index.html`)
 - ibus (`ime/zlm.ibus`)
 
 
