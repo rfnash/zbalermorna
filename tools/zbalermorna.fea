@@ -52,10 +52,46 @@ lookup zlmSF {
 
 lookup zlmW {
   lookupflag 0;
-  sub ibu' @singlevowel by iy;
-  sub ubu' @singlevowel by uy;
-  sub ibu' @fullvowel by iy;
-  sub ubu' @fullvowel by uy;
+  sub ibu' abu by iy;
+  sub ibu' ebu by iy;
+  sub ibu' ibu by iy;
+  sub ibu' obu by iy;
+  sub ibu' ubu by iy;
+  sub ibu' ybu by iy;
+  sub ibu' aibu by iy;
+  sub ibu' eibu by iy;
+  sub ibu' oibu by iy;
+  sub ibu' aubu by iy;
+  sub ubu' abu by uy;
+  sub ubu' ebu by uy;
+  sub ubu' ibu by uy;
+  sub ubu' obu by uy;
+  sub ubu' ubu by uy;
+  sub ubu' ybu by uy;
+  sub ubu' aibu by uy;
+  sub ubu' eibu by uy;
+  sub ubu' oibu by uy;
+  sub ubu' aubu by uy;
+  sub ibu' seplimeabu by iy;
+  sub ibu' seplimeebu by iy;
+  sub ibu' seplimeibu by iy;
+  sub ibu' seplimeobu by iy;
+  sub ibu' seplimeubu by iy;
+  sub ibu' seplimeybu by iy;
+  sub ibu' seplimeaibu by iy;
+  sub ibu' seplimeeibu by iy;
+  sub ibu' seplimeoibu by iy;
+  sub ibu' seplimeaubu by iy;
+  sub ubu' seplimeabu by uy;
+  sub ubu' seplimeebu by uy;
+  sub ubu' seplimeibu by uy;
+  sub ubu' seplimeobu by uy;
+  sub ubu' seplimeubu by uy;
+  sub ubu' seplimeybu by uy;
+  sub ubu' seplimeaibu by uy;
+  sub ubu' seplimeeibu by uy;
+  sub ubu' seplimeoibu by uy;
+  sub ubu' seplimeaubu by uy;
 } zlmW;
 
 lookup zlmVV {

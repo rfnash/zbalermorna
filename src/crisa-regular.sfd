@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1438840825
-ModificationTime: 1567868083
+ModificationTime: 1567873748
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -60,41 +60,77 @@ OS2UnicodeRanges: 80000001.10000002.00000000.00000000
 Lookup: 4 0 1 "zlmFF" { "zlmFF subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 4 0 1 "zlmSFF" { "zlmSFF subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 4 0 1 "zlmSF" { "zlmSF subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "zlmW" { "zlmW contextual 0"  "zlmW contextual 1"  "zlmW contextual 2"  "zlmW contextual 3"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "zlmW" { "zlmW contextual 0"  "zlmW contextual 1"  "zlmW contextual 2"  "zlmW contextual 3"  "zlmW contextual 4"  "zlmW contextual 5"  "zlmW contextual 6"  "zlmW contextual 7"  "zlmW contextual 8"  "zlmW contextual 9"  "zlmW contextual 10"  "zlmW contextual 11"  "zlmW contextual 12"  "zlmW contextual 13"  "zlmW contextual 14"  "zlmW contextual 15"  "zlmW contextual 16"  "zlmW contextual 17"  "zlmW contextual 18"  "zlmW contextual 19"  "zlmW contextual 20"  "zlmW contextual 21"  "zlmW contextual 22"  "zlmW contextual 23"  "zlmW contextual 24"  "zlmW contextual 25"  "zlmW contextual 26"  "zlmW contextual 27"  "zlmW contextual 28"  "zlmW contextual 29"  "zlmW contextual 30"  "zlmW contextual 31"  "zlmW contextual 32"  "zlmW contextual 33"  "zlmW contextual 34"  "zlmW contextual 35"  "zlmW contextual 36"  "zlmW contextual 37"  "zlmW contextual 38"  "zlmW contextual 39"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 4" { "Single Substitution lookup 4 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 5" { "Single Substitution lookup 5 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 7" { "Single Substitution lookup 7 subtable"  } []
-Lookup: 4 0 1 "zlmVV" { "zlmVV subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 4 0 1 "zlmBahebu" { "zlmBahebu subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "zlmSmajibuInit" { "zlmSmajibuInit contextual 0"  "zlmSmajibuInit contextual 1"  "zlmSmajibuInit contextual 2"  "zlmSmajibuInit contextual 3"  "zlmSmajibuInit contextual 4"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 8" { "Single Substitution lookup 8 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 9" { "Single Substitution lookup 9 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 10" { "Single Substitution lookup 10 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 11" { "Single Substitution lookup 11 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 12" { "Single Substitution lookup 12 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 13" { "Single Substitution lookup 13 subtable"  } []
-Lookup: 6 0 0 "zlmSmajibuMedi" { "zlmSmajibuMedi contextual 0"  "zlmSmajibuMedi contextual 1"  "zlmSmajibuMedi contextual 2"  "zlmSmajibuMedi contextual 3"  "zlmSmajibuMedi contextual 4"  "zlmSmajibuMedi contextual 5"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 14" { "Single Substitution lookup 14 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 15" { "Single Substitution lookup 15 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 16" { "Single Substitution lookup 16 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 17" { "Single Substitution lookup 17 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 18" { "Single Substitution lookup 18 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 19" { "Single Substitution lookup 19 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 20" { "Single Substitution lookup 20 subtable"  } []
-Lookup: 6 0 0 "zlmSmajibuFina" { "zlmSmajibuFina contextual 0"  "zlmSmajibuFina contextual 1"  "zlmSmajibuFina contextual 2"  "zlmSmajibuFina contextual 3"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 21" { "Single Substitution lookup 21 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 22" { "Single Substitution lookup 22 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 23" { "Single Substitution lookup 23 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 24" { "Single Substitution lookup 24 subtable"  } []
-Lookup: 6 0 0 "zlmSelfDottingVowels" { "zlmSelfDottingVowels contextual 0"  "zlmSelfDottingVowels contextual 1"  "zlmSelfDottingVowels contextual 2"  "zlmSelfDottingVowels contextual 3"  "zlmSelfDottingVowels contextual 4"  "zlmSelfDottingVowels contextual 5"  "zlmSelfDottingVowels contextual 6"  "zlmSelfDottingVowels contextual 7"  "zlmSelfDottingVowels contextual 8"  "zlmSelfDottingVowels contextual 9"  "zlmSelfDottingVowels contextual 10"  "zlmSelfDottingVowels contextual 11"  "zlmSelfDottingVowels contextual 12"  "zlmSelfDottingVowels contextual 13"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 2 0 0 "Multiple Substitution lookup 26" { "Multiple Substitution lookup 26 subtable"  } []
-Lookup: 2 0 0 "Multiple Substitution lookup 27" { "Multiple Substitution lookup 27 subtable"  } []
-Lookup: 2 0 0 "Multiple Substitution lookup 28" { "Multiple Substitution lookup 28 subtable"  } []
-Lookup: 2 0 0 "Multiple Substitution lookup 29" { "Multiple Substitution lookup 29 subtable"  } []
-Lookup: 2 0 0 "Multiple Substitution lookup 30" { "Multiple Substitution lookup 30 subtable"  } []
-Lookup: 2 0 0 "Multiple Substitution lookup 31" { "Multiple Substitution lookup 31 subtable"  } []
-Lookup: 2 0 0 "Multiple Substitution lookup 32" { "Multiple Substitution lookup 32 subtable"  } []
-Lookup: 2 0 0 "Multiple Substitution lookup 33" { "Multiple Substitution lookup 33 subtable"  } []
-Lookup: 2 0 0 "Multiple Substitution lookup 34" { "Multiple Substitution lookup 34 subtable"  } []
-Lookup: 2 0 0 "Multiple Substitution lookup 35" { "Multiple Substitution lookup 35 subtable"  } []
-Lookup: 6 0 0 "zlmDVH" { "zlmDVH subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 25" { "Single Substitution lookup 25 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 26" { "Single Substitution lookup 26 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 27" { "Single Substitution lookup 27 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 28" { "Single Substitution lookup 28 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 29" { "Single Substitution lookup 29 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 30" { "Single Substitution lookup 30 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 31" { "Single Substitution lookup 31 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 32" { "Single Substitution lookup 32 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 33" { "Single Substitution lookup 33 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 34" { "Single Substitution lookup 34 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 35" { "Single Substitution lookup 35 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 36" { "Single Substitution lookup 36 subtable"  } []
 Lookup: 1 0 0 "Single Substitution lookup 37" { "Single Substitution lookup 37 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 38" { "Single Substitution lookup 38 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 39" { "Single Substitution lookup 39 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 40" { "Single Substitution lookup 40 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 41" { "Single Substitution lookup 41 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 42" { "Single Substitution lookup 42 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 43" { "Single Substitution lookup 43 subtable"  } []
+Lookup: 4 0 1 "zlmVV" { "zlmVV subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 4 0 1 "zlmBahebu" { "zlmBahebu subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "zlmSmajibuInit" { "zlmSmajibuInit contextual 0"  "zlmSmajibuInit contextual 1"  "zlmSmajibuInit contextual 2"  "zlmSmajibuInit contextual 3"  "zlmSmajibuInit contextual 4"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 47" { "Single Substitution lookup 47 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 48" { "Single Substitution lookup 48 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 49" { "Single Substitution lookup 49 subtable"  } []
+Lookup: 6 0 0 "zlmSmajibuMedi" { "zlmSmajibuMedi contextual 0"  "zlmSmajibuMedi contextual 1"  "zlmSmajibuMedi contextual 2"  "zlmSmajibuMedi contextual 3"  "zlmSmajibuMedi contextual 4"  "zlmSmajibuMedi contextual 5"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 51" { "Single Substitution lookup 51 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 52" { "Single Substitution lookup 52 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 53" { "Single Substitution lookup 53 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 54" { "Single Substitution lookup 54 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 55" { "Single Substitution lookup 55 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 56" { "Single Substitution lookup 56 subtable"  } []
+Lookup: 6 0 0 "zlmSmajibuFina" { "zlmSmajibuFina contextual 0"  "zlmSmajibuFina contextual 1"  "zlmSmajibuFina contextual 2"  "zlmSmajibuFina contextual 3"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 58" { "Single Substitution lookup 58 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 59" { "Single Substitution lookup 59 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 60" { "Single Substitution lookup 60 subtable"  } []
+Lookup: 6 0 0 "zlmSelfDottingVowels" { "zlmSelfDottingVowels contextual 0"  "zlmSelfDottingVowels contextual 1"  "zlmSelfDottingVowels contextual 2"  "zlmSelfDottingVowels contextual 3"  "zlmSelfDottingVowels contextual 4"  "zlmSelfDottingVowels contextual 5"  "zlmSelfDottingVowels contextual 6"  "zlmSelfDottingVowels contextual 7"  "zlmSelfDottingVowels contextual 8"  "zlmSelfDottingVowels contextual 9"  "zlmSelfDottingVowels contextual 10"  "zlmSelfDottingVowels contextual 11"  "zlmSelfDottingVowels contextual 12"  "zlmSelfDottingVowels contextual 13"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 2 0 0 "Multiple Substitution lookup 62" { "Multiple Substitution lookup 62 subtable"  } []
+Lookup: 2 0 0 "Multiple Substitution lookup 63" { "Multiple Substitution lookup 63 subtable"  } []
+Lookup: 2 0 0 "Multiple Substitution lookup 64" { "Multiple Substitution lookup 64 subtable"  } []
+Lookup: 2 0 0 "Multiple Substitution lookup 65" { "Multiple Substitution lookup 65 subtable"  } []
+Lookup: 2 0 0 "Multiple Substitution lookup 66" { "Multiple Substitution lookup 66 subtable"  } []
+Lookup: 2 0 0 "Multiple Substitution lookup 67" { "Multiple Substitution lookup 67 subtable"  } []
+Lookup: 2 0 0 "Multiple Substitution lookup 68" { "Multiple Substitution lookup 68 subtable"  } []
+Lookup: 2 0 0 "Multiple Substitution lookup 69" { "Multiple Substitution lookup 69 subtable"  } []
+Lookup: 2 0 0 "Multiple Substitution lookup 70" { "Multiple Substitution lookup 70 subtable"  } []
+Lookup: 2 0 0 "Multiple Substitution lookup 71" { "Multiple Substitution lookup 71 subtable"  } []
+Lookup: 6 0 0 "zlmDVH" { "zlmDVH subtable"  } ['liga' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 73" { "Single Substitution lookup 73 subtable"  } []
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 6" { "'kern' Horizontal Kerning lookup 0 per glyph data 1" [303,30,0] "'kern' Horizontal Kerning lookup 0 per glyph data 5"  "'kern' Horizontal Kerning lookup 0 kerning class 6" [303,0,0] "'kern' Horizontal Kerning lookup 0 kerning class 7"  "'kern' Horizontal Kerning lookup 0 kerning class 8" [303,0,0] "'kern' Horizontal Kerning lookup 0 kerning class 9"  "'kern' Horizontal Kerning lookup 0 kerning class 10"  "'kern' Horizontal Kerning lookup 0 kerning class 11" [303,0,0] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ROM ' 'TRK ' 'dflt' > 'thai' <'dflt' > ) ]
 Lookup: 260 0 0 "zlmTops" { "zlmTops subtable"  } ['mark' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "zlmBottoms" { "zlmBottoms subtable"  } ['mark' ('latn' <'dflt' > 'DFLT' <'dflt' > ) ]
@@ -605,77 +641,77 @@ ChainSub2: coverage "zlmDVH subtable" 0 0 0 1
   FCoverage: 43 abu ebu ibu obu ubu ybu aibu eibu oibu aubu
   FCoverage: 3 yhy
  1
-  SeqLookup: 0 "Single Substitution lookup 37"
+  SeqLookup: 0 "Single Substitution lookup 73"
 EndFPST
 ChainSub2: glyph "zlmSelfDottingVowels contextual 13" 0 0 0 1
  String: 4 aubu
  BString: 0 
  FString: 0 
  1
-  SeqLookup: 0 "Multiple Substitution lookup 35"
+  SeqLookup: 0 "Multiple Substitution lookup 71"
 EndFPST
 ChainSub2: glyph "zlmSelfDottingVowels contextual 12" 0 0 0 1
  String: 4 oibu
  BString: 0 
  FString: 0 
  1
-  SeqLookup: 0 "Multiple Substitution lookup 34"
+  SeqLookup: 0 "Multiple Substitution lookup 70"
 EndFPST
 ChainSub2: glyph "zlmSelfDottingVowels contextual 11" 0 0 0 1
  String: 4 eibu
  BString: 0 
  FString: 0 
  1
-  SeqLookup: 0 "Multiple Substitution lookup 33"
+  SeqLookup: 0 "Multiple Substitution lookup 69"
 EndFPST
 ChainSub2: glyph "zlmSelfDottingVowels contextual 10" 0 0 0 1
  String: 4 aibu
  BString: 0 
  FString: 0 
  1
-  SeqLookup: 0 "Multiple Substitution lookup 32"
+  SeqLookup: 0 "Multiple Substitution lookup 68"
 EndFPST
 ChainSub2: glyph "zlmSelfDottingVowels contextual 9" 0 0 0 1
  String: 3 ybu
  BString: 0 
  FString: 0 
  1
-  SeqLookup: 0 "Multiple Substitution lookup 31"
+  SeqLookup: 0 "Multiple Substitution lookup 67"
 EndFPST
 ChainSub2: glyph "zlmSelfDottingVowels contextual 8" 0 0 0 1
  String: 3 ubu
  BString: 0 
  FString: 0 
  1
-  SeqLookup: 0 "Multiple Substitution lookup 30"
+  SeqLookup: 0 "Multiple Substitution lookup 66"
 EndFPST
 ChainSub2: glyph "zlmSelfDottingVowels contextual 7" 0 0 0 1
  String: 3 obu
  BString: 0 
  FString: 0 
  1
-  SeqLookup: 0 "Multiple Substitution lookup 29"
+  SeqLookup: 0 "Multiple Substitution lookup 65"
 EndFPST
 ChainSub2: glyph "zlmSelfDottingVowels contextual 6" 0 0 0 1
  String: 3 ibu
  BString: 0 
  FString: 0 
  1
-  SeqLookup: 0 "Multiple Substitution lookup 28"
+  SeqLookup: 0 "Multiple Substitution lookup 64"
 EndFPST
 ChainSub2: glyph "zlmSelfDottingVowels contextual 5" 0 0 0 1
  String: 3 ebu
  BString: 0 
  FString: 0 
  1
-  SeqLookup: 0 "Multiple Substitution lookup 27"
+  SeqLookup: 0 "Multiple Substitution lookup 63"
 EndFPST
 ChainSub2: glyph "zlmSelfDottingVowels contextual 4" 0 0 0 1
  String: 3 abu
  BString: 0 
  FString: 0 
  1
-  SeqLookup: 0 "Multiple Substitution lookup 26"
+  SeqLookup: 0 "Multiple Substitution lookup 62"
 EndFPST
 ChainSub2: coverage "zlmSelfDottingVowels contextual 3" 0 0 0 1
  1 1 0
@@ -706,21 +742,21 @@ ChainSub2: glyph "zlmSmajibuFina contextual 3" 0 0 0 1
  BString: 12 smajibu.init
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 24"
+  SeqLookup: 0 "Single Substitution lookup 60"
 EndFPST
 ChainSub2: glyph "zlmSmajibuFina contextual 2" 0 0 0 1
  String: 7 smajibu
  BString: 12 smajibu.medi
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 23"
+  SeqLookup: 0 "Single Substitution lookup 59"
 EndFPST
 ChainSub2: glyph "zlmSmajibuFina contextual 1" 0 0 0 1
  String: 7 smajibu
  BString: 7 smajibu
  FString: 0 
  1
-  SeqLookup: 0 "Single Substitution lookup 22"
+  SeqLookup: 0 "Single Substitution lookup 58"
 EndFPST
 ChainSub2: glyph "zlmSmajibuFina contextual 0" 0 0 0 1
  String: 7 smajibu
@@ -733,63 +769,63 @@ ChainSub2: glyph "zlmSmajibuMedi contextual 5" 0 0 0 1
  BString: 12 smajibu.init
  FString: 7 smajibu
  1
-  SeqLookup: 0 "Single Substitution lookup 20"
+  SeqLookup: 0 "Single Substitution lookup 56"
 EndFPST
 ChainSub2: glyph "zlmSmajibuMedi contextual 4" 0 0 0 1
  String: 7 smajibu
  BString: 12 smajibu.init
  FString: 12 smajibu.fina
  1
-  SeqLookup: 0 "Single Substitution lookup 19"
+  SeqLookup: 0 "Single Substitution lookup 55"
 EndFPST
 ChainSub2: glyph "zlmSmajibuMedi contextual 3" 0 0 0 1
  String: 7 smajibu
  BString: 12 smajibu.init
  FString: 7 smajibu
  1
-  SeqLookup: 0 "Single Substitution lookup 18"
+  SeqLookup: 0 "Single Substitution lookup 54"
 EndFPST
 ChainSub2: glyph "zlmSmajibuMedi contextual 2" 0 0 0 1
  String: 7 smajibu
  BString: 12 smajibu.init
  FString: 12 smajibu.fina
  1
-  SeqLookup: 0 "Single Substitution lookup 17"
+  SeqLookup: 0 "Single Substitution lookup 53"
 EndFPST
 ChainSub2: glyph "zlmSmajibuMedi contextual 1" 0 0 0 1
  String: 7 smajibu
  BString: 7 smajibu
  FString: 12 smajibu.fina
  1
-  SeqLookup: 0 "Single Substitution lookup 16"
+  SeqLookup: 0 "Single Substitution lookup 52"
 EndFPST
 ChainSub2: glyph "zlmSmajibuMedi contextual 0" 0 0 0 1
  String: 7 smajibu
  BString: 7 smajibu
  FString: 7 smajibu
  1
-  SeqLookup: 0 "Single Substitution lookup 15"
+  SeqLookup: 0 "Single Substitution lookup 51"
 EndFPST
 ChainSub2: glyph "zlmSmajibuInit contextual 4" 0 0 0 1
  String: 7 smajibu
  BString: 0 
  FString: 12 smajibu.fina
  1
-  SeqLookup: 0 "Single Substitution lookup 13"
+  SeqLookup: 0 "Single Substitution lookup 49"
 EndFPST
 ChainSub2: glyph "zlmSmajibuInit contextual 3" 0 0 0 1
  String: 7 smajibu
  BString: 0 
  FString: 12 smajibu.medi
  1
-  SeqLookup: 0 "Single Substitution lookup 12"
+  SeqLookup: 0 "Single Substitution lookup 48"
 EndFPST
 ChainSub2: glyph "zlmSmajibuInit contextual 2" 0 0 0 1
  String: 7 smajibu
  BString: 0 
  FString: 7 smajibu
  1
-  SeqLookup: 0 "Single Substitution lookup 11"
+  SeqLookup: 0 "Single Substitution lookup 47"
 EndFPST
 ChainSub2: glyph "zlmSmajibuInit contextual 1" 0 0 0 1
  String: 7 smajibu
@@ -803,31 +839,283 @@ ChainSub2: glyph "zlmSmajibuInit contextual 0" 0 0 0 1
  FString: 0 
  0
 EndFPST
-ChainSub2: coverage "zlmW contextual 3" 0 0 0 1
- 1 0 1
-  Coverage: 3 ubu
-  FCoverage: 113 seplimeabu seplimeebu seplimeibu seplimeobu seplimeubu seplimeybu seplimeaibu seplimeeibu seplimeoibu seplimeaubu
+ChainSub2: glyph "zlmW contextual 39" 0 0 0 1
+ String: 3 ubu
+ BString: 0 
+ FString: 11 seplimeaubu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 43"
+EndFPST
+ChainSub2: glyph "zlmW contextual 38" 0 0 0 1
+ String: 3 ubu
+ BString: 0 
+ FString: 11 seplimeoibu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 42"
+EndFPST
+ChainSub2: glyph "zlmW contextual 37" 0 0 0 1
+ String: 3 ubu
+ BString: 0 
+ FString: 11 seplimeeibu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 41"
+EndFPST
+ChainSub2: glyph "zlmW contextual 36" 0 0 0 1
+ String: 3 ubu
+ BString: 0 
+ FString: 11 seplimeaibu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 40"
+EndFPST
+ChainSub2: glyph "zlmW contextual 35" 0 0 0 1
+ String: 3 ubu
+ BString: 0 
+ FString: 10 seplimeybu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 39"
+EndFPST
+ChainSub2: glyph "zlmW contextual 34" 0 0 0 1
+ String: 3 ubu
+ BString: 0 
+ FString: 10 seplimeubu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 38"
+EndFPST
+ChainSub2: glyph "zlmW contextual 33" 0 0 0 1
+ String: 3 ubu
+ BString: 0 
+ FString: 10 seplimeobu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 37"
+EndFPST
+ChainSub2: glyph "zlmW contextual 32" 0 0 0 1
+ String: 3 ubu
+ BString: 0 
+ FString: 10 seplimeibu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 36"
+EndFPST
+ChainSub2: glyph "zlmW contextual 31" 0 0 0 1
+ String: 3 ubu
+ BString: 0 
+ FString: 10 seplimeebu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 35"
+EndFPST
+ChainSub2: glyph "zlmW contextual 30" 0 0 0 1
+ String: 3 ubu
+ BString: 0 
+ FString: 10 seplimeabu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 34"
+EndFPST
+ChainSub2: glyph "zlmW contextual 29" 0 0 0 1
+ String: 3 ibu
+ BString: 0 
+ FString: 11 seplimeaubu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 33"
+EndFPST
+ChainSub2: glyph "zlmW contextual 28" 0 0 0 1
+ String: 3 ibu
+ BString: 0 
+ FString: 11 seplimeoibu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 32"
+EndFPST
+ChainSub2: glyph "zlmW contextual 27" 0 0 0 1
+ String: 3 ibu
+ BString: 0 
+ FString: 11 seplimeeibu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 31"
+EndFPST
+ChainSub2: glyph "zlmW contextual 26" 0 0 0 1
+ String: 3 ibu
+ BString: 0 
+ FString: 11 seplimeaibu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 30"
+EndFPST
+ChainSub2: glyph "zlmW contextual 25" 0 0 0 1
+ String: 3 ibu
+ BString: 0 
+ FString: 10 seplimeybu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 29"
+EndFPST
+ChainSub2: glyph "zlmW contextual 24" 0 0 0 1
+ String: 3 ibu
+ BString: 0 
+ FString: 10 seplimeubu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 28"
+EndFPST
+ChainSub2: glyph "zlmW contextual 23" 0 0 0 1
+ String: 3 ibu
+ BString: 0 
+ FString: 10 seplimeobu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 27"
+EndFPST
+ChainSub2: glyph "zlmW contextual 22" 0 0 0 1
+ String: 3 ibu
+ BString: 0 
+ FString: 10 seplimeibu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 26"
+EndFPST
+ChainSub2: glyph "zlmW contextual 21" 0 0 0 1
+ String: 3 ibu
+ BString: 0 
+ FString: 10 seplimeebu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 25"
+EndFPST
+ChainSub2: glyph "zlmW contextual 20" 0 0 0 1
+ String: 3 ibu
+ BString: 0 
+ FString: 10 seplimeabu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 24"
+EndFPST
+ChainSub2: glyph "zlmW contextual 19" 0 0 0 1
+ String: 3 ubu
+ BString: 0 
+ FString: 4 aubu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 23"
+EndFPST
+ChainSub2: glyph "zlmW contextual 18" 0 0 0 1
+ String: 3 ubu
+ BString: 0 
+ FString: 4 oibu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 22"
+EndFPST
+ChainSub2: glyph "zlmW contextual 17" 0 0 0 1
+ String: 3 ubu
+ BString: 0 
+ FString: 4 eibu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 21"
+EndFPST
+ChainSub2: glyph "zlmW contextual 16" 0 0 0 1
+ String: 3 ubu
+ BString: 0 
+ FString: 4 aibu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 20"
+EndFPST
+ChainSub2: glyph "zlmW contextual 15" 0 0 0 1
+ String: 3 ubu
+ BString: 0 
+ FString: 3 ybu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 19"
+EndFPST
+ChainSub2: glyph "zlmW contextual 14" 0 0 0 1
+ String: 3 ubu
+ BString: 0 
+ FString: 3 ubu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 18"
+EndFPST
+ChainSub2: glyph "zlmW contextual 13" 0 0 0 1
+ String: 3 ubu
+ BString: 0 
+ FString: 3 obu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 17"
+EndFPST
+ChainSub2: glyph "zlmW contextual 12" 0 0 0 1
+ String: 3 ubu
+ BString: 0 
+ FString: 3 ibu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 16"
+EndFPST
+ChainSub2: glyph "zlmW contextual 11" 0 0 0 1
+ String: 3 ubu
+ BString: 0 
+ FString: 3 ebu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 15"
+EndFPST
+ChainSub2: glyph "zlmW contextual 10" 0 0 0 1
+ String: 3 ubu
+ BString: 0 
+ FString: 3 abu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 14"
+EndFPST
+ChainSub2: glyph "zlmW contextual 9" 0 0 0 1
+ String: 3 ibu
+ BString: 0 
+ FString: 4 aubu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 13"
+EndFPST
+ChainSub2: glyph "zlmW contextual 8" 0 0 0 1
+ String: 3 ibu
+ BString: 0 
+ FString: 4 oibu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 12"
+EndFPST
+ChainSub2: glyph "zlmW contextual 7" 0 0 0 1
+ String: 3 ibu
+ BString: 0 
+ FString: 4 eibu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 11"
+EndFPST
+ChainSub2: glyph "zlmW contextual 6" 0 0 0 1
+ String: 3 ibu
+ BString: 0 
+ FString: 4 aibu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 10"
+EndFPST
+ChainSub2: glyph "zlmW contextual 5" 0 0 0 1
+ String: 3 ibu
+ BString: 0 
+ FString: 3 ybu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 9"
+EndFPST
+ChainSub2: glyph "zlmW contextual 4" 0 0 0 1
+ String: 3 ibu
+ BString: 0 
+ FString: 3 ubu
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
+EndFPST
+ChainSub2: glyph "zlmW contextual 3" 0 0 0 1
+ String: 3 ibu
+ BString: 0 
+ FString: 3 obu
  1
   SeqLookup: 0 "Single Substitution lookup 7"
 EndFPST
-ChainSub2: coverage "zlmW contextual 2" 0 0 0 1
- 1 0 1
-  Coverage: 3 ibu
-  FCoverage: 113 seplimeabu seplimeebu seplimeibu seplimeobu seplimeubu seplimeybu seplimeaibu seplimeeibu seplimeoibu seplimeaubu
+ChainSub2: glyph "zlmW contextual 2" 0 0 0 1
+ String: 3 ibu
+ BString: 0 
+ FString: 3 ibu
  1
   SeqLookup: 0 "Single Substitution lookup 6"
 EndFPST
-ChainSub2: coverage "zlmW contextual 1" 0 0 0 1
- 1 0 1
-  Coverage: 3 ubu
-  FCoverage: 23 abu ebu ibu obu ubu ybu
+ChainSub2: glyph "zlmW contextual 1" 0 0 0 1
+ String: 3 ibu
+ BString: 0 
+ FString: 3 ebu
  1
   SeqLookup: 0 "Single Substitution lookup 5"
 EndFPST
-ChainSub2: coverage "zlmW contextual 0" 0 0 0 1
- 1 0 1
-  Coverage: 3 ibu
-  FCoverage: 23 abu ebu ibu obu ubu ybu
+ChainSub2: glyph "zlmW contextual 0" 0 0 0 1
+ String: 3 ibu
+ BString: 0 
+ FString: 3 abu
  1
   SeqLookup: 0 "Single Substitution lookup 4"
 EndFPST
@@ -2592,7 +2880,7 @@ SplineSet
  79 222 74 229 71 236 c 0
  68 243 66 251 66 260 c 0
 EndSplineSet
-Substitution2: "Single Substitution lookup 37 subtable" denpabu.cas
+Substitution2: "Single Substitution lookup 73 subtable" denpabu.cas
 EndChar
 
 StartChar: yhy
@@ -3109,18 +3397,18 @@ SplineSet
  70 224 l 1
  70 298 l 1
 EndSplineSet
-Substitution2: "Single Substitution lookup 24 subtable" smajibu.fina
-Substitution2: "Single Substitution lookup 23 subtable" smajibu.fina
-Substitution2: "Single Substitution lookup 22 subtable" smajibu.fina
-Substitution2: "Single Substitution lookup 20 subtable" smajibu.medi
-Substitution2: "Single Substitution lookup 19 subtable" smajibu.medi
-Substitution2: "Single Substitution lookup 18 subtable" smajibu.medi
-Substitution2: "Single Substitution lookup 17 subtable" smajibu.medi
-Substitution2: "Single Substitution lookup 16 subtable" smajibu.medi
-Substitution2: "Single Substitution lookup 15 subtable" smajibu.medi
-Substitution2: "Single Substitution lookup 13 subtable" smajibu.init
-Substitution2: "Single Substitution lookup 12 subtable" smajibu.init
-Substitution2: "Single Substitution lookup 11 subtable" smajibu.init
+Substitution2: "Single Substitution lookup 60 subtable" smajibu.fina
+Substitution2: "Single Substitution lookup 59 subtable" smajibu.fina
+Substitution2: "Single Substitution lookup 58 subtable" smajibu.fina
+Substitution2: "Single Substitution lookup 56 subtable" smajibu.medi
+Substitution2: "Single Substitution lookup 55 subtable" smajibu.medi
+Substitution2: "Single Substitution lookup 54 subtable" smajibu.medi
+Substitution2: "Single Substitution lookup 53 subtable" smajibu.medi
+Substitution2: "Single Substitution lookup 52 subtable" smajibu.medi
+Substitution2: "Single Substitution lookup 51 subtable" smajibu.medi
+Substitution2: "Single Substitution lookup 49 subtable" smajibu.init
+Substitution2: "Single Substitution lookup 48 subtable" smajibu.init
+Substitution2: "Single Substitution lookup 47 subtable" smajibu.init
 EndChar
 
 StartChar: slakabu
@@ -3211,7 +3499,7 @@ SplineSet
  -33 816 l 1
  34 816 l 1
 EndSplineSet
-MultipleSubs2: "Multiple Substitution lookup 26 subtable" denpabu abu
+MultipleSubs2: "Multiple Substitution lookup 62 subtable" denpabu abu
 EndChar
 
 StartChar: ebu
@@ -3232,7 +3520,7 @@ SplineSet
  -122 625 l 5
  -122 685 l 5
 EndSplineSet
-MultipleSubs2: "Multiple Substitution lookup 27 subtable" denpabu ebu
+MultipleSubs2: "Multiple Substitution lookup 63 subtable" denpabu ebu
 EndChar
 
 StartChar: ibu
@@ -3265,8 +3553,26 @@ SplineSet
  -49 620 -54 626 -57 633 c 0
  -60 640 -61 649 -61 658 c 0
 EndSplineSet
-MultipleSubs2: "Multiple Substitution lookup 28 subtable" denpabu ibu
+MultipleSubs2: "Multiple Substitution lookup 64 subtable" denpabu ibu
+Substitution2: "Single Substitution lookup 33 subtable" iy
+Substitution2: "Single Substitution lookup 32 subtable" iy
+Substitution2: "Single Substitution lookup 31 subtable" iy
+Substitution2: "Single Substitution lookup 30 subtable" iy
+Substitution2: "Single Substitution lookup 29 subtable" iy
+Substitution2: "Single Substitution lookup 28 subtable" iy
+Substitution2: "Single Substitution lookup 27 subtable" iy
+Substitution2: "Single Substitution lookup 26 subtable" iy
+Substitution2: "Single Substitution lookup 25 subtable" iy
+Substitution2: "Single Substitution lookup 24 subtable" iy
+Substitution2: "Single Substitution lookup 13 subtable" iy
+Substitution2: "Single Substitution lookup 12 subtable" iy
+Substitution2: "Single Substitution lookup 11 subtable" iy
+Substitution2: "Single Substitution lookup 10 subtable" iy
+Substitution2: "Single Substitution lookup 9 subtable" iy
+Substitution2: "Single Substitution lookup 8 subtable" iy
+Substitution2: "Single Substitution lookup 7 subtable" iy
 Substitution2: "Single Substitution lookup 6 subtable" iy
+Substitution2: "Single Substitution lookup 5 subtable" iy
 Substitution2: "Single Substitution lookup 4 subtable" iy
 EndChar
 
@@ -3297,7 +3603,7 @@ SplineSet
  6 666 12 659 13 658 c 0
  18 653 24 651 30 651 c 0xb0
 EndSplineSet
-MultipleSubs2: "Multiple Substitution lookup 29 subtable" denpabu obu
+MultipleSubs2: "Multiple Substitution lookup 65 subtable" denpabu obu
 EndChar
 
 StartChar: ubu
@@ -3320,9 +3626,27 @@ SplineSet
  -68 705 l 1
  -68 659 -54 634 0 634 c 256
 EndSplineSet
-MultipleSubs2: "Multiple Substitution lookup 30 subtable" denpabu ubu
-Substitution2: "Single Substitution lookup 7 subtable" uy
-Substitution2: "Single Substitution lookup 5 subtable" uy
+MultipleSubs2: "Multiple Substitution lookup 66 subtable" denpabu ubu
+Substitution2: "Single Substitution lookup 43 subtable" uy
+Substitution2: "Single Substitution lookup 42 subtable" uy
+Substitution2: "Single Substitution lookup 41 subtable" uy
+Substitution2: "Single Substitution lookup 40 subtable" uy
+Substitution2: "Single Substitution lookup 39 subtable" uy
+Substitution2: "Single Substitution lookup 38 subtable" uy
+Substitution2: "Single Substitution lookup 37 subtable" uy
+Substitution2: "Single Substitution lookup 36 subtable" uy
+Substitution2: "Single Substitution lookup 35 subtable" uy
+Substitution2: "Single Substitution lookup 34 subtable" uy
+Substitution2: "Single Substitution lookup 23 subtable" uy
+Substitution2: "Single Substitution lookup 22 subtable" uy
+Substitution2: "Single Substitution lookup 21 subtable" uy
+Substitution2: "Single Substitution lookup 20 subtable" uy
+Substitution2: "Single Substitution lookup 19 subtable" uy
+Substitution2: "Single Substitution lookup 18 subtable" uy
+Substitution2: "Single Substitution lookup 17 subtable" uy
+Substitution2: "Single Substitution lookup 16 subtable" uy
+Substitution2: "Single Substitution lookup 15 subtable" uy
+Substitution2: "Single Substitution lookup 14 subtable" uy
 EndChar
 
 StartChar: ybu
@@ -3364,7 +3688,7 @@ SplineSet
  -15 707 -28 702 -37 693 c 0
  -46 684 -50 672 -50 657 c 0
 EndSplineSet
-MultipleSubs2: "Multiple Substitution lookup 31 subtable" denpabu ybu
+MultipleSubs2: "Multiple Substitution lookup 67 subtable" denpabu ybu
 EndChar
 
 StartChar: aibu
@@ -3397,7 +3721,7 @@ SplineSet
  61 738 l 1
  29 737 13 728 13 711 c 0xe0
 EndSplineSet
-MultipleSubs2: "Multiple Substitution lookup 32 subtable" denpabu aibu
+MultipleSubs2: "Multiple Substitution lookup 68 subtable" denpabu aibu
 Ligature2: "zlmVV subtable" abu ibu
 LCarets2: 1 0
 EndChar
@@ -3434,7 +3758,7 @@ SplineSet
  -75 673 -65 680 -51 686 c 4
  -37 692 -20 695 0 695 c 4
 EndSplineSet
-MultipleSubs2: "Multiple Substitution lookup 33 subtable" denpabu eibu
+MultipleSubs2: "Multiple Substitution lookup 69 subtable" denpabu eibu
 Ligature2: "zlmVV subtable" ebu ibu
 LCarets2: 1 0
 EndChar
@@ -3465,7 +3789,7 @@ SplineSet
  7 750 l 1
  -14 721 -36 685 -49 663 c 1
 EndSplineSet
-MultipleSubs2: "Multiple Substitution lookup 34 subtable" denpabu oibu
+MultipleSubs2: "Multiple Substitution lookup 70 subtable" denpabu oibu
 Ligature2: "zlmVV subtable" obu ibu
 LCarets2: 1 0
 EndChar
@@ -3502,7 +3826,7 @@ SplineSet
  22 588 2 566 -23 544 c 1
  -36 555 l 2
 EndSplineSet
-MultipleSubs2: "Multiple Substitution lookup 35 subtable" denpabu aubu
+MultipleSubs2: "Multiple Substitution lookup 71 subtable" denpabu aubu
 Ligature2: "zlmVV subtable" abu ubu
 LCarets2: 1 0
 EndChar
