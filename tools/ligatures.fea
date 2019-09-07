@@ -42,6 +42,11 @@ lookup zlmSelfDottingVowels {
   sub aubu' by denpabu_aubu;
 } zlmSelfDottingVowels;
 
+lookup zlmNarrowSlakabu {
+  lookupflag 0;
+  sub slakabu' @vowel by slakabu.narrow;
+} zlmNarrowSlakabu;
+
 lookup mtb_ligatures_ny {
   lookupflag 0;
   sub ny abu by ny_abu;
@@ -378,9 +383,24 @@ lookup mtb_ligatures_ubu {
   sub ubu aubu by ubu_aubu;
 } mtb_ligatures_ubu;
 
+lookup mtb_ligatures_slakabu.narrow {
+  lookupflag 0;
+  sub slakabu.narrow abu by slakabu.narrow_abu;
+  sub slakabu.narrow ebu by slakabu.narrow_ebu;
+  sub slakabu.narrow ibu by slakabu.narrow_ibu;
+  sub slakabu.narrow obu by slakabu.narrow_obu;
+  sub slakabu.narrow ubu by slakabu.narrow_ubu;
+  sub slakabu.narrow ybu by slakabu.narrow_ybu;
+  sub slakabu.narrow aibu by slakabu.narrow_aibu;
+  sub slakabu.narrow eibu by slakabu.narrow_eibu;
+  sub slakabu.narrow oibu by slakabu.narrow_oibu;
+  sub slakabu.narrow aubu by slakabu.narrow_aubu;
+} mtb_ligatures_slakabu.narrow;
+
 feature liga {
   script DFLT;
     language dflt;
+    lookup zlmNarrowSlakabu;
     lookup zlmSelfDottingCAS;
     lookup zlmSelfDottingVowels;
     lookup mtb_ligatures_ny;
@@ -407,8 +427,10 @@ feature liga {
     lookup mtb_ligatures_denpabu.cas;
     lookup mtb_ligatures_ibu;
     lookup mtb_ligatures_ubu;
+    lookup mtb_ligatures_slakabu.narrow;
   script latn;
     language dflt;
+    lookup zlmNarrowSlakabu;
     lookup zlmSelfDottingCAS;
     lookup zlmSelfDottingVowels;
     lookup mtb_ligatures_ny;
@@ -435,4 +457,5 @@ feature liga {
     lookup mtb_ligatures_denpabu.cas;
     lookup mtb_ligatures_ibu;
     lookup mtb_ligatures_ubu;
+    lookup mtb_ligatures_slakabu.narrow;
 } liga;

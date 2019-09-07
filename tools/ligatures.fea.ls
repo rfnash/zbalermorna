@@ -1,5 +1,5 @@
 log      = console.log.bind console
-consonants = <[ ny dy ty zy sy gy jy xy iy ry my by py vy fy ky cy yhy uy ly denpabu denpabu.cas ibu ubu ]>
+consonants = <[ ny dy ty zy sy gy jy xy iy ry my by py vy fy ky cy yhy uy ly denpabu denpabu.cas ibu ubu slakabu.narrow ]>
 vowels = <[ abu ebu ibu obu ubu ybu aibu eibu oibu aubu ]>
 
 log """
@@ -47,6 +47,11 @@ lookup zlmSelfDottingVowels {
   sub aubu' by denpabu_aubu;
 } zlmSelfDottingVowels;
 
+lookup zlmNarrowSlakabu {
+  lookupflag 0;
+  sub slakabu' @vowel by slakabu.narrow;
+} zlmNarrowSlakabu;
+
 """
 
 for c in consonants
@@ -62,12 +67,14 @@ for c in consonants
 log "feature liga {"
 log "  script DFLT;"
 log "    language dflt;"
+log "    lookup zlmNarrowSlakabu;"
 log "    lookup zlmSelfDottingCAS;"
 log "    lookup zlmSelfDottingVowels;"
 for c in consonants
   log "    lookup mtb_ligatures_#c;"
 log "  script latn;"
 log "    language dflt;"
+log "    lookup zlmNarrowSlakabu;"
 log "    lookup zlmSelfDottingCAS;"
 log "    lookup zlmSelfDottingVowels;"
 for c in consonants
