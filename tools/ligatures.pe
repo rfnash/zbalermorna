@@ -63,6 +63,7 @@ LoadEncodingFile("tools/zbalermorna.ps")
 Reencode("zbalermorna")
 #RenameGlyphs("zbalermorna")
 
+RemoveLookup("zlmSelfDottingVowels")
 MergeFeature("tools/ligatures.fea")
 
 Generate("fonts/" + $1 + ".otf")

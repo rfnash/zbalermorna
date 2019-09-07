@@ -1,5 +1,30 @@
+@consonant = [ py ty ky fy ly sy cy my xy \by dy gy vy ry zy jy ny yhy iy uy ];
+@singlevowel = [ abu ebu ibu obu ubu ybu ];
+@vowel = [ @singlevowel aibu eibu oibu aubu ];
+@anything = [ @consonant @vowel ];
+@fullvowel = [ seplimeabu seplimeebu seplimeibu seplimeobu seplimeubu seplimeybu seplimeaibu seplimeeibu seplimeoibu seplimeaubu ];
+
 languagesystem DFLT dflt;
 languagesystem latn dflt;
+
+lookup zlmSelfDottingVowels {
+  lookupflag 0;
+  ignore sub @anything @vowel';
+  ignore sub slakabu @vowel';
+  ignore sub @vowel' slakabu;
+  ignore sub denpabu @vowel';
+  ignore sub denpabu.cas @vowel';
+  sub abu' by denpabu_abu;
+  sub ebu' by denpabu_ebu;
+  sub ibu' by denpabu_ibu;
+  sub obu' by denpabu_obu;
+  sub ubu' by denpabu_ubu;
+  sub ybu' by denpabu_ybu;
+  sub aibu' by denpabu_aibu;
+  sub eibu' by denpabu_eibu;
+  sub oibu' by denpabu_oibu;
+  sub aubu' by denpabu_aubu;
+} zlmSelfDottingVowels;
 
 lookup mtb_ligatures_ny {
   lookupflag 0;
@@ -340,6 +365,7 @@ lookup mtb_ligatures_ubu {
 feature liga {
   script DFLT;
     language dflt;
+    lookup zlmSelfDottingVowels;
     lookup mtb_ligatures_ny;
     lookup mtb_ligatures_dy;
     lookup mtb_ligatures_ty;
@@ -366,6 +392,7 @@ feature liga {
     lookup mtb_ligatures_ubu;
   script latn;
     language dflt;
+    lookup zlmSelfDottingVowels;
     lookup mtb_ligatures_ny;
     lookup mtb_ligatures_dy;
     lookup mtb_ligatures_ty;
