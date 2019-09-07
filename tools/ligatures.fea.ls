@@ -12,6 +12,20 @@ log """
 languagesystem DFLT dflt;
 languagesystem latn dflt;
 
+lookup zlmSelfDottingCAS {
+  lookupflag 0;
+  sub abu' yhy by denpabu.cas_abu;
+  sub ebu' yhy by denpabu.cas_ebu;
+  sub ibu' yhy by denpabu.cas_ibu;
+  sub obu' yhy by denpabu.cas_obu;
+  sub ubu' yhy by denpabu.cas_ubu;
+  sub ybu' yhy by denpabu.cas_ybu;
+  sub aibu' yhy by denpabu.cas_aibu;
+  sub eibu' yhy by denpabu.cas_eibu;
+  sub oibu' yhy by denpabu.cas_oibu;
+  sub aubu' yhy by denpabu.cas_aubu;
+} zlmSelfDottingCAS;
+
 lookup zlmSelfDottingVowels {
   lookupflag 0;
   ignore sub @anything @vowel';
@@ -46,11 +60,13 @@ for c in consonants
 log "feature liga {"
 log "  script DFLT;"
 log "    language dflt;"
+log "    lookup zlmSelfDottingCAS;"
 log "    lookup zlmSelfDottingVowels;"
 for c in consonants
   log "    lookup mtb_ligatures_#c;"
 log "  script latn;"
 log "    language dflt;"
+log "    lookup zlmSelfDottingCAS;"
 log "    lookup zlmSelfDottingVowels;"
 for c in consonants
   log "    lookup mtb_ligatures_#c;"

@@ -7,13 +7,27 @@
 languagesystem DFLT dflt;
 languagesystem latn dflt;
 
+lookup zlmSelfDottingCAS {
+  lookupflag 0;
+  sub abu' yhy by denpabu.cas_abu;
+  sub ebu' yhy by denpabu.cas_ebu;
+  sub ibu' yhy by denpabu.cas_ibu;
+  sub obu' yhy by denpabu.cas_obu;
+  sub ubu' yhy by denpabu.cas_ubu;
+  sub ybu' yhy by denpabu.cas_ybu;
+  sub aibu' yhy by denpabu.cas_aibu;
+  sub eibu' yhy by denpabu.cas_eibu;
+  sub oibu' yhy by denpabu.cas_oibu;
+  sub aubu' yhy by denpabu.cas_aubu;
+} zlmSelfDottingCAS;
+
 lookup zlmSelfDottingVowels {
   lookupflag 0;
   ignore sub @anything @vowel';
   ignore sub slakabu @vowel';
   ignore sub @vowel' slakabu;
   ignore sub denpabu @vowel';
-  ignore sub denpabu.cas @vowel';
+  ignore sub denpabu @vowel' yhy;
   sub abu' by denpabu_abu;
   sub ebu' by denpabu_ebu;
   sub ibu' by denpabu_ibu;
@@ -365,6 +379,7 @@ lookup mtb_ligatures_ubu {
 feature liga {
   script DFLT;
     language dflt;
+    lookup zlmSelfDottingCAS;
     lookup zlmSelfDottingVowels;
     lookup mtb_ligatures_ny;
     lookup mtb_ligatures_dy;
@@ -392,6 +407,7 @@ feature liga {
     lookup mtb_ligatures_ubu;
   script latn;
     language dflt;
+    lookup zlmSelfDottingCAS;
     lookup zlmSelfDottingVowels;
     lookup mtb_ligatures_ny;
     lookup mtb_ligatures_dy;
