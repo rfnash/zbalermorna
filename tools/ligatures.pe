@@ -1,7 +1,7 @@
 #!/usr/local/bin/fontforge
 # usage: fontforge -lang=ff -script ligatures.pe <font>
 
-c = ["ny", "dy", "ty", "zy", "sy", "gy", "jy", "xy", "iy", "ry", "my", "by", "py", "vy", "fy", "ky", "cy", "yhy", "uy", "ly", "denpabu", "denpabu.cas"]
+c = ["ny", "dy", "ty", "zy", "sy", "gy", "jy", "xy", "iy", "ry", "my", "by", "py", "vy", "fy", "ky", "cy", "yhy", "uy", "ly", "denpabu", "denpabu.cas", "ibu", "ubu"]
 v = ["abu", "ebu", "ibu", "obu", "ubu", "ybu", "aibu", "eibu", "oibu", "aubu"]
 
 Open("src/" + $1 + ".sfd")
@@ -10,14 +10,22 @@ LoadNamelist("tools/zbalermorna.nam")
 LoadEncodingFile("tools/ligatures.ps")
 
 i = 0;
-while ( i < 22 )
+while ( i < 24 )
 	j = 0;
 	while ( j < 10 )
 		Reencode("zbalermorna_" + c[i])
 		#RenameGlyphs("zbalermorna")
 
 		# CV clusters
-		Select(c[i]) # consonant
+		if (c[i] == "ibu")
+			Select("iy")
+		else
+			if (c[i] == "ubu")
+				Select("uy")
+			else
+				Select(c[i]) # consonant
+			endif
+		endif
 		cAnchors = GetAnchorPoints()
 		if (cAnchors[0][0] == "Top")
 			cAnchorTop = cAnchors[0]
@@ -59,4 +67,4 @@ MergeFeature("tools/ligatures.fea")
 
 Generate("fonts/" + $1 + ".otf")
 
-#Save("src/" + $1 + "_ligatured.sfd")
+Save("src/" + $1 + "_ligatured.sfd")

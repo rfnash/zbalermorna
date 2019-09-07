@@ -309,6 +309,34 @@ lookup mtb_ligatures_denpabu.cas {
   sub denpabu.cas aubu by denpabu.cas_aubu;
 } mtb_ligatures_denpabu.cas;
 
+lookup mtb_ligatures_ibu {
+  lookupflag 0;
+  sub ibu abu by ibu_abu;
+  sub ibu ebu by ibu_ebu;
+  sub ibu ibu by ibu_ibu;
+  sub ibu obu by ibu_obu;
+  sub ibu ubu by ibu_ubu;
+  sub ibu ybu by ibu_ybu;
+  sub ibu aibu by ibu_aibu;
+  sub ibu eibu by ibu_eibu;
+  sub ibu oibu by ibu_oibu;
+  sub ibu aubu by ibu_aubu;
+} mtb_ligatures_ibu;
+
+lookup mtb_ligatures_ubu {
+  lookupflag 0;
+  sub ubu abu by ubu_abu;
+  sub ubu ebu by ubu_ebu;
+  sub ubu ibu by ubu_ibu;
+  sub ubu obu by ubu_obu;
+  sub ubu ubu by ubu_ubu;
+  sub ubu ybu by ubu_ybu;
+  sub ubu aibu by ubu_aibu;
+  sub ubu eibu by ubu_eibu;
+  sub ubu oibu by ubu_oibu;
+  sub ubu aubu by ubu_aubu;
+} mtb_ligatures_ubu;
+
 feature liga {
   script DFLT;
     language dflt;
@@ -334,6 +362,8 @@ feature liga {
     lookup mtb_ligatures_ly;
     lookup mtb_ligatures_denpabu;
     lookup mtb_ligatures_denpabu.cas;
+    lookup mtb_ligatures_ibu;
+    lookup mtb_ligatures_ubu;
   script latn;
     language dflt;
     lookup mtb_ligatures_ny;
@@ -358,4 +388,6 @@ feature liga {
     lookup mtb_ligatures_ly;
     lookup mtb_ligatures_denpabu;
     lookup mtb_ligatures_denpabu.cas;
+    lookup mtb_ligatures_ibu;
+    lookup mtb_ligatures_ubu;
 } liga;
