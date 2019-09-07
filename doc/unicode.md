@@ -67,7 +67,7 @@ U+ED8D      citonga             ZBALERMORNA COMBINING CI TONGA
 U+ED8E      votonga             ZBALERMORNA COMBINING VO TONGA
 U+ED98      bahebu              ZBALERMORNA COMBINING BAHEBU
 U+ED9B      tcenabu             ZBALERMORNA COMBINING TCENA BU
-U+ED99      samjibu             ZBALERMORNA SYMBOL FOR SMAJI BU
+U+ED99      smajibu             ZBALERMORNA SYMBOL FOR SMAJI BU
 ```
 
 Ligatures would then take the format `ty_abu`, `bahebu_bahebu`, `denpabu_yhy`, etc and would not be a part of the unicode spec, just as the other ligatures have been removed. It should be noted that in the current configuration and IME implementation, none of the diphthong code points are being used, and the {cnima'o bu} is only set up to display directly for reference - the ligatures aren't configured to combine with it - it may be worth it to consider removing the dipthongs to reduce the size of the space.
