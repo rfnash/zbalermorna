@@ -9,6 +9,7 @@ languagesystem latn dflt;
 
 lookup zlmSelfDottingCAS {
   lookupflag 0;
+  ignore sub denpabu @vowel' yhy;
   ignore sub denpabu.cas @vowel' yhy;
   sub abu' yhy by denpabu.cas_abu;
   sub ebu' yhy by denpabu.cas_ebu;
@@ -28,7 +29,7 @@ lookup zlmSelfDottingVowels {
   ignore sub slakabu @vowel';
   ignore sub @vowel' slakabu;
   ignore sub denpabu @vowel';
-  ignore sub denpabu @vowel' yhy;
+  ignore sub denpabu.cas @vowel';
   sub abu' by denpabu_abu;
   sub ebu' by denpabu_ebu;
   sub ibu' by denpabu_ibu;
