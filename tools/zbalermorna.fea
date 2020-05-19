@@ -52,6 +52,10 @@ lookup zlmSF {
 
 lookup zlmW {
   lookupflag 0;
+  ignore sub ibu' ibu @vowel;
+  ignore sub ubu' ibu @vowel;
+  ignore sub ibu' ubu @vowel;
+  ignore sub ubu' ubu @vowel;
   sub ibu' abu by iy;
   sub ibu' ebu by iy;
   sub ibu' ibu by iy;
@@ -164,6 +168,8 @@ lookup zlmSelfDottingVowels {
 lookup zlmDVH {
   lookupflag 0;
   sub denpabu' @vowel yhy by denpabu.cas;
+  sub denpabu @vowel yhy' by yhy.cas;
+  sub denpabu.cas @vowel yhy' by yhy.cas;
 } zlmDVH;
 
 feature liga {

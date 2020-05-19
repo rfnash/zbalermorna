@@ -19,6 +19,31 @@
 	font-weight: normal; 
 }
 @font-face { 
+	font-family: "ritli-regular";
+	src: local('Ritli Regular'), url('../../fonts/ritli-regular.otf');
+	font-weight: normal; 
+}
+@font-face { 
+	font-family: "balvi-regular";
+	src: local('Balvi Regular'), url('../../fonts/balvi-regular.otf');
+	font-weight: normal; 
+}
+@font-face { 
+	font-family: "dunda-regular";
+	src: local('Dunda Regular'), url('../../fonts/dunda-regular.otf');
+	font-weight: normal; 
+}
+@font-face { 
+	font-family: "nerfopi-regular";
+	src: local('Nerfopi Regular'), url('../../fonts/nerfopi-regular.otf');
+	font-weight: normal; 
+}
+@font-face { 
+	font-family: "tanbo-regular";
+	src: local('Tanbo Regular'), url('../../fonts/tanbo-regular.otf');
+	font-weight: normal; 
+}
+@font-face { 
 	font-family: 'fira-code-zlm'; 
 	src: local('Fira Code Zbalermorna'), url('../../fonts/fira-code-zlm.otf');
 }
