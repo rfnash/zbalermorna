@@ -36,6 +36,11 @@
 	font-weight: normal; 
 }
 @font-face { 
+	font-family: "primihi-regular";
+	src: local('Primihi Regular'), url('../../fonts/primihi-regular.otf');
+	font-weight: normal; 
+}
+@font-face { 
 	font-family: "balvi-regular";
 	src: local('Balvi Regular'), url('../../fonts/balvi-regular.otf');
 	font-weight: normal; 
