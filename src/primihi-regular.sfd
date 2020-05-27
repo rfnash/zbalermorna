@@ -5,6 +5,7 @@ FamilyName: Primihi
 Weight: Regular
 Copyright: This font has been released into the public domain by its author, Barry Schwartz. This applies worldwide.\n\nIn some countries this may not be legally possible; if so:\n\nBarry Schwartz grants anyone the right to use this work for any purpose, without any conditions, unless such conditions are required by law\n\nModified into Primihi for Lojban/Zbalermorna in 2020 by Jack Humbert.
 Version: 2008.02.06
+DefaultBaseFilename: primihi-regular
 ItalicAngle: 0
 UnderlinePosition: -251
 UnderlineWidth: 43
@@ -22,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1438840825
-ModificationTime: 1590423680
+ModificationTime: 1590619423
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -1230,7 +1231,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 268435 134217 89478 531106 1048576 89478 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Top" "zlmTops subtable" "LigaBottom"""  "Bottom" "zlmBottoms subtable"
-BeginChars: 287 111
+BeginChars: 295 111
 
 StartChar: space
 Encoding: 0 32 0
@@ -2307,7 +2308,7 @@ StartChar: py
 Encoding: 20 60800 32
 Width: 514
 GlyphClass: 2
-Flags: W
+Flags: WO
 HStem: -6 51<158.989 304.419> -6 42<21.0267 80.623> 378 44<293.039 368.325 444.22 497.993>
 VStem: 87 71<49.25 609.081> 370 74<177.102 377.999>
 AnchorPoint: "Top" 400.222 618 basechar 0
@@ -3696,7 +3697,7 @@ StartChar: ebu
 Encoding: 53 60833 65
 Width: 227
 GlyphClass: 4
-Flags: WO
+Flags: W
 HStem: 632 49<-133.453 133.491> 634.375 35.625<-136.762 136.812>
 AnchorPoint: "Top" 0 657 mark 0
 LayerCount: 2
@@ -4685,28 +4686,26 @@ Encoding: 51 -1 101
 Width: 232
 VWidth: 988
 Flags: W
-HStem: 306 87<27.1897 209.657> 480 20G<304 340>
-VStem: 18 322
+HStem: 162 87<27.0989 209.657> 397 20G<338 340>
 AnchorPoint: "Top" 70 658 basechar 0
 AnchorPoint: "Bottom" 111 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-306 415 m 1
- 293 387 267 360 224 335 c 0
- 191 316 151 306 102 306 c 0
- 86 306 70 308 56 310 c 0
- 42 312 29 315 18 320 c 1
- 27 386 l 1
- 31 395 38 399 50 399 c 0
- 57 399 67 398 80 396 c 0
- 93 394 108 393 124 393 c 0
- 148 393 169 395 187 400 c 0
- 205 405 221 412 236 421 c 0
- 250 430 264 441 275 454 c 0
- 292 474 302 489 306 500 c 1
- 340 481 l 1
- 306 415 l 1
+306 271 m 1
+ 293 243 267 216 224 191 c 0
+ 191 172 151 162 102 162 c 0
+ 86 162 70 164 56 166 c 0
+ 6.65283093264 173.049595581 20.7880859375 192.447265625 27 238 c 5
+ 29 251 38 255 50 255 c 0
+ 57 255 67 254 80 252 c 0
+ 93 250 108 249 124 249 c 0
+ 148 249 169 251 187 256 c 0
+ 205 261 221 268 236 277 c 0
+ 250 286 263.970944825 297.02464097 275 310 c 0
+ 292 330 336 406 340 417 c 1
+ 340 337 l 1
+ 306 271 l 1
 EndSplineSet
 EndChar
 
@@ -4773,7 +4772,7 @@ Encoding: 67 -1 109
 Width: 243
 Flags: W
 HStem: -6 44<18.136 93.0582 163.719 228.991>
-VStem: 94 67<39.1511 336.573>
+VStem: 94 67<39.1511 426.769>
 AnchorPoint: "Top" 152 619 basechar 0
 AnchorPoint: "Bottom" 119 0 basechar 0
 LayerCount: 2
@@ -4781,10 +4780,7 @@ Fore
 SplineSet
 94 121 m 2
  94 237 95 295 95 314 c 0
- 95 330 91 329 27 355 c 0
- 22 357 15 360 15 368 c 0
- 15 380 31 384 42 389 c 0
- 146 439 147 441 152 441 c 2
+ 95 341.165914574 82 441 152 441 c 6
  153 441 l 2
  159 441 167 437 167 425 c 0
  167 417 161 320 161 198 c 2
@@ -4850,7 +4846,7 @@ SplineSet
 EndSplineSet
 EndChar
 EndChars
-BitmapFont: 12 112 9 3 1
+BitmapFont: 12 119 9 3 1
 BDFChar: 0 0 3 0 0 0 0
 z
 BDFChar: 1 1 4 1 1 0 8
@@ -5072,7 +5068,7 @@ J:N0#J:IV"
 BDFChar: 110 86 6 1 5 0 8
 J:N0+R&J*IL]@DT
 EndBitmapFont
-BitmapFont: 13 112 10 3 1
+BitmapFont: 13 119 10 3 1
 BDFChar: 0 0 3 0 0 0 0
 z
 BDFChar: 1 1 4 1 1 0 8
@@ -5294,7 +5290,7 @@ J:N0#J:N.M
 BDFChar: 110 86 7 1 5 0 9
 J:N0+R$ahnaG9fr
 EndBitmapFont
-BitmapFont: 14 112 10 4 1
+BitmapFont: 14 119 10 4 1
 BDFChar: 0 0 4 0 0 0 0
 z
 BDFChar: 1 1 5 1 2 0 9
@@ -5516,7 +5512,7 @@ J:N0#J:N.M
 BDFChar: 110 86 7 1 6 0 10
 J:N0#N/X!sUr7od
 EndBitmapFont
-BitmapFont: 15 112 11 4 1
+BitmapFont: 15 119 11 4 1
 BDFChar: 0 0 4 0 0 0 0
 z
 BDFChar: 1 1 5 1 1 0 10
@@ -5738,7 +5734,7 @@ J:N0#J:N0#
 BDFChar: 110 86 8 1 6 0 11
 J:N0#KT).[Unkq^
 EndBitmapFont
-BitmapFont: 16 112 12 4 1
+BitmapFont: 16 119 12 4 1
 BDFChar: 0 0 4 0 0 0 0
 z
 BDFChar: 1 1 5 1 2 0 10
@@ -5960,7 +5956,7 @@ BDFChar: 109 67 4 1 2 0 7
 BDFChar: 110 86 8 1 7 0 11
 ^qdb$`l?<Tp?'B7
 EndBitmapFont
-BitmapFont: 17 112 13 4 1
+BitmapFont: 17 119 13 4 1
 BDFChar: 0 0 4 0 0 0 0
 z
 BDFChar: 1 1 6 1 2 0 11
