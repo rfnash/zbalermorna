@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1438840825
-ModificationTime: 1590618897
+ModificationTime: 1590619093
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -1180,7 +1180,7 @@ StdHW 4 [69]
 StdVW 4 [88]
 StemSnapV 4 [88]
 StemSnapH 4 [69]
-BlueValues 23 [-12 0 455 468 750 756]
+BlueValues 23 [-10 0 455 465 750 756]
 OtherBlues 11 [-257 -250]
 EndPrivate
 Grid
@@ -2994,7 +2994,7 @@ Encoding: 28 60808 40
 Width: 548
 VWidth: 1024
 GlyphClass: 2
-Flags: WO
+Flags: W
 HStem: -9 87<164.691 271.075> 373 86<154.239 263.732>
 VStem: -20 86<177.028 283.284> 362 86<166.807 275.172>
 AnchorPoint: "Top" 228 656 basechar 0
@@ -3854,9 +3854,9 @@ Encoding: 52 60832 64
 Width: 0
 VWidth: 1024
 GlyphClass: 4
-Flags: HW
-HStem: 582 234<-22.9126 23.791>
-VStem: -33 67<624.5 816>
+Flags: W
+HStem: 567.495 242.606
+VStem: -79.5986 217.944
 AnchorPoint: "Top" -0.105469 658.308 mark 0
 LayerCount: 2
 Fore
@@ -3884,9 +3884,9 @@ Encoding: 53 60833 65
 Width: 0
 VWidth: 988
 GlyphClass: 4
-Flags: HW
-HStem: 625 60<-122 122>
-VStem: -122 244<625 685>
+Flags: WO
+HStem: 616 74<-91.8081 111.303>
+VStem: -158 323
 AnchorPoint: "Top" 0 657 mark 0
 LayerCount: 2
 Fore
@@ -3917,9 +3917,9 @@ Encoding: 54 60834 66
 Width: 0
 VWidth: 1024
 GlyphClass: 4
-Flags: HW
-HStem: 596 124<-47.2603 47.6609>
-VStem: -61 123<610.339 705.661>
+Flags: W
+HStem: 588 140<-8.17995 26.1953>
+VStem: -69.3359 139<632.75 684.859>
 AnchorPoint: "Top" 0 657 mark 0
 LayerCount: 2
 Fore
@@ -3969,14 +3969,14 @@ Encoding: 55 60835 67
 Width: 0
 VWidth: 1024
 GlyphClass: 4
-Flags: HW
-HStem: 593 58<0.318359 62.3726> 644 58<-73.5814 -15.6011>
-VStem: -127 49<595 641.178> 67 48<654.181 699>
+Flags: W
+HStem: 581.5 91.5<12.5885 79.8901> 635.5 88.5<-92.6506 -28.863>
+VStem: -151.625 290.25
 AnchorPoint: "Top" 0 657 mark 0
 LayerCount: 2
 Fore
 SplineSet
-31.375 581.5 m 0x30
+31.375 581.5 m 0xa0
  1.97265625 581.5 -44 635.5 -76 635.5 c 0
  -96 635.5 -112.049804688 610.875976562 -117.125 604 c 2
  -140.375 572.5 l 2
@@ -3984,14 +3984,14 @@ SplineSet
  -149.625 569.5 -151.625 573 -151.625 580 c 0
  -151.625 589 -148.875 602 -143.375 619 c 0
  -122.875 672 -97.375 706 -66.875 721 c 0
- -61.375 723 -55.125 724 -48.125 724 c 0
+ -61.375 723 -55.125 724 -48.125 724 c 0x60
  -17.1640625 724 30.3359375 673 60 673 c 0
  82 673 99.125 694.5 105.625 701.5 c 1
  126.625 731.5 l 1
  132.625 734.5 l 1
  136.625 734.5 138.625 730 138.625 721 c 0
  138.625 710 135.125 696 128.125 679 c 0
- 100.125 614 67.875 581.5 31.375 581.5 c 0x30
+ 100.125 614 67.875 581.5 31.375 581.5 c 0xa0
 EndSplineSet
 MultipleSubs2: "Multiple Substitution lookup 65 subtable" denpabu obu
 EndChar
@@ -4001,9 +4001,9 @@ Encoding: 56 60836 68
 Width: 0
 VWidth: 1024
 GlyphClass: 4
-Flags: HW
-HStem: 588 46<-56.5908 56.5908>
-VStem: -118 50<646.724 705> 68 50<647.164 705>
+Flags: W
+HStem: 596.625 67.375<-29.875 58.0875>
+VStem: -85.625 282.875
 AnchorPoint: "Top" 0 657 mark 0
 LayerCount: 2
 Fore
@@ -4130,9 +4130,9 @@ Encoding: 59 60839 71
 Width: 0
 VWidth: 1024
 GlyphClass: 4
-Flags: HW
-HStem: 716.727 65.7094<2.90362e+06 3.71571e+06>
-VStem: 1.61884e+06 2.61156e+06
+Flags: W
+HStem: 706.125 67.375<53.5374 141.5>
+VStem: -85.625 282.875
 AnchorPoint: "Top" 0 657 mark 0
 LayerCount: 2
 Fore
