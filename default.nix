@@ -1,20 +1,45 @@
 { stdenv, fontforge, xclip, ibus-engines }:
 
 let
-    zlm = stdenv.mkDerivation {
-      name = "zlm";
+    zlmi = stdenv.mkDerivation {
+      name = "zlmi";
       src = ./.;
-      buildInputs = [ xclip ];
       installPhase = ''
-        mkdir -p $out/bin/ime
-        sed -i 's;xclip;${xclip}/bin/xclip;' ./zlm.sh
-        cp ./zlm.sh $out/bin/zlm
-        cp ime/ime.sh $out/bin/ime/ime.sh
+        mkdir -p $out/bin
+        cp ime/ime.sh $out/bin/zlmi
       '';
 
       meta = with stdenv.lib; {
         version = "0.1.0";
-        description = "Translate latin text into Zbalermorna";
+        description = "Interactively translate latin text into Zbalermorna";
+        homepage = https://github.com/lboklin/zbalermorna;
+        platforms = platforms.linux;
+        license = licenses.publicDomain;
+      };
+    };
+    zlm = stdenv.mkDerivation {
+      name = "zlm";
+      src = ./.;
+      buildInputs = [ zlmi xclip ];
+    
+      installPhase = ''
+        mkdir -p $out/bin
+
+        ln -s ${zlmi}/bin/zlmi $out/bin/zlmi
+
+        cat << EOF > $out/bin/zlm
+        #!/usr/bin/env bash
+        OUT=\$(${zlmi}/bin/zlmi <(echo \$@))
+        echo -n \$OUT | ${xclip}/bin/xclip -selection clipboard
+        echo \$OUT
+        EOF
+
+        chmod +x $out/bin/zlm
+      '';
+
+      meta = with stdenv.lib; {
+        version = "0.1.0";
+        description = "Translate latin text into Zbalermorna from stdin";
         homepage = https://github.com/lboklin/zbalermorna;
         platforms = platforms.linux;
         license = licenses.agpl3;
