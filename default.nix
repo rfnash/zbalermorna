@@ -77,7 +77,7 @@ let
       };
     };
 
-    ibus-table = let version = "0.1.0"; in with ibus-engines; stdenv.mkDerivation {
+    table-zbalermorna = let version = "0.1.0"; in with ibus-engines; stdenv.mkDerivation {
       name = "table-zbalermorna";
       inherit version;
       src = ./.;
@@ -200,5 +200,5 @@ in {
   inherit
     lerfanva
     lerfanva-clip
-    ibus-table;
+    table-zbalermorna;
 } // fonts
