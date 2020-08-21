@@ -41,8 +41,14 @@ Using [Nix flakes](https://www.tweag.io/blog/2020-07-31-nixos-flakes/):
   outputs = { self, nixpkgs, zbalermorna }: {
     # replace <your-hostname> with your actual hostname
     nixosConfigurations.<your-hostname> = nixpkgs.lib.nixosSystem {
-      
+
       # ...
+
+      # add to your overlay so that the packages appear in pkgs
+      nixpkgs.overlays = [
+        # ...
+        zbalermorna.overlay
+      ];
 
       # You'll want at least the typical fonts
       fonts = with pkgs.zbalermorna; [ crisa-regular fira-code-zlm ];
@@ -54,7 +60,7 @@ Using [Nix flakes](https://www.tweag.io/blog/2020-07-31-nixos-flakes/):
         # optional (relevant only for plasma users)
         # ibus.panel = "${pkgs.plasma5.plasma-desktop}/libexec/kimpanel-ibus-panel";
       };
-  
+
       environment.systemPackages = with pkgs.zbalermorna; [ 
         lerfanva 
         lerfanva-clip 
@@ -77,7 +83,7 @@ let
 
 in { 
   # ...
-  
+
   # You'll want at least the typical fonts
   fonts = with pkgs.zbalermorna; [ crisa-regular fira-code-zlm ];
 
@@ -88,7 +94,7 @@ in {
     # optional (relevant only for plasma users)
     # ibus.panel = "${pkgs.plasma5.plasma-desktop}/libexec/kimpanel-ibus-panel";
   };
-  
+
   environment.systemPackages = with pkgs.zbalermorna; [ 
     lerfanva 
     lerfanva-clip 
@@ -108,7 +114,7 @@ In your `home.nix`:
 let
   # see below for how to get zbalermorna.nix.
   zbalermorna = pkgs.callPackage (import /path/to/zbalermorna.nix) {};
-  
+
 in { 
   fonts.fontconfig.enable = true;
   home.packages = with zbalermorna; [
