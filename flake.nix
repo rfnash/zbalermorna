@@ -14,9 +14,9 @@
       };
 
      in {
-        overlay = final: prev: with prev; {
+        overlay = final: prev: with prev; ({
           ibus-engines = ibus-engines // { inherit (zbalermorna) table-zbalermorna; };
-        };
+        } // zbalermorna);
 
         # Provide all the packages
         packages.x86_64-linux = zbalermorna;
