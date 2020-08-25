@@ -3,8 +3,8 @@
 (includes IME via ibus for NixOS users)
 
 See the available packages in `./default.nix`, which includes the fonts found in `./fonts.nix`. At the time of writing this includes:
-* 
-* zlm
+* lerfanva
+* lerfanva-clip
 * ibus-table
 * balvi-regular
 * crisa-light
