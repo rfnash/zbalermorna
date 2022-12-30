@@ -1,6 +1,6 @@
 # Note that this is not a derivation, but a collection of derivations.
 # Use `callPackage` on the derivations herein _after_ importing this.
-{ stdenv, fontforge, xclip, ibus-engines }:
+{ pkgs, stdenv, fontforge, xclip, ibus-engines }:
 
 let
     lerfanva = stdenv.mkDerivation {
@@ -11,7 +11,7 @@ let
         cp ime/ime.sh $out/bin/lerfanva
       '';
 
-      meta = with stdenv.lib; {
+      meta = with pkgs.lib; {
         version = "0.1.0";
         description = "Transliterate latin text into Zbalermorna";
         homepage = https://github.com/lboklin/zbalermorna;
@@ -47,7 +47,7 @@ let
         chmod +x $out/bin/lerfanva-clip
       '';
 
-      meta = with stdenv.lib; {
+      meta = with pkgs.lib; {
         version = "0.1.0";
         description = "Replace clipboard or selection content with its transliteration into Zbalermorna";
         homepage = https://github.com/lboklin/zbalermorna;
@@ -73,7 +73,7 @@ let
           license;
         description = "A font for the Zbalermorna writing system of the language Lojban";
         homepage = https://github.com/jackhumbert/zbalermorna;
-        platforms = stdenv.lib.platforms.linux;
+        platforms = pkgs.lib.platforms.linux;
       };
     };
 
@@ -94,7 +94,7 @@ let
         # cp assets/img/favicon.png $out/share/ibus-table/???
       '';
 
-      meta = with stdenv.lib; {
+      meta = with pkgs.lib; {
         isIbusEngine = true;
         inherit version;
         description = "Basic input method for Zbalermorna text";
@@ -104,7 +104,7 @@ let
       };
     };
 
-    fonts = builtins.mapAttrs mkFontDrv (with stdenv.lib.licenses; {
+    fonts = builtins.mapAttrs mkFontDrv (with pkgs.lib.licenses; {
       # I extracted versions with: grep -oE '^Version: .*$' src/*.sfd
       balvi-regular = {
         version = "1.001";

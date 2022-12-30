@@ -6,7 +6,7 @@
     let
       zbalermorna =
         with import nixpkgs { system = "x86_64-linux"; };
-        import ./default.nix { inherit stdenv fontforge xclip ibus-engines; };
+        import ./default.nix { inherit pkgs stdenv fontforge xclip ibus-engines; };
       lerfanvaApp = { type = "app"; program = "${zbalermorna.lerfanva}/bin/lerfanva"; };
       lerfanva-clipApp = {
         type = "app";
